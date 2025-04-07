@@ -1,0 +1,148 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Example
+
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -------------------------------------------*/
+
+
+            /* Save settings -> "/home/root/.config/remarkable/xochitl.conf"*/
+            ~&7712198086779994&~ { ~&5972374&~: save_Settings_Example; category: "xovi_Settings_Example"; property bool is_Enabled }
+            /* -----------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("example_Label")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("example_Description.")
+
+            property ~&7083178290016&~ cell_Text_01: ~&6504222003&~("example_Test 01")
+            property ~&7083178290016&~ cell_Text_02: ~&6504222003&~("example_Test 02")
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Example.cell_Text_01, ~&7083177691309&~: "example_Status 01", name_File: "example_File_01" },
+                { ~&6504315758&~: root_Example.cell_Text_02, ~&7083177691309&~: "example_Status 02", name_File: "example_File_02" }
+                /* ...*/
+            ]
+            /* ----------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Example.set_Label
+                ~&478136262235079021&~: root_Example.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: save_Settings_Example.is_Enabled
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        save_Settings_Example.is_Enabled = !save_Settings_Example.is_Enabled; /* Toogle value*/
+                        root_Example.toggle_Enabled_Example();                                /* Toggle visibility*/
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&233748328658231&~: save_Settings_Example.is_Enabled
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Example.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+                        ~&254542236275632405&~: {
+                            root_Example.open_File(~&254539508423767444&~.name_File) /* Open new file*/
+                        }
+                    }
+                }
+            }
+
+            function open_File(name_File) {
+                ~&214622607920&~ path_Full = "qrc:/qml/custom/" + name_File;    /* Files qml compilate with file qrc to file rcc :)*/
+                ~&214622607920&~ new_Component = ~&5971598&~.~&16810493623656567312&~(path_Full);
+                
+                /* File ready? -> Create page*/
+                ~&5972376&~ (new_Component.~&7083177691309&~ === ~&254480451320573660&~.~&214602073246&~) {
+                    new_Component.~&15747212579211679220&~(~&7713561876955258&~);
+                } ~&6503784146&~ {
+                    show_Console_Error("Error loading external window:", new_Component.errorString());
+                }
+            }
+            
+            /* function save_Json_File() {*/
+
+            /*     load_Json_Data(function(json_Data) {*/
+
+            /*         // Json data loaded? -> Go ahead*/
+            /*         const xhr = new XMLHttpRequest();*/
+            /*         const dataStr = JSON.stringify(json_Data);*/
+
+            /*         xhr.open("PUT", root_Example.set_Json_Path);*/
+            /*         xhr.onreadystatechange = function () {*/
+            /*             if (xhr.readyState === XMLHttpRequest.DONE) {*/
+            /*                 show_Console_Log("Save json file completed"); // ...*/
+
+            /*                 send_Settings_Example();                      // Send signal -> sidebar_Example.qmd*/
+            /*                 show_Console_Log("Sending signal ...");       // ...*/
+            /*             }*/
+            /*         };*/
+            /*         xhr.send(dataStr);*/
+
+            /*     });*/
+
+            /* }*/
+
+            function send_Settings_Example() {
+                /* Signal do not exist? -> Create*/
+                ~&5972376&~ (!~&5971598&~.application.hasOwnProperty('signal_Send_Settings_Example')) {
+                    ~&5971598&~.application.signal_Send_Settings_Example = function() {};
+                    show_Console_Log("Creating signal ...");
+                }
+
+                /* Signal exist? -> Call*/
+                ~&5971598&~.application.signal_Send_Settings_Example();
+                show_Console_Log("Caling signal ...");
+            }
+
+            function show_Console_Log(log_Message) {
+                ~&5972376&~ (root_Example.is_Debug_Mode) {
+                    ~&233724020023100&~.~&197092075&~(log_Message);
+                }
+            }
+
+            function show_Console_Error(log_Message) {
+                ~&5972376&~ (root_Example.is_Debug_Mode) {
+                    ~&233724020023100&~.~&214625091795&~(log_Message);
+                }
+            }
+
+            function toggle_Enabled_Example() {
+                ~&214622607920&~ name_Signal = save_Settings_Example.is_Enabled ? "signal_Enabled_Example" : "signal_Disabled_Example";
+
+                /* Signal do not exist? -> Create*/
+                ~&5972376&~ (!~&5971598&~.application.hasOwnProperty(name_Signal)) {
+                    ~&5971598&~.application[name_Signal] = function() {};
+                    show_Console_Log("Creating signal ...");
+                }
+
+                /* Signal exist? -> Call*/
+                ~&5971598&~.application[name_Signal]();
+                show_Console_Log("Sending signal ...");
+            }
+            
+            ~&254480451320573660&~.~&495334332051582499&~: {
+            /* ...*/
+            }
+        }
+
+    }
+END SLOT
