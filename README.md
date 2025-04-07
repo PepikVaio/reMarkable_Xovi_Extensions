@@ -4,4 +4,4 @@
 #### xovi_Settings - Add settings for your reMarkable extension
 
 
-#### What I'm planning: Better readme
+#### What I'm planning: Better readme :)
