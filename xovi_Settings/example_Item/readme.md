@@ -1,0 +1,10 @@
+# xovi Example
+
+#### Sample example SLOT for extension xovi_Settings.
+#### You need xovi_Settings.
+
+![xovi_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/xovi_Settings/example_Item/pictures/xovi_Example_Settings.png?raw=true)
+
+![example_Item_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/xovi_Settings/example_Item/pictures/example_Item_01.png?raw=true)
+
+
