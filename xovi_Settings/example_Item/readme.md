@@ -7,4 +7,5 @@
 
 ![example_Item_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/xovi_Settings/example_Item/pictures/example_Item_01.png?raw=true)
 
+![sidebar_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/xovi_Settings/example_Item/pictures/sidebar_Example.png?raw=true)
 
