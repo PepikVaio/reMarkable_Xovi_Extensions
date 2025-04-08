@@ -1,4 +1,4 @@
-# xovi Example
+# xovi_Example
 
 #### Sample example SLOT for extension xovi_Settings.
 #### You need xovi_Settings.
