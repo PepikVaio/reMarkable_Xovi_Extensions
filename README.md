@@ -28,10 +28,12 @@ Just copy the file or files to the folder ``` /home/root/xovi/exthome/qt-resourc
 ### Usage
 * sidebar_Clock - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
 * sidebar_Translated - Partial translation of the sidebar into Czech. A better version will be available soon.
-* xovi_Settings - Add custom settings to your extension.
+* xovi_Settings - Add settings to your extension.
 
 ## Help
 Create issues if you find a problem.
+
+<!-- [![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtu.be/DR70zW_UP2w) -->
 
 <!-- ## Version history -->
 <!-- 1.1 -->
