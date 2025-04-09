@@ -29,7 +29,8 @@ Stačí zkopírovat soubor nebo soubory do složky ``` /home/root/xovi/exthome/q
 ### Používání
 * sidebar_Clock – Úžasné hodiny v postranním panelu reMarkable (můžete přidat svátky, speciální dny a počasí).
 * sidebar_Translated – Částečný překlad postranního panelu do češtiny. Brzy bude dostupná vylepšená verze.
-* xovi_Settings – Přidejte nastavení k vlastním rozšíření.
+* xovi_Settings_Example – Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
+* xovi_Settings_Main – Přidejte nastavení k vlastním rozšíření.
 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
