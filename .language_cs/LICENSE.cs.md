@@ -11,7 +11,7 @@ Toto dílo je chráněno autorským právem a je licencováno pod mezinárodní 
 * Uvedete, zda byly provedeny změny.
 * Šíříte svá odvozená díla pod stejnou licencí, jako původní dílo.
 
-# Tato licence obsahuje následující prvky:
+### Tato licence obsahuje následující prvky:
 * BY – Musí být uvedeno autorství
 * NC – Pouze nekomerční využití
 * SA – Odvozená díla musí být sdílena pod stejnou licencí

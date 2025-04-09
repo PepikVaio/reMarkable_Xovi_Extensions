@@ -12,7 +12,7 @@ This work is protected by copyright and is licensed under the international "Cre
 * Indicate if changes were made.
 * Distribute your contributions under the same license as the original.
 
-# This license includes the following elements:
+### This license includes the following elements:
 * BY – Credit must be given to the creator
 * NC – Only non-commercial uses are permitted
 * SA – Adaptations must be shared under the same license
