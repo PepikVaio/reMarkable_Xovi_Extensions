@@ -1,5 +1,5 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/remarkable_Xovi_Extensins?tab=security-ov-file)
-[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/remarkable_Xovi_Extensins/blob/main/.language_cs/SECURITY.cs.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions?tab=security-ov-file)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/.language_cs/SECURITY.cs.md)
 
 
 # Bezpečnostní politika a postup
