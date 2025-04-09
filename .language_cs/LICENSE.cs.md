@@ -16,4 +16,4 @@ Toto dílo je chráněno autorským právem a je licencováno pod mezinárodní 
 * NC – Pouze nekomerční využití
 * SA – Odvozená díla musí být sdílena pod stejnou licencí
 
-[![cs](https://img.shields.io/badge/details-cs-green.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.cs)
+[![cs](https://img.shields.io/badge/details-cs-springgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.cs)
