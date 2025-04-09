@@ -23,7 +23,7 @@ These extensions bring freedom to your reMarkable tablet.
 <!-- [![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/89665ef3d3f2480ea3ab30a9ce4d78d4) -->
 
 ### Installation
-Just copy the file or files to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```
+Just copy the file or files to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
 
 ### Usage
 * sidebar_Clock - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
