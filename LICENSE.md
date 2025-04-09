@@ -7,7 +7,6 @@ International Licence (CC BY-NC-ND 4.0)
 
 This work is protected by copyright and is licensed under the international "Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License (CC BY-NC-SA 4.0)". You are allowed to copy, distribute, modify, adapt, and build upon this work for non-commercial purposes only, under the following conditions.
 
-
 * Give appropriate credit to the creator.
 * Indicate if changes were made.
 * Distribute your contributions under the same license as the original.
