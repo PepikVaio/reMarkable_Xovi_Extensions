@@ -1,4 +1,4 @@
-# Example!
+# Settings - Example!
 Sample example ``` SLOT ``` for extension ``` xovi_Settings_Main ``` 
 
 ### Requirements

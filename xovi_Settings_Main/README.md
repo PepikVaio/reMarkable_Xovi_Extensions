@@ -1,4 +1,4 @@
-# Settings!
+# Settings - Main!
 Add settings to your extension.
 
 ## Description
