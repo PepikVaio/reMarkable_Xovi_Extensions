@@ -1,9 +1,9 @@
-<!-- [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/remarkable_Extractor) -->
-<!-- [![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/remarkable_Extractor/blob/main/.language_cs/README_cs.md) -->
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions)
+[![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/.language_cs/README_cs.md)
 [![supported: rM1](https://img.shields.io/badge/rM1-supported-green)](https://remarkable.com/store/remarkable)
 [![supported: rM2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2)
 [![supported: rpp](https://img.shields.io/badge/rpp-supported-green)](https://remarkable.com/store/remarkable-paper/pro)
-[![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
+[![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-blueviolet)]()
 
 
 # Xovi extensions
@@ -26,8 +26,8 @@ These extensions bring freedom to your reMarkable tablet.
 Just copy the file or files to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```
 
 ### Usage
-* sidebar_Translated - Partial translation of the sidebar into Czech. A better version will be available soon.
 * sidebar_Clock - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
+* sidebar_Translated - Partial translation of the sidebar into Czech. A better version will be available soon.
 * xovi_Settings - Add custom settings to your extension.
 
 ## Help
@@ -44,6 +44,5 @@ Wajsar Josef
 
 ## Acknowledgements
 Inspiration, code snippets, etc...
-<!-- * [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern) -->
+* [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern)
 * [readme - icons](https://shields.io/)
-<!-- * [shortcuts - icons](https://base64.guru/converter/encode/image) -->
