@@ -5,15 +5,16 @@
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 International Licence (CC BY-NC-ND 4.0)
 
-This work is protected by copyright and licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). You are free to copy, distribute, remix, adapt, and build upon the material in any medium or format, for non-commercial purposes only, as long as you:
+This work is protected by copyright and is licensed under the international "Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International License (CC BY-NC-SA 4.0)". You are allowed to copy, distribute, modify, adapt, and build upon this work for non-commercial purposes only, under the following conditions.
 
-Give appropriate credit to the creator,
-Indicate if changes were made, and
-Distribute your contributions under the same license as the original.
-This license includes the following elements:
 
-BY – Credit must be given to the creator
-NC – Only non-commercial uses are permitted
-SA – Adaptations must be shared under the same license
+* Give appropriate credit to the creator.
+* Indicate if changes were made.
+* Distribute your contributions under the same license as the original.
+
+# This license includes the following elements:
+* BY – Credit must be given to the creator
+* NC – Only non-commercial uses are permitted
+* SA – Adaptations must be shared under the same license
 
 [![en](https://img.shields.io/badge/details-en-red.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
