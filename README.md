@@ -6,7 +6,7 @@
 [![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
 
 
-# Xovi extensions
+# Xovi extensions!
 Customize your reMarkable with these extensions.
 
 ## Description
