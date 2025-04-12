@@ -1,9 +1,9 @@
 # Settings - Example!
-Sample example ``` SLOT ``` for extension ``` xovi_Settings_Main ```
+Sample example ``` SLOT ``` for extension ``` xovi_Settings_Main ```.
 
 ## Description
 These are sample files for the xovi extension.
-* Especially for the my extension ``` xovi_Settings_Main ```
+* Especially for the my extension ``` xovi_Settings_Main ```.
 * You can also use the ```sidebar_Example.qmd``` file separately for an idea.
 
 ## Getting Started
