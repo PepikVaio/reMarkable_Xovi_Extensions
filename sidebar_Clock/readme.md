@@ -50,3 +50,11 @@ Inspiration, code snippets, etc...
 * [StarNumber (clock extension for xovi)](https://github.com/StarNumber12046/xovi-qmd-extensions)
 * [elvido (web page weather)](https://github.com/Evidlo/remarkable_pdflets)
 
+
+
+
+![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock.png?raw=true)
+
+
+
+
