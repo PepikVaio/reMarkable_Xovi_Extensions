@@ -5,7 +5,6 @@
 [![supported: rpp](https://img.shields.io/badge/rpp-supported-blue)](https://remarkable.com/store/remarkable-paper/pro)
 [![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
 
-
 # Xovi extensions!
 Customize your reMarkable with these extensions.
 
@@ -26,10 +25,10 @@ These extensions bring freedom to your reMarkable tablet.
 Just copy the file or files to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
 
 ### Usage
-* sidebar_Clock - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
-* sidebar_Translated - Partial translation of the sidebar into Czech. A better version will be available soon.
-* xovi_Settings_Example – Example of custom settings for the extension ``` xovi_Settings_Main ```.
-* xovi_Settings_Main - Add settings to your extension.
+* [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
+* [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Partial translation of the sidebar into Czech. A better version will be available soon.
+* [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension ``` xovi_Settings_Main ```.
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
 ## Help
 Create issues if you find a problem.
