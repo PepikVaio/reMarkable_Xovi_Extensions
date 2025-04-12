@@ -23,7 +23,7 @@ Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.
 <!-- [![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/89665ef3d3f2480ea3ab30a9ce4d78d4) -->
 
 ### Instalace
-Stačí zkopírovat soubory *qmd and *rcc (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+Stačí zkopírovat soubory *qmd *json and *rcc (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
 
 
 ### Používání
