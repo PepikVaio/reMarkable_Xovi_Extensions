@@ -41,13 +41,12 @@ Incredible clock in the reMarkable sidebar.
   - ```yy``` - Year as a two-digit number.
   - ```yyyy``` - Year as a four-digit number.
   - ```:``` - Time separator.
-  - ```/``` - Date separator.  
+  - ```/``` - Date separator.
+  - ```|``` - Another separator.
 
+## Acknowledgements
 
+Inspiration, code snippets, etc...
+* [StarNumber (clock extension for xovi)](https://github.com/StarNumber12046/xovi-qmd-extensions)
+* [elvido (web page weather)](https://github.com/Evidlo/remarkable_pdflets)
 
-
-#### in process
-
-Thanks:
-elvido
-StarNumber
