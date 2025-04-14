@@ -77,7 +77,7 @@ SLOT xovi_Settings_Item
                 ~&5972376&~ (new_Component.~&7083177691309&~ === ~&254480451320573660&~.~&214602073246&~) {
                     new_Component.~&15747212579211679220&~(~&7713561876955258&~);
                 } ~&6503784146&~ {
-                    ~&233724020023100&~.~&214625091795&~("Check the file path. Do you have debug mode enabled?");
+                    ~&233724020023100&~.~&214625091795&~("Check the file path. \nIs debug mode true? -> Use qml files. \nIs debug mode not false? -> Use rcc files.");
                     show_Console_Error("Error loading external window:", new_Component.errorString());
                 }
             }
