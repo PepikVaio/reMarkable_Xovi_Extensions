@@ -7,8 +7,9 @@ SLOT xovi_Settings_Item
 
             /* Run "~/xovi/debug" on terminal (reMarkable)*/
             /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
             property bool is_Debug_Mode: ~&214625660372&~
-            /* -------------------------------------------*/
+            /* -----------------------------------------------------*/
 
 
             /* Save settings -> "/home/root/.config/remarkable/xochitl.conf"*/
@@ -67,13 +68,16 @@ SLOT xovi_Settings_Item
             }
 
             function open_File(name_File) {
-                ~&214622607920&~ path_Full = "qrc:/qml/custom/" + name_File;    /* Files qml compilate with file qrc to file rcc :)*/
+                /* is_debug_Mode = false -> Files qml compilate with file qrc to file rcc :)*/
+                /* is_debug_Mode = true  -> Files qml (only for testing)*/
+                ~&214622607920&~ path_Full = ( is_Debug_Mode? "file:///home/root/xovi/exthome/qt-resource-rebuilder/" : "qrc:/qml/custom/" ) + name_File;
                 ~&214622607920&~ new_Component = ~&5971598&~.~&16810493623656567312&~(path_Full);
                 
                 /* File ready? -> Create page*/
                 ~&5972376&~ (new_Component.~&7083177691309&~ === ~&254480451320573660&~.~&214602073246&~) {
                     new_Component.~&15747212579211679220&~(~&7713561876955258&~);
                 } ~&6503784146&~ {
+                    ~&233724020023100&~.~&214625091795&~("Check the file path. Do you have debug mode enabled?");
                     show_Console_Error("Error loading external window:", new_Component.errorString());
                 }
             }
@@ -100,6 +104,26 @@ SLOT xovi_Settings_Item
             /*     });*/
 
             /* }*/
+
+            function close_Input () {
+                /* Unfocus input*/
+                /* Hide keyboard*/
+                ~&9186019576827190292&~();
+                ~&5971598&~.~&486208409901236410&~.~&6503888195&~();
+                show_Console_Log("Unfocus input and hide keyboard.");
+            }
+
+            function get_Keyboard_Height() {
+                /* reMarkable 1 and reMarkable 2*/
+                ~&5972376&~ (~&8397887615021556741&~.~&8399372782522826843&~ === ~&8397887615021556741&~.~&214601156697&~ || ~&8397887615021556741&~.~&8399372782522826843&~ === ~&8397887615021556741&~.RM110) {
+                    ~&7083121450889&~ 564;
+                /* reMarkable Paper Pro*/
+                /* Height - unknown.*/
+                /* I'll update as soon as I find out*/
+                } ~&6503784146&~ {
+                    ~&7083121450889&~ 564;
+                }
+            }
 
             function send_Settings_Example() {
                 /* Signal do not exist? -> Create*/
