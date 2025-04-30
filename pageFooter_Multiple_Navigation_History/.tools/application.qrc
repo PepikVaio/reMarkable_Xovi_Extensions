@@ -1,0 +1,5 @@
+<RCC>
+    <qresource>
+        <file>qml/custom/multiple_Navigation_History_Timer</file>
+    </qresource>
+</RCC>

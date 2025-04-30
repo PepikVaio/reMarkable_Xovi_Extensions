@@ -1,0 +1,10 @@
+{
+    "set_Timer": 8000,
+
+    "is_Enabled_Timer": false,
+    "is_Enabled_Hide_X_Circle": false,
+
+    "reset_Timer_01": 8000,
+    "reset_Timer_02": 60000,
+    "reset_Timer_03": 180000
+}

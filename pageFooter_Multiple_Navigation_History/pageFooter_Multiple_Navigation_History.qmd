@@ -1,0 +1,516 @@
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+	TRAVERSE [[6502786168]]
+		
+		REPLACE [[7336410021469223100]] WITH {
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -------------------------------------------*/
+
+
+            /* Read settings -> "/home/root/.config/remarkable/xochitl.conf"*/
+            ~&7712198086779994&~ { ~&5972374&~: read_Settings_Multiple_Navigation_History; category: set_Name_Folder; property bool is_Enabled }
+            /* ------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Files with settings atc...*/
+            property ~&7083178290016&~ set_Xovi_Extensions_Path: "file:///home/root/xovi/exthome/qt-resource-rebuilder/"
+            property ~&7083178290016&~ set_Json_Path: set_Xovi_Extensions_Path + "pageFooter_Multiple_Navigation_History.json"
+            property ~&7083178290016&~ set_Settings_Path: set_Xovi_Extensions_Path + set_Name_Folder + ".qmd"
+            /* ----------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Name_Folder: "xovi_Settings_Multiple_Navigation_History"
+
+
+            /* Initializing variables - Json file*/
+            property ~&197088788&~ set_Timer
+
+            property ~&197088788&~ ~&7336410021469223100&~
+            /* ----------------------------------*/
+
+
+            function disabled_Multiple_Navigation_History() {
+                /* Set visible false*/
+                ~&7336410021469223100&~ = 8000;
+                show_Console_Log("Set 'pageFooterTimeout' -> " + ~&7336410021469223100&~);
+            }
+
+            function enabled_Multiple_Navigation_History() {
+                /* Set visible true*/
+                ~&7336410021469223100&~ = set_Timer;
+                show_Console_Log("Set 'pageFooterTimeout' -> " + set_Timer);
+            } 
+
+            function load_Json_File() {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", set_Json_Path);
+
+                xhr.onreadystatechange = function() {
+                    ~&5972376&~ (xhr.readyState === XMLHttpRequest.DONE) {
+                        try {
+                            ~&214622607920&~ json_Data = ~&6502785411&~.~&214637526116&~(xhr.responseText);
+
+                            set_Timer = json_Data.set_Timer;
+                            ~&7336410021469223100&~ = json_Data.set_Timer;
+
+                            show_Console_Log("Json file loaded");
+
+                            } catch (~&214625091795&~) {
+                            show_Console_Error("Json file load failed: " + ~&214625091795&~);
+                        }
+                    }
+                };
+
+                xhr.~&6504279475&~();
+            }
+
+            function show_Console_Log(log_Message) {
+                ~&5972376&~ (is_Debug_Mode) {
+                    ~&233724020023100&~.~&197092075&~(log_Message);
+                }
+            }
+
+            function show_Console_Error(log_Message) {
+                ~&5972376&~ (is_Debug_Mode) {
+                    ~&233724020023100&~.~&214625091795&~(log_Message);
+                }
+            }
+
+            function signal_Create() {
+                /* Get signals - Just once*/
+                ~&214622607920&~ dictionary_Signal_List = {
+                    "signal_Disabled_Multiple_Navigation_History_01": disabled_Multiple_Navigation_History, /* Created only once - Must be both functions (cannot be combined)*/
+                    "signal_Enabled_Multiple_Navigation_History_01": enabled_Multiple_Navigation_History,   /* Created only once - Must be both functions (cannot be combined) */
+                    "signal_Send_Settings_Multiple_Navigation_History_01": load_Json_File
+                    /* ...*/
+                };
+
+                ~&7081747777088&~.~&6503992357&~(dictionary_Signal_List).~&233727897502049&~(function(~&6504095402&~) {
+                    ~&5972376&~ (!~&5971598&~.application.hasOwnProperty(~&6504095402&~)) {
+                        /* Signal do not exist? -> Create*/
+                        ~&5971598&~.application[~&6504095402&~] = function() {};
+                        show_Console_Log("Creating signal: " + ~&6504095402&~);
+                    }
+
+                    ~&5971598&~.application[~&6504095402&~] = function() {
+                        /* Signal exist? -> Call*/
+                        dictionary_Signal_List[~&6504095402&~]();
+                        show_Console_Log("Calling function: " + ~&6504095402&~);
+
+                        /* Done? -> Delete*/
+                        /* signal_Delete(name);*/
+                        /* show_Console_Log("Deleting signal: " + name);*/
+                    };
+                });            
+            }
+
+            function signal_Delete(name_Signal) {
+                /* Signal done? -> Delete*/
+                ~&5971598&~.application[name_Signal] = ~&6504117156&~;
+                show_Console_Log("Signal deleted: " + name_Signal);
+            }
+
+            function settings_Visibility_Multiple_Navigation_History(file_Path) {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", file_Path, ~&214625660372&~);
+                xhr.~&6504279475&~();
+                ~&5972376&~ (xhr.~&7083177691309&~ === 200) {
+                    /* Exist settings file? -> Set visibility using settings file*/
+                    show_Console_Log("File exist -> Set visibility using settings file: /home/root/.config/remarkable/xochitl.conf -> " + read_Settings_Multiple_Navigation_History.is_Enabled);
+
+                    ~&5972376&~ (read_Settings_Multiple_Navigation_History.is_Enabled) {
+                        enabled_Multiple_Navigation_History();
+                        show_Console_Log("The 'pageFooterTimeout' is now: " + !read_Settings_Multiple_Navigation_History.is_Enabled);
+                    } ~&6503784146&~ {
+                        disabled_Multiple_Navigation_History();
+                        show_Console_Log("The 'pageFooterTimeout' is now: " + read_Settings_Multiple_Navigation_History.is_Enabled);
+                    }
+
+                } ~&6503784146&~ {
+                    /* Do not exist settings file? -> Do nothing (default value = true)*/
+                    show_Console_Log("File do not exist -> Set true");
+
+                    enabled_Multiple_Navigation_History();
+                    show_Console_Log("The 'pageFooterTimeout' is now: " + set_Timer);
+                }
+
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                /* Json file loaded*/
+                load_Json_File();
+                show_Console_Log("Json file loading...");
+
+                /* Settings visibility*/
+                settings_Visibility_Multiple_Navigation_History(set_Settings_Path);
+
+                /* Create signals*/
+                signal_Create();
+            }
+		}
+	
+	END TRAVERSE
+
+END AFFECT
+
+
+AFFECT [[1356274648253483364]]
+    IMPORT Qt.labs.settings 1.0
+	
+    TRAVERSE [[254501108490678590]]#[[8399923449136558101]]
+
+		LOCATE AFTER [[7082729686082]]
+        INSERT {
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -------------------------------------------*/
+
+
+            /* Read settings -> "/home/root/.config/remarkable/xochitl.conf"*/
+            ~&7712198086779994&~ { ~&5972374&~: read_Settings_Multiple_Navigation_History; category: set_Name_Folder; property bool is_Enabled }
+            /* ------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Files with settings atc...*/
+            property ~&7083178290016&~ set_Xovi_Extensions_Path: "file:///home/root/xovi/exthome/qt-resource-rebuilder/"
+            property ~&7083178290016&~ set_Json_Path: set_Xovi_Extensions_Path + "pageFooter_Multiple_Navigation_History.json"
+            property ~&7083178290016&~ set_Settings_Path: set_Xovi_Extensions_Path + set_Name_Folder + ".qmd"
+            /* ----------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Name_Folder: "xovi_Settings_Multiple_Navigation_History"
+            /* -------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Json file*/
+            property bool is_Enabled_Hide_X_Circle
+            /* -----------------------------------*/
+
+
+            /* Initializing variables - Toogle value*/
+            property bool visible_Original
+            property bool visible_Custom
+            /* -------------------------------------*/
+
+
+            /* Initializing variables - Dicttionary*/
+			property ~&197102514&~ dictionary_History: []
+			property ~&197102514&~ dictionary_Buttons: []
+            /* ------------------------------------*/
+        }
+
+		REBUILD [[233725082496895]]
+            LOCATE BEFORE { ~&214642551402&~.~&233743006639214&~(); }
+                INSERT {
+                    dictionary_History.~&6504189257&~(targetPage);
+
+                    ~&214622607920&~ ~&3842193742606557678&~ = ~&7082020628281&~.~&3842193742606557678&~;
+                    ~&214622607920&~ color_White = ~&7082020628281&~.~&8399340017260114793&~;
+                    ~&214622607920&~ color_Black = ~&7082020628281&~.~&8399340017235344933&~;
+                    ~&214622607920&~ navigator_Statusbar_Height = ~&7082020628281&~.~&9438706151338822406&~;
+                    ~&214622607920&~ page_Index = dictionary_History.~&7082886407723&~ - 1;
+
+                    ~&197091758&~ ~&197097459&~ = `
+                    import QtQuick
+                    import com.remarkable
+                    import common
+                    import device.ui.text
+                    import ark.controls as ArkControls
+
+                    Rectangle {
+                        color: "${color_Black}"
+                        height: ${navigator_Statusbar_Height}
+                        width: goBackRow_Multiple_Navigation_History.implicitWidth
+
+                        property int historyIndex: ${page_Index}
+
+                        Rectangle {
+                            anchors.fill: parent
+                            color: "${color_Black}"
+                            z: -1
+                        }
+
+                        Row {
+                            id: goBackRow_Multiple_Navigation_History
+                            height: parent.height
+                            spacing: ${forward ? '5' : '8'}
+                            leftPadding: ${forward ? '25' : '15'}
+
+                            anchors.left: parent.left
+                            anchors.verticalCenter: parent.verticalCenter
+
+                            layoutDirection: ${forward ? 'Qt.RightToLeft' : 'Qt.LeftToRight'}
+
+                            ArkControls.Icon {
+                                anchors.verticalCenter: parent.verticalCenter
+                                size: ${iconSizeMedium}
+                                color: "${color_White}"
+                                source: ${forward ? '"qrc:/ark/icons/arrow_right"' : '"qrc:/ark/icons/arrow_left"'}
+                            }
+
+                            TextHeaderRegular {
+                                id: text
+                                anchors.verticalCenter: parent.verticalCenter
+                                text: qsTr("Back to page ${targetPage + 1}")
+                                color: "${color_White}"
+                            }
+                        }
+                    }`;
+
+                    ~&197091758&~ ~&7082514258149&~ = ~&5971598&~.createQmlObject(~&197097459&~, layers_History, "button_Dynamic");
+                    dictionary_Buttons.~&6504189257&~(~&7082514258149&~);
+
+                    /* Hide previous layers*/
+                    ~&197085552&~ (~&197091758&~ ~&180978&~ = 0; ~&180978&~ < dictionary_Buttons.~&7082886407723&~ - 1; ~&180978&~++) {
+                        dictionary_Buttons[~&180978&~].~&233748328658231&~ = ~&214625660372&~;
+                    }
+                }
+        END REBUILD
+
+        REBUILD [[233725082386405]]
+            LOCATE BEFORE ALL
+                INSERT {
+                    dictionary_Buttons.~&233727897502049&~(~&233726474653139&~ => ~&233726474653139&~.destroy()); /* Delete all buttons (elements)*/
+                    dictionary_Buttons = [];                                  /* Empty field*/
+                    dictionary_History = [];                                  /* Empty field*/
+                }
+        END REBUILD
+
+	END TRAVERSE
+
+    TRAVERSE [[254501108490678590]] > [[214604601930]]#[[214642551402]]
+        LOCATE AFTER [[7713147298280334]]
+
+        REPLACE [[495358363329399331]] WITH {
+            ~&495358363329399331&~: {
+                ~&233725082386405&~();
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE [[254501108490678590]] > [[197063777]]#[[254531025896317256]]
+        LOCATE AFTER [[490371291080887915]]
+        INSERT {
+            ~&233748328658231&~: visible_Original
+        }
+            
+    END TRAVERSE
+
+    TRAVERSE [[254501108490678590]]#[[8399923449136558101]]
+        LOCATE AFTER [[197063777]]#[[254531025896317256]]
+
+        INSERT {
+            ~&197063777&~ {
+                ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+                ~&233748328658231&~: ~&8399923449136558101&~.visible_Custom
+                ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+
+                ~&6502786168&~ {
+                    ~&5972374&~: layers_History
+                    ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+
+                    ~&254494525842443467&~ {
+                        ~&233721384511543&~.~&6503816592&~: layers_History
+
+                        ~&254542236275632405&~: (~&214634474738&~) => {
+                            /* Find area*/
+                            ~&197091758&~ clickedItem = layers_History.childAt(~&214634474738&~.~&180993&~, ~&214634474738&~.~&180994&~);
+
+                            /* This is a buttons area*/
+                            ~&5972376&~ (clickedItem && clickedItem.historyIndex !== ~&254550717068498203&~) {
+                                ~&5972376&~ (dictionary_History.~&7082886407723&~ > 0) {
+                                    
+                                    ~&8399923449136558101&~.~&233723896107736&~(dictionary_History[dictionary_History.~&7082886407723&~ - 1]); /* Call function -> Return to previous page*/
+                                    dictionary_History.~&197096440&~();                                              /* Delete last page*/
+                                    dictionary_Buttons.~&197096440&~().destroy();                                    /* Destroy last button*/
+                                    
+                                    /* It there any buttons? -> Visible*/
+                                    ~&5972376&~ (dictionary_History.~&7082886407723&~ > 0) {
+                                        ~&197091758&~ lastButton = dictionary_Buttons[dictionary_Buttons.~&7082886407723&~ - 1];
+                                        ~&5972376&~ (lastButton) {
+                                            lastButton.~&233748328658231&~ = ~&6504329801&~;
+                                        }
+                                    } ~&6503784146&~ {
+                                        ~&233725082386405&~();
+                                    }
+                                }
+                            /* This is not a buttons area -> Do nothing*/
+                            } ~&6503784146&~ {
+                                ~&233724020023100&~.~&197092075&~("Without clickable area -> Do nothing.");
+                            }
+                        }
+                    }
+                }
+
+                ~&197063777&~ {
+                    ~&5972374&~: x_Circle
+                    ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+                    ~&16491662607465103678&~: 10
+                    ~&233748328658231&~: !~&8399923449136558101&~.is_Enabled_Hide_X_Circle
+
+                    ~&233721384511543&~.~&214640173127&~: ~&7083038346995&~.~&214640173127&~
+                    ~&233721384511543&~.~&3441383163516681764&~: ~&7083038346995&~.~&3441383163516681764&~
+
+                    ~&6502786168&~ {
+                        ~&214646099849&~: ~&7082729686082&~
+                        ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+
+                        ~&233721384511543&~.~&3441383163516681764&~: ~&7083038346995&~.~&3441383163516681764&~
+
+                        ~&425121728314878811&~.~&6502767986&~ {
+                            ~&233721384511543&~.~&7712879746914881&~: ~&7083038346995&~
+
+                            ~&6504284228&~: ~&7082020628281&~.~&3842193742606557678&~
+                            ~&214622605608&~: ~&7082020628281&~.~&8399340017260114793&~
+                            ~&7083172477658&~: ~&"8609872135902538553&~
+                        }
+
+                        ~&254494525842443467&~ {
+                            ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+                            ~&254542236275632405&~: {
+                                ~&233725082386405&~();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        REBUILD [[254494525842443467]]
+            LOCATE BEFORE { ~&254542236275632405&~ }
+                INSERT {
+                    ~&233748328658231&~: visible_Original
+                }
+        END REBUILD
+
+        LOCATE AFTER [[254494525842443467]]
+
+        INSERT {
+            function disabled_Multiple_Navigation_History() {
+                /* Set enabled false*/
+                ~&8399923449136558101&~.visible_Original = ~&6504329801&~
+                ~&8399923449136558101&~.visible_Custom = ~&214625660372&~
+                show_Console_Log("Set enabled -> false");
+            }
+
+            function enabled_Multiple_Navigation_History() {
+                /* Set enabled true*/
+                ~&8399923449136558101&~.visible_Original = ~&214625660372&~
+                ~&8399923449136558101&~.visible_Custom = ~&6504329801&~
+                show_Console_Log("Set enabled -> true");
+            }
+
+            function load_Json_File() {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", ~&8399923449136558101&~.set_Json_Path);
+
+                xhr.onreadystatechange = function() {
+                    ~&5972376&~ (xhr.readyState === XMLHttpRequest.DONE) {
+                        try {
+                            ~&214622607920&~ json_Data = ~&6502785411&~.~&214637526116&~(xhr.responseText);
+
+                            ~&8399923449136558101&~.is_Enabled_Hide_X_Circle = json_Data.is_Enabled_Hide_X_Circle;
+
+                            show_Console_Log("Json file loaded");
+
+                            } catch (~&214625091795&~) {
+                            show_Console_Error("Json file load failed: " + ~&214625091795&~);
+                        }
+                    }
+                };
+
+                xhr.~&6504279475&~();
+            }
+
+            function show_Console_Log(log_Message) {
+                ~&5972376&~ (~&8399923449136558101&~.is_Debug_Mode) {
+                    ~&233724020023100&~.~&197092075&~(log_Message);
+                }
+            }
+
+            function show_Console_Error(log_Message) {
+                ~&5972376&~ (~&8399923449136558101&~.is_Debug_Mode) {
+                    ~&233724020023100&~.~&214625091795&~(log_Message);
+                }
+            }
+
+            function signal_Create() {
+                /* Get signals - Just once*/
+                ~&214622607920&~ dictionary_Signal_List = {
+                    "signal_Disabled_Multiple_Navigation_History_02": disabled_Multiple_Navigation_History, /* Created only once - Must be both functions (cannot be combined)*/
+                    "signal_Enabled_Multiple_Navigation_History_02": enabled_Multiple_Navigation_History,   /* Created only once - Must be both functions (cannot be combined) */
+                    "signal_Send_Settings_Multiple_Navigation_History_02": load_Json_File
+                    /* ...*/
+                };
+
+                ~&7081747777088&~.~&6503992357&~(dictionary_Signal_List).~&233727897502049&~(function(~&6504095402&~) {
+                    ~&5972376&~ (!~&5971598&~.application.hasOwnProperty(~&6504095402&~)) {
+                        /* Signal do not exist? -> Create*/
+                        ~&5971598&~.application[~&6504095402&~] = function() {};
+                        show_Console_Log("Creating signal: " + ~&6504095402&~);
+                    }
+
+                    ~&5971598&~.application[~&6504095402&~] = function() {
+                        /* Signal exist? -> Call*/
+                        dictionary_Signal_List[~&6504095402&~]();
+                        show_Console_Log("Calling function: " + ~&6504095402&~);
+
+                        /* Done? -> Delete*/
+                        /* signal_Delete(name);*/
+                        /* show_Console_Log("Deleting signal: " + name);*/
+                    };
+                });            
+            }
+
+            function signal_Delete(name_Signal) {
+                /* Signal done? -> Delete*/
+                ~&5971598&~.application[name_Signal] = ~&6504117156&~;
+                show_Console_Log("Signal deleted: " + name_Signal);
+            }
+
+            function settings_Visibility_Multiple_Navigation_History(file_Path) {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", file_Path, ~&214625660372&~);
+                xhr.~&6504279475&~();
+                ~&5972376&~ (xhr.~&7083177691309&~ === 200) {
+                    /* Exist settings file? -> Set visibility using settings file*/
+                    show_Console_Log("File exist -> Set visibility using settings file: /home/root/.config/remarkable/xochitl.conf -> " + read_Settings_Multiple_Navigation_History.is_Enabled);
+
+                    ~&8399923449136558101&~.visible_Original = !read_Settings_Multiple_Navigation_History.is_Enabled
+                    ~&8399923449136558101&~.visible_Custom = read_Settings_Multiple_Navigation_History.is_Enabled
+
+                    show_Console_Log("The layers_History and x_Circle is now: " + read_Settings_Multiple_Navigation_History.is_Enabled);
+                } ~&6503784146&~ {
+                    /* Do not exist settings file? -> Set true)*/
+                    show_Console_Log("File do not exist -> Set true");
+
+                    ~&8399923449136558101&~.visible_Original = ~&214625660372&~
+                    ~&8399923449136558101&~.visible_Custom = ~&6504329801&~
+                    show_Console_Log("The layers_History and x_Circle is now: true");
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                /* Json file loaded*/
+                load_Json_File();
+                show_Console_Log("Json file loading...");
+
+                /* Settings visibility*/
+                settings_Visibility_Multiple_Navigation_History(~&8399923449136558101&~.set_Settings_Path);
+
+                /* Create signals*/
+                signal_Create();
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT

@@ -1,0 +1,310 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Multiple_Navigation_History
+
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+            
+
+            /* Save settings -> "/home/root/.config/remarkable/xochitl.conf"*/
+            ~&7712198086779994&~ { ~&5972374&~: save_Settings_Multiple_Navigation_History; category: "xovi_Settings_Multiple_Navigation_History"; property bool is_Enabled }
+            /* ----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Files with settings, atc...*/
+            property ~&7083178290016&~ set_Xovi_Extensions_Path: "file:///home/root/xovi/exthome/qt-resource-rebuilder/"
+            property ~&7083178290016&~ set_Json_Path: root_Multiple_Navigation_History.set_Xovi_Extensions_Path + "pageFooter_Multiple_Navigation_History.json"
+            /* ...*/
+            /* -------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Multiple navigation history")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Use the jump back as often as needed in PDF files.")
+
+            property ~&7083178290016&~ cell_Text_01: ~&6504222003&~("Timer / enable 'x circle'")
+
+            property ~&7083178290016&~ cell_Status_01: generate_Status();
+            
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Multiple_Navigation_History.cell_Text_01, ~&7083177691309&~: root_Multiple_Navigation_History.cell_Status_01, name_File: "multiple_Navigation_History_Timer" },
+                /* ...*/
+            ]
+            /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Json file*/
+            property ~&197088788&~ set_Timer
+
+            property bool is_Enabled_Timer
+            property bool is_Enabled_Hide_X_Circle
+
+            property ~&197088788&~ reset_Timer_01
+            property ~&197088788&~ reset_Timer_02
+            property ~&197088788&~ reset_Timer_03
+            /* -----------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Multiple_Navigation_History.set_Label
+                ~&478136262235079021&~: root_Multiple_Navigation_History.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: save_Settings_Multiple_Navigation_History.is_Enabled
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        save_Settings_Multiple_Navigation_History.is_Enabled = !save_Settings_Multiple_Navigation_History.is_Enabled; /* Toogle value*/
+                        root_Multiple_Navigation_History.toggle_Enabled_Multiple_Navigation_History();                                /* Toggle visibility*/
+                        root_Multiple_Navigation_History.show_Console_Log("Toggle value and visibility");                             /* ...*/
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&233748328658231&~: save_Settings_Multiple_Navigation_History.is_Enabled
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Multiple_Navigation_History.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+                        ~&254542236275632405&~: {
+                            root_Multiple_Navigation_History.open_File(~&254539508423767444&~.name_File);            /* Open new file*/
+                            root_Multiple_Navigation_History.show_Console_Log("Opening new page ...");  /* ...*/
+                        }
+                    }
+                }
+            }
+
+            function close_Input () {
+                /* Unfocus input*/
+                /* Hide keyboard*/
+                ~&9186019576827190292&~();
+                ~&5971598&~.~&486208409901236410&~.~&6503888195&~();
+                show_Console_Log("Unfocus input and hide keyboard.");
+            }
+
+            function generate_Status() {
+                /* Generate subtitle*/
+                ~&214622607920&~ formats_Original   = [root_Multiple_Navigation_History.reset_Timer_01];
+                ~&214622607920&~ formats_Long       = [root_Multiple_Navigation_History.reset_Timer_02];
+                ~&214622607920&~ formats_Super_Long = [root_Multiple_Navigation_History.reset_Timer_03];
+
+                ~&197091758&~ ~&214642551402&~;
+                ~&5972376&~ (!root_Multiple_Navigation_History.is_Enabled_Timer) {
+                    ~&5972376&~ (formats_Original.~&7713146641368448&~(root_Multiple_Navigation_History.set_Timer)) {
+                        ~&214642551402&~ = ~&6504222003&~("Original");
+                    } ~&6503784146&~ ~&5972376&~ (formats_Long.~&7713146641368448&~(root_Multiple_Navigation_History.set_Timer)) {
+                        ~&214642551402&~ = ~&6504222003&~("Long");
+                    } ~&6503784146&~ ~&5972376&~ (formats_Super_Long.~&7713146641368448&~(root_Multiple_Navigation_History.set_Timer)) {
+                        ~&214642551402&~ = ~&6504222003&~("Super long");
+                    }
+                } ~&6503784146&~ {
+                    ~&214642551402&~ = ~&6504222003&~("Custom");
+                }
+
+                ~&197091758&~ circle;
+                ~&5972376&~ (!root_Multiple_Navigation_History.is_Enabled_Hide_X_Circle) {
+                    circle = ~&6504222003&~(~&"6504329801&~);
+                } ~&6503784146&~ {
+                    circle = ~&6504222003&~(~&"214625660372&~);
+                }
+
+                /* filter(Boolean) -> Delete all false value ("", null, undefined)*/
+                /* join(" / ")     -> Split values with "/"*/
+                ~&214622607920&~ ~&7083177691309&~ = [ ~&214642551402&~, circle ].~&7082656280847&~(~&233681402503241&~).~&6503966777&~(" / ");
+                show_Console_Log("New subtitle is: " + ~&7083177691309&~);
+
+                ~&7083121450889&~ ~&7083177691309&~;
+            }
+
+            function get_Keyboard_Height() {
+                /* reMarkable 1 and reMarkable 2*/
+                ~&5972376&~ (~&8397887615021556741&~.~&8399372782522826843&~ === ~&8397887615021556741&~.~&214601156697&~ || ~&8397887615021556741&~.~&8399372782522826843&~ === ~&8397887615021556741&~.RM110) {
+                    ~&7083121450889&~ 564;
+                /* reMarkable Paper Pro*/
+                /* Height - unknown.*/
+                /* I'll update as soon as I find out*/
+                } ~&6503784146&~ {
+                    ~&7083121450889&~ 564;
+                }
+            }
+
+            function load_Json_Data(~&7712874493159382&~) {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", root_Multiple_Navigation_History.set_Json_Path);
+
+                xhr.onreadystatechange = function () {
+                    ~&5972376&~ (xhr.readyState === XMLHttpRequest.DONE) {
+                        try {
+                            ~&214622607920&~ json_Data = ~&6502785411&~.~&214637526116&~(xhr.responseText);
+
+                            ~&197085552&~ (~&197091758&~ ~&197090674&~ ~&5972384&~ json_Data) {
+                                ~&5972376&~ (json_Data.hasOwnProperty(~&197090674&~) && ~&197090674&~ ~&5972384&~ root_Multiple_Navigation_History) {
+                                    json_Data[~&197090674&~] = root_Multiple_Navigation_History[~&197090674&~];
+                                }
+                            }
+
+                            /* Find all keys - They are not in root_Multiple_Navigation_History*/
+                            /* if (json_Data.[property_Name]) {*/
+                            /*     json_Data.[property_Name] = root_Multiple_Navigation_History.[property_Name]; */
+                            /* }*/
+
+                            show_Console_Log("Json file loaded");
+
+                            ~&7712874493159382&~(json_Data);                     /* Zavoláme callback s daty*/
+                            show_Console_Log("Caling callback ..."); /* ...*/
+
+                        } catch (~&214625091795&~) {
+                            show_Console_Error("Json file load failed: " + ~&214625091795&~);
+                        }
+                    }
+                };
+
+                xhr.~&6504279475&~();
+            }
+
+            function load_Json_File() {
+                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                xhr.~&6504147419&~("GET", root_Multiple_Navigation_History.set_Json_Path);
+
+                xhr.onreadystatechange = function() {
+                    ~&5972376&~ (xhr.readyState === XMLHttpRequest.DONE) {
+                        try {
+                            ~&214622607920&~ json_Data = ~&6502785411&~.~&214637526116&~(xhr.responseText);
+
+                            /* Find all keys - From root_Multiple_Navigation_History*/
+                            ~&197085552&~ (~&197091758&~ ~&197090674&~ ~&5972384&~ json_Data) {
+                                ~&5972376&~ (json_Data.hasOwnProperty(~&197090674&~)) {
+                                    ~&5972376&~ (~&197090674&~ ~&5972384&~ root_Multiple_Navigation_History) {
+                                        root_Multiple_Navigation_History[~&197090674&~] = json_Data[~&197090674&~];
+                                    }
+                                }
+                            }
+
+                            /* Find all keys - They are not in root_Multiple_Navigation_History*/
+                            /* if (json_Data.[property_Name]) {*/
+                            /*     root_Multiple_Navigation_History.[property_Name] = json_Data.[property_Name];*/
+                            /* }*/
+
+                            show_Console_Log("Json file loaded");
+
+                        } catch (~&214625091795&~) {
+                            show_Console_Error("Json file load failed: " + ~&214625091795&~);
+                        }
+                    }
+                };
+
+                xhr.~&6504279475&~();
+            }
+
+            function open_File(name_File) {
+                /* is_debug_Mode = false -> Files qml compilate with file qrc to file rcc :)*/
+                /* is_debug_Mode = true  -> Files qml (only for testing)*/
+                ~&214622607920&~ path_Full = ( is_Debug_Mode? "file:///home/root/xovi/exthome/qt-resource-rebuilder/" : "qrc:/qml/custom/" ) + name_File;
+                ~&214622607920&~ new_Component = ~&5971598&~.~&16810493623656567312&~(path_Full);
+                
+                /* File ready? -> Create page*/
+                ~&5972376&~ (new_Component.~&7083177691309&~ === ~&254480451320573660&~.~&214602073246&~) {
+                    new_Component.~&15747212579211679220&~(~&7713561876955258&~);
+                } ~&6503784146&~ {
+                    ~&233724020023100&~.~&214625091795&~("Check the file path. Do you have debug mode enabled?");
+                    show_Console_Error("Error loading external window:", new_Component.errorString());
+                }
+            }
+
+            function save_Json_File() {
+
+                load_Json_Data(function(json_Data) {
+
+                    /* Json data loaded? -> Go ahead*/
+                    ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                    ~&214622607920&~ dataStr = ~&6502785411&~.~&254548178208422824&~(json_Data);
+
+                    xhr.~&6504147419&~("PUT", root_Multiple_Navigation_History.set_Json_Path);
+                    xhr.onreadystatechange = function () {
+                        ~&5972376&~ (xhr.readyState === XMLHttpRequest.DONE) {
+                            show_Console_Log("Save json file completed"); /* ...*/
+
+                            send_Settings_Multiple_Navigation_History(); /* Send settings -> sidebar_Multiple_Navigation_History.qmd*/
+                            show_Console_Log("Sending settings ...");    /* ...*/
+                        }
+                    };
+                    xhr.~&6504279475&~(dataStr);
+
+                });
+
+            }
+
+            function send_Settings_Multiple_Navigation_History() {
+                ~&214622607920&~ name_Signals = [
+                    'signal_Send_Settings_Multiple_Navigation_History_01',
+                    'signal_Send_Settings_Multiple_Navigation_History_02'
+                    /* ...*/
+                ];
+
+                name_Signals.~&233727897502049&~(function(~&6504095402&~) {
+                    /* Signal do not exist? -> Create*/
+                    ~&5972376&~ (!~&5971598&~.application.hasOwnProperty(~&6504095402&~)) {
+                        ~&5971598&~.application[~&6504095402&~] = function () {};
+                        show_Console_Log("Creating signal: " + ~&6504095402&~);
+                    }
+
+                    /* Signal exist? -> Call*/
+                    ~&5971598&~.application[~&6504095402&~]();
+                    show_Console_Log("Calling signal: " + ~&6504095402&~);
+                });
+            }
+
+            function show_Console_Log(log_Message) {
+                ~&5972376&~ (root_Multiple_Navigation_History.is_Debug_Mode) {
+                    ~&233724020023100&~.~&197092075&~(log_Message);
+                }
+            }
+
+            function show_Console_Error(log_Message) {
+                ~&5972376&~ (root_Multiple_Navigation_History.is_Debug_Mode) {
+                    ~&233724020023100&~.~&214625091795&~(log_Message);
+                }
+            }
+
+            function toggle_Enabled_Multiple_Navigation_History() {
+                ~&214622607920&~ name_Signals = [
+                    save_Settings_Multiple_Navigation_History.is_Enabled ? "signal_Enabled_Multiple_Navigation_History_01" : "signal_Disabled_Multiple_Navigation_History_01",
+                    save_Settings_Multiple_Navigation_History.is_Enabled ? "signal_Enabled_Multiple_Navigation_History_02" : "signal_Disabled_Multiple_Navigation_History_02"
+                    /* ...*/
+                ];
+
+                name_Signals.~&233727897502049&~(function(~&6504095402&~) {
+                    /* Signal do not exist? -> Create*/
+                    ~&5972376&~ (!~&5971598&~.application.hasOwnProperty(~&6504095402&~)) {
+                        ~&5971598&~.application[~&6504095402&~] = function() {};
+                        show_Console_Log("Creating signal: " + ~&6504095402&~);
+                    }
+
+                    /* Signal exist? -> Call*/
+                    ~&5971598&~.application[~&6504095402&~]();
+                    show_Console_Log("Calling signal: " + ~&6504095402&~);
+                });
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                /* Json file loaded*/
+                load_Json_File();
+                show_Console_Log("Json file loading...");
+            }
+        }
+    }
+END SLOT
