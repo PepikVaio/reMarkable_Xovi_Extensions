@@ -3,7 +3,8 @@ Use the jump back as offten as you need in pdf files.
 
 ## Description
 reMarkable doesn't have the ability to go back a few steps in a PDF file. Well, here you have that option and you even have the option to set the time the bottom bar is displayed.
-* Do you need 1 minute? You can, do you need 3 minutes? You can :)
+* Do you need 1 minute or 1 second? You can.
+* Do you need 3 minutes? You can :)
 
 
 * If you use only the separate ```pageFooter_Multiple_Navigation_History.qmd``` and ```pageFooter_Multiple_Navigation_History.json``` files, you will only have the default settings.
