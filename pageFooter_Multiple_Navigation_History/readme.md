@@ -22,7 +22,7 @@ reMarkable doesn't have the ability to go back a few steps in a PDF file. Well, 
 * Custom timer:
   - ```1000``` - 1 second.
   - ```10000``` - 10 seconds.
-	- ...
+	- ```...```
 
 
 
