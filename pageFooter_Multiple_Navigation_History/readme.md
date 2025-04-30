@@ -1,4 +1,4 @@
-# Multiple navigation history (MNH)!
+# Multiple navigation history!
 Use the jump back as offten as you need in pdf files.
 
 ## Description
