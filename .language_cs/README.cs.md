@@ -27,10 +27,14 @@ Stačí zkopírovat soubory *qmd *json and *rcc (pokud jsou k dispozici) do slo�
 
 
 ### Používání
-* sidebar_Clock – Úžasné hodiny v postranním panelu reMarkable (můžete přidat svátky, speciální dny a počasí).
-* sidebar_Translated – Částečný překlad postranního panelu do češtiny. Brzy bude dostupná vylepšená verze.
-* xovi_Settings_Example – Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
-* xovi_Settings_Main – Přidejte nastavení k vlastním rozšíření.
+* [document_Reader_Mode](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Reader_Mode) - Čtěte bez rušivých elementů a sledujte své statistiky.
+* [document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Multiple_Navigation_History) - Neomezené možnosti skoku zpět v souborech PDF.
+* [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Úžasné hodiny v postranním panelu reMarkable (můžete přidat svátky, speciální dny a počasí).
+* [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Částečný překlad postranního panelu do češtiny. Brzy bude dostupná vylepšená verze.
+* [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Rozšířit výběr nástrojů při psaní.
+* [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Přidejte nastavení k vlastním rozšíření.
+
 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
