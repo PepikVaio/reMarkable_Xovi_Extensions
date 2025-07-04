@@ -25,11 +25,11 @@ These extensions bring freedom to your reMarkable tablet.
 Just copy the files *qmd, *json and *rcc (if available) to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
 
 ### Usage
-* [document_Reader_Mode](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Reader_Mode) - soon ...
+* [document_Reader_Mode](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Reader_Mode) - Read without distractions and track your statistics.
 * [document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Multiple_Navigation_History) - Unlimited jump back options in PDF files.
 * [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
 * [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Partial translation of the sidebar into Czech. A better version will be available soon.
-* [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - soon ...
+* [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Expand tool selection when typing.
 * [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension ``` xovi_Settings_Main ```.
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
