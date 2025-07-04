@@ -2,8 +2,9 @@
 [![cs](https://img.shields.io/badge/lang-cs-springgreen.svg)](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/.language_cs/README.cs.md)
 [![supported: rM1](https://img.shields.io/badge/rM1-supported-green)](https://remarkable.com/store/remarkable)
 [![supported: rM2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2)
-[![supported: rpp](https://img.shields.io/badge/rpp-supported-blue)](https://remarkable.com/store/remarkable-paper/pro)
+[![supported: rmPP](https://img.shields.io/badge/rpp-supported-blue)](https://remarkable.com/store/remarkable-paper/pro)
 [![supported: FW](https://img.shields.io/badge/fw_3.xx-supported-green)]()
+
 
 # Xovi extensions!
 Customize your reMarkable with these extensions.
