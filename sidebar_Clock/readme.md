@@ -54,11 +54,10 @@ Inspiration, code snippets, etc...
 
 
 ![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock.png?raw=true)
-![xovi_Settings_Clock_disabled](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/xovi_Settings_Clock_disabled.png?raw=true)
-![xovi_Settings_Clock_enabled](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/xovi_Settings_Clock_enabled.png?raw=true)
-![clock_Time_Format_default](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_default.png?raw=true)
+![xovi_Settings_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/xovi_Settings_Clock.png?raw=true)
 ![clock_Time_Format_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_01.png?raw=true)
 ![clock_Time_Format_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_02.png?raw=true)
+![clock_Time_Format_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_03.png?raw=true)
 
 
 

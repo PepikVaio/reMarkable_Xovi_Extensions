@@ -28,8 +28,7 @@ reMarkable doesn't have the ability to go back a few steps in a PDF file. Well, 
 
 
 ![pageFooter_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/pageFooter_Multiple_Navigation_History.png?raw=true)
-![xovi_Settings_Multiple_Navigation_History_disabled](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/xovi_Settings_Multiple_Navigation_History_disabled.png?raw=true)
-![xovi_Settings_Multiple_Navigation_History_enabled](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/xovi_Settings_Multiple_Navigation_History_enabled.png?raw=true)
+![xovi_Settings_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/xovi_Settings_Multiple_Navigation_History.png?raw=true)
 ![Multiple_Navigation_History_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/Multiple_Navigation_History_01.png?raw=true)
 ![Multiple_Navigation_History_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/pageFooter_Multiple_Navigation_History/.pictures/Multiple_Navigation_History_02.png?raw=true)
 
