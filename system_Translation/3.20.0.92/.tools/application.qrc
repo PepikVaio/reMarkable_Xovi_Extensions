@@ -1,0 +1,5 @@
+<RCC>
+    <qresource>
+        <file>qml/custom/system_Translation_Settings</file>
+    </qresource>
+</RCC>
