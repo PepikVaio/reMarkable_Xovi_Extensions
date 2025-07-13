@@ -24,7 +24,7 @@ SLOT xovi_Settings_Item
             /* Run "~/xovi/debug" on terminal (reMarkable)*/
             /* true = Debug mode / false = Release mode*/
             /* Warning – Changes the path to the files "open_File()"*/
-            property bool is_Debug_Mode: ~&6504329801&~
+            property bool is_Debug_Mode: ~&214625660372&~
             /* -----------------------------------------------------*/
 
             /* Initializing variables - Main*/
