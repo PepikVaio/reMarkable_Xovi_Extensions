@@ -33,7 +33,7 @@ Stačí zkopírovat soubory *qmd *json and *rcc (pokud jsou k dispozici) do slo�
 * [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Úžasné hodiny v postranním panelu reMarkable (můžete přidat svátky, speciální dny a počasí).
 * [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Částečný překlad postranního panelu do češtiny. Brzy bude dostupná vylepšená verze.
 
-* [system_Translation](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Translation) - Trocha kouzla — a váš reMarkable mluví vaším jazykem.
+* [system_Translation](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Translation) - Trocha kouzla a váš reMarkable mluví českým jazykem.
 
 * [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Rozšířit výběr nástrojů při psaní.
 
