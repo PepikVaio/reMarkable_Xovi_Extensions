@@ -24,7 +24,7 @@ This extension helps you localize your reMarkable device into the language of yo
 
 
 
-## Feedback & Help
+## Help
 * Translations may not be perfect – your help is very welcome!
 * If you notice missing or incorrect text, feel free to suggest a fix or open an issue.
 
