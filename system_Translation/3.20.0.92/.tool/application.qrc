@@ -1,0 +1,52 @@
+<RCC>
+    <qresource prefix="/i18n">
+        <!-- 1 plural form (Japanese, Korean, Chinese, Vietnamese, Turkish, Hungarian, Indonesian, Thai) -->
+        <file>translations/reMarkable_hu.qm</file>
+
+        <!-- <file>translations/reMarkable_id.qm</file> -->
+        <!-- <file>translations/reMarkable_ja.qm</file> -->
+        <!-- <file>translations/reMarkable_ko.qm</file> -->
+        <!-- <file>translations/reMarkable_th.qm</file> -->
+        <!-- <file>translations/reMarkable_tr.qm</file> -->
+        <!-- <file>translations/reMarkable_vi.qm</file> -->
+        <!-- <file>translations/reMarkable_zh.qm</file> -->
+
+
+        <!-- 2 plural forms (English, German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian Bokmål, Finnish) -->
+        <!-- English and German are not in list, because they are in remarkable nativ -->
+        <file>translations/reMarkable_da.qm</file>
+        <file>translations/reMarkable_es.qm</file>
+        <file>translations/reMarkable_el.qm</file>
+        <file>translations/reMarkable_et.qm</file>
+        <file>translations/reMarkable_fi.qm</file>
+        <file>translations/reMarkable_fr.qm</file>
+        <file>translations/reMarkable_is.qm</file>
+        <file>translations/reMarkable_it.qm</file>
+        <file>translations/reMarkable_nb.qm</file>
+        <file>translations/reMarkable_nl.qm</file>
+        <file>translations/reMarkable_pt.qm</file>
+        <file>translations/reMarkable_sv.qm</file>
+
+
+        <!-- 3 plural forms (Czech, Slovak, Polish, Russian, Ukrainian) -->
+        <file>translations/reMarkable_cs.qm</file>
+        <file>translations/reMarkable_pl.qm</file>
+        <file>translations/reMarkable_ro.qm</file>
+        <file>translations/reMarkable_sk.qm</file>
+
+        <!-- <file>translations/reMarkable_ru.qm</file> -->
+        <!-- <file>translations/reMarkable_uk.qm</file> -->
+
+
+        <!-- 4 plural forms (Slovenian) -->
+        <!-- <file>translations/reMarkable_sl.qm</file> -->
+
+
+        <!-- 6 plural forms (Arabic) -->
+        <!-- <file>translations/reMarkable_ar.qm</file> -->
+    </qresource>
+
+    <qresource prefix="/misc">
+        <file>keyboards/cs_CZ/keyboard_layout.json</file>
+    </qresource>
+</RCC>

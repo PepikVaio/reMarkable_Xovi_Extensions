@@ -1,0 +1,18 @@
+{
+  "dictionary_Translations": {
+    "_comment_Main": "Dictionary with your own translations (if the google translation was wrong)",
+
+    "_comment_Full": "Full key = Searches by kontext",
+
+    "_comment_Simple": "Simple key = Searches for all occurrences"
+
+  },
+  "dictionary_Postprocess": {
+    "_comment_Main_cs_01": "Je to z důvodu, že toto slovo může být použito ve více větách, tak abych nemusel mít jednotlivé věty v dictionary_Translations.",
+    "_comment_Main_cs_02": "Protože tam chci upravit pouze toto jedno slovo.",
+    "_comment_Main_cs_03": "Již opravuji přeložené slovo.",
+
+    "_comment_Main": "Dictionary for correction of all occurrences"
+
+  }
+}

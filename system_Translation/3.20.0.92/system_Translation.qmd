@@ -1,97 +1,73 @@
-AFFECT [[1658694193319203921]]
-    IMPORT Qt.labs.settings 1.0
-
-    TRAVERSE [[6502786168]]
-
-        LOCATE AFTER ALL
-        INSERT {
-            /* Initializing variables - Access the "settings_Translation"*/
-            property alias settings_Translation: settings_Translation
-            /* ----------------------------------------------------------*/
-
-            ~&7712198086779994&~ {
-                ~&5972374&~: settings_Translation
-                category: "xovi_Settings_system_Translation"
-
-                /* Připraveno a se naučím přesouvat soubory nebo vypínat nastavení*/
-                /* Initializing variables - Main*/
-                /* property bool is_Enabled_Translation: true*/
-                /* ------------------------------------------*/
-
-                /* Initializing variables*/
-                property ~&7083178290016&~ set_Language_Name: "Custom"
-                /* ----------------------------------------*/
-            }
-        }
-
-    END TRAVERSE
-
-END AFFECT
-
 AFFECT [[3401883773828043418]]
 
     TRAVERSE [[3819512207256720568]]#[[6504254477]]
         LOCATE AFTER [[5972374]]
         INSERT {
-            /* Připraveno - Až zjistím, jak přidat soubory do reMakable*/
-            /* property var remap_languageSettings_availableLanguages: languageSettings.availableLanguages.map(function(item) {*/
-            /*     return item === "de" ? "cs" : item;*/
-            /* })*/
 
-            /* property var remap_KeyboardSettings_AvailableLayouts: KeyboardSettings.availableLayouts.map(function(item) {*/
-            /*     return item === "de_DE" ? "cs_CZ" : item;*/
-            /* })*/
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -------------------------------------------*/
 
-            /* For languageDialog*/
-            /* model: root.remap_languageSettings_availableLanguages*/
 
-            /* For keyboardDialog*/
-            /* model: root.remap_KeyboardSettings_AvailableLayouts*/
+            /* Remap system language*/
+            property ~&197102514&~ remap_languageSettings_availableLanguages: {
+                ~&197102514&~ languages_Original = ~&4835259119655205150&~.~&10556268986736898561&~;
+                ~&197102514&~ languages_New = ["cs", "da", "el", ~&"5972257&~, "et", "fi", "fr", "hu", "is", ~&"5972390&~, "nb", "nl", "pl", ~&"5972621&~, "ro", "sk", "sv"];
+                ~&7083121450889&~ languages_Original.~&7082546043425&~(
+                    languages_New.~&7082656280847&~(function(~&6503936152&~) {
+                        ~&7083121450889&~ languages_Original.~&233731717342038&~(~&6503936152&~) === -1;
+                    })
+                );
+            }
 
-            /* Component.onCompleted: {*/
-            /*     console.error("Available language layouts:", languageSettings.availableLanguages);*/
-            /*     console.error("Available keyboard layouts:", KeyboardSettings.availableLayouts);*/
-            /* }*/
+            /* Remap sw keyboard*/
+            property ~&197102514&~ remap_KeyboardSettings_availableLayouts: {
+                ~&197102514&~ languages_Original = ~&12476042783807959979&~.~&1839122707953983835&~;
+                ~&197102514&~ languages_New = ["cs_CZ"];
+                ~&7083121450889&~ languages_Original.~&7082546043425&~(
+                    languages_New.~&7082656280847&~(function(~&6503936152&~) {
+                        ~&7083121450889&~ languages_Original.~&233731717342038&~(~&6503936152&~) === -1;
+                    })
+                );
+            }
+
+            function show_Console_Message(log_Message, ~&6504337259&~) {
+                ~&5972376&~(~&6504254477&~.is_Debug_Mode) {
+
+                    ~&5972376&~ (~&6504337259&~ === ~&"214625091795&~) {
+                        ~&233724020023100&~.~&214625091795&~(log_Message);
+                    }
+
+                    ~&6503784146&~ {
+                        ~&233724020023100&~.~&197092075&~(log_Message);
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                show_Console_Message("Language original: " + ~&4835259119655205150&~.~&10556268986736898561&~);
+                show_Console_Message("Language remap:    " + remap_languageSettings_availableLanguages);
+
+                show_Console_Message("Keyboard original: " + ~&12476042783807959979&~.~&1839122707953983835&~);
+                show_Console_Message("Keyboard remap:    " + remap_KeyboardSettings_availableLayouts);
+            }
         }
 
     END TRAVERSE
 
-    TRAVERSE [[3819512207256720568]]#[[6504254477]]
+    TRAVERSE [[3819512207256720568]] > [[254480451320573660]]#[[17993826873061832317]] > [[3632852931850195970]]
 
-        REBUILD [[7306372059341634724]]
-            LOCATE AFTER { ~&5972376&~ (~&16176480875291039624&~ === "de") }
-                REPLACE { ~&6504095402&~ += " (beta)"; } WITH {
-                    ~&6504095402&~ = ~&7082020628281&~.settings_Translation.set_Language_Name
-                }
-        END REBUILD
-
-        LOCATE BEFORE [[7306372059341634724]]
-            INSERT {
-                function test(~&16176480875291039624&~) {
-                    ~&197091758&~ ~&6504095402&~ = ~&7712198086779994&~.~&16176480875291419982&~(~&16176480875291039624&~);
-                    ~&5972376&~ (~&16176480875291039624&~ === ~&"214623416538&~) {
-                        ~&6504095402&~ = ~&7082020628281&~.settings_Translation.set_Language_Name;
-                    }
-                    ~&7083121450889&~ ~&6504222003&~(~&6504095402&~);
-                }
-            }
-
-    END TRAVERSE
-
-    TRAVERSE [[3819512207256720568]] > [[14125623155555875541]] > [[2962922628374944969]] > [[1014972626594864088]]#[[214622246075]]
-
-        REPLACE [[7083177691309]] WITH {
-            ~&7083177691309&~: test(~&7712198086779994&~.~&3176710001762637182&~);
+        REPLACE [[214634455770]] WITH {
+            ~&214634455770&~: remap_languageSettings_availableLanguages
         }
 
     END TRAVERSE
 
     TRAVERSE [[3819512207256720568]] > [[254480451320573660]]#[[7066546362174037482]] > [[3632852931850195970]]
 
-        REPLACE [[233725082496895]] WITH {
-            ~&233725082496895&~: (~&254539508423767444&~) => {
-                ~&7083121450889&~ test(~&254539508423767444&~);
-            }
+        REPLACE [[214634455770]] WITH {
+            ~&214634455770&~: remap_KeyboardSettings_availableLayouts
         }
 
     END TRAVERSE
