@@ -1,5 +1,5 @@
 # Translation!
-A touch of magic — and your reMarkable speaks your language.
+A touch of magic and your reMarkable speaks your language.
 
 
 
