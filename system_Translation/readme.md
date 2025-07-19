@@ -4,7 +4,7 @@ Make your reMarkable feel truly yours — translate it into your native language
 
 
 ## Description
-This add-on helps you localize your reMarkable device into the language of your choice.
+This extension helps you localize your reMarkable device into the language of your choice.
 * Simply select the target language, and all interface text will be automatically translated.
 * It also includes keyboard layout adjustments for selected languages.
 * Supports multiple languages, including Czech, Slovak, and more.
