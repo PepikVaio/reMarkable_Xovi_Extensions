@@ -1,5 +1,5 @@
 # Translation!
-Make your reMarkable feel truly yours — translate it into your native language in just moments.
+A touch of magic — and your reMarkable speaks your language.
 
 
 
