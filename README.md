@@ -33,7 +33,7 @@ Just copy the files *qmd, *json and *rcc (if available) to the folder ``` /home/
 
 * [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Partial translation of the sidebar into Czech. A better version will be available soon.
 
-* [system_Translation](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Translation) - A touch of magic — and your reMarkable speaks your language.
+* [system_Translation](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Translation) - A touch of magic and your reMarkable speaks your language.
 
 * [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Expand tool selection when typing.
 
