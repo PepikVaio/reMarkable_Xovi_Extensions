@@ -1,9 +1,9 @@
 # Expand typing!
-More writing tools for the keyboard.
+Before the keyboard appears, as if by magic, choose your preferred tool or pen.
 
 
 ## Description
-Before the keyboard appears, as if by magic, choose your preferred tool or pen.
+More writing tools for the keyboard.
 
 * If you use only the separate ```toolbar_Expand_Typing.qmd``` file, you will only have the default settings.
 
