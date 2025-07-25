@@ -3,7 +3,7 @@ Before the keyboard appears, as if by magic, choose your preferred tool or pen.
 
 
 ## Description
-More options for the text tool.
+This is extra shortcut bottons in the Text subtoolbar for selecting prefered pens for use when typing.
 
 * If you use only the separate ```toolbar_Expand_Typing.qmd``` file, you will only have the default settings.
 
