@@ -3,7 +3,7 @@ Before the keyboard appears, as if by magic, choose your preferred tool or pen.
 
 
 ## Description
-More writing tools for the keyboard.
+More options for the text tool.
 
 * If you use only the separate ```toolbar_Expand_Typing.qmd``` file, you will only have the default settings.
 
