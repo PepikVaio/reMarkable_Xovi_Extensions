@@ -1,0 +1,5 @@
+<RCC>
+    <qresource>
+        <file>qml/custom/system_Light_Sleep_Settings</file>
+    </qresource>
+</RCC>

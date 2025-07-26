@@ -1,0 +1,304 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts
+
+import com.remarkable
+import common
+
+import device.ui.text
+import device.ui.controls
+
+import ark.tokens as ArkTokens
+import ark.controls as ArkControls
+
+import xofm.libs.qtgui
+
+Background {
+    id: page
+    width: parent.width
+    height: parent.height
+
+    ArkControls.NavigationBar {
+        id: navigationBar
+        type: ArkTokens.NavigationBar.secondary
+        width: parent.width
+
+        ArkControls.NavigationBar.Button {
+            id: back
+            text: qsTr("Back")
+            textPosition: ArkControls.Button.TextPosition.Right
+            iconSource: "qrc:/ark/icons/chevron_left"
+            onClicked: {
+                page.go_Back();
+                root_Light_Sleep.show_Console_Message("Going to back ...");
+            }
+        }
+    }
+
+    ScrollArea {
+        id: scroll_Area
+        anchors {
+            top: navigationBar.bottom
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+            bottomMargin: Values.designGridHorizontalSpacing
+        }
+
+        property bool is_Visibled_Keyboard: Qt.inputMethod.visible
+
+        clip: true
+        contentWidth: width
+        contentHeight: navigationBar.height + header.height + column_Layout.height + (is_Visibled_Keyboard ? root_Light_Sleep.get_Keyboard_Height() + (Values.designGridHorizontalSpacing * 2) : 0)
+
+        MouseArea {
+            anchors.fill: parent
+            z: 0
+
+            onClicked: root_Light_Sleep.close_Input();
+        }
+
+        ArkControls.Title {
+            id: header
+            text: root_Light_Sleep.set_Text_01
+            type: ArkControls.Title.Large
+            anchors {
+                top: parent.top
+                left: parent.left
+                leftMargin: ArkControls.Values.margin.horizontal.x2large
+            }
+        }
+
+        ColumnLayout {
+            id: column_Layout
+            anchors {
+                top: header.bottom
+                topMargin: ArkControls.Values.spacing.xlarge
+                left: parent.left
+                leftMargin: ArkControls.Values.margin.horizontal.x2large
+                right: parent.right
+                rightMargin: ArkControls.Values.margin.horizontal.x2large
+            }
+            spacing: ArkControls.Values.spacing.xlarge
+
+            ColumnLayout {
+                spacing: -20
+                width: parent.width
+                height: parent.height
+                
+                ColumnLayout {
+                    spacing: -115
+                    width: parent.width
+                    height: parent.height
+
+                    ArkControls.Panel {
+                        Layout.fillWidth: true
+                        label: qsTr("Text message & style")
+                        description: qsTr("Enter the message text and choose the font style:")
+                    }
+
+                    TitleTextInputComponent {
+                        inputText: Values.settings_Light_Sleep.set_Text_Sleep
+                        textColor: Values.colorBlack
+                        height: Values.navigatorSidebarItemHeight
+                        width: parent.width
+                        maximumLength: 100
+                        Layout.fillWidth: true
+                        Layout.topMargin: Values.designGridHorizontalHeight
+
+                        onInputTextChanged: {
+                            Values.settings_Light_Sleep.set_Text_Sleep = inputText;
+                            root_Light_Sleep.show_Console_Message("New set_Text_Sleep is: " + Values.settings_Light_Sleep.set_Text_Sleep);
+                        }
+
+                        onAccepted: root_Light_Sleep.close_Input();
+                    }
+                }
+
+                ArkControls.Panel {
+                    Layout.fillWidth: true
+                    label: qsTr("")
+                    description: qsTr("")
+
+                    showAttachment: true
+                    attachment: ArkControls.ContextualMenu {
+                        uniformSize: true
+                        style: {
+                            "borderWidth": 0
+                        }
+                        
+                        Repeater {
+                            model: [
+                                { text: qsTr("Bold"),   set_Text_Bold:   Values.settings_Light_Sleep.set_Text_Bold },
+                                { text: qsTr("Italic"), set_Text_Italic: Values.settings_Light_Sleep.set_Text_Italic }
+                            ]
+
+                            delegate: ArkControls.Selector {
+                                required property var modelData
+                                text: modelData.text
+
+                                checked: {
+                                    if (modelData.set_Text_Bold) {
+                                        return Values.settings_Light_Sleep.set_Text_Bold === modelData.set_Text_Bold;
+                                    }
+
+                                    if (modelData.set_Text_Italic) {
+                                        return Values.settings_Light_Sleep.set_Text_Italic === modelData.set_Text_Italic;
+                                    }
+                                }
+
+                                onClicked: {
+                                    if (modelData.hasOwnProperty("set_Text_Bold")) {
+                                        Values.settings_Light_Sleep.set_Text_Bold = !Values.settings_Light_Sleep.set_Text_Bold;
+                                    } else if (modelData.hasOwnProperty("set_Text_Italic")) {
+                                        Values.settings_Light_Sleep.set_Text_Italic = !Values.settings_Light_Sleep.set_Text_Italic;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            ArkControls.Panel {
+                label: qsTr("Text position")
+                description: qsTr("Choose where your text appears on the screen:")
+                Layout.fillWidth: true
+
+                showAttachment: true
+                attachment: ArkControls.ContextualMenu {
+                    uniformSize: true
+                    Repeater {
+                        model: [
+                            { text: qsTr("Top"),    set_Position_Vertical:   "top" },
+                            { text: qsTr("Bottom"), set_Position_Vertical:   "bottom" },
+                            { text: qsTr("Left"),   set_Position_Horizontal: "left" },
+                            { text: qsTr("Right"),  set_Position_Horizontal: "right" }
+                        ]
+
+                        delegate: ArkControls.Selector {
+                            required property var modelData
+                            text: modelData.text
+
+                            checked: {
+                                if (modelData.set_Position_Vertical) {
+                                    return Values.settings_Light_Sleep.set_Position_Vertical === modelData.set_Position_Vertical;
+                                }
+
+                                if (modelData.set_Position_Horizontal) {
+                                    return Values.settings_Light_Sleep.set_Position_Horizontal === modelData.set_Position_Horizontal;
+                                }
+                            }
+
+                            onClicked: {
+                                if (modelData.set_Position_Vertical) {
+                                    Values.settings_Light_Sleep.set_Position_Vertical = modelData.set_Position_Vertical;
+                                }
+
+                                if (modelData.set_Position_Horizontal) {
+                                    Values.settings_Light_Sleep.set_Position_Horizontal = modelData.set_Position_Horizontal;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            ColumnLayout {
+                spacing: -28
+                width: parent.width
+                height: parent.height
+
+                ArkControls.Panel {
+                    label: qsTr("Custom text margin")
+                    description: qsTr("Enable to change the default horizontal and vertical margins:")
+                    Layout.fillWidth: true
+
+                    action: ArkToggleWrapper {
+                        checked: Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
+                        extendedMouseArea.onPressed: activate();
+
+                        function activate() {
+                            Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin = !Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin;
+
+                            // Reset values
+                            if (!Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin) {
+                                Values.settings_Light_Sleep.set_Margin_Horizontal = Values.settings_Light_Sleep.reset_Margin_Horizontal;
+                                Values.settings_Light_Sleep.set_Margin_Vertical = Values.settings_Light_Sleep.reset_Margin_Vertical;
+
+                                show_Console_Message("Values are reset");
+                            }
+                        }
+                    }
+                }
+
+                RowLayout {
+                    Layout.fillWidth: true
+                    spacing: 30
+                    visible: Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
+
+                    Item {
+                        Layout.preferredHeight: 87
+                        Layout.preferredWidth: height
+                        Layout.alignment: Qt.AlignLeft | Qt.AlignBottom
+
+                        QRCodeProvider {
+                            id: provider
+                            text: "https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Light_Sleep"
+                        }
+
+                        Image {
+                            id: qrcode
+                            anchors.fill: parent
+                            fillMode: Image.PreserveAspectFit
+                            source: provider.imageUrl
+                        }
+                    }
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        spacing: 50
+
+                        TitleTextInputComponent {
+                            inputText: Values.settings_Light_Sleep.set_Margin_Horizontal
+                            textColor: Values.colorBlack
+                            height: Values.navigatorSidebarItemHeight
+                            Layout.fillWidth: true
+                            inputMethodHints: Qt.ImhDigitsOnly
+                            maximumLength: 3
+
+                            onInputTextChanged: {
+                                Values.settings_Light_Sleep.set_Margin_Horizontal = inputText;
+                                root_Light_Sleep.show_Console_Message("New set_Margin_Horizontal is: " + Values.settings_Light_Sleep.set_Margin_Horizontal);
+                            }
+
+                            onAccepted: root_Light_Sleep.close_Input();
+                        }
+
+                        TitleTextInputComponent {
+                            inputText: Values.settings_Light_Sleep.set_Margin_Vertical
+                            textColor: Values.colorBlack
+                            height: Values.navigatorSidebarItemHeight
+                            Layout.fillWidth: true
+                            inputMethodHints: Qt.ImhDigitsOnly
+                            maximumLength: 3
+
+                            onInputTextChanged: {
+                                Values.settings_Light_Sleep.set_Margin_Vertical = inputText;
+                                root_Light_Sleep.show_Console_Message("New set_Margin_Vertical is: " + Values.settings_Light_Sleep.set_Margin_Vertical);
+                            }
+
+                            onAccepted: root_Light_Sleep.close_Input();
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    function go_Back() {
+        destroy();
+        root_Light_Sleep.show_Console_Message("Page is destroyed");
+    }
+}
