@@ -28,7 +28,7 @@ Customize your message shown on your reMarkable during light sleep to make your 
   - ```100``` - 11.18 mm  
   - ```...```
 
-* Custom text margin: (mm to px)
+* For understanding: (mm to px)
   - ```1 m``` - 9 px
   - ```10 mm``` - 89 px
   - ```100 mm``` - 887 px
@@ -38,11 +38,10 @@ Customize your message shown on your reMarkable during light sleep to make your 
 ## Acknowledgements
 
 Inspiration, code snippets, etc...
-* ...
+* [@StarNumber - miniLightSleep.qmd](https://github.com/StarNumber12046/xovi-qmd-extensions/blob/main/miniLightSleep.qmd)
 
 
-![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_01.png?raw=true)
-![xovi_Settings_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_02.png?raw=true)
-![clock_Time_Format_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_03.png?raw=true)
-![clock_Time_Format_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_04.png?raw=true)
-![clock_Time_Format_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_05.png?raw=true)
+![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/system_Light_Sleep_01.png?raw=true)
+![xovi_Settings_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/system_Light_Sleep_02.png?raw=true)
+![clock_Time_Format_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/system_Light_Sleep_03.png?raw=true)
+![clock_Time_Format_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/system_Light_Sleep_04.png?raw=true)
