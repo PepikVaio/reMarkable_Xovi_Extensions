@@ -1,157 +1,157 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
-import QtQuick.Layouts
+[[7082778569444]] [[233700934949963]] 2.15
+[[7082778569444]] QtQuick.Controls 2.15
+[[7082778569444]] QtQuick.Layouts
 
-import com.remarkable
-import common
+[[7082778569444]] com.remarkable
+[[7082778569444]] [[7082546018834]]
 
-import device.ui.text
-import device.ui.controls
+[[7082778569444]] device.ui.text
+[[7082778569444]] device.ui.controls
 
-import ark.tokens as ArkTokens
-import ark.controls as ArkControls
+[[7082778569444]] ark.tokens as [[254477762679831355]]
+[[7082778569444]] ark.controls as [[425121728314878811]]
 
-import xofm.libs.qtgui
+[[7082778569444]] xofm.libs.qtgui
 
-Background {
-    id: page
-    width: parent.width
-    height: parent.height
+[[8397788359424131273]] {
+    ~&5972374&~: ~&6504167078&~
+    ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+    ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
 
-    ArkControls.NavigationBar {
-        id: navigationBar
-        type: ArkTokens.NavigationBar.secondary
-        width: parent.width
+    ~&425121728314878811&~.~&4184163301694413582&~ {
+        ~&5972374&~: ~&2216395559061277486&~
+        ~&6504337259&~: ~&254477762679831355&~.~&4184163301694413582&~.~&254547519794454865&~
+        ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
 
-        ArkControls.NavigationBar.Button {
-            id: back
-            text: qsTr("Back")
-            textPosition: ArkControls.Button.TextPosition.Right
-            iconSource: "qrc:/ark/icons/chevron_left"
-            onClicked: {
-                page.go_Back();
+        ~&425121728314878811&~.~&4184163301694413582&~.~&7081261925573&~ {
+            ~&5972374&~: ~&6503663834&~
+            ~&6504315758&~: ~&6504222003&~(~&"6502513850&~)
+            ~&16587424883172253187&~: ~&425121728314878811&~.~&7081261925573&~.~&14970077474732995043&~.~&214602223655&~
+            ~&8399601734642709923&~: ~&"3792857133055099087&~
+            ~&254542236275632405&~: {
+                ~&6504167078&~.go_Back();
                 root_Light_Sleep.show_Console_Message("Going to back ...");
             }
         }
     }
 
-    ScrollArea {
-        id: scroll_Area
-        anchors {
-            top: navigationBar.bottom
-            left: parent.left
-            right: parent.right
-            bottom: parent.bottom
-            bottomMargin: Values.designGridHorizontalSpacing
+    ~&8398580812105622257&~ {
+        ~&5972374&~: scroll_Area
+        ~&233721384511543&~ {
+            ~&197100796&~: ~&2216395559061277486&~.~&7082507142622&~
+            ~&6504027668&~: ~&7083038346995&~.~&6504027668&~
+            ~&214640173127&~: ~&7083038346995&~.~&214640173127&~
+            ~&7082507142622&~: ~&7083038346995&~.~&7082507142622&~
+            ~&15692798426932296956&~: ~&7082020628281&~.~&8260768964620614264&~
         }
 
-        property bool is_Visibled_Keyboard: Qt.inputMethod.visible
+        property bool is_Visibled_Keyboard: ~&5971598&~.~&486208409901236410&~.~&233748328658231&~
 
-        clip: true
-        contentWidth: width
-        contentHeight: navigationBar.height + header.height + column_Layout.height + (is_Visibled_Keyboard ? root_Light_Sleep.get_Keyboard_Height() + (Values.designGridHorizontalSpacing * 2) : 0)
+        ~&6503711953&~: ~&6504329801&~
+        ~&15743061641160745028&~: ~&214646099849&~
+        ~&3012200093845531741&~: ~&2216395559061277486&~.~&7082729686082&~ + ~&7082729395218&~.~&7082729686082&~ + column_Layout.~&7082729686082&~ + (is_Visibled_Keyboard ? root_Light_Sleep.get_Keyboard_Height() + (~&7082020628281&~.~&8260768964620614264&~ * 2) : 0)
 
-        MouseArea {
-            anchors.fill: parent
-            z: 0
+        ~&254494525842443467&~ {
+            ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+            ~&180995&~: 0
 
-            onClicked: root_Light_Sleep.close_Input();
+            ~&254542236275632405&~: root_Light_Sleep.close_Input();
         }
 
-        ArkControls.Title {
-            id: header
-            text: root_Light_Sleep.set_Text_01
-            type: ArkControls.Title.Large
-            anchors {
-                top: parent.top
-                left: parent.left
-                leftMargin: ArkControls.Values.margin.horizontal.x2large
+        ~&425121728314878811&~.~&214604609771&~ {
+            ~&5972374&~: ~&7082729395218&~
+            ~&6504315758&~: root_Light_Sleep.set_Text_01
+            ~&6504337259&~: ~&425121728314878811&~.~&214604609771&~.~&214594832564&~
+            ~&233721384511543&~ {
+                ~&197100796&~: ~&7083038346995&~.~&197100796&~
+                ~&6504027668&~: ~&7083038346995&~.~&6504027668&~
+                ~&8399743405844438450&~: ~&425121728314878811&~.~&7082020628281&~.~&7082920942823&~.~&8399572322985746835&~.~&233748750575870&~
             }
         }
 
-        ColumnLayout {
-            id: column_Layout
-            anchors {
-                top: header.bottom
-                topMargin: ArkControls.Values.spacing.xlarge
-                left: parent.left
-                leftMargin: ArkControls.Values.margin.horizontal.x2large
-                right: parent.right
-                rightMargin: ArkControls.Values.margin.horizontal.x2large
+        ~&14125623155555875541&~ {
+            ~&5972374&~: column_Layout
+            ~&233721384511543&~ {
+                ~&197100796&~: ~&7082729395218&~.~&7082507142622&~
+                ~&254549367831075482&~: ~&425121728314878811&~.~&7082020628281&~.~&233744706647566&~.~&7083363878252&~
+                ~&6504027668&~: ~&7083038346995&~.~&6504027668&~
+                ~&8399743405844438450&~: ~&425121728314878811&~.~&7082020628281&~.~&7082920942823&~.~&8399572322985746835&~.~&233748750575870&~
+                ~&214640173127&~: ~&7083038346995&~.~&214640173127&~
+                ~&499747351624466981&~: ~&425121728314878811&~.~&7082020628281&~.~&7082920942823&~.~&8399572322985746835&~.~&233748750575870&~
             }
-            spacing: ArkControls.Values.spacing.xlarge
+            ~&233744706647566&~: ~&425121728314878811&~.~&7082020628281&~.~&233744706647566&~.~&7083363878252&~
 
-            ColumnLayout {
-                spacing: -20
-                width: parent.width
-                height: parent.height
+            ~&14125623155555875541&~ {
+                ~&233744706647566&~: -20
+                ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
                 
-                ColumnLayout {
-                    spacing: -115
-                    width: parent.width
-                    height: parent.height
+                ~&14125623155555875541&~ {
+                    ~&233744706647566&~: -115
+                    ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                    ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
 
-                    ArkControls.Panel {
-                        Layout.fillWidth: true
-                        label: qsTr("Text message & style")
-                        description: qsTr("Enter the message text and choose the font style:")
+                    ~&425121728314878811&~.~&214599571833&~ {
+                        ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                        ~&214632764553&~: ~&6504222003&~("Text message & style")
+                        ~&478136262235079021&~: ~&6504222003&~("Enter the message text and choose the font style:")
                     }
 
-                    TitleTextInputComponent {
-                        inputText: Values.settings_Light_Sleep.set_Text_Sleep
-                        textColor: Values.colorBlack
-                        height: Values.navigatorSidebarItemHeight
-                        width: parent.width
-                        maximumLength: 100
-                        Layout.fillWidth: true
-                        Layout.topMargin: Values.designGridHorizontalHeight
+                    ~&4606003875875543955&~ {
+                        ~&254533856304700286&~: ~&7082020628281&~.settings_Light_Sleep.set_Text_Sleep
+                        ~&254548953468989997&~: ~&7082020628281&~.~&8399340017235344933&~
+                        ~&7082729686082&~: ~&7082020628281&~.~&15061686673205541622&~
+                        ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                        ~&551578482712369929&~: 100
+                        ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                        ~&7081629735527&~.~&254549367831075482&~: ~&7082020628281&~.~&5840248778396640108&~
 
                         onInputTextChanged: {
-                            Values.settings_Light_Sleep.set_Text_Sleep = inputText;
-                            root_Light_Sleep.show_Console_Message("New set_Text_Sleep is: " + Values.settings_Light_Sleep.set_Text_Sleep);
+                            ~&7082020628281&~.settings_Light_Sleep.set_Text_Sleep = ~&254533856304700286&~;
+                            root_Light_Sleep.show_Console_Message("New set_Text_Sleep is: " + ~&7082020628281&~.settings_Light_Sleep.set_Text_Sleep);
                         }
 
-                        onAccepted: root_Light_Sleep.close_Input();
+                        ~&8399893700003527327&~: root_Light_Sleep.close_Input();
                     }
                 }
 
-                ArkControls.Panel {
-                    Layout.fillWidth: true
-                    label: qsTr("")
-                    description: qsTr("")
+                ~&425121728314878811&~.~&214599571833&~ {
+                    ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                    ~&214632764553&~: ~&6504222003&~("")
+                    ~&478136262235079021&~: ~&6504222003&~("")
 
-                    showAttachment: true
-                    attachment: ArkControls.ContextualMenu {
-                        uniformSize: true
-                        style: {
-                            "borderWidth": 0
+                    ~&9195823055201242195&~: ~&6504329801&~
+                    ~&8399254548634699250&~: ~&425121728314878811&~.~&16765000136167945189&~ {
+                        ~&504576868586410052&~: ~&6504329801&~
+                        ~&214641774074&~: {
+                            ~&"475535838851480711&~: 0
                         }
                         
-                        Repeater {
-                            model: [
-                                { text: qsTr("Bold"),   set_Text_Bold:   Values.settings_Light_Sleep.set_Text_Bold },
-                                { text: qsTr("Italic"), set_Text_Italic: Values.settings_Light_Sleep.set_Text_Italic }
+                        ~&7712155293725601&~ {
+                            ~&214634455770&~: [
+                                { ~&6504315758&~: ~&6504222003&~(~&"6502529386&~),   set_Text_Bold:   ~&7082020628281&~.settings_Light_Sleep.set_Text_Bold },
+                                { ~&6504315758&~: ~&6504222003&~(~&"7081533995679&~), set_Text_Italic: ~&7082020628281&~.settings_Light_Sleep.set_Text_Italic }
                             ]
 
-                            delegate: ArkControls.Selector {
-                                required property var modelData
-                                text: modelData.text
+                            ~&7712922269353028&~: ~&425121728314878811&~.~&7712197755699210&~ {
+                                required property ~&197102514&~ ~&254539508423767444&~
+                                ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
 
-                                checked: {
-                                    if (modelData.set_Text_Bold) {
-                                        return Values.settings_Light_Sleep.set_Text_Bold === modelData.set_Text_Bold;
+                                ~&233723734822480&~: {
+                                    ~&5972376&~ (~&254539508423767444&~.set_Text_Bold) {
+                                        ~&7083121450889&~ ~&7082020628281&~.settings_Light_Sleep.set_Text_Bold === ~&254539508423767444&~.set_Text_Bold;
                                     }
 
-                                    if (modelData.set_Text_Italic) {
-                                        return Values.settings_Light_Sleep.set_Text_Italic === modelData.set_Text_Italic;
+                                    ~&5972376&~ (~&254539508423767444&~.set_Text_Italic) {
+                                        ~&7083121450889&~ ~&7082020628281&~.settings_Light_Sleep.set_Text_Italic === ~&254539508423767444&~.set_Text_Italic;
                                     }
                                 }
 
-                                onClicked: {
-                                    if (modelData.hasOwnProperty("set_Text_Bold")) {
-                                        Values.settings_Light_Sleep.set_Text_Bold = !Values.settings_Light_Sleep.set_Text_Bold;
-                                    } else if (modelData.hasOwnProperty("set_Text_Italic")) {
-                                        Values.settings_Light_Sleep.set_Text_Italic = !Values.settings_Light_Sleep.set_Text_Italic;
+                                ~&254542236275632405&~: {
+                                    ~&5972376&~ (~&254539508423767444&~.hasOwnProperty("set_Text_Bold")) {
+                                        ~&7082020628281&~.settings_Light_Sleep.set_Text_Bold = !~&7082020628281&~.settings_Light_Sleep.set_Text_Bold;
+                                    } ~&6503784146&~ ~&5972376&~ (~&254539508423767444&~.hasOwnProperty("set_Text_Italic")) {
+                                        ~&7082020628281&~.settings_Light_Sleep.set_Text_Italic = !~&7082020628281&~.settings_Light_Sleep.set_Text_Italic;
                                     }
                                 }
                             }
@@ -160,43 +160,43 @@ Background {
                 }
             }
 
-            ArkControls.Panel {
-                label: qsTr("Text position")
-                description: qsTr("Choose where your text appears on the screen:")
-                Layout.fillWidth: true
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&214632764553&~: ~&6504222003&~("Text position")
+                ~&478136262235079021&~: ~&6504222003&~("Choose where your text appears on the screen:")
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
 
-                showAttachment: true
-                attachment: ArkControls.ContextualMenu {
-                    uniformSize: true
-                    Repeater {
-                        model: [
-                            { text: qsTr("Top"),    set_Position_Vertical:   "top" },
-                            { text: qsTr("Bottom"), set_Position_Vertical:   "bottom" },
-                            { text: qsTr("Left"),   set_Position_Horizontal: "left" },
-                            { text: qsTr("Right"),  set_Position_Horizontal: "right" }
+                ~&9195823055201242195&~: ~&6504329801&~
+                ~&8399254548634699250&~: ~&425121728314878811&~.~&16765000136167945189&~ {
+                    ~&504576868586410052&~: ~&6504329801&~
+                    ~&7712155293725601&~ {
+                        ~&214634455770&~: [
+                            { ~&6504315758&~: ~&6504222003&~(~&"197065948&~),    set_Position_Vertical:   ~&"197100796&~ },
+                            { ~&6504315758&~: ~&6504222003&~(~&"7081254810046&~), set_Position_Vertical:   ~&"7082507142622&~ },
+                            { ~&6504315758&~: ~&6504222003&~(~&"6502877684&~),   set_Position_Horizontal: ~&"6504027668&~ },
+                            { ~&6504315758&~: ~&6504222003&~(~&"214602223655&~),  set_Position_Horizontal: ~&"214640173127&~ }
                         ]
 
-                        delegate: ArkControls.Selector {
-                            required property var modelData
-                            text: modelData.text
+                        ~&7712922269353028&~: ~&425121728314878811&~.~&7712197755699210&~ {
+                            required property ~&197102514&~ ~&254539508423767444&~
+                            ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
 
-                            checked: {
-                                if (modelData.set_Position_Vertical) {
-                                    return Values.settings_Light_Sleep.set_Position_Vertical === modelData.set_Position_Vertical;
+                            ~&233723734822480&~: {
+                                ~&5972376&~ (~&254539508423767444&~.set_Position_Vertical) {
+                                    ~&7083121450889&~ ~&7082020628281&~.settings_Light_Sleep.set_Position_Vertical === ~&254539508423767444&~.set_Position_Vertical;
                                 }
 
-                                if (modelData.set_Position_Horizontal) {
-                                    return Values.settings_Light_Sleep.set_Position_Horizontal === modelData.set_Position_Horizontal;
+                                ~&5972376&~ (~&254539508423767444&~.set_Position_Horizontal) {
+                                    ~&7083121450889&~ ~&7082020628281&~.settings_Light_Sleep.set_Position_Horizontal === ~&254539508423767444&~.set_Position_Horizontal;
                                 }
                             }
 
-                            onClicked: {
-                                if (modelData.set_Position_Vertical) {
-                                    Values.settings_Light_Sleep.set_Position_Vertical = modelData.set_Position_Vertical;
+                            ~&254542236275632405&~: {
+                                ~&5972376&~ (~&254539508423767444&~.set_Position_Vertical) {
+                                    ~&7082020628281&~.settings_Light_Sleep.set_Position_Vertical = ~&254539508423767444&~.set_Position_Vertical;
                                 }
 
-                                if (modelData.set_Position_Horizontal) {
-                                    Values.settings_Light_Sleep.set_Position_Horizontal = modelData.set_Position_Horizontal;
+                                ~&5972376&~ (~&254539508423767444&~.set_Position_Horizontal) {
+                                    ~&7082020628281&~.settings_Light_Sleep.set_Position_Horizontal = ~&254539508423767444&~.set_Position_Horizontal;
                                 }
                             }
                         }
@@ -204,27 +204,27 @@ Background {
                 }
             }
 
-            ColumnLayout {
-                spacing: -28
-                width: parent.width
-                height: parent.height
+            ~&14125623155555875541&~ {
+                ~&233744706647566&~: -28
+                ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
 
-                ArkControls.Panel {
-                    label: qsTr("Custom text margin")
-                    description: qsTr("Enable to change the default horizontal and vertical margins:")
-                    Layout.fillWidth: true
+                ~&425121728314878811&~.~&214599571833&~ {
+                    ~&214632764553&~: ~&6504222003&~("Custom text margin")
+                    ~&478136262235079021&~: ~&6504222003&~("Enable to change the default horizontal and vertical margins:")
+                    ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
 
-                    action: ArkToggleWrapper {
-                        checked: Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
-                        extendedMouseArea.onPressed: activate();
+                    ~&7082453764199&~: ~&12858967014938070090&~ {
+                        ~&233723734822480&~: ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
+                        ~&2132408976983288956&~.~&254542253295368380&~: ~&7712792149454042&~();
 
-                        function activate() {
-                            Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin = !Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin;
+                        function ~&7712792149454042&~() {
+                            ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Custom_Text_Margin = !~&7082020628281&~.settings_Light_Sleep.is_Enabled_Custom_Text_Margin;
 
-                            // Reset values
-                            if (!Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin) {
-                                Values.settings_Light_Sleep.set_Margin_Horizontal = Values.settings_Light_Sleep.reset_Margin_Horizontal;
-                                Values.settings_Light_Sleep.set_Margin_Vertical = Values.settings_Light_Sleep.reset_Margin_Vertical;
+                            /* Reset values*/
+                            ~&5972376&~ (!~&7082020628281&~.settings_Light_Sleep.is_Enabled_Custom_Text_Margin) {
+                                ~&7082020628281&~.settings_Light_Sleep.set_Margin_Horizontal = ~&7082020628281&~.settings_Light_Sleep.reset_Margin_Horizontal;
+                                ~&7082020628281&~.settings_Light_Sleep.set_Margin_Vertical = ~&7082020628281&~.settings_Light_Sleep.reset_Margin_Vertical;
 
                                 show_Console_Message("Values are reset");
                             }
@@ -232,63 +232,63 @@ Background {
                     }
                 }
 
-                RowLayout {
-                    Layout.fillWidth: true
-                    spacing: 30
-                    visible: Values.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
+                ~&254501558939456351&~ {
+                    ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                    ~&233744706647566&~: 30
+                    ~&233748328658231&~: ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Custom_Text_Margin
 
-                    Item {
-                        Layout.preferredHeight: 87
-                        Layout.preferredWidth: height
-                        Layout.alignment: Qt.AlignLeft | Qt.AlignBottom
+                    ~&6502786168&~ {
+                        ~&7081629735527&~.preferredHeight: 87
+                        ~&7081629735527&~.~&7797818826744279624&~: ~&7082729686082&~
+                        ~&7081629735527&~.~&254522510204479688&~: ~&5971598&~.~&254477505127509791&~ | ~&5971598&~.~&424841977835900329&~
 
-                        QRCodeProvider {
-                            id: provider
-                            text: "https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Light_Sleep"
+                        ~&17357098090295604850&~ {
+                            ~&5972374&~: ~&7713450617393844&~
+                            ~&6504315758&~: "https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Light_Sleep"
                         }
 
-                        Image {
-                            id: qrcode
-                            anchors.fill: parent
-                            fillMode: Image.PreserveAspectFit
-                            source: provider.imageUrl
+                        ~&214591687532&~ {
+                            ~&5972374&~: ~&7083097114535&~
+                            ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+                            ~&7713012679492661&~: ~&214591687532&~.~&13563680926116790904&~
+                            ~&7083172477658&~: ~&7713450617393844&~.~&7713145265109183&~
                         }
                     }
 
-                    RowLayout {
-                        Layout.fillWidth: true
-                        spacing: 50
+                    ~&254501558939456351&~ {
+                        ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                        ~&233744706647566&~: 50
 
-                        TitleTextInputComponent {
-                            inputText: Values.settings_Light_Sleep.set_Margin_Horizontal
-                            textColor: Values.colorBlack
-                            height: Values.navigatorSidebarItemHeight
-                            Layout.fillWidth: true
-                            inputMethodHints: Qt.ImhDigitsOnly
-                            maximumLength: 3
+                        ~&4606003875875543955&~ {
+                            ~&254533856304700286&~: ~&7082020628281&~.settings_Light_Sleep.set_Margin_Horizontal
+                            ~&254548953468989997&~: ~&7082020628281&~.~&8399340017235344933&~
+                            ~&7082729686082&~: ~&7082020628281&~.~&15061686673205541622&~
+                            ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                            ~&11562150059721777248&~: ~&5971598&~.~&14874808802843101581&~
+                            ~&551578482712369929&~: 3
 
                             onInputTextChanged: {
-                                Values.settings_Light_Sleep.set_Margin_Horizontal = inputText;
-                                root_Light_Sleep.show_Console_Message("New set_Margin_Horizontal is: " + Values.settings_Light_Sleep.set_Margin_Horizontal);
+                                ~&7082020628281&~.settings_Light_Sleep.set_Margin_Horizontal = ~&254533856304700286&~;
+                                root_Light_Sleep.show_Console_Message("New set_Margin_Horizontal is: " + ~&7082020628281&~.settings_Light_Sleep.set_Margin_Horizontal);
                             }
 
-                            onAccepted: root_Light_Sleep.close_Input();
+                            ~&8399893700003527327&~: root_Light_Sleep.close_Input();
                         }
 
-                        TitleTextInputComponent {
-                            inputText: Values.settings_Light_Sleep.set_Margin_Vertical
-                            textColor: Values.colorBlack
-                            height: Values.navigatorSidebarItemHeight
-                            Layout.fillWidth: true
-                            inputMethodHints: Qt.ImhDigitsOnly
-                            maximumLength: 3
+                        ~&4606003875875543955&~ {
+                            ~&254533856304700286&~: ~&7082020628281&~.settings_Light_Sleep.set_Margin_Vertical
+                            ~&254548953468989997&~: ~&7082020628281&~.~&8399340017235344933&~
+                            ~&7082729686082&~: ~&7082020628281&~.~&15061686673205541622&~
+                            ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                            ~&11562150059721777248&~: ~&5971598&~.~&14874808802843101581&~
+                            ~&551578482712369929&~: 3
 
                             onInputTextChanged: {
-                                Values.settings_Light_Sleep.set_Margin_Vertical = inputText;
-                                root_Light_Sleep.show_Console_Message("New set_Margin_Vertical is: " + Values.settings_Light_Sleep.set_Margin_Vertical);
+                                ~&7082020628281&~.settings_Light_Sleep.set_Margin_Vertical = ~&254533856304700286&~;
+                                root_Light_Sleep.show_Console_Message("New set_Margin_Vertical is: " + ~&7082020628281&~.settings_Light_Sleep.set_Margin_Vertical);
                             }
 
-                            onAccepted: root_Light_Sleep.close_Input();
+                            ~&8399893700003527327&~: root_Light_Sleep.close_Input();
                         }
                     }
                 }
