@@ -13,7 +13,8 @@ Customize your message shown on your reMarkable during light sleep to make your 
 
 
 ## Getting Started
-* ...
+* The file ```system_Battery_Standby.qmd``` is intended only for a quick preview of the set light sleep texts.
+  - You can adjust it in ```Settings → General → Battery → Standby``` (set 20 seconds).
 
 
 ### Requirements
@@ -44,8 +45,7 @@ Customize your message shown on your reMarkable during light sleep to make your 
 
 
 ## Help
-* The file ```system_Battery_Standby.qmd``` is intended only for a quick preview of the set light sleep texts.
-  - You can adjust it in ```Settings → General → Battery → Standby``` (set 20 seconds).
+* ...
 
 
 ## Acknowledgements
