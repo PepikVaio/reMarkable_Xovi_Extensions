@@ -19,7 +19,6 @@ Customize your message shown on your reMarkable during light sleep to make your 
 ### Requirements
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
-
 ### Using
 * Unicode symbol:
   - You can insert unicode symbol from web page: (example)
@@ -38,14 +37,15 @@ Customize your message shown on your reMarkable during light sleep to make your 
   - ```...```
 
 * For understanding: (mm to px)
-  - ```1 m``` - 9 px
+  - ```1 mm``` - 9 px
   - ```10 mm``` - 89 px
   - ```100 mm``` - 887 px
   - ```...```
 
 
 ## Help
-* ...
+* The file xxx is intended only for a quick preview of the set light sleep texts.
+  - You can adjust it in ```Settings → General → Battery → Standby``` (set 20 seconds).
 
 
 ## Acknowledgements
