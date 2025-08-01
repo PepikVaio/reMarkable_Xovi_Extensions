@@ -1,38 +1,43 @@
 # Multiple navigation history!
 Use the jump back as offten as you need in pdf files.
 
+
 ## Description
 reMarkable doesn't have the ability to go back a few steps in a PDF file. Well, here you have that option and you even have the option to set the time the bottom bar is displayed.
 * Do you need 1 minute or 1 second? You can.
 * Do you need 3 minutes? You can :)
 
-
-* If you use only the separate ```pageFooter_Multiple_Navigation_History.qmd``` and ```pageFooter_Multiple_Navigation_History.json``` files, you will only have the default settings.
-
-* If you add the ```xovi_Settings_Multiple_Navigation_History.qmd``` and ```xovi_Settings_Multiple_Navigation_History.rcc``` files, you will get additional settings.
 	- Option to set the length of the bottom bar display (original, long, superlong) or completely custom in milliseconds format.
 	- Option to show or hide buttons to instantly hide the bottom bar.
-  - Next will soon ...
+
+	- Next will soon ...
+
 
 ## Getting Started
+* ...
+
 
 ### Requirements
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) (only for ```xovi_Settings_Multiple_Navigation_History.qmd``` and ```xovi_Settings_Multiple_Navigation_History.rcc```)
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
+
 
 ### Using
-* Custom timer:
+* Timer:
   - ```1000``` - 1 second
   - ```10000``` - 10 seconds
   - ```...```
 
 
+## Help
+* ...
 
-![document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History.png?raw=true)
-![xovi_Settings_document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/xovi_Settings_document_Multiple_Navigation_History.png?raw=true)
-![document_Multiple_Navigation_History_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_01.png?raw=true)
-![document_Multiple_Navigation_History_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_02.png?raw=true)
 
-<!--## Acknowledgements-->
+## Acknowledgements
+Inspiration, code snippets, etc...
+* ...
 
-<!--Inspiration, code snippets, etc...-->
-<!--* -->
+
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_04.png?raw=true)

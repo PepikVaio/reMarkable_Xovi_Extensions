@@ -5,9 +5,6 @@ Before the keyboard appears, as if by magic, choose your preferred tool or pen.
 ## Description
 This is extra shortcut bottons in the Text subtoolbar for selecting prefered pens for use when typing.
 
-* If you use only the separate ```toolbar_Expand_Typing.qmd``` file, you will only have the default settings.
-
-* If you add the ```xovi_Settings_toolbar_Expand_Typing.qmd``` and ```xovi_Settings_toolbar_Expand_Typing.rcc``` files, you will get additional settings.
   - Option to enable or disable the primary pen.
   - Option to enable or disable the secondary pen.
   - Option to enable or disable other tools.
@@ -17,11 +14,13 @@ This is extra shortcut bottons in the Text subtoolbar for selecting prefered pen
 
   - Next will soon ...
 
+
 ## Getting Started
+* ...
 
 
 ### Requirements
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) (only for ```xovi_Settings_toolbar_Expand_Typing.qmd``` and ```xovi_Settings_toolbar_Expand_Typing.rcc```)
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 
 ### Using
@@ -29,14 +28,16 @@ This is extra shortcut bottons in the Text subtoolbar for selecting prefered pen
   - ...
 
 
-## Acknowledgements
+## Help
+* ...
 
+
+## Acknowledgements
 Inspiration, code snippets, etc...
 * ...
 
 
-![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_01.png?raw=true)
-![xovi_Settings_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_02.png?raw=true)
-![clock_Time_Format_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_03.png?raw=true)
-![clock_Time_Format_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_04.png?raw=true)
-![clock_Time_Format_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_05.png?raw=true)
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/toolbar_Expand_Typing/.pictures/toolbar_Expand_Typing_04.png?raw=true)

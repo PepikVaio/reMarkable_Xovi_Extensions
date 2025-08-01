@@ -9,28 +9,30 @@
 # Xovi extensions!
 Customize your reMarkable with these extensions.
 
+
 ## Description
 These extensions bring freedom to your reMarkable tablet.
 * tested - reMarkable 2
 
+
 ## Getting Started
+* ...
+
 
 ### Requirements
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/xovi)
 
-<!-- ### Downloads
-<!-- [![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/89665ef3d3f2480ea3ab30a9ce4d78d4) -->
 
 ### Installation
-Just copy the files *qmd, *json and *rcc (if available) to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+Just copy the files *qmd, *rcc and *json (if available) to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+
 
 ### Usage
 * [document_Reader_Mode](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Reader_Mode) - Read without distractions and track your statistics.
 * [document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Multiple_Navigation_History) - Unlimited jump back options in PDF files.
 
 * [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
-
 * [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Partial translation of the sidebar into Czech. A better version will be available soon.
 
 * [system_Light_Sleep](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/system_Light_Sleep) - Enchant your reMarkable with a cozy goodnight message for light sleep mode.
@@ -41,19 +43,15 @@ Just copy the files *qmd, *json and *rcc (if available) to the folder ``` /home/
 * [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension ``` xovi_Settings_Main ```.
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
+
 ## Help
 Create issues if you find a problem.
 
-<!-- [![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtu.be/DR70zW_UP2w) -->
-
-<!-- ## Version history -->
-<!-- 1.1 -->
-<!-- * Closes - Dictionary #3 -->
-<!--   * Minor code debugging -->
 
 ## Authors
 Wajsar Josef
 * Wajsar.Josef@hotmail.com
+
 
 ## Acknowledgements
 Inspiration, code snippets, etc...

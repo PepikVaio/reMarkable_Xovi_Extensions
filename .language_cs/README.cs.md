@@ -9,21 +9,23 @@
 # Xovi rozšíření!
 Přizpůsobte si svůj tablet reMarkable pomocí těchto rozšíření.
 
+
 ## Popis
 Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.  
 * testováno - reMarkable 2
 
+
 ## Začínáme
+* ...
+
 
 ### Požadavky
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/xovi)
 
-<!-- ### Ke stažení -->
-<!-- [![download](https://img.shields.io/badge/download-latest_release-slategray)](https://www.icloud.com/shortcuts/89665ef3d3f2480ea3ab30a9ce4d78d4) -->
 
 ### Instalace
-Stačí zkopírovat soubory *qmd *json and *rcc (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
 
 
 ### Používání
@@ -45,16 +47,11 @@ Stačí zkopírovat soubory *qmd *json and *rcc (pokud jsou k dispozici) do slo�
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
 
-<!-- [![YouTube](https://img.shields.io/badge/video-YouTube-red)](https://youtu.be/DR70zW_UP2w) -->
-
-<!-- ## Historie verzí -->
-<!-- 1.1 -->
-<!-- * Closes - Dictionary #3 -->
-<!--   * Minor code debugging -->
 
 ## Autoři
 Wajsar Josef
 * Wajsar.Josef@hotmail.com
+
 
 ## Poděkování
 Inspirace, úryvky kódu atd...

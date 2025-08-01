@@ -1,12 +1,10 @@
 # Clock!
 Clock in the sidebar with the possibility of additional information.
 
+
 ## Description
 Incredible clock in the reMarkable sidebar.
 
-* If you use only the separate ```sidebar_Clock.qmd``` and ```sidebar_Clock.json``` files, you will only have the default settings.
-
-* If you add the ```xovi_Settings_Clock.qmd``` and ```xovi_Settings_Clock.rcc``` files, you will get additional settings.
   - Option to enable or disable the clock in the panel.
   - Option to choose the time and date format ( short, middle, long, custom ).
   - Option to choose 12 or 24 hour format.
@@ -15,10 +13,14 @@ Incredible clock in the reMarkable sidebar.
  
   - Next will soon ...
 
+
 ## Getting Started
+* ...
+
 
 ### Requirements
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) (only for ```xovi_Settings_Clock.qmd``` and ```xovi_Settings_Clock.rcc```)
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
+
 
 ### Using
 * Custom time layout:
@@ -44,21 +46,19 @@ Incredible clock in the reMarkable sidebar.
   - ```/``` - Date separator.
   - ```|``` - Another separator.
 
-## Acknowledgements
 
+## Help
+* ...
+
+
+## Acknowledgements
 Inspiration, code snippets, etc...
 * [StarNumber (clock extension for xovi)](https://github.com/StarNumber12046/xovi-qmd-extensions)
 * [elvido (web page weather)](https://github.com/Evidlo/remarkable_pdflets)
 
 
-
-
-![sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock.png?raw=true)
-![xovi_Settings_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/xovi_Settings_Clock.png?raw=true)
-![clock_Time_Format_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_01.png?raw=true)
-![clock_Time_Format_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_02.png?raw=true)
-![clock_Time_Format_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/clock_Time_Format_03.png?raw=true)
-
-
-
-
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock_04.png?raw=true)
+![image_05](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/sidebar_Clock/.pictures/sidebar_Clock_05.png?raw=true)
