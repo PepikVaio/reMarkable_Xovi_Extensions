@@ -46,6 +46,7 @@ Customize your message shown on your reMarkable during light sleep to make your 
 
 ## Help
 * If you want to use it together with [rm-hacks-qmd](https://github.com/asivery/rm-hacks-qmd), please overwrite the original ```zz_rmhacks.qmd``` file with my ```zz_rmhacks.qmd```.
+* Everything from the folder ```support for rm-hacks-qmd```
 
 
 ## Acknowledgements
