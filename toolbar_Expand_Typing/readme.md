@@ -29,7 +29,10 @@ This is extra shortcut bottons in the Text subtoolbar for selecting prefered pen
 
 
 ## Help
-* ...
+* If you want to use it together with [rm-hacks-qmd](https://github.com/asivery/rm-hacks-qmd), please overwrite the original ```zz_rmhacks.qmd``` file with my ```zz_rmhacks.qmd```.
+* And also use ```toolbar_Expand_Typing.qmd``` file.
+* Everything from the folder ```support for rm-hacks-qmd```
+* But you will lose features like ```hide_text_tool_hack``` and ```more_stroke_sizes_hack```.
 
 
 ## Acknowledgements

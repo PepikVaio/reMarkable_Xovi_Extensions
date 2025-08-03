@@ -1,0 +1,457 @@
+AFFECT /qml/common/Values.qml
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE Item
+
+        LOCATE AFTER ALL
+        INSERT {
+            // Initializing variables - Access the "settings_Expand_Typing"
+            property alias settings_Expand_Typing: settings_Expand_Typing
+            // ------------------------------------------------------------
+
+            Settings {
+                id: settings_Expand_Typing
+                category: "xovi_Settings_" + set_Name_Extension
+
+                // Initializing variables - Name extension
+                property string set_Name_Extension: "toolbar_Expand_Typing"
+                // --------------------------------------------------------
+
+                // Initializing variables - Main
+                property bool is_Debug_Mode: false
+
+                property bool is_Enabled_Expand_Typing: false
+
+                property bool is_Enabled_Pen_Primary: true
+                property bool is_Enabled_Pen_Secondary: true
+                property bool is_Enabled_Tool_Other: true
+
+                property var enabled_ArkToggleWrapper: [is_Enabled_Pen_Primary, is_Enabled_Pen_Secondary, is_Enabled_Tool_Other]
+                property var single_Enabled_ArkToggleWrapper: enabled_ArkToggleWrapper.filter(v => v).length === 1 ? enabled_ArkToggleWrapper.filter(v => v)[0] : null
+
+                property string set_Pen_Mode_Primary: "auto"
+                property string set_Pen_Mode_Secondary: "auto"
+                property var set_Tool_Other: ["erase all", "selection"]
+
+                property string set_Path_Icon_Manual_Primary
+                property string set_Path_Icon_Manual_Secondary
+
+                property int set_Pen_Tool_Manual_Primary
+                property int set_Pen_Tool_Manual_Secondary
+
+                // Reset values
+                property string reset_Pen_Mode_Primary: "auto"
+                property string reset_Pen_Mode_Secondary: "auto"
+
+                property string reset_Path_Icon_Manual_Primary: "qrc:/ark/icons/ballpoint_tip"
+                property string reset_Path_Icon_Manual_Secondary: "qrc:/ark/icons/ballpoint_tip"
+
+                property int reset_Pen_Tool_Manual_Primary: 15
+                property int reset_Pen_Tool_Manual_Secondary: 15
+
+                property var reset_Tool_Other: ["erase all", "selection"]
+                // ---------------------------------------------------------------------------------------------------------------------------------------------------
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+AFFECT /xofm/libs/toolbar/impl/Toolbar.qml
+;    IMPORT common 1.0 // disabled for rm-hacks-qmd
+
+	TRAVERSE FocusScope#root
+
+        LOCATE AFTER id
+        INSERT {
+
+            // Initializing variables - Local
+            property string set_Pen_Active: "primary"
+            property string path_Icon_Auto_Primary: ""
+            property string path_Icon_Auto_Secondary: ""
+            // -----------------------------------------
+        }
+
+    END TRAVERSE 
+
+	TRAVERSE FocusScope > GridLayout > Repeater > Loader#editingToolLoader > Connections
+    
+        LOCATE AFTER target
+        INSERT {
+            function onChange_Pen_Primary(icon) {
+                root.path_Icon_Auto_Primary = icon;
+                Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "New path_Icon_Auto_Primary is: " + Values.settings_Expand_Typing.path_Icon_Auto_Primary);
+            }
+
+            function onChange_Pen_Secondary(icon) {
+                root.path_Icon_Auto_Secondary = icon;
+                Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "New path_Icon_Auto_Secondary is: " + Values.settings_Expand_Typing.path_Icon_Auto_Secondary);
+            }
+        }  
+
+    END TRAVERSE 
+
+END AFFECT
+
+
+AFFECT /xofm/libs/toolbar/impl/EraserMenu.qml
+    IMPORT common 1.0
+
+    TRAVERSE ToolbarTool#root
+    
+        LOCATE AFTER id
+        INSERT {
+            signal selectPen()
+        }
+
+        LOCATE BEFORE onPressed
+        REBUILD onEraseAllSelected
+
+            LOCATE AFTER { root.toolbar.eraseAllSelected(); }
+            INSERT {
+                toolbar.selectPen(toolbar.set_Pen_Active);
+            }
+
+        END REBUILD
+        
+    END TRAVERSE
+
+END AFFECT
+
+
+AFFECT /xofm/libs/toolbar/impl/PenMenu.qml
+    IMPORT common 1.0
+
+    TRAVERSE ToolbarTool#root
+
+        LOCATE AFTER id
+        INSERT {
+            signal change_Pen_Primary(icon: string)
+            signal change_Pen_Secondary(icon: string)
+
+            function iconForTool(tool) {
+                return toolModel.iconForTool(tool)
+            }
+
+            function set_Pens() {
+                // console.error(root.penToolType);
+                // console.error(root.pen.tool);
+                // console.error(root.iconForTool(root.pen.tool));
+                // console.error(toolModel.titleForTool(root.pen.tool));
+                // console.error("PEN FULL", JSON.stringify(root.pen));
+
+                switch (root.penToolType) {
+                    case "primary":
+                        change_Pen_Primary(root.iconForTool(root.pen.tool));
+                        Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "Update pen primary");
+                        break;
+                    case "secondary":
+                        change_Pen_Secondary(root.iconForTool(root.pen.tool));
+                        Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "Update pen secondary");
+                        break;
+                    default:
+                        Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "Unknown pen type", "warn");
+                }                
+            }
+
+            Timer {
+                id: timer_Pen
+                interval: 3000
+                running: false
+                repeat: false
+                onTriggered: {
+                    set_Pens();
+                }
+            }
+        }
+
+        LOCATE BEFORE iconSource
+        REBUILD Connections
+
+            LOCATE AFTER { target: pen }
+            INSERT {
+                function onToolChanged() {
+                    Qt.callLater(function() {
+                        set_Pens();
+                    });
+                }
+
+                Component.onCompleted: {
+                    timer_Pen.start();
+                }
+            }
+
+        END REBUILD
+
+        LOCATE AFTER onHighlighterSnapToTextSelected
+        REBUILD onPressed
+
+            LOCATE AFTER { root.toolbar.selectedTool = root; }
+            REMOVE {
+                root.toolbar.selectedPenTool = root;
+            }
+
+            LOCATE AFTER { root.penToolSelected(root.pen.tool); }
+            INSERT {
+                toolbar.set_Pen_Active = root.penToolType;
+                Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "New set_Pen_Active is: " + toolbar.set_Pen_Active);
+            }
+
+        END REBUILD
+
+    END TRAVERSE
+
+END AFFECT
+
+
+AFFECT /xofm/libs/toolbar/impl/TypingMenu.qml
+    IMPORT common 1.0
+
+	TRAVERSE ToolbarTool#root
+    
+        LOCATE AFTER id
+        INSERT {
+            property string path_Icon_Auto_Primary: toolbar.path_Icon_Auto_Primary
+            property string path_Icon_Auto_Secondary: toolbar.path_Icon_Auto_Secondary
+            
+            signal selectPen()
+            signal selectSelection()
+            signal eraseAllSelected()
+            signal penToolSelected(tool : int)
+        }
+
+	END TRAVERSE
+    
+	TRAVERSE ToolbarTool > ColumnLayout > ArkControls.FoldoutItem
+
+        REPLACE visible WITH {
+            visible: !Values.settings_Expand_Typing.is_Enabled_Expand_Typing;
+        }
+
+	END TRAVERSE
+
+	TRAVERSE ToolbarTool > ColumnLayout#content
+
+		LOCATE AFTER ArkControls.FoldoutItem
+		INSERT {
+
+            ArkControls.FoldoutSectionHeader {
+                label: (root.documentLength > 0 ? qsTr("Edit") : qsTr("Add")) + qsTr(" text (with tool)")
+                visible: Values.settings_Expand_Typing.is_Enabled_Expand_Typing;
+                antialiasing: root.antialiasing
+                Layout.fillWidth: true
+            }
+
+            ArkControls.FoldoutGrid {
+                columns: 2
+                visible: Values.settings_Expand_Typing.is_Enabled_Expand_Typing;
+                Layout.fillWidth: true
+
+                // Auto - Primary
+                ArkControls.FoldoutItem {
+                    visible: Values.settings_Expand_Typing.is_Enabled_Pen_Primary && Values.settings_Expand_Typing.set_Pen_Mode_Primary === "auto"
+                    iconSource: path_Icon_Auto_Primary
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.set_Pen_Active = "primary";
+                        toolbar.selectPen(toolbar.set_Pen_Active);
+                        root.typingModeSelected();
+                    }
+                }
+
+                // Manual - Primary
+                ArkControls.FoldoutItem {
+                    visible:  Values.settings_Expand_Typing.is_Enabled_Pen_Primary && Values.settings_Expand_Typing.set_Pen_Mode_Primary === "manual"
+                    iconSource: Values.settings_Expand_Typing.set_Path_Icon_Manual_Primary
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.set_Pen_Active = "primary";
+                        toolbar.selectPen(toolbar.set_Pen_Active);
+                        toolbar.penToolSelected(Values.settings_Expand_Typing.set_Pen_Tool_Manual_Primary);
+                        root.typingModeSelected();
+                    }
+                }
+
+                // Auto - Secondary
+                ArkControls.FoldoutItem {
+                    visible: Values.settings_Expand_Typing.is_Enabled_Pen_Secondary && Values.settings_Expand_Typing.set_Pen_Mode_Secondary === "auto"
+                    iconSource: path_Icon_Auto_Secondary
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.set_Pen_Active = "secondary";
+                        toolbar.selectPen(toolbar.set_Pen_Active);
+                        root.typingModeSelected();
+                    }
+                }
+
+                // Manual - Secondary
+                ArkControls.FoldoutItem {
+                    visible:  Values.settings_Expand_Typing.is_Enabled_Pen_Secondary && Values.settings_Expand_Typing.set_Pen_Mode_Secondary === "manual"
+                    iconSource: Values.settings_Expand_Typing.set_Path_Icon_Manual_Secondary
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.set_Pen_Active = "secondary";
+                        toolbar.selectPen(toolbar.set_Pen_Active);
+                        toolbar.penToolSelected(Values.settings_Expand_Typing.set_Pen_Tool_Manual_Secondary);
+                        root.typingModeSelected();
+                    }
+                }
+
+                // I do not know how to select eraser menu :(
+                ArkControls.FoldoutItem {
+                    // label: qsTr("Eraser")
+                    visible: Values.settings_Expand_Typing.is_Enabled_Tool_Other && Values.settings_Expand_Typing.set_Tool_Other.indexOf("eraser") !== -1
+                    iconSource: "qrc:/ark/icons/eraser"
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.eraserToolSelected(6)
+                        root.typingModeSelected();
+                    }
+                }
+
+                // I do not know how to select eraser menu :(
+                ArkControls.FoldoutItem {
+                    // label: qsTr("Selection eraser")
+                    visible: Values.settings_Expand_Typing.is_Enabled_Tool_Other && Values.settings_Expand_Typing.set_Tool_Other.indexOf("selection eraser") !== -1
+                    iconSource: "qrc:/ark/icons/erase_selection"
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.eraserToolSelected(8)
+                        root.typingModeSelected();
+                    }
+                }
+
+                ArkControls.FoldoutItem {
+                    // label: qsTr("Eraser all")
+                    visible: Values.settings_Expand_Typing.is_Enabled_Tool_Other && Values.settings_Expand_Typing.set_Tool_Other.indexOf("erase all") !== -1
+                    iconSource: "qrc:/ark/icons/erase_all"
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.eraseAllSelected();
+                        toolbar.selectPen(toolbar.set_Pen_Active);
+                        root.typingModeSelected();
+                    }
+                }
+
+                ArkControls.FoldoutItem {
+                    // label: qsTr("Selection")
+                    visible: Values.settings_Expand_Typing.is_Enabled_Tool_Other && Values.settings_Expand_Typing.set_Tool_Other.indexOf("selection") !== -1
+                    iconSource: "qrc:/ark/icons/selection_tool"
+                    highlighted: false
+                    antialiasing: root.antialiasing
+                    onPressed: {
+                        toolbar.selectSelection();
+                        root.typingModeSelected();
+                    }
+                }
+            }
+		}
+
+	END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ColumnLayout {
+            id: root_Expand_Typing
+
+            // Run "~/xovi/debug" on terminal (reMarkable)
+            // true = Debug mode / false = Release mode
+            // Warning – Changes the path to the files "open_File()"
+            property bool is_Debug_Mode: false
+            // -----------------------------------------------------
+
+            // Initializing variables - Main
+            property string set_Label: qsTr("Expand typing")
+            property string set_Description: qsTr("Expand tool selection when typing.")
+
+            property string set_Text_01: qsTr("Settings")
+
+            property string set_Status_01: (Values.settings_Expand_Typing.is_Enabled_Pen_Primary ? qsTr(Values.settings_Expand_Typing.set_Pen_Mode_Primary) : qsTr("false")) + " / " + (Values.settings_Expand_Typing.is_Enabled_Pen_Secondary ? qsTr(Values.settings_Expand_Typing.set_Pen_Mode_Secondary) : qsTr("false")) + " / " + (Values.settings_Expand_Typing.is_Enabled_Tool_Other ? qsTr("true") : qsTr("false"))
+
+            property var dictionary_Data: [
+                { text: root_Expand_Typing.set_Text_01, status: root_Expand_Typing.set_Status_01, name_File: Values.settings_Expand_Typing.set_Name_Extension + "_Settings" }
+                // ...
+            ]
+            // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+            ArkControls.Panel {
+                Layout.fillWidth: true
+                label: root_Expand_Typing.set_Label
+                description: root_Expand_Typing.set_Description
+
+                action: ArkToggleWrapper {
+                    checked: Values.settings_Expand_Typing.is_Enabled_Expand_Typing
+                    showFocus: false
+                    
+                    extendedMouseArea.onPressed: {
+                        Values.settings_Expand_Typing.is_Enabled_Expand_Typing = !Values.settings_Expand_Typing.is_Enabled_Expand_Typing;
+                        Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "New is_Enabled_Expand_Typing is: " + Values.settings_Expand_Typing.is_Enabled_Expand_Typing);
+
+                        // Reset values
+                        if (!Values.settings_Expand_Typing.is_Enabled_Expand_Typing) {
+                            Values.settings_Expand_Typing.is_Enabled_Pen_Primary = true;
+                            Values.settings_Expand_Typing.is_Enabled_Pen_Secondary = true;
+                            Values.settings_Expand_Typing.is_Enabled_Tool_Other = true;
+
+                            Values.settings_Expand_Typing.set_Pen_Mode_Primary = Values.settings_Expand_Typing.reset_Pen_Mode_Primary;
+                            Values.settings_Expand_Typing.set_Pen_Mode_Secondary = Values.settings_Expand_Typing.reset_Pen_Mode_Secondary;
+                            Values.settings_Expand_Typing.set_Tool_Other = Values.settings_Expand_Typing.reset_Tool_Other.slice()
+
+                            Values.settings_Expand_Typing.set_Path_Icon_Manual_Primary = Values.settings_Expand_Typing.reset_Path_Icon_Manual_Primary;
+                            Values.settings_Expand_Typing.set_Path_Icon_Manual_Secondary = Values.settings_Expand_Typing.reset_Path_Icon_Manual_Secondary;
+
+                            Values.settings_Expand_Typing.set_Pen_Tool_Manual_Primary = Values.settings_Expand_Typing.reset_Pen_Tool_Manual_Primary;
+                            Values.settings_Expand_Typing.set_Pen_Tool_Manual_Secondary = Values.settings_Expand_Typing.reset_Pen_Tool_Manual_Secondary;
+
+                            Values.settings_Xovi_Main.show_Console_Message(Values.settings_Expand_Typing.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ArkControls.Cell {
+                Layout.fillWidth: true
+                visible: Values.settings_Expand_Typing.is_Enabled_Expand_Typing
+
+                Repeater {
+                    model: root_Expand_Typing.dictionary_Data
+
+                    delegate: CellItemWrapper {
+                        required property var modelData
+                        
+                        text: modelData.text
+                        status: modelData.status
+
+                        onClicked: {
+                            Values.settings_Xovi_Main.open_File(root_Expand_Typing, "root_Expand_Typing", modelData.name_File, Values.settings_Expand_Typing.is_Debug_Mode, settings);
+                        }
+                    }
+                }
+            }
+
+            Component.onCompleted: {
+                Values.settings_Expand_Typing.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
