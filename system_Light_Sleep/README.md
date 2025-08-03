@@ -45,7 +45,7 @@ Customize your message shown on your reMarkable during light sleep to make your 
 
 
 ## Help
-* ...
+* If you want to use it together with ```rm-hacks-qmd```, please overwrite the original ```zzz_rmhacks.qmd``` file with my ```zzz_rmhacks.qmd```.
 
 
 ## Acknowledgements
