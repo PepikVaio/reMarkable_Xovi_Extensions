@@ -18,7 +18,7 @@ In the latest update, reMarkable changed the behavior of two buttons (open toolb
 
 
 ### Requirements
-* ...
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 
 ### Using
