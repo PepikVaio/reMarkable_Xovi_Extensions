@@ -5,6 +5,7 @@ Enchant your reMarkable with a cozy goodnight message for light sleep mode.
 ## Description
 Customize your message shown on your reMarkable during light sleep to make your device feel more personal and welcoming with a gentle reminder or friendly note.
 
+  - Option to edit text size.
   - Option to edit text and its style and with Unicode characters!
   - Option to edit text position.
   - Option to edit text margin.
@@ -21,6 +22,9 @@ Customize your message shown on your reMarkable during light sleep to make your 
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 ### Using
+* Text size:
+  - You can change the default font size (set in px).
+
 * Unicode symbol:
   - You can insert unicode symbol from web page: (example)
   - To decode you must press enter on the keyboard.
