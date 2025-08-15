@@ -31,6 +31,7 @@ Just copy the files *qmd, *rcc and *json (if available) to the folder ``` /home/
 ### Usage
 * [document_Reader_Mode](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Reader_Mode) - Read without distractions and track your statistics.
 * [document_Multiple_Navigation_History](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Multiple_Navigation_History) - Unlimited jump back options in PDF files.
+* [document_Toolbar_X](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/document_Toolbar_X) - Customize toolbar panel (open toolbar button and close document button).
 
 * [sidebar_Clock](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Clock) - Incredible clock on the reMarkable panel (you can add holidays, special days and weather).
 * [sidebar_Translated](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/sidebar_Translated) - Partial translation of the sidebar into Czech. A better version will be available soon.
