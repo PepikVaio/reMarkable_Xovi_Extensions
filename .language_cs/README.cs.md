@@ -21,7 +21,7 @@ Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.
 
 ### Požadavky
 * reMarkable 1/2, reMarkable Paper Pro
-* [Xovi](https://github.com/asivery/xovi)
+* [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
 
 
 ### Instalace
