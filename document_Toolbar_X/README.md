@@ -37,8 +37,8 @@ Inspiration, code snippets, etc...
 * ...
 
 
-![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Toolbar_X_01.png?raw=true)
-![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Toolbar_X_02.png?raw=true)
-![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Toolbar_X_03.png?raw=true)
-![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Toolbar_X_04.png?raw=true)
-![image_05](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Toolbar_X_05.png?raw=true)
+![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Toolbar_X/.pictures/document_Toolbar_X_01.png?raw=true)
+![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Toolbar_X/.pictures/document_Toolbar_X_02.png?raw=true)
+![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Toolbar_X/.pictures/document_Toolbar_X_03.png?raw=true)
+![image_04](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Toolbar_X/.pictures/document_Toolbar_X_04.png?raw=true)
+![image_05](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Toolbar_X/.pictures/document_Toolbar_X_05.png?raw=true)
