@@ -4,15 +4,15 @@ VERSION 3.20.0.92
 LOAD xovi_Extensions_by_Wajsar_Josef/main/xovi_Settings_Main.qmd
 
 LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Multiple_Navigation_History.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Multiple_Navigation_History.rcc
-; LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Toolbar_X.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Toolbar_X.rcc
+LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Multiple_Navigation_History.rcc
+LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Toolbar_X.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Toolbar_X.rcc
 
-; LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Battery_Standby.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Light_Sleep.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Light_Sleep.rcc
-; LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Translation.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Translation.rcc
+LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Battery_Standby.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Light_Sleep.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Light_Sleep.rcc
+LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Translation.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/system/system_Translation.rcc
 
-; LOAD xovi_Extensions_by_Wajsar_Josef/toolbar/toolbar_Expand_Typing.qmd
-; LOAD xovi_Extensions_by_Wajsar_Josef/toolbar/toolbar_Expand_Typing.rcc
+LOAD xovi_Extensions_by_Wajsar_Josef/toolbar/toolbar_Expand_Typing.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/toolbar/toolbar_Expand_Typing.rcc
