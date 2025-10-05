@@ -1,7 +1,7 @@
 ; xovi_Extensions_by_Wajsar_Josef v3.20.0.92
 VERSION 3.20.0.92
 
-LOAD xovi_Extensions_by_Wajsar_Josef/main/xovi_Settings_Main.qmd
+LOAD xovi_Extensions_by_Wajsar_Josef/base/xovi_Settings_Main.qmd
 
 LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Multiple_Navigation_History.qmd
 LOAD xovi_Extensions_by_Wajsar_Josef/document/document_Multiple_Navigation_History.rcc
