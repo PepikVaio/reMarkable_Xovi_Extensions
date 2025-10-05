@@ -1,0 +1,375 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ColumnLayout {
+            id: root_Toolbar_X
+
+            // Run "~/xovi/debug" on terminal (reMarkable)
+            // true = Debug mode / false = Release mode
+            // Warning – Changes the path to the files "open_File()"
+            property bool is_Debug_Mode: false
+            // -----------------------------------------------------
+            
+
+            // Initializing variables - Main
+            property string set_Label: qsTr("Toolbar X")
+            property string set_Description: qsTr("Move the toolbar and 'x' buttons exactly where you want.")
+
+            property string set_Text_01: qsTr("Button open toolbar")
+            property string set_Text_02: qsTr("Button close document")
+            property string set_Text_03: qsTr("Settings")
+
+            property string set_Status_01: Values.settings_Toolbar_X.set_Position_Open_Toolbar
+            property string set_Status_02: Values.settings_Toolbar_X.set_Position_Close_Document
+            property string set_Status_03
+
+            property var dictionary_Data: [
+                { text: root_Toolbar_X.set_Text_01, status: root_Toolbar_X.set_Status_01, name_File: Values.settings_Toolbar_X.set_Name_Extension + "_Button_Open_Toolbar" },
+                { text: root_Toolbar_X.set_Text_02, status: root_Toolbar_X.set_Status_02, name_File: Values.settings_Toolbar_X.set_Name_Extension + "_Button_Close_Document", enabled: Values.settings_Toolbar_X.is_Enabled_Close_Button},
+                { text: root_Toolbar_X.set_Text_03, status: root_Toolbar_X.set_Status_03, name_File: Values.settings_Toolbar_X.set_Name_Extension + "_Settings" }
+                // ...
+            ]
+            // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+            ArkControls.Panel {
+                Layout.fillWidth: true
+                label: root_Toolbar_X.set_Label
+                description: root_Toolbar_X.set_Description
+
+                action: ArkToggleWrapper {
+                    checked: Values.settings_Toolbar_X.is_Enabled_Toolbar_X
+                    
+                    showFocus: false
+
+                    extendedMouseArea.onPressed: {
+                        Values.settings_Toolbar_X.is_Enabled_Toolbar_X = !Values.settings_Toolbar_X.is_Enabled_Toolbar_X;
+                        Values.function_Xovi_Main.show_Console_Message(Values.settings_Toolbar_X.is_Debug_Mode, "New is_Enabled_Toolbar_X is: " + Values.settings_Toolbar_X.is_Enabled_Toolbar_X);
+
+                        // Reset values
+                        if (Values.settings_Xovi_Main.is_Enabled_Restore_Default_Settings && !Values.settings_Toolbar_X.is_Enabled_Toolbar_X) {
+                            Values.settings_Toolbar_X.reset_Values();
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Toolbar_X.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ArkControls.Cell {
+                Layout.fillWidth: true
+                visible: Values.settings_Toolbar_X.is_Enabled_Toolbar_X
+                
+                Repeater {
+                    model: root_Toolbar_X.dictionary_Data
+
+                    delegate: CellItemWrapper {
+                        required property var modelData
+
+                        text: modelData.text
+                        status: modelData.status
+                        visible: modelData.enabled !== false
+
+                        onClicked: {
+                            Values.function_Xovi_Main.open_File(root_Toolbar_X, "root_Toolbar_X", modelData.name_File, Values.settings_Toolbar_X.is_Debug_Mode, settings);
+                        }
+                    }
+                }
+            }
+
+            Component.onCompleted: {
+                Values.settings_Toolbar_X.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+
+
+
+
+AFFECT /qml/common/Values.qml
+
+    TRAVERSE Item
+
+        LOCATE AFTER ALL
+        INSERT {
+            // Initializing variables - Access the "settings_Toolbar_X"
+            property alias settings_Toolbar_X: settings_Toolbar_X
+            // --------------------------------------------------------
+
+            Settings {
+                id: settings_Toolbar_X
+                category: "xovi_Settings_" + set_Name_Extension
+
+                // Initializing variables - Name extension
+                property string set_Name_Extension: "document_Toolbar_X"
+                // -----------------------------------------------------
+
+                // Initializing variables - Main
+                property bool is_Debug_Mode: false
+
+                property bool is_Enabled_Toolbar_X: false
+
+
+                // Open toolbar
+                property string set_Position_Open_Toolbar: "top"
+
+                property bool is_Enabled_Border_Open_Toolbar: false
+                property bool is_Enabled_Background_Open_Toolbar: true
+                property bool is_Enabled_Style_Open_Toolbar: false
+
+                property string set_Border_Color_Open_Toolbar: "transparent"
+                property string set_Background_Color_Open_Toolbar: "transparent"
+
+                property int set_Size_Open_Toolbar: 25
+                property int set_Radius_Open_Toolbar: 10
+                property int set_Border_Width_Open_Toolbar: 2
+
+
+                // Close document
+                property string set_Position_Close_Document: "center"
+
+                property bool is_Enabled_Border_Close_Document: false
+                property bool is_Enabled_Background_Close_Document: false
+                property bool is_Enabled_Style_Close_Document: false
+
+                property string set_Border_Color_Close_Document: "transparent"
+                property string set_Background_Color_Close_Document: "transparent"
+
+                property int set_Size_Close_Document: 25
+                property int set_Radius_Close_Document: 10
+                property int set_Border_Width_Close_Document: 2
+
+
+                // Settings
+                property bool is_Enabled_Close_Button_Original: false
+
+                property bool is_Enabled_Reverse: false
+                property bool is_Enabled_Close_Button: true
+                property bool is_Enabled_Close_Button_Permanently: false
+                // --------------------------------------------------------------
+
+                function get_Default_Values() {
+                    return {
+                        // Reset values - Open toolbar
+                        set_Position_Open_Toolbar: "top",
+
+                        is_Enabled_Border_Open_Toolbar: false,
+                        is_Enabled_Background_Open_Toolbar: true,
+                        is_Enabled_Style_Open_Toolbar: false,
+
+                        set_Border_Color_Open_Toolbar: "transparent",
+                        set_Background_Color_Open_Toolbar: "transparent",
+
+                        set_Size_Open_Toolbar: 25,
+                        set_Radius_Open_Toolbar: 10,
+                        set_Border_Width_Open_Toolbar: 2,
+
+
+                        // Reset values - Close document
+                        set_Position_Close_Document: "center",
+
+                        is_Enabled_Border_Close_Document: false,
+                        is_Enabled_Background_Close_Document: false,
+                        is_Enabled_Style_Close_Document: false,
+
+                        set_Border_Color_Close_Document: "transparent",
+                        set_Background_Color_Close_Document: "transparent",
+
+                        set_Size_Close_Document: 25,
+                        set_Radius_Close_Document: 10,
+                        set_Border_Width_Close_Document: 2,
+
+
+                        // Reset values - Settings
+                        is_Enabled_Close_Button_Original: false,
+
+                        is_Enabled_Reverse: false,
+                        is_Enabled_Close_Button: true,
+                        is_Enabled_Close_Button_Permanently: false
+                        // ---------------------------------------
+                    }
+                }
+
+                function reset_Values(keys) {
+                    Values.function_Xovi_Main.reset_Values(Values.settings_Toolbar_X, Values.settings_Toolbar_X.get_Default_Values(), keys);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+AFFECT /xofm/libs/toolbar/impl/Toolbar.qml
+
+    TRAVERSE FocusScope > GridLayout#toolLayout > ArkControls.ToolButton
+
+        LOCATE AFTER ALL
+        INSERT {
+            visible: Values.settings_Toolbar_X.is_Enabled_Toolbar_X ? false : true
+        }
+
+    END TRAVERSE
+
+    TRAVERSE FocusScope > GridLayout#toolLayout
+
+        LOCATE AFTER ArkControls.ToolButton
+        INSERT {
+
+            Repeater {
+                model: toolLayout.get_List_Sorte("top")
+                delegate: Loader {
+                    sourceComponent: modelData
+                    visible: modelData !== null
+                }
+            }
+
+        }
+
+        LOCATE AFTER Item
+        INSERT {
+
+            Repeater {
+                model: toolLayout.get_List_Sorte("center")
+                delegate: Loader {
+                    sourceComponent: modelData
+                    visible: modelData !== null
+                }
+            }
+
+        }
+
+        LOCATE AFTER ALL
+        INSERT {
+
+            Repeater {
+                model: toolLayout.get_List_Sorte("bottom")
+                delegate: Loader {
+                    sourceComponent: modelData
+                    visible: modelData !== null
+                }
+            }
+
+            Component {
+                id: component_Button_Hide_Show
+
+                ArkControls.ToolButton {
+                    objectName: "hide-show-toolbar-button"
+                    // iconSource: root.expanded ? "qrc:/ark/icons/toolbar_hide" : "qrc:/ark/icons/multicolor/toolbar_show"
+                    iconSource: "qrc:/ark/icons/multicolor/toolbar_show"
+
+                    topInset: root.position === ToolbarPositioner.Position.Top ? -root.gestureMargin : 0
+                    bottomInset: root.position === ToolbarPositioner.Position.Bottom ? -root.gestureMargin : 0
+
+                    focusPolicy: Qt.NoFocus
+                    // multicolor: !root.expanded
+                    multicolor: true
+
+                    // contentItem.rotation: root.position === ToolbarPositioner.Position.Right && !root.expanded ? 90 : 90
+                    contentItem.rotation: {
+                        if (root.position === ToolbarPositioner.Position.Right && !root.expanded) {
+                            return 90;
+                        } else if (root.position === ToolbarPositioner.Position.Right && root.expanded) {
+                            return -90;
+                        } else if (root.position === ToolbarPositioner.Position.Left && !root.expanded) {
+                            return 0;
+                        } else if (root.position === ToolbarPositioner.Position.Left && root.expanded) {
+                            return 180;
+                        } else {
+                            return 0;
+                        }
+                    }
+
+                    background: Rectangle {
+                        color: Values.settings_Toolbar_X.set_Background_Color_Open_Toolbar
+                        radius: Values.settings_Toolbar_X.set_Radius_Open_Toolbar
+                        scale: (0.65 * Values.settings_Toolbar_X.set_Size_Open_Toolbar / 100) + 0.35
+                        visible: Values.settings_Toolbar_X.is_Enabled_Border_Open_Toolbar || Values.settings_Toolbar_X.is_Enabled_Background_Open_Toolbar
+
+                        border.color: Values.settings_Toolbar_X.set_Border_Color_Open_Toolbar
+                        border.width: Values.settings_Toolbar_X.set_Border_Width_Open_Toolbar
+
+                        anchors.fill: parent
+                    }
+
+                    onClicked: root.expanded = !root.expanded
+                }
+            }
+
+            Component {
+                id: component_Button_Close
+
+                ArkControls.ToolButton {
+                    id: closeButton
+
+                    objectName: "close-documentview-button"
+                    iconSource: "qrc:/ark/icons/multicolor/x_circle"
+
+                    topInset: root.position === ToolbarPositioner.Position.Top ? -root.gestureMargin : 0
+                    bottomInset: root.position === ToolbarPositioner.Position.Bottom ? -root.gestureMargin : 0
+
+                    focusPolicy: Qt.NoFocus
+                    multicolor: true
+
+                    // visible: toolbar.shown
+                    visible: {
+                        if (Values.settings_Toolbar_X.set_Position_Close_Document === "center") {
+                            return toolbar.shown;
+                        } else {
+                            if(Values.settings_Toolbar_X.is_Enabled_Close_Button_Permanently) {
+                                return true;
+                            } else {
+                                return toolbar.shown;
+                            }
+                        }
+                    }
+
+                    background: Rectangle {
+                        color: Values.settings_Toolbar_X.set_Background_Color_Close_Document
+                        radius: Values.settings_Toolbar_X.set_Radius_Close_Document
+                        scale: (0.65 * Values.settings_Toolbar_X.set_Size_Close_Document / 100) + 0.35
+                        visible: Values.settings_Toolbar_X.is_Enabled_Border_Close_Document || Values.settings_Toolbar_X.is_Enabled_Background_Close_Document
+
+                        border.color: Values.settings_Toolbar_X.set_Border_Color_Close_Document
+                        border.width: Values.settings_Toolbar_X.set_Border_Width_Close_Document
+
+                        anchors.fill: parent
+                    }
+
+                    onClicked: {
+                        documentTelemetry.closeMethod.reportButton(false);
+                        documentView.close();
+                    }
+                }
+            }
+
+            function get_List_Sorte(position) {
+                const match_Open_Toolbar = Values.settings_Toolbar_X.is_Enabled_Toolbar_X && Values.settings_Toolbar_X.set_Position_Open_Toolbar === position ? component_Button_Hide_Show : null;
+                const match_Close_Document = Values.settings_Toolbar_X.is_Enabled_Toolbar_X && Values.settings_Toolbar_X.is_Enabled_Close_Button && Values.settings_Toolbar_X.set_Position_Close_Document === position ? component_Button_Close : null
+
+                return Values.settings_Toolbar_X.is_Enabled_Reverse ? [match_Close_Document, match_Open_Toolbar] : [match_Open_Toolbar, match_Close_Document]
+            }
+
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+AFFECT /qml/device/view/documentview/DocumentView.qml
+
+    TRAVERSE FocusScope > Item > ArkControls.ToolButton#closeButton
+
+        REPLACE visible WITH {
+            visible: (!Values.settings_Toolbar_X.is_Enabled_Toolbar_X || Values.settings_Toolbar_X.is_Enabled_Close_Button_Original) && toolbar.shown
+        }
+
+    END TRAVERSE
+
+
+END AFFECT
