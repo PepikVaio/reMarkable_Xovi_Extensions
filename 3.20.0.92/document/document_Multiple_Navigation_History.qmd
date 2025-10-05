@@ -1,0 +1,263 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ColumnLayout {
+            id: root_Multiple_Navigation_History
+
+            // Run "~/xovi/debug" on terminal (reMarkable)
+            // true = Debug mode / false = Release mode
+            // Warning – Changes the path to the files "open_File()"
+            property bool is_Debug_Mode: false
+            // -----------------------------------------------------
+            
+
+            // Initializing variables - Main
+            property string set_Label: qsTr("Multiple navigation history")
+            property string set_Description: qsTr("Use the jump back as often as needed in PDF files.")
+
+            property string set_Text_01: qsTr("Settings")
+
+            property string set_Status_01: (!Values.settings_Multiple_Navigation_History.is_Enabled_Timer ? qsTr(Values.settings_Multiple_Navigation_History.text_Timer) : qsTr("custom")) + " / " + (Values.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle ? qsTr("true") : qsTr("false"))
+
+            property var dictionary_Data: [
+                { text: root_Multiple_Navigation_History.set_Text_01, status: root_Multiple_Navigation_History.set_Status_01, name_File: Values.settings_Multiple_Navigation_History.set_Name_Extension + "_Settings" }
+                // ...
+            ]
+            // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+            ArkControls.Panel {
+                Layout.fillWidth: true
+                label: root_Multiple_Navigation_History.set_Label
+                description: root_Multiple_Navigation_History.set_Description
+
+                action: ArkToggleWrapper {
+                    checked: Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                    showFocus: false
+
+                    extendedMouseArea.onPressed: {
+                        Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History = !Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History;
+                        Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New is_Enabled_Multiple_Navigation_History is: " + Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History);
+
+                        // Reset values
+                        if (Values.settings_Xovi_Main.is_Enabled_Restore_Default_Settings && !Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History) {
+                            Values.settings_Multiple_Navigation_History.reset_Values();
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ArkControls.Cell {
+                Layout.fillWidth: true
+                visible: Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                
+                Repeater {
+                    model: root_Multiple_Navigation_History.dictionary_Data
+
+                    delegate: CellItemWrapper {
+                        required property var modelData
+                        
+                        text: modelData.text
+                        status: modelData.status
+                        onClicked: {
+                            Values.function_Xovi_Main.open_File(root_Multiple_Navigation_History, "root_Multiple_Navigation_History", modelData.name_File, Values.settings_Multiple_Navigation_History.is_Debug_Mode, settings);
+                        }
+                    }
+                }
+            }
+
+            Component.onCompleted: {
+                Values.settings_Multiple_Navigation_History.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+
+
+
+
+AFFECT /qml/common/Values.qml
+
+    TRAVERSE Item
+
+        LOCATE AFTER ALL
+        INSERT {
+            // Initializing variables - Access the "settings_Multiple_Navigation_History"
+            property alias settings_Multiple_Navigation_History: settings_Multiple_Navigation_History
+            // --------------------------------------------------------------------------------------
+
+            Settings {
+                id: settings_Multiple_Navigation_History
+                category: "xovi_Settings_" + set_Name_Extension
+
+                // Initializing variables - Name extension
+                property string set_Name_Extension: "document_Multiple_Navigation_History"
+                // -----------------------------------------------------------------------
+
+                // Initializing variables - Main
+                property bool is_Debug_Mode: false
+
+                property bool is_Enabled_Multiple_Navigation_History: false
+
+
+                // Settings
+                property bool is_Enabled_Timer: false
+                property bool is_Enabled_Hide_X_Circle: true
+
+                property int set_Timer: 8000
+
+                property string text_Timer: "original"
+                // -----------------------------------------
+
+                function get_Default_Values() {
+                    return {
+                        // Reset values - Settings
+                        is_Enabled_Timer: false,
+                        is_Enabled_Hide_X_Circle: true,
+
+                        set_Timer: 8000,
+
+                        text_Timer: "original"
+                        // ----------------------------
+                    }
+                }
+
+                function reset_Values(keys) {
+                    Values.function_Xovi_Main.reset_Values(Values.settings_Multiple_Navigation_History, Values.settings_Multiple_Navigation_History.get_Default_Values(), keys);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+AFFECT /qml/device/view/documentview/DocumentView.qml
+	
+
+    TRAVERSE FocusScope#documentView
+
+        LOCATE AFTER id
+        INSERT {
+            property var dictionary_History: []
+        }
+
+        LOCATE AFTER ALL
+        INSERT {
+            function dismiss() {
+                messageTimer.stop();
+                dictionary_History = [];
+                Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "Clear dictionary_History");
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE FocusScope > DeviceSceneView#sceneView
+
+        REBUILD onCloseGesture
+            LOCATE BEFORE { documentView.close(); }
+            INSERT {
+                documentView.dismiss();
+            }
+        END REBUILD
+
+		REPLACE onDisplayLinkNotification WITH {
+            onDisplayLinkNotification: (linkedPage, currPage) => {
+                documentView.dictionary_History.push(currPage);
+                Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New dictionary_History is: " + documentView.dictionary_History.map(p => p + 1));
+
+                let custom_Linked_Page
+                let custom_Curr_Page = documentView.dictionary_History[documentView.dictionary_History.length - 1];
+                Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Curr_Page is: " + custom_Curr_Page);
+
+                show_History_Back();
+
+                function show_History_Back() {
+                    documentView.showNotification(
+                        `page ${custom_Linked_Page === undefined ? linkedPage +1 : custom_Linked_Page + 1} of ${pageCount}`,
+                        "",
+                        `Back to page ${custom_Curr_Page + 1}`,
+                        () => {
+                            documentView.openPage(custom_Curr_Page, DocumentView.ScrollPosition.SaveAndRestore);
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "Open page ...");
+
+                            custom_Linked_Page = documentView.dictionary_History[documentView.dictionary_History.length - 1];
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Linked_Page is: " + custom_Linked_Page);
+
+                            documentView.dictionary_History.pop();
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New dictionary_History is: " + documentView.dictionary_History.map(p => p + 1));
+
+                            custom_Curr_Page = documentView.dictionary_History[documentView.dictionary_History.length - 1];
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Curr_Page is: " + custom_Curr_Page);
+
+                            if (!Values.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History || documentView.dictionary_History.length === 0) {
+                                documentView.dismiss();
+                            } else {
+                                show_History_Back();
+                            }
+                        },Values.settings_Multiple_Navigation_History.set_Timer
+                    );
+                }
+            }
+        }
+
+	END TRAVERSE
+
+    TRAVERSE FocusScope > Item > NotificationBar#notificationBar
+
+        LOCATE AFTER ALL
+        INSERT {
+            Row {
+                id: x_Circle
+                height: parent.height
+                leftPadding: 10
+                visible: Values.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle
+
+                anchors.left: parent.left
+                anchors.verticalCenter: parent.verticalCenter
+
+                Item {
+                    width: height
+                    height: parent.height
+
+                    anchors.verticalCenter: parent.verticalCenter
+
+                    ArkControls.Icon {
+                        anchors.centerIn: parent
+
+                        size: Values.iconSizeMedium
+                        color: Values.colorWhite
+                        source: "qrc:/ark/icons/x_circle"
+                    }
+
+                    MouseArea {
+                        anchors.fill: parent
+                        onClicked: {
+                            documentView.dismiss();
+                        }
+                    }
+                }
+            }
+        } 
+
+	END TRAVERSE
+
+    TRAVERSE FocusScope > Item > NotificationBar > Timer#messageTimer
+
+        LOCATE AFTER ALL
+        INSERT {
+            onTriggered: {
+                documentView.dismiss();
+            }        
+        } 
+
+	END TRAVERSE
+
+END AFFECT
