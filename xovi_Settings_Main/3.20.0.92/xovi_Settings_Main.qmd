@@ -6,12 +6,12 @@ AFFECT [[1658694193319203921]]
         LOCATE AFTER ALL
         INSERT {
             /* Initializing variables - Access the "settings_Xovi_Main"*/
-            property alias settings_Xovi_Main: settings_Xovi_Main
+            property ~&214620122227&~ settings_Xovi_Main: settings_Xovi_Main
             /* ----------------------------------------------------------*/
 
             ~&7712198086779994&~ {
                 ~&5972374&~: settings_Xovi_Main
-                category: "xovi_Settings_Xovi_Main"
+                ~&7712874798136519&~: "xovi_Settings_Xovi_Main"
 
                 /* Initializing variables - Main*/
                 property ~&7083178290016&~ path_Xovi_Extensions: "file:///home/root/xovi/exthome/qt-resource-rebuilder/"
@@ -44,7 +44,7 @@ AFFECT [[1658694193319203921]]
                 }
 
                 function go_Back(name_Extension_is_Debug_Mode, id_Page) {
-                    id_Page.destroy();
+                    id_Page.~&233724926106067&~();
                     show_Console_Message(name_Extension_is_Debug_Mode, "Page is destroyed");
                 }
 
@@ -55,14 +55,14 @@ AFFECT [[1658694193319203921]]
                     ~&214622607920&~ new_Component = ~&5971598&~.~&16810493623656567312&~(path_Full);
 
                     ~&5972376&~ (new_Component.~&7083177691309&~ === ~&254480451320573660&~.~&214602073246&~) {
-                        ~&214622607920&~ context = {};
-                        context[parent_Name] = parent_Object;
-                        new_Component.~&15747212579211679220&~(~&7713561876955258&~, context);
+                        ~&214622607920&~ ~&233724020048558&~ = {};
+                        ~&233724020048558&~[parent_Name] = parent_Object;
+                        new_Component.~&15747212579211679220&~(~&7713561876955258&~, ~&233724020048558&~);
                     } ~&6503784146&~ {
                         ~&233724020023100&~.~&214625091795&~("Check the file path:");
                         ~&233724020023100&~.~&214625091795&~("Is debug mode true?  -> Use qml files.");
                         ~&233724020023100&~.~&214625091795&~("Is debug mode false? -> Use rcc file.");
-                        show_Console_Message(is_Debug_Mode, "Error loading external window: " + new_Component.errorString(), ~&"214625091795&~);
+                        show_Console_Message(is_Debug_Mode, "Error loading external window: " + new_Component.~&480270294673959466&~(), ~&"214625091795&~);
                     }
                 }
 
@@ -91,13 +91,13 @@ END AFFECT
 
 
 AFFECT [[12599552112012170435]]
-    IMPORT QtQuick.Controls 2.0
+    IMPORT [[14051755590025246413]] 2.0
     IMPORT Qt.labs.folderlistmodel 2.1
 
-    IMPORT device.ui.text 1.0
+    IMPORT [[9024234502391964376]] 1.0
 
-    IMPORT xofm.libs.settings 1.0
-    IMPORT xofm.libs.qtgui 1.0
+    IMPORT [[18218533733987071354]] 1.0
+    IMPORT [[14976263374353557139]] 1.0
 
     TRAVERSE [[3819512207256720568]]
     
@@ -121,13 +121,13 @@ AFFECT [[12599552112012170435]]
 
                     function ~&7712792149454042&~() {
                         ~&7713561876955258&~.~&17776274328933340866&~ = 99;
-                        sidebarTimer.~&233743626668842&~ = ~&6504329801&~;
+                        ~&16542060515769262500&~.~&233743626668842&~ = ~&6504329801&~;
                     }
                 }
             }
         END TRAVERSE
 
-        TRAVERSE [[7081645463424]]#payloadLoader
+        TRAVERSE [[7081645463424]]#[[5556919789846348618]]
 
             REBUILD [[16021043814775702381]]
                 LOCATE BEFORE { default: ~&7083121450889&~ ~&6504117156&~ }
@@ -156,7 +156,7 @@ AFFECT [[12599552112012170435]]
                         }
                     }
 
-                    ~&425121728314878811&~.PlaceholderBar {
+                    ~&425121728314878811&~.~&7179807676896158689&~ {
                         ~&5972374&~: ~&496814758264239564&~
                         ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
                     }
