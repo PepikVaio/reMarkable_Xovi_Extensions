@@ -1,0 +1,255 @@
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_Multiple_Navigation_History"*/
+            property alias settings_Multiple_Navigation_History: settings_Multiple_Navigation_History
+            /* --------------------------------------------------------------------------------------*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_Multiple_Navigation_History
+                category: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension*/
+                property ~&7083178290016&~ set_Name_Extension: "document_Multiple_Navigation_History"
+                /* -----------------------------------------------------------------------*/
+
+                /* Initializing variables - Main*/
+                property bool is_Debug_Mode: ~&214625660372&~
+
+                property bool is_Enabled_Multiple_Navigation_History: ~&214625660372&~
+
+                property bool is_Enabled_Timer: ~&214625660372&~
+                property bool is_Enabled_Hide_X_Circle: ~&6504329801&~
+
+                property ~&197088788&~ set_Timer: 8000
+
+                property ~&7083178290016&~ text_Timer: "original"
+
+                /* Reset values*/
+                property ~&197088788&~ reset_Timer: 8000
+                property ~&7083178290016&~ retext_Timer: "original"
+                /* --------------------------------------------------------*/
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+AFFECT [[1224665461898798997]]
+    IMPORT Qt.labs.settings 1.0
+	
+
+    TRAVERSE [[8397993708429497603]]#[[15793094956877902211]]
+
+        LOCATE AFTER [[5972374]]
+        INSERT {
+            property ~&197102514&~ dictionary_History: []
+        }
+
+        LOCATE AFTER ALL
+        INSERT {
+            function ~&233725082386405&~() {
+                ~&16233397387354133199&~.~&6504295855&~();
+                dictionary_History = [];
+                ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "Clear dictionary_History");
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE [[8397993708429497603]] > [[5728643844066569666]]#[[254547437090201330]]
+
+        REBUILD [[18164105849308512379]]
+            LOCATE BEFORE { ~&15793094956877902211&~.~&214622501183&~(); }
+            INSERT {
+                ~&15793094956877902211&~.~&233725082386405&~();
+            }
+        END REBUILD
+
+		REPLACE [[18195120765075523889]] WITH {
+            ~&18195120765075523889&~: (~&8399749361744822237&~, ~&7712900563799906&~) => {
+                ~&15793094956877902211&~.dictionary_History.~&6504189257&~(~&7712900563799906&~);
+                ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New dictionary_History is: " + ~&15793094956877902211&~.dictionary_History.~&197092711&~(~&180985&~ => ~&180985&~ + 1));
+
+                ~&197091758&~ custom_Linked_Page
+                ~&197091758&~ custom_Curr_Page = ~&15793094956877902211&~.dictionary_History[~&15793094956877902211&~.dictionary_History.~&7082886407723&~ - 1];
+                ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Curr_Page is: " + custom_Curr_Page);
+
+                show_History_Back();
+
+                function show_History_Back() {
+                    ~&15793094956877902211&~.~&16765420033347753489&~(
+                        `page ${custom_Linked_Page === undefined ? linkedPage +1 : custom_Linked_Page + 1} of ${pageCount}`,
+                        "",
+                        `Back to page ${custom_Curr_Page + 1}`,
+                        () => {
+                            ~&15793094956877902211&~.~&7713405014271992&~(custom_Curr_Page, ~&14175747548438644067&~.~&10593835380864769165&~.~&7442916920529273295&~);
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "Open page ...");
+
+                            custom_Linked_Page = ~&15793094956877902211&~.dictionary_History[~&15793094956877902211&~.dictionary_History.~&7082886407723&~ - 1];
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Linked_Page is: " + custom_Linked_Page);
+
+                            ~&15793094956877902211&~.dictionary_History.~&197096440&~();
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New dictionary_History is: " + ~&15793094956877902211&~.dictionary_History.~&197092711&~(~&180985&~ => ~&180985&~ + 1));
+
+                            custom_Curr_Page = ~&15793094956877902211&~.dictionary_History[~&15793094956877902211&~.dictionary_History.~&7082886407723&~ - 1];
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New custom_Curr_Page is: " + custom_Curr_Page);
+
+                            ~&5972376&~ (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History || ~&15793094956877902211&~.dictionary_History.~&7082886407723&~ === 0) {
+                                ~&15793094956877902211&~.~&233725082386405&~();
+                            } ~&6503784146&~ {
+                                show_History_Back();
+                            }
+                        },~&7082020628281&~.settings_Multiple_Navigation_History.set_Timer
+                    );
+                }
+            }
+        }
+
+	END TRAVERSE
+
+    TRAVERSE [[8397993708429497603]] > [[6502786168]] > [[11119534664549952261]]#[[8042775487372731173]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            ~&197063777&~ {
+                ~&5972374&~: x_Circle
+                ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+                ~&490371291080887915&~: 10
+                ~&233748328658231&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle
+
+                ~&233721384511543&~.~&6504027668&~: ~&7083038346995&~.~&6504027668&~
+                ~&233721384511543&~.~&3441383163516681764&~: ~&7083038346995&~.~&3441383163516681764&~
+
+                ~&6502786168&~ {
+                    ~&214646099849&~: ~&7082729686082&~
+                    ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+
+                    ~&233721384511543&~.~&3441383163516681764&~: ~&7083038346995&~.~&3441383163516681764&~
+
+                    ~&425121728314878811&~.~&6502767986&~ {
+                        ~&233721384511543&~.~&7712879746914881&~: ~&7083038346995&~
+
+                        ~&6504284228&~: ~&7082020628281&~.~&3842193742606557678&~
+                        ~&214622605608&~: ~&7082020628281&~.~&8399340017260114793&~
+                        ~&7083172477658&~: "qrc:/ark/icons/x_circle"
+                    }
+
+                    ~&254494525842443467&~ {
+                        ~&233721384511543&~.~&6503816592&~: ~&7083038346995&~
+                        ~&254542236275632405&~: {
+                            ~&15793094956877902211&~.~&233725082386405&~();
+                        }
+                    }
+                }
+            }
+        } 
+
+	END TRAVERSE
+
+    TRAVERSE [[8397993708429497603]] > [[6502786168]] > [[11119534664549952261]] > [[214604601930]]#[[16233397387354133199]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            ~&495358363329399331&~: {
+                ~&15793094956877902211&~.~&233725082386405&~();
+            }        
+        } 
+
+	END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Multiple_Navigation_History
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+            
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Multiple navigation history")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Use the jump back as often as needed in PDF files.")
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
+
+            property ~&7083178290016&~ set_Status_01: (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer ? ~&6504222003&~(~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer) : ~&6504222003&~(~&"7082553357604&~)) + " / " + (~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle ? ~&6504222003&~(~&"6504329801&~) : ~&6504222003&~(~&"214625660372&~))
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Multiple_Navigation_History.set_Text_01, ~&7083177691309&~: root_Multiple_Navigation_History.set_Status_01, name_File: ~&7082020628281&~.settings_Multiple_Navigation_History.set_Name_Extension + "_Settings" }
+                /* ...*/
+            ]
+            /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Multiple_Navigation_History.set_Label
+                ~&478136262235079021&~: root_Multiple_Navigation_History.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History = !~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History;
+                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New is_Enabled_Multiple_Navigation_History is: " + ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History);
+
+                        /* Reset values*/
+                        ~&5972376&~ (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History) {
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.set_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.reset_Timer;
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.retext_Timer;
+
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer = ~&214625660372&~;
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle = ~&6504329801&~;
+
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&233748328658231&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Multiple_Navigation_History.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Multiple_Navigation_History, "root_Multiple_Navigation_History", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT

@@ -1,0 +1,78 @@
+AFFECT [[3401883773828043418]]
+
+    TRAVERSE [[3819512207256720568]]#[[6504254477]]
+        LOCATE AFTER [[5972374]]
+        INSERT {
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+            /* -------------------------------------------*/
+
+
+            /* Remap system language*/
+            property ~&197102514&~ remap_languageSettings_availableLanguages: {
+                ~&197102514&~ languages_Original = ~&4835259119655205150&~.~&10556268986736898561&~;
+                ~&197102514&~ languages_New = ["cs", "da", "el", "es", "et", "fi", "fr", "hu", "is", ~&"5972390&~, "nb", "nl", "pl", ~&"5972621&~, "ro", "sk", "sv"];
+                ~&7083121450889&~ languages_Original.~&7082546043425&~(
+                    languages_New.~&7082656280847&~(function(~&6503936152&~) {
+                        ~&7083121450889&~ languages_Original.~&233731717342038&~(~&6503936152&~) === -1;
+                    })
+                );
+            }
+
+            /* Remap sw keyboard*/
+            property ~&197102514&~ remap_KeyboardSettings_availableLayouts: {
+                ~&197102514&~ languages_Original = ~&12476042783807959979&~.~&1839122707953983835&~;
+                ~&197102514&~ languages_New = ["cs_CZ"];
+                ~&7083121450889&~ languages_Original.~&7082546043425&~(
+                    languages_New.~&7082656280847&~(function(~&6503936152&~) {
+                        ~&7083121450889&~ languages_Original.~&233731717342038&~(~&6503936152&~) === -1;
+                    })
+                );
+            }
+
+            function show_Console_Message(message_Log, debug_Type) {
+                ~&5972376&~ (~&6504254477&~.is_Debug_Mode) {
+                    ~&7083181535963&~ (debug_Type) {
+                    ~&6503700293&~ ~&"214625091795&~:
+                        ~&233724020023100&~.~&214625091795&~(message_Log);
+                        ~&214621519406&~;
+                    ~&6503700293&~ ~&"6504419009&~:
+                        ~&233724020023100&~.~&6504419009&~(message_Log);
+                        ~&214621519406&~;
+                    default:
+                        ~&233724020023100&~.~&197092075&~(message_Log);
+                        ~&214621519406&~;
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                show_Console_Message("Language original: " + ~&4835259119655205150&~.~&10556268986736898561&~);
+                show_Console_Message("Language remap:    " + remap_languageSettings_availableLanguages);
+
+                show_Console_Message("Keyboard original: " + ~&12476042783807959979&~.~&1839122707953983835&~);
+                show_Console_Message("Keyboard remap:    " + remap_KeyboardSettings_availableLayouts);
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE [[3819512207256720568]] > [[254480451320573660]]#[[17993826873061832317]] > [[3632852931850195970]]
+
+        REPLACE [[214634455770]] WITH {
+            ~&214634455770&~: remap_languageSettings_availableLanguages
+        }
+
+    END TRAVERSE
+
+    TRAVERSE [[3819512207256720568]] > [[254480451320573660]]#[[7066546362174037482]] > [[3632852931850195970]]
+
+        REPLACE [[214634455770]] WITH {
+            ~&214634455770&~: remap_KeyboardSettings_availableLayouts
+        }
+
+    END TRAVERSE
+
+END AFFECT

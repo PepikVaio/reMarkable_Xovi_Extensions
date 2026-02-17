@@ -47,7 +47,7 @@ AFFECT [[1658694193319203921]]
             } 
 
             function load_Json_File() {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", set_Json_Path);
 
                 xhr.onreadystatechange = function() {
@@ -116,7 +116,7 @@ AFFECT [[1658694193319203921]]
             }
 
             function settings_Visibility_Multiple_Navigation_History(file_Path) {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", file_Path, ~&214625660372&~);
                 xhr.~&6504279475&~();
                 ~&5972376&~ (xhr.~&7083177691309&~ === 200) {
@@ -409,7 +409,7 @@ AFFECT [[1356274648253483364]]
             }
 
             function load_Json_File() {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", ~&8399923449136558101&~.set_Json_Path);
 
                 xhr.onreadystatechange = function() {
@@ -477,7 +477,7 @@ AFFECT [[1356274648253483364]]
             }
 
             function settings_Visibility_Multiple_Navigation_History(file_Path) {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", file_Path, ~&214625660372&~);
                 xhr.~&6504279475&~();
                 ~&5972376&~ (xhr.~&7083177691309&~ === 200) {

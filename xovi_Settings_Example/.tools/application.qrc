@@ -1,6 +1,0 @@
-<RCC>
-    <qresource>
-        <file>qml/custom/sidebar_Example_File_01</file>
-        <file>qml/custom/sidebar_Example_File_02</file>
-    </qresource>
-</RCC>

@@ -1,0 +1,177 @@
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_Example"*/
+            property alias settings_Example: settings_Example
+            /* ------------------------------------------------------*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_Example
+                category: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension*/
+                property ~&7083178290016&~ set_Name_Extension: "sidebar_Example"
+                /* --------------------------------------------------*/
+
+                /* Initializing variables - Main*/
+                property bool is_Debug_Mode: ~&214625660372&~
+
+                property bool is_Enabled_Example: ~&214625660372&~
+                /* ------------------------------------*/
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+AFFECT [[4911547370760691430]]
+
+    TRAVERSE [[3819512207256720568]] > [[14125623155555875541]]#[[15885405667098360701]]
+
+        LOCATE AFTER [[16385778650434842232]]#[[7709552963638993992]]
+        INSERT {
+            ~&3819512207256720568&~ {
+                ~&5972374&~: example_Handler
+                ~&233748328658231&~: ~&7082020628281&~.settings_Example.is_Enabled_Example;
+                ~&15578034235503008618&~: example.~&15894573070403728552&~
+                ~&18047460453934198576&~: ~&233744436321411&~.~&15698048487996188246&~.~&6503672902&~(~&6504318529&~)
+                property alias ~&7082784499703&~: example.~&7082784499703&~
+                ~&7081629735527&~.~&7797818826744279624&~: ~&7083038346995&~.~&214646099849&~
+                ~&7081629735527&~.preferredHeight: ~&7082020628281&~.~&15061686673205541622&~
+
+                ~&495331016591073787&~: ~&233726474653139&~ => {~&233726474653139&~ ? ~&233726474653139&~.~&7712792149454042&~() : () => {};}
+
+                function ~&6504147419&~() {
+                    example.~&6504147419&~();
+                }
+
+                ~&5775395126865672239&~ {
+                    ~&5972374&~: example
+                    ~&214642559243&~: "Example"
+                    ~&8399878573055752961&~: "example"
+                    ~&254528403489750968&~: "example"
+                    ~&8399601734642709923&~: "qrc:/ark/icons/system_example"
+                    ~&7082729686082&~: ~&7083038346995&~.~&7082729686082&~
+                    ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                    ~&8503149615254617631&~: ~&214625660372&~
+                    ~&11921478716705041271&~: ~&233744436321411&~
+                    ~&17307904138161647760&~: example_Handler
+
+
+                    /* Initializing variables - Path (if you want)*/
+                    property ~&7083178290016&~ set_Json_Path: ~&7082020628281&~.settings_Xovi_Main.get_Json_Path(~&7082020628281&~.settings_Expand_Typing.set_Name_Extension)
+                    /* ---------------------------------------------------------------------------------------------------------------------*/
+
+
+                    ~&254542236275632405&~: {
+                        ~&233744436321411&~.~&6500896584423236548&~();
+                    }
+
+
+                    function ~&7712792149454042&~() {
+                        ~&16045040163728568448&~.~&7082784499703&~ = ~&214625660372&~;
+                        ~&7082784499703&~ = !~&7082784499703&~;
+                    }
+
+                    function ~&6504147419&~() {
+                        ~&16045040163728568448&~.~&7082784499703&~ = ~&214625660372&~;
+                        ~&7082784499703&~ = ~&6504329801&~;
+                    }
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+
+
+
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Example
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Example")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~(~&"429125734706616653&~)
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~("Text 01")
+            property ~&7083178290016&~ set_Text_02: ~&6504222003&~("Text 02")
+
+            property ~&7083178290016&~ set_Status_01: ~&6504222003&~("Status 01")
+            property ~&7083178290016&~ set_Status_02: ~&6504222003&~("Status 02")
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Example.set_Text_01, ~&7083177691309&~: root_Example.set_Status_01, name_File: ~&7082020628281&~.settings_Example.set_Name_Extension + "_File_01" },
+                { ~&6504315758&~: root_Example.set_Text_02, ~&7083177691309&~: root_Example.set_Status_02, name_File: ~&7082020628281&~.settings_Example.set_Name_Extension + "_File_02" }
+                /* ...*/
+            ]
+            /* ---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Path (if you want)*/
+            property ~&7083178290016&~ set_Json_Path: ~&7082020628281&~.settings_Xovi_Main.get_Json_Path(~&7082020628281&~.settings_Expand_Typing.set_Name_Extension)
+            /* ---------------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Example.set_Label
+                ~&478136262235079021&~: root_Example.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_Example.is_Enabled_Example
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_Example.is_Enabled_Example = !~&7082020628281&~.settings_Example.is_Enabled_Example;
+                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Example.is_Debug_Mode, "New is_Enabled_Example is: " + ~&7082020628281&~.settings_Example.is_Enabled_Example);
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&233748328658231&~: ~&7082020628281&~.settings_Example.is_Enabled_Example
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Example.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Example, "root_Example", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Example.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_Example.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT

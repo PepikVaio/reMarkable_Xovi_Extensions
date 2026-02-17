@@ -143,7 +143,7 @@ SLOT xovi_Settings_Item
             }
 
             function load_Json_Data(~&7712874493159382&~) {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", root_Multiple_Navigation_History.set_Json_Path);
 
                 xhr.onreadystatechange = function () {
@@ -177,7 +177,7 @@ SLOT xovi_Settings_Item
             }
 
             function load_Json_File() {
-                ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                ~&214622607920&~ xhr =    new    XMLHttpRequest();
                 xhr.~&6504147419&~("GET", root_Multiple_Navigation_History.set_Json_Path);
 
                 xhr.onreadystatechange = function() {
@@ -230,7 +230,7 @@ SLOT xovi_Settings_Item
                 load_Json_Data(function(json_Data) {
 
                     /* Json data loaded? -> Go ahead*/
-                    ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                    ~&214622607920&~ xhr =    new    XMLHttpRequest();
                     ~&214622607920&~ dataStr = ~&6502785411&~.~&254548178208422824&~(json_Data);
 
                     xhr.~&6504147419&~("PUT", root_Multiple_Navigation_History.set_Json_Path);
