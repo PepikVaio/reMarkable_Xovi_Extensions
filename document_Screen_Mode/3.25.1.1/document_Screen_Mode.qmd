@@ -1,0 +1,373 @@
+SLOT xovi_Settings_Item
+
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Screen_Mode
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property ~&6503679477&~ is_Debug_Mode: ~&6504329801&~
+            /* -----------------------------------------------------*/
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Screen mode")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Set refresh screen mode.")
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
+
+            property ~&7083178290016&~ set_Status_01: ((~&7082020628281&~.settings_Screen_Mode.is_Enabled_Global_Settings ? ~&6504222003&~("Global / ") : "") + (~&7082020628281&~.settings_Screen_Mode.is_Enabled_Quick_Settings ? ~&6504222003&~("Quick / ") : "") + ~&6504222003&~(~&7082020628281&~.settings_Screen_Mode.set_Active_Test))
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Screen_Mode.set_Text_01, ~&7083177691309&~: root_Screen_Mode.set_Status_01, name_File: ~&7082020628281&~.settings_Screen_Mode.set_Name_Extension + "_Settings" }
+                /* ...*/
+            ]
+            /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&214632764553&~: root_Screen_Mode.set_Label
+                ~&478136262235079021&~: root_Screen_Mode.set_Description
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode
+                    ~&254547663413443306&~: ~&214625660372&~
+                    
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode = !~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode;
+                        ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, "New is_Enabled_Screen_Mode is: " + ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode);
+
+                        /* Reset values*/
+                        ~&5972376&~ (!~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Xovi_Main.is_Enabled_Restore_Default_Settings) {
+                            ~&7082020628281&~.settings_Screen_Mode.reset_Values();
+                            ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&233748328658231&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Screen_Mode.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.function_Xovi_Main.open_File(root_Screen_Mode, "root_Screen_Mode", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_Screen_Mode"*/
+            property ~&214620122227&~ settings_Screen_Mode: settings_Screen_Mode
+            /* ----------------------------------------------------------*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_Screen_Mode
+                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension*/
+                property ~&7083178290016&~ set_Name_Extension: "document_Screen_Mode"
+                /* -------------------------------------------------------*/
+
+                /* Initializing variables - Main*/
+                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+                property ~&6503679477&~ is_Enabled_Screen_Mode: ~&214625660372&~
+                property ~&6503679477&~ is_Opened_Document: ~&214625660372&~
+                /* ----------------------------------------*/
+
+                /* Settings*/
+                property ~&6503679477&~ is_Enabled_Global_Settings: ~&214625660372&~
+                property ~&6503679477&~ is_Enabled_Quick_Settings: ~&6504329801&~
+                property ~&6503679477&~ is_Enabled_Writing_Mode: ~&214625660372&~
+                property ~&6503679477&~ is_Enabled_Timer: ~&214625660372&~
+
+                property ~&7083178290016&~ set_Active_Mode: ~&"197061260&~
+                property ~&7083178290016&~ set_Active_Text: "Fastest"
+
+                property ~&6503679477&~ set_Active_Quick_Settings: ~&6504329801&~
+
+                property ~&197088788&~ set_Delay_Refresh: 1000
+                /* --------------------------------------------*/
+
+                function get_Default_Values() {
+                    ~&7083121450889&~ {
+                        /* Main*/
+                        is_Enabled_Screen_Mode: ~&214625660372&~,
+                        is_Opened_Document: ~&214625660372&~,
+
+                        /* Reset values - Settings*/
+                        is_Enabled_Global_Settings: ~&214625660372&~,
+                        is_Enabled_Quick_Settings: ~&6504329801&~,
+                        is_Enabled_Writing_Mode: ~&214625660372&~,
+                        is_Enabled_Timer: ~&214625660372&~,
+
+                        set_Active_Mode: ~&"197061260&~,
+                        set_Active_Text: "Fastest",
+
+                        set_Active_Quick_Settings: ~&6504329801&~,
+
+                        set_Delay_Refresh: 1000
+                        /* ------------------------------*/
+                    }
+                }
+
+                function reset_Values(~&6503992357&~) {
+                    ~&7082020628281&~.function_Xovi_Main.reset_Values(~&7082020628281&~.settings_Screen_Mode, ~&7082020628281&~.settings_Screen_Mode.get_Default_Values(), ~&6503992357&~);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+AFFECT [[2328484894988065446]]
+    TRAVERSE [[8397788359424131273]]#[[6504254477]]
+
+        LOCATE BEFORE [[2172328112067264168]]#[[6549147860189642431]]
+        INSERT {
+            property ~&197102514&~ values_Settings: ~&7082020628281&~.settings_Screen_Mode
+            property ~&197102514&~ values_Function_Xovi_Main: ~&7082020628281&~.function_Xovi_Main
+
+            ~&428051690305612204&~ {
+                ~&7083194890448&~: ~&15793094956877902211&~.~&6503936152&~
+
+                function onDocumentOpened() {
+                    values_Settings.is_Opened_Document = ~&6504329801&~;
+                    values_Function_Xovi_Main.show_Console_Message(values_Settings.is_Debug_Mode, "New is_Opened_Document is: " + values_Settings.is_Opened_Document);
+                }
+
+                function ~&9902384944378080159&~() {
+                    values_Settings.is_Opened_Document = ~&214625660372&~;
+                    values_Function_Xovi_Main.show_Console_Message(values_Settings.is_Debug_Mode, "New is_Opened_Document is: " + values_Settings.is_Opened_Document);
+                }
+
+                /* Just in case I need it in the future*/
+                function ~&2104365313657427216&~() {}
+                function ~&16664207487409295708&~() {}
+            }
+
+            /* Just in case I need it in the future*/
+            ~&428051690305612204&~ {
+                ~&7083194890448&~: ~&6504254477&~.~&7713433736001692&~
+
+                ~&5483396662672061257&~: activate_Writing_Mode()
+                onPenDownChanged: activate_Writing_Mode()
+
+                function activate_Writing_Mode() {}
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE [[8397788359424131273]] > [[2172328112067264168]]#[[6549147860189642431]]
+
+        REPLACE [[233748328658231]] WITH {
+            ~&233748328658231&~: {
+                ~&5972376&~ (~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings && ~&7082020628281&~.settings_Screen_Mode.is_Opened_Document || ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Global_Settings) {
+                    ~&7083121450889&~ ~&6504329801&~;
+                } ~&6503784146&~ {
+                    /* Original reMarkable*/
+                    ~&5972376&~ (!~&15793094956877902211&~.~&6503936152&~) {
+                        ~&7083121450889&~ ~&214625660372&~;
+                    }
+                    ~&214622607920&~ ~&6504074414&~ = ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~;
+                    ~&7083121450889&~ ~&6504074414&~ !== ~&254550717068498203&~;
+                }
+            }
+        }
+
+        REPLACE [[6504074414]] WITH {
+            ~&6504074414&~: {
+                ~&5972376&~ (~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings && ~&7082020628281&~.settings_Screen_Mode.is_Opened_Document || ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Global_Settings) {
+
+                    /* Active - Zoom / Slide page / Selected tool "lasso"*/
+                    ~&5972376&~ (~&15793094956877902211&~.~&6503936152&~ && ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~) {
+                        ~&7083121450889&~ ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~;
+
+                    /* Not active - Zoom / Slide page / Selected tool "lasso"*/
+                    } ~&6503784146&~ {
+                        ~&7083181535963&~ (~&7082020628281&~.settings_Screen_Mode.set_Active_Mode) {
+                            ~&6503700293&~ ~&"233682693073220&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&233682693073220&~;
+                            ~&6503700293&~ ~&"5971687&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&5971687&~;
+                            ~&6503700293&~ ~&"254477590585233257&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&254477590585233257&~;
+                            ~&6503700293&~ ~&"6502924770&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&6502924770&~;
+                            ~&6503700293&~ ~&"214603515106&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&214603515106&~;
+                            ~&6503700293&~ ~&"197061260&~:
+                                ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&197061260&~;
+                            default:
+                                ~&7083121450889&~ ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~;
+                        }
+                    }
+                } ~&6503784146&~ {
+                    /* Original reMarkable*/
+                    ~&5972376&~ (~&15793094956877902211&~.~&6503936152&~ && ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~) {
+                        ~&7083121450889&~ ~&15793094956877902211&~.~&6503936152&~.~&6549147860189642431&~;
+                    }
+                    ~&7083121450889&~ ~&7081372714662&~.~&10578197394989910333&~.~&5971687&~;
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+TEMPLATE template_QuickSettingsToggle {
+
+    ~&10845406345867313529&~ {
+        ~&5972374&~: quickToggle
+        ~&8399601734642709923&~: ~&"5884623536302231568&~
+        ~&233748328658231&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Quick_Settings
+        ~&7713561545874130&~: ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings
+
+        property ~&197102514&~ ~&214634455770&~: [
+            { ~&6504315758&~: ~&6504222003&~("Best"),    ~&6504074414&~: ~&"233682693073220&~ },
+            /* { text: qsTr("Default"), mode: "UI" },*/
+            { ~&6504315758&~: ~&6504222003&~("Fast"),    ~&6504074414&~: ~&"214603515106&~ },
+            { ~&6504315758&~: ~&6504222003&~("Fastest"), ~&6504074414&~: ~&"197061260&~ },
+            { ~&6504315758&~: ~&6504222003&~("Fast"),    ~&6504074414&~: ~&"6502924770&~ },
+            { ~&6504315758&~: ~&6504222003&~("Fastest"), ~&6504074414&~: ~&"254477590585233257&~ }
+        ]
+
+        ~&254542236275632405&~: {
+            ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings = !~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings
+            ~&7082020628281&~.Function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, "New set_Active_Quick_Settings is: " + ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings);
+        }
+
+        ~&383135108587212173&~: {
+            ~&5972376&~ (!~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings) {
+                ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings = ~&6504329801&~;
+                ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, "New settings_Screen_Mode is: " + ~&7082020628281&~.settings_Screen_Mode.set_Active_Quick_Settings);
+            }
+
+            ~&197102514&~ ~&180978&~ = (~&214634455770&~.~&254529420688331106&~(~&180974&~ => ~&180974&~.~&6504074414&~ === ~&7082020628281&~.settings_Screen_Mode.set_Active_Mode) + 1) % ~&214634455770&~.~&7082886407723&~
+            ~&7082020628281&~.settings_Screen_Mode.set_Active_Mode = ~&214634455770&~[~&180978&~].~&6504074414&~
+            ~&7082020628281&~.settings_Screen_Mode.set_Active_Text = ~&214634455770&~[~&180978&~].~&6504315758&~
+            ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode,"New set_Active_Mode is: " + ~&7082020628281&~.settings_Screen_Mode.set_Active_Mode)
+            ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Screen_Mode.is_Debug_Mode, "New set_Active_Text is: " + ~&7082020628281&~.settings_Screen_Mode.set_Active_Text)
+        }
+    }
+}
+
+AFFECT [[11542018640809782132]]
+    IMPORT [[7082546018834]] 1.0
+
+    IMPORT [[995374575491074577]] 2.0
+    IMPORT [[18218533733987071354]] 1.0
+
+    TRAVERSE [[14125623155555875541]]
+
+        LOCATE AFTER [[7712155293725601]]
+        INSERT TEMPLATE template_QuickSettingsToggle {}
+
+    END TRAVERSE
+
+END AFFECT
+
+AFFECT [[10936356414964521612]]
+    IMPORT [[7082546018834]] 1.0
+
+    IMPORT [[995374575491074577]] 2.0
+    IMPORT [[18218533733987071354]] 1.0
+
+    TRAVERSE [[8398044571386570029]]
+
+        LOCATE AFTER [[7712155293725601]]
+        INSERT TEMPLATE template_QuickSettingsToggle {}
+
+    END TRAVERSE
+
+END AFFECT
+
+
+AFFECT [[11806562588218124596]]
+
+    TRAVERSE [[8397993708429497603]]#[[6504254477]] > [[214604601930]]#[[16357521538013524941]]
+
+        REPLACE [[7713147298280334]] WITH {
+            ~&7713147298280334&~: ~&7082020628281&~.settings_Screen_Mode.set_Delay_Refresh
+        }
+
+END AFFECT
+
+
+AFFECT [[14489814024891431936]]
+
+    TRAVERSE [[6502786168]]#[[6504254477]] 
+
+        REPLACE [[2122835675838176157]] WITH {
+            ~&2122835675838176157&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Quick_Settings
+                ? ~&254477762679831355&~.~&214603824602&~.~&7713684474795983&~.~&7169487197506612278&~.~&214632782036&~
+                /* Original form reMarkable*/
+                : (~&233748328658231&~ ? ~&254477762679831355&~.~&214603824602&~.~&7713684474795983&~.~&7169487197506612278&~.~&214641496386&~ : 0)
+        }
+
+        LOCATE AFTER [[254501558939456351]]#[[233749604691920]]
+        INSERT {
+            ~&254501558939456351&~ {
+                ~&233744706647566&~: ~&254477762679831355&~.~&214603824602&~.~&7713684474795983&~.~&7713442318223278&~.~&233744706647566&~.~&214641496386&~
+                ~&214646099849&~: ~&7083038346995&~.~&214646099849&~
+                ~&233748328658231&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Quick_Settings
+                ~&233721384511543&~.~&197100796&~: ~&233749604691920&~.~&7082507142622&~
+                ~&233721384511543&~.~&254549367831075482&~: 6
+
+                ~&425121728314878811&~.~&214594815081&~ {
+                    ~&17499136208009550289&~: ~&214625660372&~
+                    ~&7081629735527&~.~&254522510204479688&~: ~&5971598&~.~&14019785292674113803&~ | ~&5971598&~.~&254477505127509791&~
+                    ~&6504315758&~: ~&6504222003&~("Ref. mode: ") + ~&7082020628281&~.settings_Screen_Mode.set_Active_Text + ((~&7082020628281&~.settings_Screen_Mode.set_Active_Mode === ~&"6502924770&~ || ~&7082020628281&~.settings_Screen_Mode.set_Active_Mode === ~&"254477590585233257&~) ? "*" : "")
+                    ~&214624865996&~: ~&6503165774&~.~&430968154721198747&~
+                    ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                }
+            }
+        }
+
+        REPLACE [[254494525842443467]] WITH {
+            ~&254494525842443467&~ {
+                /* Enabled just for wifiRow*/
+                ~&233721384511543&~.~&6503816592&~: ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Screen_Mode && ~&7082020628281&~.settings_Screen_Mode.is_Enabled_Quick_Settings
+                ? ~&233749604691920&~
+                /* Original form reMarkable*/
+                : ~&6504254477&~
+
+                /* Original from reMarkable*/
+                ~&254542236275632405&~: {
+                    ~&6504254477&~.~&2766288418351025740&~.~&6504147419&~(~&"16962669231808009333&~, { ~&214629676161&~: ~&14919350785992198647&~.~&6503277336&~ });
+                    ~&6504254477&~.~&2766288418351025740&~.~&214622501183&~(~&"13710581283192580798&~);
+                }
+            }
+        }
+
+END AFFECT
