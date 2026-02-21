@@ -1,3 +1,85 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Multiple_Navigation_History
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+            
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Multiple navigation history")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Use the jump back as often as needed in PDF files.")
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
+
+            property ~&7083178290016&~ set_Status_01: (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer ? ~&6504222003&~(~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer) : ~&6504222003&~(~&"7082553357604&~)) + " / " + (~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle ? ~&6504222003&~(~&"6504329801&~) : ~&6504222003&~(~&"214625660372&~))
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Multiple_Navigation_History.set_Text_01, ~&7083177691309&~: root_Multiple_Navigation_History.set_Status_01, name_File: ~&7082020628281&~.settings_Multiple_Navigation_History.set_Name_Extension + "_Settings" }
+                /* ...*/
+            ]
+            /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Multiple_Navigation_History.set_Label
+                ~&478136262235079021&~: root_Multiple_Navigation_History.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History = !~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History;
+                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New is_Enabled_Multiple_Navigation_History is: " + ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History);
+
+                        /* Reset values*/
+                        ~&5972376&~ (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History) {
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.set_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.reset_Timer;
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.retext_Timer;
+
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer = ~&214625660372&~;
+                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle = ~&6504329801&~;
+
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&233748328658231&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
+                
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Multiple_Navigation_History.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Multiple_Navigation_History, "root_Multiple_Navigation_History", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+
 AFFECT [[1658694193319203921]]
     IMPORT Qt.labs.settings 1.0
 
@@ -39,9 +121,6 @@ AFFECT [[1658694193319203921]]
     END TRAVERSE
 
 END AFFECT
-
-
-
 
 
 AFFECT [[1224665461898798997]]
@@ -168,88 +247,3 @@ AFFECT [[1224665461898798997]]
 	END TRAVERSE
 
 END AFFECT
-
-
-
-
-
-SLOT xovi_Settings_Item
-    INSERT {
-
-        ~&14125623155555875541&~ {
-            ~&5972374&~: root_Multiple_Navigation_History
-
-            /* Run "~/xovi/debug" on terminal (reMarkable)*/
-            /* true = Debug mode / false = Release mode*/
-            /* Warning – Changes the path to the files "open_File()"*/
-            property bool is_Debug_Mode: ~&214625660372&~
-            /* -----------------------------------------------------*/
-            
-
-            /* Initializing variables - Main*/
-            property ~&7083178290016&~ set_Label: ~&6504222003&~("Multiple navigation history")
-            property ~&7083178290016&~ set_Description: ~&6504222003&~("Use the jump back as often as needed in PDF files.")
-
-            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
-
-            property ~&7083178290016&~ set_Status_01: (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer ? ~&6504222003&~(~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer) : ~&6504222003&~(~&"7082553357604&~)) + " / " + (~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle ? ~&6504222003&~(~&"6504329801&~) : ~&6504222003&~(~&"214625660372&~))
-
-            property ~&197102514&~ dictionary_Data: [
-                { ~&6504315758&~: root_Multiple_Navigation_History.set_Text_01, ~&7083177691309&~: root_Multiple_Navigation_History.set_Status_01, name_File: ~&7082020628281&~.settings_Multiple_Navigation_History.set_Name_Extension + "_Settings" }
-                /* ...*/
-            ]
-            /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-            ~&425121728314878811&~.~&214599571833&~ {
-                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
-                ~&214632764553&~: root_Multiple_Navigation_History.set_Label
-                ~&478136262235079021&~: root_Multiple_Navigation_History.set_Description
-
-                ~&7082453764199&~: ~&12858967014938070090&~ {
-                    ~&233723734822480&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
-                    ~&254547663413443306&~: ~&214625660372&~
-
-                    ~&2132408976983288956&~.~&254542253295368380&~: {
-                        ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History = !~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History;
-                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "New is_Enabled_Multiple_Navigation_History is: " + ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History);
-
-                        /* Reset values*/
-                        ~&5972376&~ (!~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History) {
-                            ~&7082020628281&~.settings_Multiple_Navigation_History.set_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.reset_Timer;
-                            ~&7082020628281&~.settings_Multiple_Navigation_History.text_Timer = ~&7082020628281&~.settings_Multiple_Navigation_History.retext_Timer;
-
-                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Timer = ~&214625660372&~;
-                            ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Hide_X_Circle = ~&6504329801&~;
-
-                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, "Values are reset");
-                        }
-                    }
-                }
-            }
-
-            ~&425121728314878811&~.~&6502554441&~ {
-                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
-                ~&233748328658231&~: ~&7082020628281&~.settings_Multiple_Navigation_History.is_Enabled_Multiple_Navigation_History
-                
-                ~&7712155293725601&~ {
-                    ~&214634455770&~: root_Multiple_Navigation_History.dictionary_Data
-
-                    ~&7712922269353028&~: ~&17505001443493339609&~ {
-                        required property ~&197102514&~ ~&254539508423767444&~
-                        
-                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
-                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
-                        ~&254542236275632405&~: {
-                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Multiple_Navigation_History, "root_Multiple_Navigation_History", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode, ~&7713561876955258&~);
-                        }
-                    }
-                }
-            }
-
-            ~&254480451320573660&~.~&495334332051582499&~: {
-                ~&7082020628281&~.settings_Multiple_Navigation_History.is_Debug_Mode = is_Debug_Mode;
-            }
-        }
-    }
-END SLOT

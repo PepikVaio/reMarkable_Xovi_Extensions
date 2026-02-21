@@ -1,58 +1,3 @@
-AFFECT [[1658694193319203921]]
-    IMPORT Qt.labs.settings 1.0
-
-    TRAVERSE [[6502786168]]
-
-        LOCATE AFTER ALL
-        INSERT {
-            /* Initializing variables - Access the "settings_Light_Sleep"*/
-            property ~&214620122227&~ settings_Light_Sleep: settings_Light_Sleep
-            /* ----------------------------------------------------------*/
-
-            ~&7712198086779994&~ {
-                ~&5972374&~: settings_Light_Sleep
-                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
-
-                /* Initializing variables - Name extension*/
-                property ~&7083178290016&~ set_Name_Extension: "system_Light_Sleep"
-                /* -----------------------------------------------------*/
-
-                /* Initializing variables - Main*/
-                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
-
-                property ~&6503679477&~ is_Enabled_Light_Sleep: ~&214625660372&~
-
-                property ~&6503679477&~ is_Enabled_Unicode_Symbol: ~&214625660372&~
-
-                property ~&7083178290016&~ set_Text_Sleep: ~&6504222003&~("Zzz...")
-                property ~&6503679477&~ set_Text_Bold: ~&6504329801&~
-                property ~&6503679477&~ set_Text_Italic: ~&214625660372&~
-
-                property ~&197088788&~ set_Margin_Horizontal: 20
-                property ~&197088788&~ set_Margin_Vertical: 15
-                property ~&7083178290016&~ set_Position_Horizontal: ~&"214640173127&~
-                property ~&7083178290016&~ set_Position_Vertical: ~&"197100796&~
-
-                property ~&6503679477&~ is_Enabled_Text_Margin: ~&214625660372&~
-
-                /* Reset values*/
-                property ~&7083178290016&~ reset_Text_Sleep: ~&6504222003&~("Zzz...")
-                property ~&6503679477&~ reset_Text_Bold: ~&6504329801&~
-                property ~&6503679477&~ reset_Text_Italic: ~&214625660372&~
-
-                property ~&197088788&~ reset_Margin_Horizontal: 20
-                property ~&197088788&~ reset_Margin_Vertical: 15
-                property ~&7083178290016&~ reset_Position_Horizontal: ~&"214640173127&~
-                property ~&7083178290016&~ reset_Position_Vertical: ~&"197100796&~
-                /* -----------------------------------------------*/
-            }
-        }
-
-    END TRAVERSE
-
-END AFFECT
-
-
 SLOT xovi_Settings_Item
 
     INSERT {
@@ -60,13 +5,18 @@ SLOT xovi_Settings_Item
         ~&14125623155555875541&~ {
             ~&5972374&~: root_Light_Sleep
 
-            /* Run "~/xovi/debug" on terminal (reMarkable)*/
-            /* true = Debug mode / false = Release mode*/
-            /* Warning – Changes the path to the files "open_File()"*/
+            /* Run "~/xovi/debug" on terminal (reMarkable)
+*/
+            /* true = Debug mode / false = Release mode
+*/
+            /* Warning – Changes the path to the files "open_File()"
+*/
             property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
-            /* -----------------------------------------------------*/
+            /* -----------------------------------------------------
+*/
 
-            /* Initializing variables - Main*/
+            /* Initializing variables - Main
+*/
             property ~&7083178290016&~ set_Label: ~&6504222003&~("Light sleep")
             property ~&7083178290016&~ set_Description: ~&6504222003&~("Set your own text and position for light sleep mode.")
 
@@ -77,9 +27,11 @@ SLOT xovi_Settings_Item
 
             property ~&197102514&~ dictionary_Data: [
                 { ~&6504315758&~: root_Light_Sleep.set_Text_01, ~&7083177691309&~: root_Light_Sleep.set_Status_01, name_File: ~&7082020628281&~.settings_Light_Sleep.set_Name_Extension + "_Settings" }
-                /* ...*/
+                /* ...
+*/
             ]
-            /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+            /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 
 
             ~&425121728314878811&~.~&214599571833&~ {
@@ -95,7 +47,8 @@ SLOT xovi_Settings_Item
                         ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Light_Sleep = !~&7082020628281&~.settings_Light_Sleep.is_Enabled_Light_Sleep;
                         ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Light_Sleep.is_Debug_Mode, "New is_Enabled_Light_Sleep is: " + ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Light_Sleep);
 
-                        /* Reset values*/
+                        /* Reset values
+*/
                         ~&5972376&~ (!~&7082020628281&~.settings_Light_Sleep.is_Enabled_Light_Sleep) {
                             ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Text_Margin = ~&214625660372&~;
                             ~&7082020628281&~.settings_Light_Sleep.is_Enabled_Unicode_Symbol = ~&214625660372&~;
@@ -137,7 +90,8 @@ SLOT xovi_Settings_Item
             }
 
             function decode_Unicode_Text(~&214629689753&~) {
-                /* Find all U+XXXX or U+XXXXX*/
+                /* Find all U+XXXX or U+XXXXX
+*/
                 ~&7083121450889&~ ~&214629689753&~.~&233743002793445&~(/U\+([0-9~&180938&~-Fa-f]{4,6})/~&180976&~, function(~&180968&~, hex) {
                     ~&197091758&~ code_Point = ~&7713428776113935&~(hex, 16);
                     ~&5972376&~ (code_Point <= 0xFFFF) {
@@ -157,6 +111,68 @@ SLOT xovi_Settings_Item
         }
     }
 END SLOT
+
+
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_Light_Sleep"
+*/
+            property ~&214620122227&~ settings_Light_Sleep: settings_Light_Sleep
+            /* ----------------------------------------------------------
+*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_Light_Sleep
+                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension
+*/
+                property ~&7083178290016&~ set_Name_Extension: "system_Light_Sleep"
+                /* -----------------------------------------------------
+*/
+
+                /* Initializing variables - Main
+*/
+                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+
+                property ~&6503679477&~ is_Enabled_Light_Sleep: ~&214625660372&~
+
+                property ~&6503679477&~ is_Enabled_Unicode_Symbol: ~&214625660372&~
+
+                property ~&7083178290016&~ set_Text_Sleep: ~&6504222003&~("Zzz...")
+                property ~&6503679477&~ set_Text_Bold: ~&6504329801&~
+                property ~&6503679477&~ set_Text_Italic: ~&214625660372&~
+
+                property ~&197088788&~ set_Margin_Horizontal: 20
+                property ~&197088788&~ set_Margin_Vertical: 15
+                property ~&7083178290016&~ set_Position_Horizontal: ~&"214640173127&~
+                property ~&7083178290016&~ set_Position_Vertical: ~&"197100796&~
+
+                property ~&6503679477&~ is_Enabled_Text_Margin: ~&214625660372&~
+
+                /* Reset values
+*/
+                property ~&7083178290016&~ reset_Text_Sleep: ~&6504222003&~("Zzz...")
+                property ~&6503679477&~ reset_Text_Bold: ~&6504329801&~
+                property ~&6503679477&~ reset_Text_Italic: ~&214625660372&~
+
+                property ~&197088788&~ reset_Margin_Horizontal: 20
+                property ~&197088788&~ reset_Margin_Vertical: 15
+                property ~&7083178290016&~ reset_Position_Horizontal: ~&"214640173127&~
+                property ~&7083178290016&~ reset_Position_Vertical: ~&"197100796&~
+                /* -----------------------------------------------
+*/
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
 
 
 AFFECT [[4993120499307475167]]

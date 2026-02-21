@@ -1,47 +1,3 @@
-AFFECT [[1658694193319203921]]
-    IMPORT Qt.labs.settings 1.0
-
-    TRAVERSE [[6502786168]]
-
-        LOCATE AFTER ALL
-        INSERT {
-            /* Initializing variables - Access the "settings_Example"*/
-            property ~&214620122227&~ settings_Example: settings_Example
-            /* ------------------------------------------------------*/
-
-            ~&7712198086779994&~ {
-                ~&5972374&~: settings_Example
-                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
-
-                /* Initializing variables - Name extension*/
-                property ~&7083178290016&~ set_Name_Extension: "sidebar_Example"
-                /* --------------------------------------------------*/
-
-                /* Initializing variables - Main*/
-                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
-
-                property ~&6503679477&~ is_Enabled_Example: ~&214625660372&~
-                /* ------------------------------------*/
-
-                function get_Default_Values() {
-                    ~&7083121450889&~ {
-                        /* Reset values*/
-                        /* set_...: "...",*/
-                        /* ---------------*/
-                    }
-                }
-
-                function reset_Values(~&6503992357&~) {
-                    ~&7082020628281&~.function_Xovi_Main.reset_Values(~&7082020628281&~.settings_Example, ~&7082020628281&~.settings_Example.get_Default_Values(), ~&6503992357&~);
-                }
-            }
-        }
-
-    END TRAVERSE
-
-END AFFECT
-
-
 SLOT xovi_Settings_Item
 
     INSERT {
@@ -126,6 +82,49 @@ SLOT xovi_Settings_Item
         }
     }
 END SLOT
+
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_Example"*/
+            property ~&214620122227&~ settings_Example: settings_Example
+            /* ------------------------------------------------------*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_Example
+                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension*/
+                property ~&7083178290016&~ set_Name_Extension: "sidebar_Example"
+                /* --------------------------------------------------*/
+
+                /* Initializing variables - Main*/
+                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+
+                property ~&6503679477&~ is_Enabled_Example: ~&214625660372&~
+                /* ------------------------------------*/
+
+                function get_Default_Values() {
+                    ~&7083121450889&~ {
+                        /* Reset values*/
+                        /* set_...: "...",*/
+                        /* ---------------*/
+                    }
+                }
+
+                function reset_Values(~&6503992357&~) {
+                    ~&7082020628281&~.function_Xovi_Main.reset_Values(~&7082020628281&~.settings_Example, ~&7082020628281&~.settings_Example.get_Default_Values(), ~&6503992357&~);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
 
 
 AFFECT [[4911547370760691430]]

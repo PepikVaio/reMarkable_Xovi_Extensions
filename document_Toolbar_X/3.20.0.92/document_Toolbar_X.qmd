@@ -4,14 +4,19 @@ SLOT xovi_Settings_Item
         ~&14125623155555875541&~ {
             ~&5972374&~: root_Toolbar_X
 
-            /* Run "~/xovi/debug" on terminal (reMarkable)*/
-            /* true = Debug mode / false = Release mode*/
-            /* Warning – Changes the path to the files "open_File()"*/
+            /* Run "~/xovi/debug" on terminal (reMarkable)
+*/
+            /* true = Debug mode / false = Release mode
+*/
+            /* Warning – Changes the path to the files "open_File()"
+*/
             property bool is_Debug_Mode: ~&214625660372&~
-            /* -----------------------------------------------------*/
+            /* -----------------------------------------------------
+*/
             
 
-            /* Initializing variables - Main*/
+            /* Initializing variables - Main
+*/
             property ~&7083178290016&~ set_Label: ~&6504222003&~("Toolbar X")
             property ~&7083178290016&~ set_Description: ~&6504222003&~("Move the toolbar and 'x' buttons exactly where you want.")
 
@@ -27,9 +32,11 @@ SLOT xovi_Settings_Item
                 { ~&6504315758&~: root_Toolbar_X.set_Text_01, ~&7083177691309&~: root_Toolbar_X.set_Status_01, name_File: ~&7082020628281&~.settings_Toolbar_X.set_Name_Extension + "_Button_Open_Toolbar" },
                 { ~&6504315758&~: root_Toolbar_X.set_Text_02, ~&7083177691309&~: root_Toolbar_X.set_Status_02, name_File: ~&7082020628281&~.settings_Toolbar_X.set_Name_Extension + "_Button_Close_Document", ~&233726547792244&~: ~&7082020628281&~.settings_Toolbar_X.is_Enabled_Close_Button},
                 { ~&6504315758&~: root_Toolbar_X.set_Text_03, ~&7083177691309&~: root_Toolbar_X.set_Status_03, name_File: ~&7082020628281&~.settings_Toolbar_X.set_Name_Extension + "_Settings" }
-                /* ...*/
+                /* ...
+*/
             ]
-            /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+            /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 
             ~&425121728314878811&~.~&214599571833&~ {
                 ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
@@ -45,7 +52,8 @@ SLOT xovi_Settings_Item
                         ~&7082020628281&~.settings_Toolbar_X.is_Enabled_Toolbar_X = !~&7082020628281&~.settings_Toolbar_X.is_Enabled_Toolbar_X;
                         ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Toolbar_X.is_Debug_Mode, "New is_Enabled_Toolbar_X is: " + ~&7082020628281&~.settings_Toolbar_X.is_Enabled_Toolbar_X);
 
-                        /* Reset values*/
+                        /* Reset values
+*/
                         ~&5972376&~ (~&7082020628281&~.settings_Xovi_Main.is_Enabled_Restore_Default_Settings && !~&7082020628281&~.settings_Toolbar_X.is_Enabled_Toolbar_X) {
                             ~&7082020628281&~.settings_Toolbar_X.reset_Values();
                             ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Toolbar_X.is_Debug_Mode, "Values are reset");
@@ -83,34 +91,37 @@ SLOT xovi_Settings_Item
 END SLOT
 
 
-
-
-
 AFFECT [[1658694193319203921]]
 
     TRAVERSE [[6502786168]]
 
         LOCATE AFTER ALL
         INSERT {
-            /* Initializing variables - Access the "settings_Toolbar_X"*/
+            /* Initializing variables - Access the "settings_Toolbar_X"
+*/
             property alias settings_Toolbar_X: settings_Toolbar_X
-            /* --------------------------------------------------------*/
+            /* --------------------------------------------------------
+*/
 
             ~&7712198086779994&~ {
                 ~&5972374&~: settings_Toolbar_X
                 category: "xovi_Settings_" + set_Name_Extension
 
-                /* Initializing variables - Name extension*/
+                /* Initializing variables - Name extension
+*/
                 property ~&7083178290016&~ set_Name_Extension: "document_Toolbar_X"
-                /* -----------------------------------------------------*/
+                /* -----------------------------------------------------
+*/
 
-                /* Initializing variables - Main*/
+                /* Initializing variables - Main
+*/
                 property bool is_Debug_Mode: ~&214625660372&~
 
                 property bool is_Enabled_Toolbar_X: ~&214625660372&~
 
 
-                /* Open toolbar*/
+                /* Open toolbar
+*/
                 property ~&7083178290016&~ set_Position_Open_Toolbar: ~&"197100796&~
 
                 property bool is_Enabled_Border_Open_Toolbar: ~&214625660372&~
@@ -125,7 +136,8 @@ AFFECT [[1658694193319203921]]
                 property ~&197088788&~ set_Border_Width_Open_Toolbar: 2
 
 
-                /* Close document*/
+                /* Close document
+*/
                 property ~&7083178290016&~ set_Position_Close_Document: ~&"7082534202858&~
 
                 property bool is_Enabled_Border_Close_Document: ~&214625660372&~
@@ -140,17 +152,20 @@ AFFECT [[1658694193319203921]]
                 property ~&197088788&~ set_Border_Width_Close_Document: 2
 
 
-                /* Settings*/
+                /* Settings
+*/
                 property bool is_Enabled_Close_Button_Original: ~&214625660372&~
 
                 property bool is_Enabled_Reverse: ~&214625660372&~
                 property bool is_Enabled_Close_Button: ~&6504329801&~
                 property bool is_Enabled_Close_Button_Permanently: ~&214625660372&~
-                /* --------------------------------------------------------------*/
+                /* --------------------------------------------------------------
+*/
 
                 function get_Default_Values() {
                     ~&7083121450889&~ {
-                        /* Reset values - Open toolbar*/
+                        /* Reset values - Open toolbar
+*/
                         set_Position_Open_Toolbar: ~&"197100796&~,
 
                         is_Enabled_Border_Open_Toolbar: ~&214625660372&~,
@@ -165,7 +180,8 @@ AFFECT [[1658694193319203921]]
                         set_Border_Width_Open_Toolbar: 2,
 
 
-                        /* Reset values - Close document*/
+                        /* Reset values - Close document
+*/
                         set_Position_Close_Document: ~&"7082534202858&~,
 
                         is_Enabled_Border_Close_Document: ~&214625660372&~,
@@ -180,13 +196,15 @@ AFFECT [[1658694193319203921]]
                         set_Border_Width_Close_Document: 2,
 
 
-                        /* Reset values - Settings*/
+                        /* Reset values - Settings
+*/
                         is_Enabled_Close_Button_Original: ~&214625660372&~,
 
                         is_Enabled_Reverse: ~&214625660372&~,
                         is_Enabled_Close_Button: ~&6504329801&~,
                         is_Enabled_Close_Button_Permanently: ~&214625660372&~
-                        /* ---------------------------------------*/
+                        /* ---------------------------------------
+*/
                     }
                 }
 
@@ -199,9 +217,6 @@ AFFECT [[1658694193319203921]]
     END TRAVERSE
 
 END AFFECT
-
-
-
 
 
 AFFECT [[2857280009207495592]]
@@ -259,17 +274,20 @@ AFFECT [[2857280009207495592]]
 
                 ~&425121728314878811&~.ToolButton {
                     ~&8399878573055752961&~: ~&"17127257203566559386&~
-                    /* iconSource: root.expanded ? "qrc:/ark/icons/toolbar_hide" : "qrc:/ark/icons/multicolor/toolbar_show"*/
+                    /* iconSource: root.expanded ? "qrc:/ark/icons/toolbar_hide" : "qrc:/ark/icons/multicolor/toolbar_show"
+*/
                     ~&8399601734642709923&~: ~&"551690684902850748&~
 
                     ~&7713617202726815&~: ~&6504254477&~.~&7713446884515614&~ === ~&8236974744924391272&~.~&7712083094340350&~.~&197065948&~ ? -~&6504254477&~.~&9186017637277426630&~ : 0
                     ~&475539346266400193&~: ~&6504254477&~.~&7713446884515614&~ === ~&8236974744924391272&~.~&7712083094340350&~.~&7081254810046&~ ? -~&6504254477&~.~&9186017637277426630&~ : 0
 
                     ~&481641799955318521&~: ~&5971598&~.~&233696851602406&~
-                    /* multicolor: !root.expanded*/
+                    /* multicolor: !root.expanded
+*/
                     ~&8399812576675450803&~: ~&6504329801&~
 
-                    /* contentItem.rotation: root.position === ToolbarPositioner.Position.Right && !root.expanded ? 90 : 90*/
+                    /* contentItem.rotation: root.position === ToolbarPositioner.Position.Right && !root.expanded ? 90 : 90
+*/
                     ~&477062473974076915&~.~&7713532151049593&~: {
                         ~&5972376&~ (~&6504254477&~.~&7713446884515614&~ === ~&8236974744924391272&~.~&7712083094340350&~.~&214602223655&~ && !~&6504254477&~.~&7712989577739634&~) {
                             ~&7083121450889&~ 90;
@@ -315,7 +333,8 @@ AFFECT [[2857280009207495592]]
                     ~&481641799955318521&~: ~&5971598&~.~&233696851602406&~
                     ~&8399812576675450803&~: ~&6504329801&~
 
-                    /* visible: toolbar.shown*/
+                    /* visible: toolbar.shown
+*/
                     ~&233748328658231&~: {
                         ~&5972376&~ (~&7082020628281&~.settings_Toolbar_X.set_Position_Close_Document === ~&"7082534202858&~) {
                             ~&7083121450889&~ ~&233745975898428&~.~&214641332312&~;
