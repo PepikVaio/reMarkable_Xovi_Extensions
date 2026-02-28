@@ -29,6 +29,8 @@
 
 4) Internet connection is required (translations use Google Translate)
 
+5) Original file from reMarkable - qml/i18n/translations/reMarkable_en.qm
+
 
 # Description:
 # ------------

@@ -8,27 +8,27 @@
     </message>
     <message>
         <source>List</source>
-        <translation>Seznam</translation>
+        <translation>清單</translation>
     </message>
     <message>
         <source>View</source>
-        <translation>Pohled</translation>
+        <translation>看法</translation>
     </message>
     <message>
         <source>Small grid</source>
-        <translation>Malá mřížka</translation>
+        <translation>小格子</translation>
     </message>
     <message>
         <source>List view</source>
-        <translation>Zobrazení seznamu</translation>
+        <translation>清單視圖</translation>
     </message>
     <message>
         <source>Medium grid</source>
-        <translation>Střední mřížka</translation>
+        <translation>中格</translation>
     </message>
     <message>
         <source>Large grid</source>
-        <translation>Velká mřížka</translation>
+        <translation>大網格</translation>
     </message>
 </context>
 <context>
@@ -39,15 +39,15 @@
     </message>
     <message>
         <source>Account</source>
-        <translation>Účet</translation>
+        <translation>帳戶</translation>
     </message>
     <message>
         <source>Pair with the reMarkable cloud</source>
-        <translation>Spárujte s cloudem reMarkable</translation>
+        <translation>與 reMarkable 雲配對</translation>
     </message>
     <message>
         <source>%1 via a %2 account</source>
-        <translation>%1 prostřednictvím účtu %2</translation>
+        <translation>%1 透過 %2 帳戶</translation>
     </message>
 </context>
 <context>
@@ -68,73 +68,73 @@
     <name>SeabirdPreference</name>
     <message>
         <source>PC</source>
-        <translation>PC</translation>
+        <translation>個人電腦</translation>
     </message>
     <message>
         <source>Mac</source>
-        <translation>Mac</translation>
+        <translation>蘋果</translation>
     </message>
     <message>
         <source>The shortcuts menu will open when you press and hold this key for 3 seconds</source>
-        <translation>Po stisknutí a podržení této klávesy po dobu 3 sekund se otevře nabídka zkratek</translation>
+        <translation>按住此鍵 3 秒鐘將開啟快速選單</translation>
     </message>
 </context>
 <context>
     <name>settings</name>
     <message>
         <source>PC</source>
-        <translation>PC</translation>
+        <translation>個人電腦</translation>
     </message>
     <message>
         <source>Mac</source>
-        <translation>Mac</translation>
+        <translation>蘋果</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Version: %1</source>
-        <translation>Verze: %1</translation>
+        <translation>版本：%1</translation>
     </message>
     <message>
         <source>Serial number</source>
-        <translation>Sériové číslo</translation>
+        <translation>序號</translation>
     </message>
     <message>
         <source>Firmware</source>
-        <translation>Firmware</translation>
+        <translation>韌體</translation>
     </message>
     <message>
         <source>Choose your preferred style of key combinations.</source>
-        <translation>Vyberte si preferovaný styl kombinací kláves.</translation>
+        <translation>選擇您喜歡的組合鍵樣式。</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Zkratky</translation>
+        <translation>快速方式</translation>
     </message>
     <message>
         <source>The shortcuts menu will open when you press and hold &lt;b&gt;%1&lt;/b&gt; for &lt;b&gt;3&amp;nbsp;seconds&lt;/b&gt;.</source>
-        <translation>Když stisknete a podržíte &lt;b&gt;%1&lt;/b&gt; na &lt;b&gt;3&amp;nbsp;sekundy&lt;/b&gt;, otevře se nabídka zkratek.</translation>
+        <translation>當您按住 &lt;b&gt;%1&lt;/b&gt; &lt;b&gt;3 秒&lt;/b&gt; 時，快捷方式選單將會開啟。</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Klávesnice</translation>
+        <translation>鍵盤</translation>
     </message>
     <message>
         <source>Specifications</source>
-        <translation>Specifikace</translation>
+        <translation>規格</translation>
     </message>
 </context>
 <context>
     <name>SettingsCheckBoxItem</name>
     <message>
         <source>On</source>
-        <translation>Na</translation>
+        <translation>在</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Vypnuto</translation>
+        <translation>離開</translation>
     </message>
 </context>
 <context>
@@ -145,598 +145,598 @@
     </message>
     <message>
         <source>Password protected PDF</source>
-        <translation>PDF chráněné heslem</translation>
+        <translation>受密碼保護的 PDF</translation>
     </message>
     <message>
         <source>Not syncing</source>
-        <translation>Nesynchronizuje se</translation>
+        <translation>未同步</translation>
     </message>
 </context>
 <context>
     <name>ExplorerSearch</name>
     <message>
         <source>All</source>
-        <translation>Vše</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>PDFs</source>
-        <translation>PDF</translation>
+        <translation>PDF 文件</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Jasný</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Alphabetical (Z-A)</source>
-        <translation>Abecedy (Z-A)</translation>
+        <translation>按字母順序 (Z-A)</translation>
     </message>
     <message>
         <source>Alphabetical (A-Z)</source>
-        <translation>Abecedy (A-Z)</translation>
+        <translation>按字母順序 (A-Z)</translation>
     </message>
     <message>
         <source>Relevance</source>
-        <translation>Relevance</translation>
+        <translation>關聯</translation>
     </message>
     <message numerus="yes">
         <source>%n matches</source>
         <translation>
-            <numerusform>%n shoda</numerusform>
-            <numerusform>%n shod</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 匹配</numerusform>
+            <numerusform>%n 匹配</numerusform>
+        </translation>
     </message>
     <message>
         <source>Ebooks</source>
-        <translation>E-knihy</translation>
+        <translation>電子書</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Naposledy upraveno</translation>
+        <translation>最後修改時間</translation>
     </message>
     <message>
         <source>Handwriting search</source>
-        <translation>Hledání rukopisu</translation>
+        <translation>手寫搜尋</translation>
     </message>
     <message>
         <source>Notebooks</source>
-        <translation>Notebooky</translation>
+        <translation>筆記型電腦</translation>
     </message>
     <message>
         <source>Folders</source>
-        <translation>Složky</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Oblíbené</translation>
+        <translation>收藏夾</translation>
     </message>
     <message>
         <source>Date created</source>
-        <translation>Datum vytvoření</translation>
+        <translation>建立日期</translation>
     </message>
     <message>
         <source>Handwriting</source>
-        <translation>Rukopis</translation>
+        <translation>手寫</translation>
     </message>
 </context>
 <context>
     <name>Navigator</name>
     <message>
         <source>All</source>
-        <translation>Vše</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>More</source>
-        <translation>Více</translation>
+        <translation>更多的</translation>
     </message>
     <message>
         <source>PDFs</source>
-        <translation>PDF</translation>
+        <translation>PDF 文件</translation>
     </message>
     <message>
         <source>Not enough free space to create quick sheet</source>
-        <translation>Nedostatek volného místa k vytvoření rychlého listu</translation>
+        <translation>沒有足夠的可用空間來建立​​快速工作表</translation>
     </message>
     <message>
         <source>Organize your notes</source>
-        <translation>Uspořádejte si poznámky</translation>
+        <translation>整理你的筆記</translation>
     </message>
     <message>
         <source>Long-press for quick sheet</source>
-        <translation>Dlouhé stisknutí pro rychlý list</translation>
+        <translation>長按快速翻頁</translation>
     </message>
     <message>
         <source>Ebooks</source>
-        <translation>E-knihy</translation>
+        <translation>電子書</translation>
     </message>
     <message>
         <source>Find what you're looking for by searching for keywords in your handwritten notes and digital text inside notebooks and documents.</source>
-        <translation>Najděte to, co hledáte, vyhledáním klíčových slov v ručně psaných poznámkách a digitálním textu v poznámkových blokech a dokumentech.</translation>
+        <translation>透過在筆記本和文件中的手寫筆記和數位文字中搜尋關鍵字來尋找您要尋找的內容。</translation>
     </message>
     <message numerus="yes">
         <source>%n tag(s) were deleted</source>
         <translation>
-            <numerusform>Značka byla smazána</numerusform>
-            <numerusform>%n tagů bylo smazáno</numerusform>
-        <numerusform /></translation>
+            <numerusform>標籤已刪除</numerusform>
+            <numerusform>%n 個標籤已刪除</numerusform>
+        </translation>
     </message>
     <message>
         <source>Quick settings</source>
-        <translation>Rychlé nastavení</translation>
+        <translation>快速設定</translation>
     </message>
     <message numerus="yes">
         <source>%n item(s) were deleted</source>
         <translation>
-            <numerusform>Položka byla smazána</numerusform>
-            <numerusform>%n položek bylo smazáno</numerusform>
-        <numerusform /></translation>
+            <numerusform>項目已刪除</numerusform>
+            <numerusform>%n 項已刪除</numerusform>
+        </translation>
     </message>
     <message>
         <source>Select where to place the page</source>
-        <translation>Vyberte, kam chcete stránku umístit</translation>
+        <translation>選擇放置頁面的位置</translation>
     </message>
     <message>
         <source>Search now</source>
-        <translation>Hledat nyní</translation>
+        <translation>立即搜尋</translation>
     </message>
     <message>
         <source>Unable to add page while file is being exported</source>
-        <translation>Během exportu souboru nelze přidat stránku</translation>
+        <translation>匯出文件時無法新增頁面</translation>
     </message>
     <message>
         <source>Handwriting search</source>
-        <translation>Hledání rukopisu</translation>
+        <translation>手寫搜尋</translation>
     </message>
     <message>
         <source>Notebooks</source>
-        <translation>Notebooky</translation>
+        <translation>筆記型電腦</translation>
     </message>
     <message>
         <source>Document drawer</source>
-        <translation>Zásuvka na dokumenty</translation>
+        <translation>文件抽屜</translation>
     </message>
     <message>
         <source>Access Google Drive, Dropbox, and OneDrive right from your &lt;nobr&gt;paper tablet&lt;/nobr&gt; to improve your workflow. Locate stored files, import them to your reMarkable, and export documents directly to your chosen service.</source>
-        <translation>Získejte přístup k Disku Google, Dropboxu a OneDrive přímo ze svého &lt;nobr&gt;papírového tabletu&lt;/nobr&gt;, abyste zlepšili svůj pracovní postup. Vyhledejte uložené soubory, importujte je do reMarkable a exportujte dokumenty přímo do vámi zvolené služby.</translation>
+        <translation>直接從&lt;nobr&gt;紙質平板電腦&lt;/nobr&gt;存取 Google Drive、Dropbox 和 OneDrive，以改善您的工作流程。找到儲存的文件，將其匯入您的 reMarkable，然後將文件直接匯出到您選擇的服務。</translation>
     </message>
     <message>
         <source>Folders</source>
-        <translation>Složky</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Oblíbené</translation>
+        <translation>收藏夾</translation>
     </message>
     <message>
         <source>Unable to add page while file is being downloaded</source>
-        <translation>Během stahování souboru nelze přidat stránku</translation>
+        <translation>下載檔案時無法新增頁面</translation>
     </message>
     <message>
         <source>Integrations</source>
-        <translation>Integrace</translation>
+        <translation>整合</translation>
     </message>
 </context>
 <context>
     <name>TagExplorerView</name>
     <message>
         <source>All</source>
-        <translation>Vše</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>Pages</source>
-        <translation>Stránky</translation>
+        <translation>頁數</translation>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Dokumenty</translation>
+        <translation>文件</translation>
     </message>
 </context>
 <context>
     <name>Templates</name>
     <message>
         <source>All</source>
-        <translation>Vše</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <source>Blank</source>
-        <translation>Prázdný</translation>
+        <translation>空白的</translation>
     </message>
     <message>
         <source>Grids</source>
-        <translation>Mřížky</translation>
+        <translation>網格</translation>
     </message>
     <message>
         <source>Lines</source>
-        <translation>Čáry</translation>
+        <translation>線路</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Hudba</translation>
+        <translation>音樂</translation>
     </message>
     <message>
         <source>Week planner US</source>
-        <translation>Týdenní plánovač USA</translation>
+        <translation>美國週計劃</translation>
     </message>
     <message>
         <source>One storyboard 1</source>
-        <translation>Jeden scénář 1</translation>
+        <translation>分鏡 1 個</translation>
     </message>
     <message>
         <source>One storyboard 2</source>
-        <translation>Jeden scénář 2</translation>
+        <translation>分鏡 1 個 2</translation>
     </message>
     <message>
         <source>Planners</source>
-        <translation>Plánovači</translation>
+        <translation>規劃師</translation>
     </message>
     <message>
         <source>Lined bottom</source>
-        <translation>Podšité dno</translation>
+        <translation>底部有襯裡</translation>
     </message>
     <message>
         <source>Lined medium</source>
-        <translation>Lemovaná střední</translation>
+        <translation>有襯裡中號</translation>
     </message>
     <message>
         <source>Lined top</source>
-        <translation>Podšitý top</translation>
+        <translation>有襯裡上衣</translation>
     </message>
     <message>
         <source>Calligraphy large</source>
-        <translation>Kaligrafie velká</translation>
+        <translation>書法大</translation>
     </message>
     <message>
         <source>Calligraphy small</source>
-        <translation>Kaligrafie malá</translation>
+        <translation>書法小</translation>
     </message>
     <message>
         <source>Week planner</source>
-        <translation>Plánovač týdne</translation>
+        <translation>週計劃</translation>
     </message>
     <message>
         <source>Margin small</source>
-        <translation>Okraj malý</translation>
+        <translation>邊距小</translation>
     </message>
     <message>
         <source>US Legal</source>
-        <translation>US Legal</translation>
+        <translation>美國法律</translation>
     </message>
     <message>
         <source>Margin large</source>
-        <translation>Okraj velký</translation>
+        <translation>餘裕大</translation>
     </message>
     <message>
         <source>Dots large</source>
-        <translation>Tečky velké</translation>
+        <translation>點大</translation>
     </message>
     <message>
         <source>Dots small</source>
-        <translation>Tečky malé</translation>
+        <translation>點小</translation>
     </message>
     <message>
         <source>Piano sheet medium</source>
-        <translation>Klavírní list střední</translation>
+        <translation>鋼琴譜中號</translation>
     </message>
     <message>
         <source>Lined small</source>
-        <translation>Podšité malé</translation>
+        <translation>內襯小號</translation>
     </message>
     <message>
         <source>Isometric</source>
-        <translation>Izometrické</translation>
+        <translation>等距</translation>
     </message>
     <message>
         <source>Lined large</source>
-        <translation>Podšité velké</translation>
+        <translation>內襯大號</translation>
     </message>
     <message>
         <source>Grid large</source>
-        <translation>Mřížka velká</translation>
+        <translation>網格大</translation>
     </message>
     <message>
         <source>Grid small</source>
-        <translation>Mřížka malá</translation>
+        <translation>網格小</translation>
     </message>
     <message>
         <source>Margin medium</source>
-        <translation>Marže střední</translation>
+        <translation>保證金中等</translation>
     </message>
     <message>
         <source>Dots top</source>
-        <translation>Nahoře tečky</translation>
+        <translation>圓點頂部</translation>
     </message>
     <message>
         <source>Grid bottom</source>
-        <translation>Mřížkové dno</translation>
+        <translation>網格底</translation>
     </message>
     <message>
         <source>Dots bottom</source>
-        <translation>Tečky dole</translation>
+        <translation>點底</translation>
     </message>
     <message>
         <source>Grid margin large</source>
-        <translation>Okraj mřížky velký</translation>
+        <translation>網格邊距大</translation>
     </message>
     <message>
         <source>Piano sheet small</source>
-        <translation>Klavírní list malý</translation>
+        <translation>鋼琴譜小</translation>
     </message>
     <message>
         <source>Piano sheet large</source>
-        <translation>Klavírní list velký</translation>
+        <translation>鋼琴譜大號</translation>
     </message>
     <message>
         <source>Day planner</source>
-        <translation>Denní plánovač</translation>
+        <translation>日程安排</translation>
     </message>
     <message>
         <source>Grid medium</source>
-        <translation>Mřížka střední</translation>
+        <translation>網格介質</translation>
     </message>
     <message>
         <source>Grid margin</source>
-        <translation>Okraj mřížky</translation>
+        <translation>網格邊距</translation>
     </message>
     <message>
         <source>Guitar tabs</source>
-        <translation>Kytarové štítky</translation>
+        <translation>吉他光譜</translation>
     </message>
     <message>
         <source>Guitar chords</source>
-        <translation>Kytarové akordy</translation>
+        <translation>吉他和弦</translation>
     </message>
     <message>
         <source>Creative</source>
-        <translation>Tvůrčí</translation>
+        <translation>有創造力的</translation>
     </message>
     <message>
         <source>Grid top</source>
-        <translation>Mřížka nahoře</translation>
+        <translation>網格頂</translation>
     </message>
     <message>
         <source>Bass tabs</source>
-        <translation>Basové záložky</translation>
+        <translation>低音標籤</translation>
     </message>
     <message>
         <source>US College</source>
-        <translation>americká vysoká škola</translation>
+        <translation>美國學院</translation>
     </message>
     <message>
         <source>Cornell</source>
-        <translation>Cornell</translation>
+        <translation>康乃爾大學</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Výchozí</translation>
+        <translation>預設</translation>
     </message>
     <message>
         <source>Checklist</source>
-        <translation>Kontrolní seznam</translation>
+        <translation>清單</translation>
     </message>
     <message>
         <source>Hexagon medium</source>
-        <translation>Šestiúhelník střední</translation>
+        <translation>六角中號</translation>
     </message>
     <message>
         <source>Four storyboards</source>
-        <translation>Čtyři storyboardy</translation>
+        <translation>四個故事板</translation>
     </message>
     <message>
         <source>Perspective 1</source>
-        <translation>Perspektiva 1</translation>
+        <translation>觀點1</translation>
     </message>
     <message>
         <source>Perspective 2</source>
-        <translation>Perspektiva 2</translation>
+        <translation>視角2</translation>
     </message>
     <message>
         <source>Checklist double</source>
-        <translation>Kontrolní seznam dvojitý</translation>
+        <translation>雙核清單</translation>
     </message>
     <message>
         <source>Calligraphy medium</source>
-        <translation>Kaligrafické médium</translation>
+        <translation>書法媒介</translation>
     </message>
     <message>
         <source>One storyboard</source>
-        <translation>Jeden scénář</translation>
+        <translation>一個故事板</translation>
     </message>
     <message>
         <source>Lined heading</source>
-        <translation>Linkovaný nadpis</translation>
+        <translation>劃線標題</translation>
     </message>
     <message>
         <source>Week planner 1</source>
-        <translation>Plánovač týdne 1</translation>
+        <translation>週計劃1</translation>
     </message>
     <message>
         <source>Week planner 2</source>
-        <translation>Plánovač týdne 2</translation>
+        <translation>週計劃2</translation>
     </message>
     <message>
         <source>Hexagon small</source>
-        <translation>Šestiúhelník malý</translation>
+        <translation>六角小號</translation>
     </message>
     <message>
         <source>Hexagon large</source>
-        <translation>Šestiúhelník velký</translation>
+        <translation>六角大號</translation>
     </message>
     <message>
         <source>Two storyboards</source>
-        <translation>Dva storyboardy</translation>
+        <translation>兩個故事板</translation>
     </message>
 </context>
 <context>
     <name>DateSpinners</name>
     <message>
         <source>Apr</source>
-        <translation>dubna</translation>
+        <translation>四月</translation>
     </message>
     <message>
         <source>Aug</source>
-        <translation>Aug</translation>
+        <translation>八月</translation>
     </message>
     <message>
         <source>Dec</source>
-        <translation>prosinec</translation>
+        <translation>十二月</translation>
     </message>
     <message>
         <source>Feb</source>
-        <translation>února</translation>
+        <translation>二月</translation>
     </message>
     <message>
         <source>Jan</source>
-        <translation>Jan</translation>
+        <translation>揚</translation>
     </message>
     <message>
         <source>Jul</source>
-        <translation>července</translation>
+        <translation>七月</translation>
     </message>
     <message>
         <source>Jun</source>
-        <translation>června</translation>
+        <translation>君</translation>
     </message>
     <message>
         <source>Mar</source>
-        <translation>Mar</translation>
+        <translation>三月</translation>
     </message>
     <message>
         <source>May</source>
-        <translation>květen</translation>
+        <translation>可能</translation>
     </message>
     <message>
         <source>Nov</source>
-        <translation>listopad</translation>
+        <translation>十一月</translation>
     </message>
     <message>
         <source>Oct</source>
-        <translation>Oct</translation>
+        <translation>十月</translation>
     </message>
     <message>
         <source>Sep</source>
-        <translation>září</translation>
+        <translation>九月</translation>
     </message>
 </context>
 <context>
     <name>ShortcutCheatSheet</name>
     <message>
         <source>Cut</source>
-        <translation>Střih</translation>
+        <translation>切</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Kopie</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Předělat</translation>
+        <translation>重做</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Vrátit zpět</translation>
+        <translation>撤銷</translation>
     </message>
     <message>
         <source>Add quick sheets</source>
-        <translation>Přidejte rychlé listy</translation>
+        <translation>新增快速工作表</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Pasta</translation>
+        <translation>貼上</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Titul</translation>
+        <translation>標題</translation>
     </message>
     <message>
         <source>Start/end of page</source>
-        <translation>Začátek/konec stránky</translation>
+        <translation>頁面開始/結束</translation>
     </message>
     <message>
         <source>Next paragraph</source>
-        <translation>Další odstavec</translation>
+        <translation>下一段</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>Symbol menu</source>
-        <translation>Nabídka symbolů</translation>
+        <translation>符號選單</translation>
     </message>
     <message>
         <source>Open or close drawer</source>
-        <translation>Otevřete nebo zavřete zásuvku</translation>
+        <translation>打開或關閉抽屜</translation>
     </message>
     <message>
         <source>Create a new notebook</source>
-        <translation>Vytvořte nový poznámkový blok</translation>
+        <translation>建立一個新筆記本</translation>
     </message>
     <message>
         <source>Select or deselect</source>
-        <translation>Vyberte nebo zrušte výběr</translation>
+        <translation>選擇或取消選擇</translation>
     </message>
     <message>
         <source>Create a new folder</source>
-        <translation>Vytvořte novou složku</translation>
+        <translation>建立一個新資料夾</translation>
     </message>
     <message>
         <source>Open settings</source>
-        <translation>Otevřete nastavení</translation>
+        <translation>開啟設定</translation>
     </message>
     <message>
         <source>Open document or folder</source>
-        <translation>Otevřete dokument nebo složku</translation>
+        <translation>開啟文件或資料夾</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Vyberte vše</translation>
+        <translation>選擇全部</translation>
     </message>
     <message>
         <source>Editing</source>
-        <translation>Editace</translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Body text</source>
-        <translation>Hlavní text</translation>
+        <translation>正文</translation>
     </message>
     <message>
         <source>Close document or folder</source>
-        <translation>Zavřete dokument nebo složku</translation>
+        <translation>關閉文件或資料夾</translation>
     </message>
     <message>
         <source>Paste without formatting</source>
-        <translation>Vložit bez formátování</translation>
+        <translation>不格式化直接貼上</translation>
     </message>
     <message>
         <source>Move between sections and items</source>
-        <translation>Pohyb mezi sekcemi a položkami</translation>
+        <translation>在部分和項目之間移動</translation>
     </message>
     <message>
         <source>Subheading</source>
-        <translation>Podnadpis</translation>
+        <translation>副標題</translation>
     </message>
     <message>
         <source>Bullet points</source>
-        <translation>Odrážky</translation>
+        <translation>重點</translation>
     </message>
     <message>
         <source>Checkbox</source>
-        <translation>Zaškrtávací políčko</translation>
+        <translation>複選框</translation>
     </message>
     <message>
         <source>Next word</source>
-        <translation>Další slovo</translation>
+        <translation>下一個詞</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>Navigace</translation>
+        <translation>導航</translation>
     </message>
 </context>
 <context>
@@ -747,749 +747,749 @@
     </message>
     <message>
         <source>PNG</source>
-        <translation>PNG</translation>
+        <translation>巴布亞紐幾內亞</translation>
     </message>
     <message>
         <source>SVG</source>
-        <translation>SVG</translation>
+        <translation>靜止無功發生器</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Poslat</translation>
+        <translation>傳送</translation>
     </message>
     <message>
         <source>Select pages to send</source>
-        <translation>Vyberte stránky k odeslání</translation>
+        <translation>選擇要傳送的頁面</translation>
     </message>
     <message>
         <source>Keep password protection</source>
-        <translation>Udržujte ochranu heslem</translation>
+        <translation>保留密碼保護</translation>
     </message>
     <message>
         <source>Send by email</source>
-        <translation>Odeslat e-mailem</translation>
+        <translation>透過電子郵件發送</translation>
     </message>
     <message>
         <source>Export width</source>
-        <translation>Šířka exportu</translation>
+        <translation>出口寬度</translation>
     </message>
     <message>
         <source>Add message</source>
-        <translation>Přidat zprávu</translation>
+        <translation>新增訊息</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Zpráva</translation>
+        <translation>訊息</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Na šířku</translation>
+        <translation>景觀</translation>
     </message>
     <message>
         <source>Format</source>
-        <translation>Formát</translation>
+        <translation>格式</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Přejmenovat</translation>
+        <translation>重新命名</translation>
     </message>
     <message>
         <source>Edit email</source>
-        <translation>Upravit email</translation>
+        <translation>編輯電子郵件</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Možnosti</translation>
+        <translation>選項</translation>
     </message>
     <message>
         <source>Page %1</source>
-        <translation>Stránka %1</translation>
+        <translation>頁 %1</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Na výšku</translation>
+        <translation>肖像</translation>
     </message>
     <message>
         <source>Enter email addresses</source>
-        <translation>Zadejte e-mailové adresy</translation>
+        <translation>輸入電子郵件地址</translation>
     </message>
     <message>
         <source>Send to</source>
-        <translation>Odeslat na</translation>
+        <translation>發送至</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>Text in email</source>
-        <translation>Text v emailu</translation>
+        <translation>電子郵件中的文字</translation>
     </message>
     <message>
         <source>Grayscale pens</source>
-        <translation>Pera ve stupních šedi</translation>
+        <translation>灰階筆</translation>
     </message>
     <message>
         <source>Recently used</source>
-        <translation>Nedávno použité</translation>
+        <translation>最近使用過</translation>
     </message>
     <message>
         <source>Clear all</source>
-        <translation>Vymazat vše</translation>
+        <translation>全部清除</translation>
     </message>
     <message>
         <source>Add email address</source>
-        <translation>Přidejte e-mailovou adresu</translation>
+        <translation>新增電子郵件地址</translation>
     </message>
     <message>
         <source>Selected</source>
-        <translation>Vybraný</translation>
+        <translation>已選擇</translation>
     </message>
     <message>
         <source>All pages</source>
-        <translation>Všechny stránky</translation>
+        <translation>所有頁面</translation>
     </message>
     <message>
         <source>Attachment name</source>
-        <translation>Název přílohy</translation>
+        <translation>附件名稱</translation>
     </message>
 </context>
 <context>
     <name>GestureCheatSheet</name>
     <message>
         <source>Pan</source>
-        <translation>Pánev</translation>
+        <translation>平底鍋</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Jump</source>
-        <translation>Skok</translation>
+        <translation>跳</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Předělat</translation>
+        <translation>重做</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Vrátit zpět</translation>
+        <translation>撤銷</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Přiblížení</translation>
+        <translation>飛漲</translation>
     </message>
     <message>
         <source>Flip page</source>
-        <translation>Převrátit stránku</translation>
+        <translation>翻頁</translation>
     </message>
     <message>
         <source>Open quick settings</source>
-        <translation>Otevřete rychlá nastavení</translation>
+        <translation>開啟快速設定</translation>
     </message>
     <message>
         <source>Select typed text</source>
-        <translation>Vyberte napsaný text</translation>
+        <translation>選擇鍵入的文字</translation>
     </message>
     <message>
         <source>Swipe up from the bottom edge to get a scrollable preview of your pages</source>
-        <translation>Přejetím prstem od spodního okraje nahoru získáte rolovací náhled stránek</translation>
+        <translation>從底部邊緣向上滑動以獲得頁面的可捲動預覽</translation>
     </message>
     <message>
         <source>Tap four times to edit or format the whole text</source>
-        <translation>Klepněte čtyřikrát pro úpravu nebo formátování celého textu</translation>
+        <translation>點擊四次以編輯或格式化整個文本</translation>
     </message>
     <message>
         <source>Swipe one finger horizontally to move between pages</source>
-        <translation>Mezi stránkami se můžete pohybovat vodorovným přejetím jedním prstem</translation>
+        <translation>水平滑動一根手指即可在頁面之間移動</translation>
     </message>
     <message>
         <source>Quick browse</source>
-        <translation>Rychlé procházení</translation>
+        <translation>快速瀏覽</translation>
     </message>
     <message>
         <source>Navigate pages and overviews with one finger, up, down, and to the sides</source>
-        <translation>Procházejte stránky a přehledy jedním prstem, nahoru, dolů a do stran</translation>
+        <translation>用一根手指向上、向下和向兩側導航頁面和概述</translation>
     </message>
     <message>
         <source>Select paragraph</source>
-        <translation>Vyberte odstavec</translation>
+        <translation>選擇段落</translation>
     </message>
     <message>
         <source>Select below</source>
-        <translation>Vyberte níže</translation>
+        <translation>選擇下面</translation>
     </message>
     <message>
         <source>Tap once with two fingers to take back your last change</source>
-        <translation>Jedním klepnutím dvěma prsty vezmete zpět poslední změnu</translation>
+        <translation>用兩根手指點擊一次即可收回最後一次更改</translation>
     </message>
     <message>
         <source>Hold at end of stroke to fix the shape. Drag and rotate it to adjust</source>
-        <translation>Podržte na konci tahu, abyste tvar zafixovali. Přetažením a otočením upravte</translation>
+        <translation>握住筆劃末端以固定形狀。拖曳並旋轉它進行調整</translation>
     </message>
     <message>
         <source>Tap once with three fingers to make undone actions reappear</source>
-        <translation>Jedním klepnutím třemi prsty znovu zobrazíte nedokončené akce</translation>
+        <translation>用三根手指點擊一次即可重新出現未完成的操作</translation>
     </message>
     <message>
         <source>Marker</source>
-        <translation>Marker</translation>
+        <translation>標記</translation>
     </message>
     <message>
         <source>Scroll</source>
-        <translation>Svitek</translation>
+        <translation>捲動</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Zkratky</translation>
+        <translation>快速方式</translation>
     </message>
     <message>
         <source>Close document</source>
-        <translation>Zavřít dokument</translation>
+        <translation>關閉文件</translation>
     </message>
     <message>
         <source>Open drawer</source>
-        <translation>Otevřete zásuvku</translation>
+        <translation>打開抽屜</translation>
     </message>
     <message>
         <source>Press and hold with one finger to perform actions when selected</source>
-        <translation>Stisknutím a podržením jedním prstem provedete akce, když je vybrána</translation>
+        <translation>用一根手指按住即可在選擇時執行操作</translation>
     </message>
     <message>
         <source>Triple-tap with one finger to edit or format typed sections</source>
-        <translation>Trojitým klepnutím jedním prstem upravíte nebo formátujete napsané části</translation>
+        <translation>用一根手指點擊三次即可編輯鍵入的部分或設定其格式</translation>
     </message>
     <message>
         <source>Draw shapes</source>
-        <translation>Kreslit tvary</translation>
+        <translation>繪製形狀</translation>
     </message>
     <message>
         <source>Double-tap with one finger to edit or format typed text</source>
-        <translation>Dvojitým klepnutím jedním prstem upravíte nebo formátujete napsaný text</translation>
+        <translation>用一根手指雙擊即可編輯鍵入的文字或設定其格式</translation>
     </message>
     <message>
         <source>Swipe two fingers from the top edge to view recent and favorited files</source>
-        <translation>Přejetím dvěma prsty od horního okraje zobrazíte poslední a oblíbené soubory</translation>
+        <translation>從頂部邊緣滑動兩根手指即可查看最近和收藏的文件</translation>
     </message>
     <message>
         <source>Hold and drag on typed text to edit and format it</source>
-        <translation>Chcete-li text upravit a formátovat, podržte a přetáhněte napsaný text</translation>
+        <translation>按住並拖曳鍵入的文字以對其進行編輯和格式化</translation>
     </message>
     <message>
         <source>Select word</source>
-        <translation>Vyberte slovo</translation>
+        <translation>選擇單字</translation>
     </message>
     <message>
         <source>Select item</source>
-        <translation>Vyberte položku</translation>
+        <translation>選擇項目</translation>
     </message>
     <message>
         <source>Swipe one finger vertically to quickly scroll in longer pages</source>
-        <translation>Chcete-li rychle posouvat delší stránky, přejeďte jedním prstem svisle</translation>
+        <translation>垂直滑動一根手指即可快速捲動較長的頁面</translation>
     </message>
     <message>
         <source>Pinch/spread two fingers to change the zoom level of pages</source>
-        <translation>Stažením/roztažením dvou prstů změníte úroveň přiblížení stránek</translation>
+        <translation>捏合/張開兩根手指可更改頁面的縮放級別</translation>
     </message>
     <message>
         <source>Typed text</source>
-        <translation>Napsaný text</translation>
+        <translation>鍵入的文字</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Vyberte vše</translation>
+        <translation>選擇全部</translation>
     </message>
     <message>
         <source>Editing</source>
-        <translation>Editace</translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Swipe down from the top-right corner to see battery level, Wi-Fi, and more</source>
-        <translation>Přejetím prstem dolů z pravého horního rohu zobrazíte úroveň baterie, Wi-Fi a další</translation>
+        <translation>從右上角向下滑動即可查看電池電量、Wi-Fi 等</translation>
     </message>
     <message>
         <source>Slowly navigate inside documents with two fingers, dragging the page</source>
-        <translation>Pomalu procházejte dokumenty dvěma prsty a přetahujte stránku</translation>
+        <translation>用兩根手指慢慢地在文件中導航，拖曳頁面</translation>
     </message>
     <message>
         <source>Draw a horizontal line and hold to select handwriting beneath the line</source>
-        <translation>Nakreslete vodorovnou čáru a podržte ji, abyste vybrali rukopis pod čarou</translation>
+        <translation>繪製一條水平線並按住以選擇該線下方的手寫內容</translation>
     </message>
     <message>
         <source>Gestures</source>
-        <translation>Gesta</translation>
+        <translation>手勢</translation>
     </message>
     <message>
         <source>Swipe down from the top edge to Return to My files</source>
-        <translation>Přejeďte prstem dolů od horního okraje a přejděte zpět do složky Moje soubory</translation>
+        <translation>從頂部邊緣向下滑動可返回“我的文件”</translation>
     </message>
     <message>
         <source>Navigation</source>
-        <translation>Navigace</translation>
+        <translation>導航</translation>
     </message>
 </context>
 <context>
     <name>AdjustViewPopup</name>
     <message>
         <source>Set</source>
-        <translation>Soubor</translation>
+        <translation>放</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Custom view</source>
-        <translation>Vlastní zobrazení</translation>
+        <translation>自訂視圖</translation>
     </message>
     <message>
         <source>Zoom and pan to adjust the page</source>
-        <translation>Přiblížením a posunutím upravte stránku</translation>
+        <translation>縮放和平移以調整頁面</translation>
     </message>
 </context>
 <context>
     <name>DateTimePicker</name>
     <message>
         <source>Set</source>
-        <translation>Soubor</translation>
+        <translation>放</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation>Čas</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <source>Something went wrong. If the issue persists, contact support.</source>
-        <translation>Něco se pokazilo. Pokud problém přetrvává, kontaktujte podporu.</translation>
+        <translation>出了點問題。如果問題仍然存在，請聯絡支援人員。</translation>
     </message>
     <message>
         <source>System time set</source>
-        <translation>Nastaven systémový čas</translation>
+        <translation>系統時間設定</translation>
     </message>
     <message>
         <source>Coordinated Universal Time (UTC)</source>
-        <translation>Světový koordinovaný čas (UTC)</translation>
+        <translation>協調世界時 (UTC)</translation>
     </message>
 </context>
 <context>
     <name>ActionHeader</name>
     <message>
         <source>Tag</source>
-        <translation>Štítek</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>More</source>
-        <translation>Více</translation>
+        <translation>更多的</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Přesunout</translation>
+        <translation>移動</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Wi-Fi settings</source>
-        <translation>Nastavení Wi-Fi</translation>
+        <translation>無線網路設定</translation>
     </message>
     <message numerus="yes">
         <source>%n item(s) were moved to Trash</source>
         <translation>
-            <numerusform>Položka byla přesunuta do koše</numerusform>
-            <numerusform>%n položek bylo přesunuto do koše</numerusform>
-        <numerusform /></translation>
+            <numerusform>項目已移至垃圾箱</numerusform>
+            <numerusform>%n 個項目已移至垃圾箱</numerusform>
+        </translation>
     </message>
     <message>
         <source>Disk is almost full</source>
-        <translation>Disk je téměř plný</translation>
+        <translation>磁碟快滿了</translation>
     </message>
     <message>
         <source>Choose a placement</source>
-        <translation>Vyberte umístění</translation>
+        <translation>選擇展示位置</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Vymazat</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Storage settings</source>
-        <translation>Nastavení úložiště</translation>
+        <translation>儲存設定</translation>
     </message>
     <message>
         <source>Disk is full</source>
-        <translation>Disk je plný</translation>
+        <translation>磁碟已滿</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importovat</translation>
+        <translation>進口</translation>
     </message>
     <message numerus="yes">
         <source>%n item(s) were restored to My files</source>
         <translation>
-            <numerusform>Položka byla obnovena do složky Moje soubory</numerusform>
-            <numerusform>%n položek bylo obnoveno do složky Moje soubory</numerusform>
-        <numerusform /></translation>
+            <numerusform>項目已恢復到我的文件</numerusform>
+            <numerusform>%n 個項目已恢復到我的檔案中</numerusform>
+        </translation>
     </message>
     <message>
         <source>Select where to move the items</source>
-        <translation>Vyberte, kam chcete položky přesunout</translation>
+        <translation>選擇將項目移至的位置</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Přejmenovat</translation>
+        <translation>重新命名</translation>
     </message>
     <message numerus="yes">
         <source>%n item(s) were duplicated</source>
         <translation>
-            <numerusform>Položka byla duplikována</numerusform>
-            <numerusform>%n položek bylo duplikováno</numerusform>
-        <numerusform /></translation>
+            <numerusform>項目被重複</numerusform>
+            <numerusform>%n 個項目重複</numerusform>
+        </translation>
     </message>
     <message>
         <source>Import a duplicate</source>
-        <translation>Importujte duplikát</translation>
+        <translation>導入副本</translation>
     </message>
     <message>
         <source>Choose a placement</source>
         <comment>Move document, moving allowed</comment>
-        <translation>Vyberte umístění</translation>
+        <translation>選擇展示位置</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to import documents</source>
-        <translation>Chcete-li importovat dokumenty, připojte se k Wi-Fi</translation>
+        <translation>連接Wi-Fi導入文檔</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to export documents</source>
-        <translation>Chcete-li exportovat dokumenty, připojte se k Wi-Fi</translation>
+        <translation>連接 Wi-Fi 匯出文檔</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Duplikovat</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>Tag item</source>
-        <translation>Označit položku</translation>
+        <translation>標籤項目</translation>
     </message>
     <message>
         <source>Archive</source>
-        <translation>Archiv</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <source>Export to integration</source>
-        <translation>Export do integrace</translation>
+        <translation>匯出到集成</translation>
     </message>
     <message>
         <source>Restore</source>
-        <translation>Obnovit</translation>
+        <translation>恢復</translation>
     </message>
     <message>
         <source>Select where to move the item</source>
-        <translation>Vyberte, kam chcete položku přesunout</translation>
+        <translation>選擇將項目移至的位置</translation>
     </message>
     <message>
         <source>Move here</source>
-        <translation>Přesuňte se sem</translation>
+        <translation>搬到這裡</translation>
     </message>
     <message>
         <source>Work on your documents from My files. You can export them to %1 whenever you like.</source>
-        <translation>Pracujte na svých dokumentech ze složky Moje soubory. Můžete je exportovat do %1, kdykoli budete chtít.</translation>
+        <translation>處理「我的文件」中的文件。您可以隨時將它們匯出到 %1。</translation>
     </message>
 </context>
 <context>
     <name>MyFilesMoreFoldout</name>
     <message>
         <source>Tag</source>
-        <translation>Štítek</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Send by email</source>
-        <translation>Odeslat e-mailem</translation>
+        <translation>透過電子郵件發送</translation>
     </message>
     <message>
         <source>Pairing required</source>
-        <translation>Je nutné spárování</translation>
+        <translation>需要配對</translation>
     </message>
     <message>
         <source>Connect required</source>
-        <translation>Je vyžadováno připojení</translation>
+        <translation>需要連接</translation>
     </message>
     <message>
         <source>Favorite</source>
-        <translation>Oblíbený</translation>
+        <translation>最喜歡的</translation>
     </message>
     <message>
         <source>Retrieve from cloud</source>
-        <translation>Načíst z cloudu</translation>
+        <translation>從雲端檢索</translation>
     </message>
     <message>
         <source>Archive to cloud</source>
-        <translation>Archivovat do cloudu</translation>
+        <translation>存檔至雲端</translation>
     </message>
 </context>
 <context>
     <name>Pages</name>
     <message>
         <source>Tag</source>
-        <translation>Štítek</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Vymazat</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Page (%1 - %2)</source>
-        <translation>Stránka (%1 – %2)</translation>
+        <translation>頁（%1 - %2）</translation>
     </message>
     <message>
         <source>Cancel</source>
         <comment>cancel delete</comment>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to convert text</source>
-        <translation>Chcete-li převést text, připojte se k Wi-Fi</translation>
+        <translation>連接到 Wi-Fi 以轉換文本</translation>
     </message>
 </context>
 <context>
     <name>PagesMoreFoldout</name>
     <message>
         <source>Tag</source>
-        <translation>Štítek</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Add page before</source>
-        <translation>Přidat stránku předem</translation>
+        <translation>之前新增頁面</translation>
     </message>
     <message>
         <source>Send by email</source>
-        <translation>Odeslat e-mailem</translation>
+        <translation>透過電子郵件發送</translation>
     </message>
     <message>
         <source>Convert</source>
-        <translation>Konvertovat</translation>
+        <translation>轉變</translation>
     </message>
     <message>
         <source>Add page after</source>
-        <translation>Přidat stránku za</translation>
+        <translation>之後新增頁面</translation>
     </message>
 </context>
 <context>
     <name>ToolbarPositionDropDown</name>
     <message>
         <source>Top</source>
-        <translation>Nahoře</translation>
+        <translation>頂部</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Vlevo</translation>
+        <translation>左邊</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Vpravo</translation>
+        <translation>正確的</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Dole</translation>
+        <translation>底部</translation>
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Na šířku</translation>
+        <translation>景觀</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Na výšku</translation>
+        <translation>肖像</translation>
     </message>
 </context>
 <context>
     <name>ConnectWifi</name>
     <message>
         <source>eap</source>
-        <translation>eap</translation>
+        <translation>埃普</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Select phase-2 authentication</source>
-        <translation>Vyberte ověření fáze 2</translation>
+        <translation>選擇第 2 階段身份驗證</translation>
     </message>
     <message>
         <source>Select option</source>
-        <translation>Vyberte možnost</translation>
+        <translation>選擇選項</translation>
     </message>
     <message>
         <source>Anonymous identity</source>
-        <translation>Anonymní identita</translation>
+        <translation>匿名身分</translation>
     </message>
     <message>
         <source>Unable to connect. The level of network security is not supported.</source>
-        <translation>Nelze se připojit. Úroveň zabezpečení sítě není podporována.</translation>
+        <translation>無法連接。不支援網路安全等級。</translation>
     </message>
     <message>
         <source>EAP method</source>
-        <translation>metoda EAP</translation>
+        <translation>EAP法</translation>
     </message>
     <message>
         <source>phase2</source>
-        <translation>fáze2</translation>
+        <translation>階段2</translation>
     </message>
     <message>
         <source>Phase 2 authentication</source>
-        <translation>Fáze 2 ověřování</translation>
+        <translation>第二階段認證</translation>
     </message>
     <message>
         <source>Identity</source>
-        <translation>Identita</translation>
+        <translation>身分</translation>
     </message>
     <message>
         <source>Select EAP method</source>
-        <translation>Vyberte metodu EAP</translation>
+        <translation>選擇EAP方法</translation>
     </message>
 </context>
 <context>
     <name>SecuredPasswordInput</name>
     <message>
         <source>low</source>
-        <translation>nízký</translation>
+        <translation>低的</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>vysoký</translation>
+        <translation>高的</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>střední</translation>
+        <translation>中等的</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Heslo</translation>
+        <translation>密碼</translation>
     </message>
     <message>
         <source>The password has %1 security</source>
-        <translation>Heslo má zabezpečení %1</translation>
+        <translation>密碼的安全性為 %1</translation>
     </message>
 </context>
 <context>
     <name>AccountRetail</name>
     <message>
         <source>reMarkable cloud</source>
-        <translation>pozoruhodný mrak</translation>
+        <translation>非凡雲</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>The cloud service is disabled on this retail device.</source>
-        <translation>Cloudová služba je na tomto maloobchodním zařízení zakázána.</translation>
+        <translation>此零售設備上禁用了雲端服務。</translation>
     </message>
     <message>
         <source>The cloud service lets you:</source>
-        <translation>Cloudová služba vám umožňuje:</translation>
+        <translation>雲端服務可以讓您：</translation>
     </message>
     <message>
         <source>Account</source>
-        <translation>Účet</translation>
+        <translation>帳戶</translation>
     </message>
     <message>
         <source>Convert handwritten notes into typed text</source>
-        <translation>Převeďte ručně psané poznámky na psaný text</translation>
+        <translation>將手寫筆記轉換為打字文本</translation>
     </message>
     <message>
         <source>Sync files between your paper tablet, mobile, and desktop</source>
-        <translation>Synchronizujte soubory mezi papírovým tabletem, mobilem a počítačem</translation>
+        <translation>在紙質平板電腦、行動裝置和桌面裝置之間同步文件</translation>
     </message>
     <message>
         <source>Back up your work</source>
-        <translation>Zálohujte svou práci</translation>
+        <translation>備份您的工作</translation>
     </message>
     <message>
         <source>Send files by email</source>
-        <translation>Odesílejte soubory e-mailem</translation>
+        <translation>透過電子郵件發送文件</translation>
     </message>
 </context>
 <context>
     <name>SendMail</name>
     <message>
         <source> to </source>
-        <translation>na</translation>
+        <translation>到</translation>
     </message>
     <message>
         <source>Document from my reMarkable: %1</source>
-        <translation>Dokument z mého reMarkable: %1</translation>
+        <translation>來自我的 reMarkable 的文檔：%1</translation>
     </message>
     <message>
         <source>Unable to send this file size</source>
-        <translation>Tuto velikost souboru nelze odeslat</translation>
+        <translation>無法發送此文件大小</translation>
     </message>
     <message>
         <source>The file is too large to send.</source>
-        <translation>Soubor je pro odeslání příliš velký.</translation>
+        <translation>文件太大，無法發送。</translation>
     </message>
     <message>
         <source>Export it in the desktop app.</source>
-        <translation>Exportujte jej do desktopové aplikace.</translation>
+        <translation>在桌面應用程式中導出它。</translation>
     </message>
     <message>
         <source>To export it use the desktop app.</source>
-        <translation>Chcete-li jej exportovat, použijte aplikaci pro stolní počítače.</translation>
+        <translation>要匯出它，請使用桌面應用程式。</translation>
     </message>
     <message>
         <source>Sent from my reMarkable paper tablet&lt;br&gt;Get yours at www.remarkable.com&lt;br&gt;&lt;br&gt;PS: You cannot reply to this email&lt;br&gt;</source>
-        <translation>Odesláno z mého papírového tabletu reMarkable&lt;br&gt;Získejte svůj na www.remarkable.com&lt;br&gt;&lt;br&gt;PS: Na tento e-mail nemůžete odpovědět&lt;br&gt;</translation>
+        <translation>從我的 reMarkable 紙質平板電腦發送&lt;br&gt;在 www.remarkable.com 上取得您的&lt;br&gt;&lt;br&gt;PS：您無法回覆此電子郵件&lt;br&gt;</translation>
     </message>
     <message>
         <source>Sending...</source>
-        <translation>Odesílání...</translation>
+        <translation>正在發送...</translation>
     </message>
     <message>
         <source>Unable to send</source>
-        <translation>Nelze odeslat</translation>
+        <translation>無法發送</translation>
     </message>
     <message>
         <source>Email sent</source>
-        <translation>Email odeslán</translation>
+        <translation>電子郵件已發送</translation>
     </message>
 </context>
 <context>
     <name>BatteryCellItem</name>
     <message>
         <source>%1 %</source>
-        <translation>%1 %</translation>
+        <translation>%1%</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Baterie</translation>
+        <translation>電池</translation>
     </message>
 </context>
 <context>
@@ -1500,39 +1500,39 @@
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>SSH root password</source>
-        <translation>SSH root heslo</translation>
+        <translation>SSH 根密碼</translation>
     </message>
     <message>
         <source>Choose the cloud environment your reMarkable connects to.</source>
-        <translation>Vyberte cloudové prostředí, ke kterému se reMarkable připojuje.</translation>
+        <translation>選擇您的 reMarkable 連線到的雲端環境。</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Datum sestavení</translation>
+        <translation>建造日期</translation>
     </message>
     <message>
         <source>Dump trace</source>
-        <translation>Výsypná stopa</translation>
+        <translation>轉儲追蹤</translation>
     </message>
     <message>
         <source>Tectonic ID</source>
-        <translation>Tektonické ID</translation>
+        <translation>構造識別</translation>
     </message>
     <message>
         <source>Generates system trace report. Blocks until done.</source>
-        <translation>Generuje zprávu o trasování systému. Blokuje, dokud nebude hotovo.</translation>
+        <translation>產生系統追蹤報告。阻塞直到完成。</translation>
     </message>
     <message>
         <source>Internal info</source>
-        <translation>Interní informace</translation>
+        <translation>內部資訊</translation>
     </message>
     <message>
         <source>MAC address</source>
-        <translation>MAC adresa</translation>
+        <translation>MAC位址</translation>
     </message>
     <message>
         <source>%1 + %2</source>
@@ -1540,47 +1540,47 @@
     </message>
     <message>
         <source>Device info</source>
-        <translation>Informace o zařízení</translation>
+        <translation>設備資訊</translation>
     </message>
     <message>
         <source>Shows splash screen for release notes.</source>
-        <translation>Zobrazí úvodní obrazovku pro poznámky k vydání.</translation>
+        <translation>顯示發行說明的啟動畫面。</translation>
     </message>
     <message>
         <source>System trace</source>
-        <translation>Trasování systému</translation>
+        <translation>系統追蹤</translation>
     </message>
     <message>
         <source>A restart is needed after changing service environment. Tap to restart.</source>
-        <translation>Po změně servisního prostředí je nutný restart. Klepnutím restartujte.</translation>
+        <translation>更改服務環境後需要重新啟動。點擊重新啟動。</translation>
     </message>
     <message>
         <source>Enable Filesystem explorer</source>
-        <translation>Povolit Průzkumníka souborového systému</translation>
+        <translation>啟用檔案系統資源管理器</translation>
     </message>
     <message>
         <source>Cloud service environment</source>
-        <translation>Prostředí cloudových služeb</translation>
+        <translation>雲端服務環境</translation>
     </message>
     <message>
         <source>Splash screen</source>
-        <translation>Úvodní obrazovka</translation>
+        <translation>啟動畫面</translation>
     </message>
     <message>
         <source>Developer settings</source>
-        <translation>Nastavení vývojáře</translation>
+        <translation>開發者設定</translation>
     </message>
     <message>
         <source>Branch + sha</source>
-        <translation>Pobočka + ša</translation>
+        <translation>分公司+沙</translation>
     </message>
     <message>
         <source>Requires reboot</source>
-        <translation>Vyžaduje restart</translation>
+        <translation>需要重新啟動</translation>
     </message>
     <message>
         <source>IP addresses</source>
-        <translation>IP adresy</translation>
+        <translation>IP位址</translation>
     </message>
 </context>
 <context>
@@ -1591,63 +1591,63 @@
     </message>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>Pair your paper tablet with %1, or unpair to use a different account</source>
-        <translation>Spárujte svůj papírový tablet s %1 nebo zrušte spárování a použijte jiný účet</translation>
+        <translation>將您的紙質平板電腦與%1配對，或取消配對以使用其他帳戶</translation>
     </message>
     <message>
         <source>Verify email to pair</source>
-        <translation>Pro spárování ověřte e-mail</translation>
+        <translation>驗證電子郵件以進行配對</translation>
     </message>
     <message>
         <source>Pairing completed</source>
-        <translation>Párování dokončeno</translation>
+        <translation>配對完成</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>Get new code</source>
-        <translation>Získejte nový kód</translation>
+        <translation>取得新程式碼</translation>
     </message>
     <message>
         <source>Please retry and we'll do our best to solve the problem.</source>
-        <translation>Zkuste to prosím znovu a my se pokusíme problém vyřešit.</translation>
+        <translation>請重試，我們將盡力解決問題。</translation>
     </message>
     <message>
         <source>To use cloud storage and sync, open the link we sent to your email%1.</source>
-        <translation>Chcete-li použít cloudové úložiště a synchronizaci, otevřete odkaz, který jsme vám poslali na váš e-mail%1.</translation>
+        <translation>要使用雲端儲存和同步，請開啟我們發送到您的電子郵件%1 的連結。</translation>
     </message>
     <message>
         <source>Activate Connect</source>
-        <translation>Aktivujte Connect</translation>
+        <translation>啟動連接</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
     <message>
         <source>We are unable to pair your device. Please try again.</source>
-        <translation>Nedaří se nám spárovat vaše zařízení. Zkuste to prosím znovu.</translation>
+        <translation>我們無法配對您的裝置。請再試一次。</translation>
     </message>
     <message>
         <source>Unable to complete pairing</source>
-        <translation>Párování nelze dokončit</translation>
+        <translation>無法完成配對</translation>
     </message>
     <message>
         <source>Verify later</source>
-        <translation>Ověřte později</translation>
+        <translation>稍後驗證</translation>
     </message>
 </context>
 <context>
@@ -1658,66 +1658,66 @@
     </message>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Any new changes made since your last sync are at risk of being lost.</source>
-        <translation>Všechny nové změny provedené od poslední synchronizace mohou být ztraceny.</translation>
+        <translation>自上次同步以來所做的任何新更改都有遺失的風險。</translation>
     </message>
     <message>
         <source>Please connect to Wi-Fi and try again.</source>
-        <translation>Připojte se k síti Wi-Fi a zkuste to znovu.</translation>
+        <translation>請連接到 Wi-Fi，然後再試一次。</translation>
     </message>
     <message>
         <source>Unpairing from the cloud</source>
-        <translation>Zrušení párování z cloudu</translation>
+        <translation>從雲端取消配對</translation>
     </message>
     <message>
         <source>Forced unpairing without syncing</source>
-        <translation>Vynucené zrušení párování bez synchronizace</translation>
+        <translation>強制取消配對而不同步</translation>
     </message>
     <message>
         <source>Force unpair</source>
-        <translation>Vynutit zrušení párování</translation>
+        <translation>強制取消配對</translation>
     </message>
     <message>
         <source>If your device is unpaired with &lt;nobr&gt;the reMarkable cloud&lt;/nobr&gt; now, you risk losing unsynced files.</source>
-        <translation>Pokud nyní není vaše zařízení spárováno s &lt;nobr&gt;reMarkable cloud&lt;/nobr&gt;, riskujete ztrátu nesynchronizovaných souborů.</translation>
+        <translation>如果您的裝置現在未與&lt;nobr&gt;reMarkable 雲端&lt;/nobr&gt;配對，您可能會遺失未同步的檔案。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Changes will sync automatically before your reMarkable account is unpaired. No files will be deleted on your device.</source>
-        <translation>Změny se automaticky synchronizují, než bude spárování vašeho účtu reMarkable zrušeno. Na vašem zařízení nebudou smazány žádné soubory.</translation>
+        <translation>在您的 reMarkable 帳戶取消配對之前，變更將自動同步。您裝置上的任何檔案都不會被刪除。</translation>
     </message>
     <message>
         <source>Unable to sync. Please try again.</source>
-        <translation>Nelze synchronizovat. Zkuste to prosím znovu.</translation>
+        <translation>無法同步。請再試一次。</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>Unpairing stopped</source>
-        <translation>Zrušení párování bylo zastaveno</translation>
+        <translation>取消配對已停止</translation>
     </message>
     <message>
         <source>Syncing</source>
-        <translation>Probíhá synchronizace</translation>
+        <translation>正在同步</translation>
     </message>
     <message numerus="yes">
         <source>%n document(s) are currently archived. You will not be able to retrieve or open them on your paper&amp;#160;tablet once you unpair.</source>
         <translation>
-            <numerusform>%n dokument je aktuálně archivován. Jakmile zrušíte párování, nebudete jej moci na svém papírovém tabletu načíst ani otevřít.</numerusform>
-            <numerusform>%n dokumentů je aktuálně archivováno. Jakmile zrušíte párování, nebudete je moci na svém papírovém tabletu načíst ani otevřít.</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 文件目前已存檔。一旦取消配對，您將無法在紙質平板電腦上檢索或打開它。</numerusform>
+            <numerusform>目前已存檔 %n 個文件。一旦取消配對，您將無法在紙質平板電腦上檢索或打開它們。</numerusform>
+        </translation>
     </message>
     <message>
         <source>Your device has been unpaired</source>
-        <translation>Spárování vašeho zařízení bylo zrušeno</translation>
+        <translation>您的裝置已取消配對</translation>
     </message>
 </context>
 <context>
@@ -1731,14 +1731,14 @@
     <name>DropdownButton</name>
     <message>
         <source>BETA</source>
-        <translation>BETA</translation>
+        <translation>測試版</translation>
     </message>
 </context>
 <context>
     <name>Account</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>, %1,</source>
@@ -1746,1432 +1746,1432 @@
     </message>
     <message>
         <source>Reset</source>
-        <translation>Obnovit</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>%1 subscription</source>
-        <translation>%1 předplatné</translation>
+        <translation>%1 訂閱</translation>
     </message>
     <message>
         <source>Your account%1 was created, but not verified. Find a verification link in an email we sent you, to sync content to the reMarkable cloud and use basic features.</source>
-        <translation>Váš účet%1 byl vytvořen, ale nebyl ověřen. Najděte ověřovací odkaz v e-mailu, který jsme vám poslali, abyste mohli synchronizovat obsah do cloudu reMarkable a používat základní funkce.</translation>
+        <translation>您的帳戶%1 已創建，但尚未驗證。在我們發送給您的電子郵件中找到驗證鏈接，以將內容同步到 reMarkable 雲端並使用基本功能。</translation>
     </message>
     <message>
         <source>Pair your account%1 to the paper tablet, again. This safety verification is required to sync content to the reMarkable cloud and use basic features.</source>
-        <translation>Znovu spárujte svůj účet%1 s papírovým tabletem. Toto bezpečnostní ověření je nutné k synchronizaci obsahu do cloudu reMarkable a používání základních funkcí.</translation>
+        <translation>再次將您的帳戶%1 與紙質平板電腦配對。需要進行此安全驗證才能將內容同步到 reMarkable 雲端並使用基本功能。</translation>
     </message>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>Your paper tablet is not connected to the cloud, which is required to use basic features.</source>
-        <translation>Váš papírový tablet není připojen ke cloudu, který je nutný k používání základních funkcí.</translation>
+        <translation>您的紙質平板電腦未連接到雲，這是使用基本功能所必需的。</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Account</source>
-        <translation>Účet</translation>
+        <translation>帳戶</translation>
     </message>
     <message>
         <source>Verify your device</source>
-        <translation>Ověřte své zařízení</translation>
+        <translation>驗證您的設備</translation>
     </message>
     <message>
         <source>This will delete all files stored on your paper tablet and restore it to its original settings.</source>
-        <translation>Tím se vymažou všechny soubory uložené v papírovém tabletu a obnoví se původní nastavení.</translation>
+        <translation>這將刪除儲存在寫字板上的所有檔案並將其恢復為原始設定。</translation>
     </message>
     <message>
         <source>Log in to manage your subscription at %1.</source>
-        <translation>Přihlaste se a spravujte své předplatné na %1.</translation>
+        <translation>登入以管理您在 %1 的訂閱。</translation>
     </message>
     <message>
         <source>Subscribe to Connect, with unlimited cloud storage and sync, and access to all note-taking features in the mobile and desktop apps.</source>
-        <translation>Předplaťte si Connect, s neomezeným cloudovým úložištěm a synchronizací a přístupem ke všem funkcím pro psaní poznámek v mobilních a stolních aplikacích.</translation>
+        <translation>訂閱 Connect，享受無限的雲端儲存和同步，並存取行動和桌面應用程式中的所有筆記功能。</translation>
     </message>
     <message>
         <source>Verify by pairing</source>
-        <translation>Ověřte spárováním</translation>
+        <translation>透過配對驗證</translation>
     </message>
     <message>
         <source>Your Connect subscription is administered by your employer.</source>
-        <translation>Vaše předplatné Connect spravuje váš zaměstnavatel.</translation>
+        <translation>您的 Connect 訂閱由您的雇主管理。</translation>
     </message>
     <message>
         <source>Enterprise</source>
-        <translation>Podnik</translation>
+        <translation>企業</translation>
     </message>
     <message>
         <source>Log in to %1 to request a new email from us.</source>
-        <translation>Přihlaste se k %1 a vyžádejte si od nás nový e-mail.</translation>
+        <translation>登入 %1 請求我們發送新電子郵件。</translation>
     </message>
     <message>
         <source>You have unlimited cloud storage, sync, and access to all note-taking features in the mobile and desktop apps.</source>
-        <translation>Máte neomezené cloudové úložiště, synchronizaci a přístup ke všem funkcím pro psaní poznámek v mobilních a stolních aplikacích.</translation>
+        <translation>您擁有無限的雲端儲存、同步和存取行動和桌面應用程式中的所有筆記功能。</translation>
     </message>
     <message>
         <source>Verify your account by email</source>
-        <translation>Ověřte svůj účet e-mailem</translation>
+        <translation>透過電子郵件驗證您的帳戶</translation>
     </message>
     <message>
         <source>Your workplace has set certain policies to strengthen the security on the device.</source>
-        <translation>Vaše pracoviště nastavilo určité zásady pro posílení zabezpečení zařízení.</translation>
+        <translation>您的工作場所已製定某些策略來加強設備的安全性。</translation>
     </message>
     <message>
         <source>Not subscribed</source>
-        <translation>Nepřihlášeno</translation>
+        <translation>未訂閱</translation>
     </message>
 </context>
 <context>
     <name>AllTagsView</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Štítky</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Alphabetical (Z-A)</source>
-        <translation>Abecedy (Z-A)</translation>
+        <translation>按字母順序 (Z-A)</translation>
     </message>
     <message>
         <source>Alphabetical (A-Z)</source>
-        <translation>Abecedy (A-Z)</translation>
+        <translation>按字母順序 (A-Z)</translation>
     </message>
 </context>
 <context>
     <name>ArkGallery</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Ark Gallery</source>
-        <translation>Galerie Archa</translation>
+        <translation>方舟畫廊</translation>
     </message>
 </context>
 <context>
     <name>Battery</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>1 hour</source>
-        <translation>1 hodina</translation>
+        <translation>1小時</translation>
     </message>
     <message>
         <source>5 minutes</source>
-        <translation>5 minut</translation>
+        <translation>5分鐘</translation>
     </message>
     <message>
         <source>20 minutes</source>
-        <translation>20 minut</translation>
+        <translation>20分鐘</translation>
     </message>
     <message>
         <source>Let your paper tablet power off when it's inactive for 12 hours.</source>
-        <translation>Nechte papírový tablet vypnout, když je 12 hodin neaktivní.</translation>
+        <translation>當您的紙質平板電腦閒置 12 小時後，請將其關閉。</translation>
     </message>
     <message>
         <source>Choose a time interval before your display turns off.</source>
-        <translation>Vyberte časový interval, než se displej vypne.</translation>
+        <translation>選擇顯示屏關閉之前的時間間隔。</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Pohotovostní</translation>
+        <translation>支援</translation>
     </message>
     <message>
         <source>Power off</source>
-        <translation>Vypněte napájení</translation>
+        <translation>關閉電源</translation>
     </message>
     <message>
         <source>Make your device turn off after 12 hours of inactivity.</source>
-        <translation>Nechte své zařízení vypnout po 12 hodinách nečinnosti.</translation>
+        <translation>讓您的裝置在 12 小時不活動後關閉。</translation>
     </message>
 </context>
 <context>
     <name>BetaProgramAgreement</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>End user agreement reMarkable beta program</source>
-        <translation>Smlouva s koncovým uživatelem reMarkable beta program</translation>
+        <translation>最終用戶協定 reMarkable beta 計劃</translation>
     </message>
 </context>
 <context>
     <name>ChangePassword</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Verify your new password</source>
-        <translation>Ověřte své nové heslo</translation>
+        <translation>驗證您的新密碼</translation>
     </message>
     <message>
         <source>Unable to change password. Try again.</source>
-        <translation>Nelze změnit heslo. Zkuste to znovu.</translation>
+        <translation>無法更改密碼。再試一次。</translation>
     </message>
     <message>
         <source>Checking password</source>
-        <translation>Kontrola hesla</translation>
+        <translation>檢查密碼</translation>
     </message>
     <message>
         <source>Setting...</source>
-        <translation>Nastavení...</translation>
+        <translation>環境...</translation>
     </message>
     <message>
         <source>Enter your new password</source>
-        <translation>Zadejte své nové heslo</translation>
+        <translation>輸入您的新密碼</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation>Zadejte heslo</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <source>Incorrect password. Please try again.</source>
-        <translation>Nesprávné heslo. Zkuste to prosím znovu.</translation>
+        <translation>密碼不正確。請再試一次。</translation>
     </message>
 </context>
 <context>
     <name>ComplianceInformation</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>About this device</source>
-        <translation>O tomto zařízení</translation>
+        <translation>關於本設備</translation>
     </message>
     <message>
         <source>Model number: %1&lt;br&gt;Serial number: %2</source>
-        <translation>Číslo modelu: %1&lt;br&gt;Sériové číslo: %2</translation>
+        <translation>型號：%1&lt;br&gt;序號：%2</translation>
     </message>
 </context>
 <context>
     <name>DialogScreen</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>Enroll</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>By enrolling, you agree to the &lt;a href='link'&gt;End user agreement&lt;/a&gt;.</source>
-        <translation>Registrací vyjadřujete souhlas se &lt;a href='link'&gt;Smlouvou s koncovým uživatelem&lt;/a&gt;.</translation>
+        <translation>註冊即表示您同意&lt;a href='link'&gt;最終用戶協議&lt;/a&gt;。</translation>
     </message>
     <message>
         <source>Enroll</source>
-        <translation>Zapsat</translation>
+        <translation>註冊</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>If a beta release is available, you will get it shortly. Manage your enrollment in &lt;b&gt;Settings &gt; General &gt; Software&lt;/b&gt;</source>
-        <translation>Pokud je k dispozici beta verze, brzy ji získáte. Spravujte svou registraci v &lt;b&gt;Nastavení &gt; Obecné &gt; Software&lt;/b&gt;</translation>
+        <translation>如果有測試版可用，您很快就會得到它。在&lt;b&gt;設定 &gt; 常規 &gt; 軟體&lt;/b&gt;中管理您的註冊</translation>
     </message>
     <message>
         <source>reMarkable beta program</source>
-        <translation>Remarkable beta program</translation>
+        <translation>卓越的測試計劃</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi to enroll.</source>
-        <translation>Chcete-li se zaregistrovat, připojte se k síti Wi-Fi.</translation>
+        <translation>連接至 Wi-Fi 進行註冊。</translation>
     </message>
     <message>
         <source>Enrolling</source>
-        <translation>Zapisování</translation>
+        <translation>招生中</translation>
     </message>
     <message>
         <source>Pair your device in Account settings to enroll</source>
-        <translation>Spárujte své zařízení v nastavení účtu a zaregistrujte se</translation>
+        <translation>在帳戶設定中將您的裝置配對以進行註冊</translation>
     </message>
     <message>
         <source>Participation is voluntary and free of charge.</source>
-        <translation>Účast je dobrovolná a bezplatná.</translation>
+        <translation>參與是自願且免費的。</translation>
     </message>
     <message>
         <source>Beta releases may contain bugs or inaccuracies, as they are being developed. Since it's not commercially released software, data loss may occur.</source>
-        <translation>Verze beta mohou obsahovat chyby nebo nepřesnosti, protože jsou vyvíjeny. Protože se nejedná o komerčně vydaný software, může dojít ke ztrátě dat.</translation>
+        <translation>Beta 版本在開發過程中可能包含錯誤或不準確之處。由於它不是商業發布的軟體，因此可能會發生資料遺失。</translation>
     </message>
     <message>
         <source>Please try again later. If the problem persists, visit our support pages at support.reMarkable.com.</source>
-        <translation>Zkuste to znovu později. Pokud problém přetrvává, navštivte naše stránky podpory na adrese support.reMarkable.com.</translation>
+        <translation>請稍後重試。如果問題仍然存在，請造訪我們的支援頁面：support.reMarkable.com。</translation>
     </message>
     <message>
         <source>Access the latest developments by enrolling to the beta program.</source>
-        <translation>Získejte přístup k nejnovějšímu vývoji registrací do beta programu.</translation>
+        <translation>透過註冊測試版計畫來了解最新進展。</translation>
     </message>
     <message>
         <source>You can unenroll whenever you want.</source>
-        <translation>Registraci můžete zrušit, kdykoli budete chtít.</translation>
+        <translation>您可以隨時取消註冊。</translation>
     </message>
 </context>
 <context>
     <name>Experimental</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Preview of Auth2 setup</source>
-        <translation>Náhled nastavení Auth2</translation>
+        <translation>Auth2 設定預覽</translation>
     </message>
     <message>
         <source>Flick views as on any other tablet or phone, as opposed to scrolling page by page. Leads to more ghosting.</source>
-        <translation>Rychlá zobrazení jako na jakémkoli jiném tabletu nebo telefonu, na rozdíl od rolování stránku po stránce. Vede k většímu ghostingu.</translation>
+        <translation>像在任何其他平板電腦或手機上一樣輕拂視圖，而不是逐頁滾動。導致更多重影。</translation>
     </message>
     <message>
         <source>Smooth scroll (on selected views)</source>
-        <translation>Plynulé posouvání (u vybraných zobrazení)</translation>
+        <translation>平滑滾動（在選定的視圖上）</translation>
     </message>
     <message>
         <source>Disables most ui in documents, allowing for more immersive pdf prototying. Use swipe from top gesture to exit the document</source>
-        <translation>Deaktivuje většinu uživatelského rozhraní v dokumentech, což umožňuje dokonalejší vytváření prototypů PDF. K ukončení dokumentu použijte gesto přejetím shora</translation>
+        <translation>停用文件中的大多數 ui，從而實現更身臨其境的 pdf 原型設計。使用從頂部滑動的手勢退出文檔</translation>
     </message>
     <message>
         <source>Enable screenshot functionality</source>
-        <translation>Povolit funkci snímku obrazovky</translation>
+        <translation>啟用螢幕截圖功能</translation>
     </message>
     <message>
         <source>This will delay the orientation change triggered by the sensor. NOTE: Toggling this feature requires a device reboot.</source>
-        <translation>To zpozdí změnu orientace spuštěnou senzorem. POZNÁMKA: Přepnutí této funkce vyžaduje restartování zařízení.</translation>
+        <translation>這將延遲感測器觸發的方向變化。注意：切換此功能需要重新啟動裝置。</translation>
     </message>
     <message>
         <source>Latest sync schema</source>
-        <translation>Nejnovější schéma synchronizace</translation>
+        <translation>最新同步架構</translation>
     </message>
     <message>
         <source>Enable Screen Share outside docs</source>
-        <translation>Povolit sdílení obrazovky mimo dokumenty</translation>
+        <translation>在文件外部啟用螢幕分享</translation>
     </message>
     <message>
         <source>Enable experimental gestures</source>
-        <translation>Povolit experimentální gesta</translation>
+        <translation>啟用實驗性手勢</translation>
     </message>
     <message>
         <source>This adds a test option to Settings-&gt;Account page for internal testing and review.</source>
-        <translation>Tím se na stránku Nastavení-&gt;Účet přidá možnost testování pro interní testování a kontrolu.</translation>
+        <translation>這會在「設定」-&gt;「帳戶」頁面中新增一個測試選項，用於內部測試和審核。</translation>
     </message>
     <message>
         <source>5-finger clear</source>
-        <translation>5 prstů čisté</translation>
+        <translation>5指清晰</translation>
     </message>
     <message>
         <source>Experimental features</source>
-        <translation>Experimentální funkce</translation>
+        <translation>實驗特點</translation>
     </message>
     <message>
         <source>These features are only intended for internal testing. There are no guarantees that they will end up in a future product from reMarkable.</source>
-        <translation>Tyto funkce jsou určeny pouze pro interní testování. Neexistují žádné záruky, že skončí v budoucím produktu od reMarkable.</translation>
+        <translation>這些功能僅用於內部測試。無法保證它們最終會出現在 reMarkable 未來的產品中。</translation>
     </message>
     <message>
         <source>Using %1 of %2 features.</source>
-        <translation>Používá %1 z %2 funkcí.</translation>
+        <translation>使用 %2 個功能中的 %1 個。</translation>
     </message>
     <message>
         <source>Requires reboot. Enable the latest version (4) of document schema for syncing with cloud library</source>
-        <translation>Vyžaduje restart. Povolte nejnovější verzi (4) schématu dokumentů pro synchronizaci s cloudovou knihovnou</translation>
+        <translation>需要重新啟動。啟用最新版本（4）的文件架構以與雲端庫同步</translation>
     </message>
     <message>
         <source>Long press power button to access export screenshot as PDF. Requires reboot.</source>
-        <translation>Dlouhým stisknutím tlačítka napájení získáte přístup k exportu snímku obrazovky jako PDF. Vyžaduje restart.</translation>
+        <translation>長按電源按鈕可將螢幕截圖匯出為 PDF。需要重新啟動。</translation>
     </message>
     <message>
         <source>PDF prototyping</source>
-        <translation>Prototypování PDF</translation>
+        <translation>PDF 原型製作</translation>
     </message>
     <message>
         <source>Delay orientation change</source>
-        <translation>Zpoždění změny orientace</translation>
+        <translation>延遲方向改變</translation>
     </message>
 </context>
 <context>
     <name>ForgotPasscodeScreen</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>You can try the passcode again or reset your device.</source>
-        <translation>Můžete zkusit heslo znovu nebo resetovat zařízení.</translation>
+        <translation>您可以再次嘗試輸入密碼或重設裝置。</translation>
     </message>
     <message>
         <source>Waiting for confirmation</source>
-        <translation>Čekání na potvrzení</translation>
+        <translation>等待確認</translation>
     </message>
     <message>
         <source>Reset stopped</source>
-        <translation>Reset zastaven</translation>
+        <translation>重置已停止</translation>
     </message>
     <message>
         <source>Reset device</source>
-        <translation>Resetujte zařízení</translation>
+        <translation>復位裝置</translation>
     </message>
     <message>
         <source>Confirm reset on %1</source>
-        <translation>Potvrďte reset na %1</translation>
+        <translation>確認在 %1 重置</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Confirm reset</source>
-        <translation>Potvrďte reset</translation>
+        <translation>確認重置</translation>
     </message>
     <message>
         <source>If it was unintended, please go back and try again.</source>
-        <translation>Pokud to bylo nechtěné, vraťte se a zkuste to znovu.</translation>
+        <translation>如果是無意的，請返回並重試。</translation>
     </message>
     <message>
         <source>Connect to Wi-Fi</source>
-        <translation>Připojte se k Wi-Fi</translation>
+        <translation>連接到 Wi-Fi</translation>
     </message>
     <message>
         <source>Log in to %1 and confirm that you want to reset your passcode.</source>
-        <translation>Přihlaste se k %1 a potvrďte, že chcete resetovat svůj přístupový kód.</translation>
+        <translation>登入 %1 並確認您要重設密碼。</translation>
     </message>
     <message>
         <source>The request to reset the passcode was canceled via %1.</source>
-        <translation>Požadavek na resetování přístupového kódu byl zrušen prostřednictvím %1.</translation>
+        <translation>重設密碼的請求已透過 %1 取消。</translation>
     </message>
     <message>
         <source>%1 via %2</source>
-        <translation>%1 přes %2</translation>
+        <translation>%1 通過 %2</translation>
     </message>
     <message>
         <source>Something went wrong, please try again later. If the problem persists, visit our support page at support.remarkable.com.</source>
-        <translation>Něco se pokazilo, zkuste to prosím znovu později. Pokud problém přetrvává, navštivte naši stránku podpory na adrese support.remarkable.com.</translation>
+        <translation>出了點問題，請稍後再試。如果問題仍然存在，請造訪我們的支援頁面：support.remarkable.com。</translation>
     </message>
     <message>
         <source>This action will delete all files on the device and restore your device settings to their original state.</source>
-        <translation>Tato akce odstraní všechny soubory v zařízení a obnoví nastavení zařízení do původního stavu.</translation>
+        <translation>此操作將刪除裝置上的所有檔案並將裝置設定還原為原始狀態。</translation>
     </message>
     <message>
         <source>No cloud connection</source>
-        <translation>Žádné cloudové připojení</translation>
+        <translation>無雲端連線</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
     <message>
         <source>Reset canceled</source>
-        <translation>Resetování zrušeno</translation>
+        <translation>重置已取消</translation>
     </message>
     <message>
         <source>Unable to back up content before resetting. Your device is not paired with the cloud.</source>
-        <translation>Před resetováním nelze zálohovat obsah. Vaše zařízení není spárováno s cloudem.</translation>
+        <translation>重置前無法備份內容。您的裝置未與雲端配對。</translation>
     </message>
 </context>
 <context>
     <name>HelpBrowser</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Visit our learning and inspiration hub for more helpful tips, guides, and walkthroughs.</source>
-        <translation>Navštivte naše centrum pro učení a inspiraci, kde najdete další užitečné tipy, návody a návody.</translation>
+        <translation>造訪我們的學習和靈感中心，以獲取更多實用的提示、指南和演練。</translation>
     </message>
     <message>
         <source>A four step guide on how to use your paper tablet and improve your workflow.</source>
-        <translation>Čtyřkrokový průvodce o tom, jak používat papírový tablet a jak zlepšit svůj pracovní postup.</translation>
+        <translation>關於如何使用紙質平板電腦和改進工作流程的四步驟指南。</translation>
     </message>
     <message>
         <source>Guides</source>
-        <translation>Průvodci</translation>
+        <translation>指南</translation>
     </message>
     <message>
         <source>reMarkable Methods</source>
-        <translation>Remarkable metody</translation>
+        <translation>非凡的方法</translation>
     </message>
     <message>
         <source>Tips for how the different tools work, and where to find them on your reMarkable.</source>
-        <translation>Tipy, jak různé nástroje fungují a kde je na vašem reMarkable najít.</translation>
+        <translation>有關不同工具如何運作以及在 reMarkable 上哪裡可以找到它們的提示。</translation>
     </message>
     <message>
         <source>Start tutorial</source>
-        <translation>Spusťte výukový program</translation>
+        <translation>開始教程</translation>
     </message>
     <message>
         <source>Features and functionality</source>
-        <translation>Vlastnosti a funkčnost</translation>
+        <translation>特點和功能</translation>
     </message>
     <message>
         <source>Overview of all the gestures that you can use to navigate, edit, and multitask.</source>
-        <translation>Přehled všech gest, která můžete použít k navigaci, úpravám a multitaskingu.</translation>
+        <translation>概述可用於導航、編輯和多任務的所有手勢。</translation>
     </message>
     <message>
         <source>Using reMarkable</source>
-        <translation>Pomocí reMarkable</translation>
+        <translation>使用 reMarkable</translation>
     </message>
     <message>
         <source>Gestures</source>
-        <translation>Gesta</translation>
+        <translation>手勢</translation>
     </message>
     <message>
         <source>Show tooltips</source>
-        <translation>Zobrazit popisky</translation>
+        <translation>顯示工具提示</translation>
     </message>
     <message>
         <source>Ways of working</source>
-        <translation>Způsoby práce</translation>
+        <translation>工作方式</translation>
     </message>
     <message>
         <source>Discover our go-to resource for the latest templates, tools, and workbooks.</source>
-        <translation>Objevte náš zdroj nejnovějších šablon, nástrojů a sešitů.</translation>
+        <translation>發現我們的最新範本、工具和工作簿的首選資源。</translation>
     </message>
     <message>
         <source>View all</source>
-        <translation>Zobrazit vše</translation>
+        <translation>看全部</translation>
     </message>
 </context>
 <context>
     <name>InformationDialog</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>LanguageAndKeyboard</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Czech</source>
-        <translation>čeština</translation>
+        <translation>捷克語</translation>
     </message>
     <message>
         <source>Dutch</source>
-        <translation>holandský</translation>
+        <translation>荷蘭語</translation>
     </message>
     <message>
         <source>Greek</source>
-        <translation>řecký</translation>
+        <translation>希臘文</translation>
     </message>
     <message>
         <source>Irish</source>
-        <translation>irština</translation>
+        <translation>愛爾蘭語</translation>
     </message>
     <message>
         <source>Canadian French</source>
-        <translation>Kanadská francouzština</translation>
+        <translation>加拿大法語</translation>
     </message>
     <message>
         <source>Italian</source>
-        <translation>italština</translation>
+        <translation>義大利語</translation>
     </message>
     <message>
         <source>On-screen keyboard</source>
-        <translation>Klávesnice na obrazovce</translation>
+        <translation>螢幕鍵盤</translation>
     </message>
     <message>
         <source>Latvian</source>
-        <translation>lotyšský</translation>
+        <translation>拉脫維亞語</translation>
     </message>
     <message>
         <source>Bulgarian</source>
-        <translation>bulharský</translation>
+        <translation>保加利亞語</translation>
     </message>
     <message>
         <source>Handwriting conversion</source>
-        <translation>Převod rukopisu</translation>
+        <translation>手寫轉換</translation>
     </message>
     <message>
         <source>Specifications and shortcuts</source>
-        <translation>Specifikace a zkratky</translation>
+        <translation>規格和快捷方式</translation>
     </message>
     <message>
         <source>Basque</source>
-        <translation>baskický</translation>
+        <translation>巴斯克</translation>
     </message>
     <message>
         <source>Danish</source>
-        <translation>dánština</translation>
+        <translation>丹麥語</translation>
     </message>
     <message>
         <source>American English</source>
-        <translation>americká angličtina</translation>
+        <translation>美式英語</translation>
     </message>
     <message>
         <source>Hungarian</source>
-        <translation>maďarský</translation>
+        <translation>匈牙利</translation>
     </message>
     <message>
         <source>French</source>
-        <translation>francouzština</translation>
+        <translation>法語</translation>
     </message>
     <message>
         <source>German</source>
-        <translation>Němec</translation>
+        <translation>德文</translation>
     </message>
     <message>
         <source>Languages</source>
-        <translation>Jazyky</translation>
+        <translation>語言</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation>polština</translation>
+        <translation>拋光</translation>
     </message>
     <message>
         <source>Slovak</source>
-        <translation>Slovák</translation>
+        <translation>斯洛伐克語</translation>
     </message>
     <message>
         <source>Romanian</source>
-        <translation>rumunština</translation>
+        <translation>羅馬尼亞語</translation>
     </message>
     <message>
         <source>Slovenian</source>
-        <translation>slovinský</translation>
+        <translation>斯洛維尼亞語</translation>
     </message>
     <message>
         <source>Type Folio</source>
-        <translation>Typ Folio</translation>
+        <translation>類型對開本</translation>
     </message>
     <message>
         <source>Handwriting conversion language</source>
-        <translation>Jazyk převodu rukopisu</translation>
+        <translation>手寫轉換語言</translation>
     </message>
     <message>
         <source>Galician</source>
-        <translation>galicijský</translation>
+        <translation>加利西亞語</translation>
     </message>
     <message>
         <source>German (DE)</source>
-        <translation>němčina (DE)</translation>
+        <translation>德語 (DE)</translation>
     </message>
     <message>
         <source>German (AT)</source>
-        <translation>němčina (AT)</translation>
+        <translation>德文 (AT)</translation>
     </message>
     <message>
         <source>Croatian</source>
-        <translation>chorvatský</translation>
+        <translation>克羅埃西亞語</translation>
     </message>
     <message>
         <source>Catalan</source>
-        <translation>katalánština</translation>
+        <translation>加泰隆尼亞語</translation>
     </message>
     <message>
         <source>Dutch (BE)</source>
-        <translation>holandština (BE)</translation>
+        <translation>荷蘭語（比利時）</translation>
     </message>
     <message>
         <source>Dutch (NL)</source>
-        <translation>holandština (NL)</translation>
+        <translation>荷蘭語 (NL)</translation>
     </message>
     <message>
         <source>Norwegian</source>
-        <translation>norský</translation>
+        <translation>挪威</translation>
     </message>
     <message>
         <source>French (FR)</source>
-        <translation>francouzština (FR)</translation>
+        <translation>法語（FR）</translation>
     </message>
     <message>
         <source>French (CA)</source>
-        <translation>francouzština (CA)</translation>
+        <translation>法語（加拿大）</translation>
     </message>
     <message>
         <source>Spanish</source>
-        <translation>španělština</translation>
+        <translation>西班牙語</translation>
     </message>
     <message>
         <source>Estonian</source>
-        <translation>estonština</translation>
+        <translation>愛沙尼亞語</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation>švédština</translation>
+        <translation>瑞典</translation>
     </message>
     <message>
         <source>Portuguese</source>
-        <translation>portugalština</translation>
+        <translation>葡萄牙語</translation>
     </message>
     <message>
         <source>Icelandic</source>
-        <translation>islandský</translation>
+        <translation>冰島語</translation>
     </message>
     <message>
         <source>English</source>
-        <translation>angličtina</translation>
+        <translation>英語</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation>Klávesnice</translation>
+        <translation>鍵盤</translation>
     </message>
     <message>
         <source>British English</source>
-        <translation>britská angličtina</translation>
+        <translation>英式英語</translation>
     </message>
     <message>
         <source>Finnish</source>
-        <translation>finština</translation>
+        <translation>芬蘭</translation>
     </message>
     <message>
         <source>Flemish</source>
-        <translation>vlámský</translation>
+        <translation>弗拉芒語</translation>
     </message>
     <message>
         <source>English (CA)</source>
-        <translation>angličtina (CA)</translation>
+        <translation>英語（加拿大）</translation>
     </message>
     <message>
         <source>English (US)</source>
-        <translation>angličtina (USA)</translation>
+        <translation>英語（美國）</translation>
     </message>
     <message>
         <source>English (UK)</source>
-        <translation>angličtina (Velká Británie)</translation>
+        <translation>英語（英國）</translation>
     </message>
     <message>
         <source>Canadian English</source>
-        <translation>kanadská angličtina</translation>
+        <translation>加拿大英語</translation>
     </message>
     <message>
         <source>Language and keyboard</source>
-        <translation>Jazyk a klávesnice</translation>
+        <translation>語言和鍵盤</translation>
     </message>
     <message>
         <source>Austrian German</source>
-        <translation>rakouská němčina</translation>
+        <translation>奧地利 德語</translation>
     </message>
     <message>
         <source>Type Folio language</source>
-        <translation>Zadejte jazyk folia</translation>
+        <translation>類型 Folio 語言</translation>
     </message>
     <message>
         <source>System language</source>
-        <translation>Jazyk systému</translation>
+        <translation>系統語言</translation>
     </message>
     <message>
         <source>German (beta)</source>
-        <translation>němčina (beta)</translation>
+        <translation>德語（測試版）</translation>
     </message>
     <message>
         <source>Lithuanian</source>
-        <translation>litevský</translation>
+        <translation>立陶宛語</translation>
     </message>
 </context>
 <context>
     <name>LicenseInformation</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>NewNetwork</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Connect to &lt;b&gt;other network&lt;/b&gt;</source>
-        <translation>Připojte se k &lt;b&gt;jiné síti&lt;/b&gt;</translation>
+        <translation>連接&lt;b&gt;其他網路&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Network name</source>
-        <translation>Název sítě</translation>
+        <translation>網路名稱</translation>
     </message>
 </context>
 <context>
     <name>OnboardingDialogue</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>PagesActions</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>More</source>
-        <translation>Více</translation>
+        <translation>更多的</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation>Přesunout</translation>
+        <translation>移動</translation>
     </message>
     <message>
         <source>Unable to delete while document is being exported</source>
-        <translation>Během exportu dokumentu nelze smazat</translation>
+        <translation>匯出文件時無法刪除</translation>
     </message>
     <message>
         <source>Send by email</source>
-        <translation>Odeslat e-mailem</translation>
+        <translation>透過電子郵件發送</translation>
     </message>
     <message>
         <source>Handwriting conversion</source>
-        <translation>Převod rukopisu</translation>
+        <translation>手寫轉換</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Vymazat</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Duplikovat</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>Share signed documents, annotated presentations, or handwritten notes directly from your paper tablet without losing focus. Send content as PDF, PNG, or SVG files.</source>
-        <translation>Sdílejte podepsané dokumenty, komentované prezentace nebo ručně psané poznámky přímo z papírového tabletu, aniž byste ztratili pozornost. Odesílejte obsah jako soubory PDF, PNG nebo SVG.</translation>
+        <translation>直接從平板電腦分享簽名文件、帶註釋的簡報或手寫筆記，而不會失去焦點。以 PDF、PNG 或 SVG 檔案形式傳送內容。</translation>
     </message>
     <message>
         <source>Connect required</source>
-        <translation>Je vyžadováno připojení</translation>
+        <translation>需要連接</translation>
     </message>
     <message>
         <source>This feature is not available in retail demo mode.</source>
-        <translation>Tato funkce není dostupná v demo režimu maloobchodu.</translation>
+        <translation>此功能在零售演示模式下無法使用。</translation>
     </message>
     <message>
         <source>Make your handwritten notes easy to use in emails, reports, or presentations by converting them into typed text. Handwriting conversion supports 33 languages, cursive and block letters, and sharing your freshly converted notes directly via email.</source>
-        <translation>Usnadněte používání ručně psaných poznámek v e-mailech, zprávách nebo prezentacích jejich převodem na psaný text. Převod rukopisu podporuje 33 jazyků, kurzíva a tiskací písmena a sdílení vašich čerstvě převedených poznámek přímo prostřednictvím e-mailu.</translation>
+        <translation>透過將手寫筆記轉換為鍵入的文本，使手寫筆記易於在電子郵件、報告或簡報中使用。手寫轉換支援 33 種語言、草書和正楷，並直接透過電子郵件分享您新轉換的筆記。</translation>
     </message>
 </context>
 <context>
     <name>PincodeDialogPage</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>SearchView</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Alphabetical (Z-A)</source>
-        <translation>Abecedy (Z-A)</translation>
+        <translation>按字母順序 (Z-A)</translation>
     </message>
     <message>
         <source>Alphabetical (A-Z)</source>
-        <translation>Abecedy (A-Z)</translation>
+        <translation>按字母順序 (A-Z)</translation>
     </message>
     <message numerus="yes">
         <source>%n matches</source>
         <translation>
-            <numerusform>%n shoda</numerusform>
-            <numerusform>%n shod</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 匹配</numerusform>
+            <numerusform>%n 匹配</numerusform>
+        </translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Naposledy upraveno</translation>
+        <translation>最後修改時間</translation>
     </message>
 </context>
 <context>
     <name>SelectionComponent</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>Setup</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation>Přeskočit</translation>
+        <translation>跳過</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
     <name>SshPassword</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Heslo</translation>
+        <translation>密碼</translation>
     </message>
     <message>
         <source>Change your developer password</source>
-        <translation>Změňte heslo vývojáře</translation>
+        <translation>更改您的開發者密碼</translation>
     </message>
 </context>
 <context>
     <name>Storage</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>When the storage on your device has reached its maximum capacity, your device switches to read-only mode. To continue working as normal, free up space by deleting files or archiving content from your tablet to the cloud using the action bar in My files.</source>
-        <translation>Když úložiště na vašem zařízení dosáhne své maximální kapacity, vaše zařízení se přepne do režimu pouze pro čtení. Chcete-li pokračovat v práci jako obvykle, uvolněte místo smazáním souborů nebo archivací obsahu z tabletu do cloudu pomocí panelu akcí v části Moje soubory.</translation>
+        <translation>當裝置上的儲存空間達到最大容量時，您的裝置將切換到唯讀模式。若要繼續正常運作，請使用「我的檔案」中的操作列刪除檔案或將平板電腦中的內容存檔到雲端，以釋放空間。</translation>
     </message>
     <message>
         <source>Disk is almost full</source>
-        <translation>Disk je téměř plný</translation>
+        <translation>磁碟快滿了</translation>
     </message>
     <message>
         <source>Disk is full</source>
-        <translation>Disk je plný</translation>
+        <translation>磁碟已滿</translation>
     </message>
     <message>
         <source>Open the address: &lt;b&gt;http://10.11.99.1&lt;/b&gt; in a web browser.</source>
-        <translation>Otevřete adresu: &lt;b&gt;http://10.11.99.1&lt;/b&gt; ve webovém prohlížeči.</translation>
+        <translation>在網頁瀏覽器中開啟位址：&lt;b&gt;http://10.11.99.1&lt;/b&gt;。</translation>
     </message>
     <message>
         <source>%1 GB of %2 GB used</source>
-        <translation>Využito %1 GB z %2 GB</translation>
+        <translation>已使用 %1 GB（共 %2 GB）</translation>
     </message>
     <message>
         <source>USB web interface</source>
-        <translation>webové rozhraní USB</translation>
+        <translation>USB網路介面</translation>
     </message>
     <message>
         <source>Disk space</source>
-        <translation>Místo na disku</translation>
+        <translation>磁碟空間</translation>
     </message>
     <message>
         <source>Your device is now in read-only mode. To continue working as normal, free up space by deleting files or archiving content from your tablet to the cloud using the action bar in My files.</source>
-        <translation>Vaše zařízení je nyní v režimu pouze pro čtení. Chcete-li pokračovat v práci jako obvykle, uvolněte místo smazáním souborů nebo archivací obsahu z tabletu do cloudu pomocí panelu akcí v části Moje soubory.</translation>
+        <translation>您的裝置現在處於唯讀模式。若要繼續正常運作，請使用「我的檔案」中的操作列刪除檔案或將內容從平板電腦存檔到雲，以釋放空間。</translation>
     </message>
 </context>
 <context>
     <name>TableOfContent</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Table of contents</source>
-        <translation>Obsah</translation>
+        <translation>目錄</translation>
     </message>
 </context>
 <context>
     <name>Unenroll</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Unenrolling from the beta program requires a paired device</source>
-        <translation>Odhlášení z beta programu vyžaduje spárované zařízení</translation>
+        <translation>取消註冊測試版計畫需要配對設備</translation>
     </message>
     <message>
         <source>Please connect to Wi-Fi to unenroll</source>
-        <translation>Chcete-li zrušit registraci, připojte se k síti Wi-Fi</translation>
+        <translation>請連接至 Wi-Fi 以取消註冊</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Unenroll</source>
-        <translation>Zrušit registraci</translation>
+        <translation>取消註冊</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>Unenrolled from &lt;nobr&gt;the reMarkable beta program&lt;/nobr&gt;</source>
-        <translation>Odhlášeni z &lt;nobr&gt;beta programu reMarkable&lt;/nobr&gt;</translation>
+        <translation>已從&lt;nobr&gt;reMarkable beta 計劃&lt;/nobr&gt;取消註冊</translation>
     </message>
     <message>
         <source>When you're not part of &lt;nobr&gt;the reMarkable beta program,&lt;/nobr&gt; you'll stay on your current version until the next official release is public and available for download.</source>
-        <translation>Pokud nejste součástí &lt;nobr&gt;beta programu reMarkable&lt;/nobr&gt;, zůstanete u své aktuální verze, dokud nebude další oficiální vydání veřejné a dostupné ke stažení.</translation>
+        <translation>如果您未加入&lt;nobr&gt;reMarkable beta 計畫&lt;/nobr&gt;，您將保留目前版本，直到下一個正式版本公開並可供下載。</translation>
     </message>
     <message>
         <source>Complete</source>
-        <translation>Kompletní</translation>
+        <translation>完全的</translation>
     </message>
     <message>
         <source>You can reenroll at any time through &lt;b&gt;Settings &gt; General &gt; Software.&lt;/b&gt;</source>
-        <translation>Kdykoli se můžete znovu zaregistrovat prostřednictvím &lt;b&gt;Nastavení &gt; Obecné &gt; Software.&lt;/b&gt;</translation>
+        <translation>您可以隨時透過&lt;b&gt;設定 &gt; 常規 &gt; 軟體重新註冊。 &lt;/b&gt;</translation>
     </message>
     <message>
         <source>Unenrolling</source>
-        <translation>Rušení registrace</translation>
+        <translation>取消註冊</translation>
     </message>
     <message>
         <source>Manage network</source>
-        <translation>Správa sítě</translation>
+        <translation>管理網路</translation>
     </message>
     <message>
         <source>Please try again later. If the problem persists, visit our support pages at support.reMarkable.com.</source>
-        <translation>Zkuste to znovu později. Pokud problém přetrvává, navštivte naše stránky podpory na adrese support.reMarkable.com.</translation>
+        <translation>請稍後重試。如果問題仍然存在，請造訪我們的支援頁面：support.reMarkable.com。</translation>
     </message>
     <message>
         <source>Manage account</source>
-        <translation>Spravovat účet</translation>
+        <translation>管理帳戶</translation>
     </message>
 </context>
 <context>
     <name>integrations-empty-view</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>release-notes</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>security-credentials</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Jméno</translation>
+        <translation>姓名</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Personal information</source>
-        <translation>Osobní údaje</translation>
+        <translation>個人資訊</translation>
     </message>
     <message>
         <source>Contact info</source>
-        <translation>Kontaktní údaje</translation>
+        <translation>聯絡方式</translation>
     </message>
 </context>
 <context>
     <name>settings-info</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Sync and updating issues</source>
-        <translation>Problémy se synchronizací a aktualizací</translation>
+        <translation>同步和更新問題</translation>
     </message>
     <message>
         <source>System time</source>
-        <translation>Systémový čas</translation>
+        <translation>系統時間</translation>
     </message>
     <message>
         <source>To update software and sync with the cloud, make sure that system date and time is set correctly to Coordinated Universal Time (UTC).</source>
-        <translation>Chcete-li aktualizovat software a synchronizovat s cloudem, ujistěte se, že systémové datum a čas jsou správně nastaveny na koordinovaný světový čas (UTC).</translation>
+        <translation>若要更新軟體並與雲端同步，請確保系統日期和時間正確設定為協調世界時 (UTC)。</translation>
     </message>
     <message>
         <source>Scan the QR-code to &lt;b&gt;https://support.remarkable.com&lt;/b&gt; for more information</source>
-        <translation>Naskenujte QR kód na &lt;b&gt;https://support.remarkable.com&lt;/b&gt;, kde získáte další informace</translation>
+        <translation>掃描二維碼至&lt;b&gt;https://support.remarkable.com&lt;/b&gt;以了解更多信息</translation>
     </message>
     <message>
         <source>Set date and time</source>
-        <translation>Nastavte datum a čas</translation>
+        <translation>設定日期和時間</translation>
     </message>
 </context>
 <context>
     <name>software-settings</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
     <message>
         <source>Make sure to manually update your device regularly</source>
-        <translation>Ujistěte se, že zařízení pravidelně ručně aktualizujete</translation>
+        <translation>確保定期手動更新您的設備</translation>
     </message>
     <message>
         <source>Software</source>
-        <translation>Software</translation>
+        <translation>軟體</translation>
     </message>
 </context>
 <context>
     <name>template-selector-window</name>
     <message>
         <source>Back</source>
-        <translation>Zpět</translation>
+        <translation>後退</translation>
     </message>
 </context>
 <context>
     <name>OptionalTextItem</name>
     <message>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation>編輯</translation>
     </message>
 </context>
 <context>
     <name>TextSelectionMenu</name>
     <message>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation>Vybrat</translation>
+        <translation>選擇</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Vyberte vše</translation>
+        <translation>選擇全部</translation>
     </message>
 </context>
 <context>
     <name>WifiCell</name>
     <message>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Forget</source>
-        <translation>Zapomenout</translation>
+        <translation>忘記</translation>
     </message>
     <message>
         <source>Disconnect</source>
-        <translation>Odpojit</translation>
+        <translation>斷開</translation>
     </message>
     <message>
         <source>Connect</source>
-        <translation>Připojit</translation>
+        <translation>連接</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
 </context>
 <context>
     <name>FormatFont</name>
     <message>
         <source>Font</source>
-        <translation>Písmo</translation>
+        <translation>字體</translation>
     </message>
 </context>
 <context>
     <name>Help</name>
     <message>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>幫助</translation>
     </message>
     <message>
         <source>For troubleshooting, support, and FAQ go to &lt;b&gt;https://support.remarkable.com&lt;/b&gt;</source>
-        <translation>Odstraňování problémů, podporu a časté dotazy naleznete na &lt;b&gt;https://support.remarkable.com&lt;/b&gt;</translation>
+        <translation>如需困難解答、支援和常見問題解答，請造訪 &lt;b&gt;https://support.remarkable.com&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>SettingsModel</name>
     <message>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>幫助</translation>
     </message>
     <message>
         <source>Cloud</source>
-        <translation>Uložiště</translation>
+        <translation>雲</translation>
     </message>
     <message>
         <source>Wi-Fi</source>
-        <translation>Wi-Fi</translation>
+        <translation>無線上網</translation>
     </message>
     <message>
         <source>Accessibility</source>
-        <translation>Přístupnost</translation>
+        <translation>無障礙</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Zobrazit</translation>
+        <translation>展示</translation>
     </message>
     <message>
         <source>Security</source>
-        <translation>Zabezpečení</translation>
+        <translation>安全</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Obecné</translation>
+        <translation>一般的</translation>
     </message>
 </context>
 <context>
     <name>HandednessChooser</name>
     <message>
         <source>Left</source>
-        <translation>Levá</translation>
+        <translation>左邊</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Pravá</translation>
+        <translation>正確的</translation>
     </message>
 </context>
 <context>
     <name>SortDropdown</name>
     <message>
         <source>List</source>
-        <translation>Seznam</translation>
+        <translation>清單</translation>
     </message>
     <message>
         <source>Small grid</source>
-        <translation>Malá mřížka</translation>
+        <translation>小格子</translation>
     </message>
     <message>
         <source>Sort by</source>
-        <translation>Třídit podle</translation>
+        <translation>排序方式</translation>
     </message>
     <message>
         <source>Medium grid</source>
-        <translation>Střední mřížka</translation>
+        <translation>中格</translation>
     </message>
     <message>
         <source>Large grid</source>
-        <translation>Velká mřížka</translation>
+        <translation>大網格</translation>
     </message>
 </context>
 <context>
     <name>ContentPagesMoveHeader</name>
     <message>
         <source>More</source>
-        <translation>Více</translation>
+        <translation>更多的</translation>
     </message>
     <message>
         <source>Place before</source>
-        <translation>Místo před</translation>
+        <translation>放置在之前</translation>
     </message>
     <message>
         <source>Choose a placement</source>
-        <translation>Vyberte umístění</translation>
+        <translation>選擇展示位置</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Place after</source>
-        <translation>Umístěte po</translation>
+        <translation>放置在之後</translation>
     </message>
     <message>
         <source>Unable to move pages</source>
-        <translation>Stránky nelze přesunout</translation>
+        <translation>無法移動頁面</translation>
     </message>
     <message>
         <source>You can only move out note pages</source>
-        <translation>Můžete přesunout pouze stránky poznámek</translation>
+        <translation>您只能移出註解頁</translation>
     </message>
     <message>
         <source>Move here</source>
-        <translation>Přesuňte se sem</translation>
+        <translation>搬到這裡</translation>
     </message>
     <message>
         <source>Select a page for placement</source>
-        <translation>Vyberte stránku pro umístění</translation>
+        <translation>選擇要放置的頁面</translation>
     </message>
 </context>
 <context>
     <name>SelectedPagesWarningHeader</name>
     <message>
         <source>Move</source>
-        <translation>Přesunout</translation>
+        <translation>移動</translation>
     </message>
     <message>
         <source>You can only duplicate note pages</source>
-        <translation>Můžete duplikovat pouze stránky poznámek</translation>
+        <translation>您只能複製筆記頁</translation>
     </message>
     <message>
         <source>You can only delete note pages</source>
-        <translation>Smazat můžete pouze stránky poznámek</translation>
+        <translation>您只能刪除註釋頁</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Vymazat</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Duplikovat</translation>
+        <translation>複製</translation>
     </message>
     <message>
         <source>You can only move note pages</source>
-        <translation>Přesouvat můžete pouze stránky poznámek</translation>
+        <translation>您只能移動筆記頁</translation>
     </message>
     <message>
         <source>Convert</source>
-        <translation>Konvertovat</translation>
+        <translation>轉變</translation>
     </message>
     <message>
         <source>You can only convert note pages to text</source>
-        <translation>Stránky poznámek můžete převést pouze na text</translation>
+        <translation>您只能將註釋頁轉換為文本</translation>
     </message>
 </context>
 <context>
     <name>ExplorerHeader</name>
     <message>
         <source>PDFs</source>
-        <translation>PDF</translation>
+        <translation>PDF 文件</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Štítky</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Trash</source>
-        <translation>Koš</translation>
+        <translation>垃圾</translation>
     </message>
     <message>
         <source>Alphabetical (Z-A)</source>
-        <translation>Abecedy (Z-A)</translation>
+        <translation>按字母順序 (Z-A)</translation>
     </message>
     <message>
         <source>Alphabetical (A-Z)</source>
-        <translation>Abecedy (A-Z)</translation>
+        <translation>按字母順序 (A-Z)</translation>
     </message>
     <message>
         <source>File size</source>
-        <translation>Velikosti souboru</translation>
+        <translation>文件大小</translation>
     </message>
     <message>
         <source>File type</source>
-        <translation>Typ souboru</translation>
+        <translation>文件類型</translation>
     </message>
     <message>
         <source>Ebooks</source>
-        <translation>E-knihy</translation>
+        <translation>電子書</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation>Naposledy upraveno</translation>
+        <translation>最後修改時間</translation>
     </message>
     <message>
         <source>Last opened</source>
-        <translation>Naposledy otevřeno</translation>
+        <translation>上次打開</translation>
     </message>
     <message>
         <source>Page count</source>
-        <translation>Počtu stránek</translation>
+        <translation>頁數</translation>
     </message>
     <message>
         <source>Notebooks</source>
-        <translation>Notebooky</translation>
+        <translation>筆記型電腦</translation>
     </message>
     <message>
         <source>Date removed</source>
-        <translation>Datum odebráno</translation>
+        <translation>刪除日期</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Oblíbené</translation>
+        <translation>收藏夾</translation>
     </message>
     <message>
         <source>Date created</source>
-        <translation>Datum vytvoření</translation>
+        <translation>建立日期</translation>
     </message>
 </context>
 <context>
     <name>Sidebar</name>
     <message>
         <source>PDFs</source>
-        <translation>PDF</translation>
+        <translation>PDF 文件</translation>
     </message>
     <message>
         <source>Tags</source>
-        <translation>Štítky</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <source>Trash</source>
-        <translation>Koš</translation>
+        <translation>垃圾</translation>
     </message>
     <message>
         <source>Notebooks</source>
         <comment>filter</comment>
-        <translation>Notebooky</translation>
+        <translation>筆記型電腦</translation>
     </message>
     <message>
         <source>Filter by</source>
-        <translation>Filtrovat</translation>
+        <translation>過濾依據</translation>
     </message>
     <message>
         <source>Google Drive</source>
-        <translation>Disk Google</translation>
+        <translation>Google雲端硬碟</translation>
     </message>
     <message>
         <source>OneDrive</source>
-        <translation>OneDrive</translation>
+        <translation>雲端硬碟</translation>
     </message>
     <message>
         <source>Ebooks</source>
-        <translation>E-kniha</translation>
+        <translation>電子書</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>Guides</source>
-        <translation>Průvodci</translation>
+        <translation>指南</translation>
     </message>
     <message>
         <source>PDFs</source>
         <comment>filter</comment>
-        <translation>PDF</translation>
+        <translation>PDF 文件</translation>
     </message>
     <message>
         <source>Currently offline</source>
-        <translation>Momentálně offline</translation>
+        <translation>目前離線</translation>
     </message>
     <message>
         <source>Notebooks</source>
-        <translation>Sešit</translation>
+        <translation>筆記型電腦</translation>
     </message>
     <message>
         <source>Authorization removed</source>
-        <translation>Autorizace odstraněna</translation>
+        <translation>授權已移除</translation>
     </message>
     <message>
         <source>My files</source>
-        <translation>Moje soubory</translation>
+        <translation>我的文件</translation>
     </message>
     <message>
         <source>Dropbox</source>
@@ -3179,173 +3179,173 @@
     </message>
     <message>
         <source>Settings</source>
-        <translation>Nastavení</translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Oblíbené</translation>
+        <translation>收藏夾</translation>
     </message>
     <message>
         <source>Ebooks</source>
         <comment>filter</comment>
-        <translation>E-knihy</translation>
+        <translation>電子書</translation>
     </message>
     <message>
         <source>Integrations</source>
-        <translation>Integrace</translation>
+        <translation>整合</translation>
     </message>
 </context>
 <context>
     <name>GettingStartedPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>You'll need a smartphone or computer to set up &lt;nobr&gt;your paper tablet.&lt;/nobr&gt;</source>
-        <translation>K nastavení &lt;nobr&gt;papírového tabletu&lt;/nobr&gt; budete potřebovat chytrý telefon nebo počítač</translation>
+        <translation>您需要智慧型手機或電腦來設定&lt;nobr&gt;您的紙質平板電腦。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Before you get started</source>
-        <translation>Než začnete</translation>
+        <translation>開始之前</translation>
     </message>
 </context>
 <context>
     <name>HandednessSelectPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Choose your &lt;nobr&gt;writing hand&lt;/nobr&gt;</source>
-        <translation>Vyberte si svou &lt;nobr&gt;pisatelskou ruku&lt;/nobr&gt;</translation>
+        <translation>選擇您的&lt;nobr&gt;書寫手&lt;/nobr&gt;</translation>
     </message>
 </context>
 <context>
     <name>OAuthSetupPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Pair your device later</source>
-        <translation>Spárujte zařízení později</translation>
+        <translation>稍後配對您的設備</translation>
     </message>
 </context>
 <context>
     <name>OneTimeCodeSetupPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Another reMarkable already connected. Go to %1 to connect your new device.</source>
-        <translation>Další reMarkable je již připojen. Přejděte na %1 a připojte své nové zařízení.</translation>
+        <translation>另一個 reMarkable 已連線。轉至 %1 連接您的新裝置。</translation>
     </message>
     <message>
         <source>There's an issue with the server connection. Please try again, or connect to a different Wi-Fi.</source>
-        <translation>Vyskytl se problém s připojením k serveru. Zkuste to znovu nebo se připojte k jiné síti Wi-Fi.</translation>
+        <translation>伺服器連線有問題。請重試，或連接到其他 Wi-Fi。</translation>
     </message>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>There might be an issue with the date/time information on your device. Please check System time and try logging in again. If you still experience problems, contact support@remarkable.com.</source>
-        <translation>Může být problém s informacemi o datu/čase ve vašem zařízení. Zkontrolujte systémový čas a zkuste se znovu přihlásit. Pokud problémy přetrvávají, kontaktujte support@remarkable.com.</translation>
+        <translation>您設備上的日期/時間資訊可能有問題。請檢查系統時間並嘗試重新登入。如果您仍然遇到問題，請聯絡 support@remarkable.com。</translation>
     </message>
     <message>
         <source>Pair your device later</source>
-        <translation>Spárujte zařízení později</translation>
+        <translation>稍後配對您的設備</translation>
     </message>
     <message>
         <source>Pairing</source>
-        <translation>Párování</translation>
+        <translation>配對</translation>
     </message>
     <message>
         <source>Please retry and we'll do our best to solve the problem.</source>
-        <translation>Zkuste to prosím znovu a my se pokusíme problém vyřešit.</translation>
+        <translation>請重試，我們將盡力解決問題。</translation>
     </message>
     <message>
         <source>The connection to our servers is not secure. Please try again, or connect to a different Wi-Fi.</source>
-        <translation>Připojení k našim serverům není zabezpečené. Zkuste to znovu nebo se připojte k jiné síti Wi-Fi.</translation>
+        <translation>與我們伺服器的連線不安全。請重試，或連接到其他 Wi-Fi。</translation>
     </message>
     <message>
         <source>Activate Connect</source>
-        <translation>Aktivujte Connect</translation>
+        <translation>啟動連接</translation>
     </message>
     <message>
         <source>You've successfully paired your device. %1 &lt;nobr&gt;on My reMarkable.&lt;/nobr&gt;</source>
-        <translation>Úspěšně jste spárovali své zařízení. %1 &lt;nobr&gt;na My reMarkable.&lt;/nobr&gt;</translation>
+        <translation>您已成功配對您的裝置。 %1 &lt;nobr&gt;在 My reMarkable 上。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
     <message>
         <source>Unable to complete pairing</source>
-        <translation>Párování nelze dokončit</translation>
+        <translation>無法完成配對</translation>
     </message>
     <message>
         <source>Please try a different code to log in with.</source>
-        <translation>Zkuste se přihlásit pomocí jiného kódu.</translation>
+        <translation>請嘗試使用不同的代碼登入。</translation>
     </message>
 </context>
 <context>
     <name>ScreenInfoPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>You'll occasionally see the screen flash. This is a normal refresh that keeps your display sharp.</source>
-        <translation>Občas uvidíte, jak obrazovka bliká. Jedná se o běžné obnovení, které udržuje váš displej ostrý.</translation>
+        <translation>您偶爾會看到螢幕閃爍。這是正常的刷新，可以讓您的顯示器保持清晰。</translation>
     </message>
     <message>
         <source>Refresh again</source>
-        <translation>Znovu obnovit</translation>
+        <translation>再次刷新</translation>
     </message>
     <message>
         <source>Did you see that?</source>
-        <translation>Viděl jsi to?</translation>
+        <translation>你看到了嗎？</translation>
     </message>
 </context>
 <context>
     <name>SeabirdIntroPage</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>You've successfully connected a Type Folio. Set up the keyboard exactly how you like it.</source>
-        <translation>Úspěšně jste připojili Type Folio. Nastavte si klávesnici přesně tak, jak se vám líbí.</translation>
+        <translation>您已成功連接 Type Folio。按照您喜歡的方式設定鍵盤。</translation>
     </message>
     <message>
         <source>Choose a style of key combinations. Your preference can be updated in Settings anytime.</source>
-        <translation>Vyberte si styl kombinací kláves. Vaše preference lze kdykoli aktualizovat v Nastavení.</translation>
+        <translation>選擇組合鍵的樣式。您可以隨時在「設定」中更新您的偏好設定。</translation>
     </message>
     <message>
         <source>Choose the right language for you from the list below. You can always change this again later in Settings.</source>
-        <translation>Vyberte si ten správný jazyk ze seznamu níže. Toto můžete kdykoli znovu změnit v Nastavení.</translation>
+        <translation>從下面的清單中選擇適合您的語言。您可以稍後在“設定”中再次變更此設定。</translation>
     </message>
     <message>
         <source>A keyboard just as focused as you are</source>
-        <translation>Klávesnice soustředěná stejně jako vy</translation>
+        <translation>鍵盤與您一樣專注</translation>
     </message>
     <message>
         <source>Keyboard shortcuts</source>
-        <translation>Klávesové zkratky</translation>
+        <translation>鍵盤快速鍵</translation>
     </message>
     <message>
         <source>Choose preferences</source>
-        <translation>Vyberte předvolby</translation>
+        <translation>選擇偏好</translation>
     </message>
 </context>
 <context>
     <name>SearchResultsHeader</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>%1/%2</source>
@@ -3353,276 +3353,276 @@
     </message>
     <message>
         <source>Clear</source>
-        <translation>Jasný</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>Previous</source>
-        <translation>Předchozí</translation>
+        <translation>以前的</translation>
     </message>
     <message>
         <source>Search here</source>
-        <translation>Hledejte zde</translation>
+        <translation>在這裡搜尋</translation>
     </message>
     <message>
         <source>Searching page %1 of %2</source>
-        <translation>Prohledávání stránky %1 z %2</translation>
+        <translation>正在搜尋第 %1 頁（共 %2 頁）</translation>
     </message>
 </context>
 <context>
     <name>SetupLanguagePage</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
 </context>
 <context>
     <name>SetupPageBase</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Verify passcode</source>
-        <translation>Ověřte přístupový kód</translation>
+        <translation>驗證密碼</translation>
     </message>
     <message>
         <source>Set a passcode to keep your &lt;nobr&gt;paper tablet secure.&lt;/nobr&gt;</source>
-        <translation>Nastavte si heslo, aby byl váš &lt;nobr&gt;papírový tablet zabezpečený.&lt;/nobr&gt;</translation>
+        <translation>設定密碼以確保您的&lt;nobr&gt;紙質平板電腦的安全。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Re-enter the passcode to confirm it.</source>
-        <translation>Pro potvrzení zadejte heslo znovu.</translation>
+        <translation>重新輸入密碼進行確認。</translation>
     </message>
     <message>
         <source>Your paper tablet is on version %1</source>
-        <translation>Váš papírový tablet je ve verzi %1</translation>
+        <translation>您的紙本平板電腦版本為 %1</translation>
     </message>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>Incorrect passcode. Try again.</source>
-        <translation>Nesprávný přístupový kód. Zkuste to znovu.</translation>
+        <translation>密碼不正確。再試一次。</translation>
     </message>
     <message>
         <source>Latest software installed</source>
-        <translation>Nainstalovaný nejnovější software</translation>
+        <translation>安裝的最新軟體</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
     <message>
         <source>Enter passcode</source>
-        <translation>Zadejte přístupový kód</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <source>Manage your Security settings at any time</source>
-        <translation>Nastavení zabezpečení můžete kdykoli spravovat</translation>
+        <translation>隨時管理您的安全設置</translation>
     </message>
 </context>
 <context>
     <name>WifiSetupPage</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
 </context>
 <context>
     <name>onboarding</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>A link to share your work</source>
-        <translation>Odkaz pro sdílení vaší práce</translation>
+        <translation>分享您的作品的鏈接</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Stream your notes and ideas directly on a big screen. Turn your &lt;nobr&gt;paper tablet&lt;/nobr&gt; into the perfect digital whiteboard to sketch and demonstrate concepts live. A must-have for video meetings and presentations.</source>
-        <translation>Streamujte své poznámky a nápady přímo na velké obrazovce. Proměňte svůj &lt;nobr&gt;papírový tablet&lt;/nobr&gt; na dokonalou digitální tabuli, na které můžete skicovat a předvádět koncepty naživo. Nezbytnost pro videokonference a prezentace.</translation>
+        <translation>直接在大螢幕上傳輸您的筆記和想法。將您的&lt;nobr&gt;紙質平板&lt;/nobr&gt;變成完美的數位白板，以即時繪製和演示概念。視訊會議和演示的必備工具。</translation>
     </message>
     <message>
         <source>View your original page as an image</source>
-        <translation>Zobrazte svou původní stránku jako obrázek</translation>
+        <translation>以圖像形式查看原始頁面</translation>
     </message>
     <message>
         <source>Connect to app</source>
-        <translation>Připojte se k aplikaci</translation>
+        <translation>連接到應用程式</translation>
     </message>
     <message>
         <source>Anyone with the link can view your content</source>
-        <translation>Každý, kdo má odkaz, může zobrazit váš obsah</translation>
+        <translation>知道連結的任何人都可以查看您的內容</translation>
     </message>
     <message>
         <source>Present with Screen Share</source>
-        <translation>Prezentovat pomocí sdílení obrazovky</translation>
+        <translation>透過螢幕分享進行演示</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Accept the connection on the desktop to start presenting.</source>
-        <translation>Přijměte připojení na ploše a začněte prezentovat.</translation>
+        <translation>接受桌面上的連線以開始示範。</translation>
     </message>
     <message>
         <source>To stream content from your reMarkable, make sure the desktop app and your paper tablet are paired and connected to &lt;nobr&gt;Wi-Fi.&lt;/nobr&gt;</source>
-        <translation>Chcete-li streamovat obsah ze zařízení reMarkable, zkontrolujte, zda jsou aplikace pro stolní počítače a papírový tablet spárovány a připojeny k &lt;nobr&gt;Wi-Fi.&lt;/nobr&gt;</translation>
+        <translation>若要從 reMarkable 串流內容，請確保桌面應用程式和您的紙本平板電腦已配對並連接到&lt;nobr&gt;Wi-Fi。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Create link</source>
-        <translation>Vytvořit odkaz</translation>
+        <translation>建立連結</translation>
     </message>
     <message>
         <source>Creating a link neatly transforms your notes and sketches with the help of AI, and sends them to your account email.</source>
-        <translation>Vytvoření odkazu úhledně transformuje vaše poznámky a náčrtky pomocí AI a odešle je na e-mail vašeho účtu.</translation>
+        <translation>建立連結可以在人工智慧的幫助下巧妙地轉換您的筆記和草圖，並將它們發送到您的帳戶電子郵件。</translation>
     </message>
     <message>
         <source>Edit and elaborate on your converted handwriting</source>
-        <translation>Upravte a zpracujte svůj převedený rukopis</translation>
+        <translation>編輯並詳細說明轉換後的手寫內容</translation>
     </message>
 </context>
 <context>
     <name>tutorial</name>
     <message>
         <source>Next</source>
-        <translation>Další</translation>
+        <translation>下一個</translation>
     </message>
     <message>
         <source>Take focused notes anywhere with a Connect subscription</source>
-        <translation>Dělejte si soustředěné poznámky kdekoli s předplatným Connect</translation>
+        <translation>透過 Connect 訂閱，隨時隨地記下重點筆記</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Get an overview of your documents and ebooks</source>
-        <translation>Získejte přehled o svých dokumentech a e-knihách</translation>
+        <translation>概覽您的文件和電子書</translation>
     </message>
     <message>
         <source>These next four steps will show you how to use and navigate your paper tablet, introducing you to some important features.</source>
-        <translation>Následující čtyři kroky vám ukážou, jak používat a procházet papírový tablet, a seznámí vás s některými důležitými funkcemi.</translation>
+        <translation>接下來的四個步驟將向您展示如何使用和導航紙質平板電腦，並向您介紹一些重要功能。</translation>
     </message>
     <message>
         <source>Upload PDFs and EPUBs in the app</source>
-        <translation>Nahrajte soubory PDF a EPUB do aplikace</translation>
+        <translation>在應用程式中上傳 PDF 和 EPUB</translation>
     </message>
     <message>
         <source>&lt;b&gt;Swipe upwards&lt;/b&gt; for more space inside document</source>
-        <translation>&lt;b&gt;Přejetím nahoru&lt;/b&gt; získáte více místa v dokumentu</translation>
+        <translation>&lt;b&gt;向上滑動&lt;/b&gt;以取得文件內的更多空間</translation>
     </message>
     <message>
         <source>Organize your content into folders</source>
-        <translation>Uspořádejte svůj obsah do složek</translation>
+        <translation>將您的內容組織到資料夾中</translation>
     </message>
     <message>
         <source>To perform actions, &lt;b&gt;press and hold&lt;/b&gt; the item for 2 seconds</source>
-        <translation>Chcete-li provést akce, &lt;b&gt;stiskněte a podržte&lt;/b&gt; položku po dobu 2 sekund</translation>
+        <translation>若要執行操作，請&lt;b&gt;按住&lt;/b&gt;該項目 2 秒鐘</translation>
     </message>
     <message>
         <source>Use the plus icon below to create new items.</source>
-        <translation>Pomocí ikony plus níže vytvořte nové položky.</translation>
+        <translation>使用下面的加號圖示建立新項目。</translation>
     </message>
     <message>
         <source>Navigate your notes, browse pages and switch between files, using your fingers. Find the full overview in Guides.</source>
-        <translation>Procházejte své poznámky, procházejte stránky a přepínejte mezi soubory pomocí prstů. Úplný přehled najdete v Průvodcích.</translation>
+        <translation>用手指瀏覽筆記、瀏覽頁面並在文件之間切換。在指南中尋找完整概述。</translation>
     </message>
     <message>
         <source>Learn more</source>
-        <translation>Zjistěte více</translation>
+        <translation>了解更多</translation>
     </message>
     <message>
         <source>Add quick sheets to jot down your thoughts</source>
-        <translation>Přidejte rychlé listy, abyste si zapsali své myšlenky</translation>
+        <translation>添加快速表格來記下您的想法</translation>
     </message>
     <message>
         <source>Find more detailed help in Guides and on Using reMarkable.</source>
-        <translation>Podrobnější nápovědu naleznete v Průvodcích a Používání reMarkable.</translation>
+        <translation>在指南和使用 reMarkable 中找到更詳細的協助。</translation>
     </message>
     <message>
         <source>Record ideas, write, and sketch in notebooks</source>
-        <translation>Zapisujte si nápady, pište a skicujte do sešitů</translation>
+        <translation>在筆記本上記錄想法、書寫和素描</translation>
     </message>
     <message>
         <source>Touch gestures</source>
-        <translation>Dotyková gesta</translation>
+        <translation>觸摸手勢</translation>
     </message>
     <message>
         <source>Make the most of your content by downloading our mobile and desktop apps.</source>
-        <translation>Vytěžte ze svého obsahu maximum stažením našich mobilních a stolních aplikací.</translation>
+        <translation>下載我們的行動和桌面應用程序，充分利用您的內容。</translation>
     </message>
     <message>
         <source>&lt;b&gt;Pinch&lt;/b&gt; to zoom in and out, &lt;b&gt;tap&lt;/b&gt; the scaling icon to reset</source>
-        <translation>&lt;b&gt;Stažením prstů&lt;/b&gt; přiblížíte nebo oddálíte, &lt;b&gt;klepnutím&lt;/b&gt; na ikonu měřítka resetujete</translation>
+        <translation>&lt;b&gt;捏合&lt;/b&gt;可放大縮小，&lt;b&gt;點選&lt;/b&gt;縮放圖示可重置</translation>
     </message>
     <message>
         <source>Note-taking apps</source>
-        <translation>Aplikace na psaní poznámek</translation>
+        <translation>筆記應用程式</translation>
     </message>
     <message>
         <source>Types of documents</source>
-        <translation>Typy dokumentů</translation>
+        <translation>文件類型</translation>
     </message>
     <message>
         <source>Ways of working</source>
-        <translation>Způsoby práce</translation>
+        <translation>工作方式</translation>
     </message>
     <message>
         <source>Pages of notebooks can be as long or short as you need, allowing you to focus and stay uninterrupted as you work.</source>
-        <translation>Stránky poznámkových bloků mohou být tak dlouhé nebo krátké, jak potřebujete, což vám umožní soustředit se a zůstat při práci bez přerušení.</translation>
+        <translation>筆記本的頁面可以根據您的需求長短，讓您在工作時集中註意力並保持不受干擾。</translation>
     </message>
     <message>
         <source>Writing and reading</source>
-        <translation>Psaní a čtení</translation>
+        <translation>寫作和閱讀</translation>
     </message>
     <message>
         <source>Take notes in different styles with your Marker. Type text in three different sizes, as well as bold and italics. </source>
-        <translation>Dělejte si poznámky v různých stylech pomocí značky. Zadejte text ve třech různých velikostech, stejně jako tučné písmo a kurzívu.</translation>
+        <translation>使用記號筆以不同風格記筆記。輸入三種不同大小的文本，以及粗體和斜體。</translation>
     </message>
 </context>
 <context>
     <name>PasswordEntryDialog</name>
     <message>
         <source>Open</source>
-        <translation>OTEVŘENO</translation>
+        <translation>打開</translation>
     </message>
     <message>
         <source>Password protected PDF</source>
-        <translation>PDF chráněné heslem</translation>
+        <translation>密碼保護的 PDF</translation>
     </message>
     <message>
         <source>Enter password to open</source>
-        <translation>Pro otevření zadejte heslo</translation>
+        <translation>輸入密碼即可開啟</translation>
     </message>
     <message>
         <source>Incorrect password. Please try again.</source>
-        <translation>Nesprávné heslo. Zkuste to prosím znovu.</translation>
+        <translation>密碼不正確。請再試一次。</translation>
     </message>
 </context>
 <context>
     <name>Profile</name>
     <message>
         <source>Pair</source>
-        <translation>Pár</translation>
+        <translation>一對</translation>
     </message>
     <message>
         <source>Your login details for your reMarkable account.</source>
-        <translation>Vaše přihlašovací údaje k vašemu účtu reMarkable.</translation>
+        <translation>您的 reMarkable 帳戶的登入詳細資訊。</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;</source>
@@ -3630,425 +3630,425 @@
     </message>
     <message>
         <source>Pairing with the cloud requires a &lt;nobr&gt;Wi-Fi connection.&lt;/nobr&gt;</source>
-        <translation>Spárování s cloudem vyžaduje &lt;nobr&gt;připojení Wi-Fi.&lt;/nobr&gt;</translation>
+        <translation>與雲端配對需要 &lt;nobr&gt;Wi-Fi 連線。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Unpair</source>
-        <translation>Zrušit párování</translation>
+        <translation>取消配對</translation>
     </message>
     <message>
         <source>No account</source>
-        <translation>Žádný účet</translation>
+        <translation>沒有帳戶</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Načítání...</translation>
+        <translation>載入中...</translation>
     </message>
     <message>
         <source>Pair your paper tablet with &lt;nobr&gt;a reMarkable account.&lt;/nobr&gt;</source>
-        <translation>Spárujte svůj papírový tablet s &lt;nobr&gt;účtem reMarkable.&lt;/nobr&gt;</translation>
+        <translation>將您的紙平板電腦與&lt;nobr&gt;reMarkable 帳戶配對。 &lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; via a &lt;b&gt;%2 account&lt;/b&gt;</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; prostřednictvím &lt;b&gt;účtu %2&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; 透過 &lt;b&gt;%2 帳戶&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>RedoButton</name>
     <message>
         <source>Redo</source>
-        <translation>Předělat</translation>
+        <translation>重做</translation>
     </message>
 </context>
 <context>
     <name>AddTagPopup</name>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Enter tag name</source>
-        <translation>Zadejte název značky</translation>
+        <translation>輸入標籤名稱</translation>
     </message>
     <message>
         <source>Create</source>
-        <translation>Vytvořit</translation>
+        <translation>創造</translation>
     </message>
 </context>
 <context>
     <name>EditDocument</name>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Notebook settings</source>
-        <translation>Nastavení notebooku</translation>
+        <translation>筆記本設定</translation>
     </message>
     <message>
         <source>Ebook settings</source>
-        <translation>Nastavení elektronické knihy</translation>
+        <translation>電子書設定</translation>
     </message>
     <message numerus="yes">
         <source>%n page(s)</source>
         <translation>
-            <numerusform>%n stránka</numerusform>
-            <numerusform>%n stránek</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 頁</numerusform>
+            <numerusform>%n 頁</numerusform>
+        </translation>
     </message>
     <message>
         <source>PDF settings</source>
-        <translation>Nastavení PDF</translation>
+        <translation>PDF 設定</translation>
     </message>
 </context>
 <context>
     <name>FormatSettings</name>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Obnovit</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Text settings</source>
-        <translation>Nastavení textu</translation>
+        <translation>文字設定</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>Your annotations, highlights or doodles may lose its alignment with the changed settings. Please confirm that you want to proceed, as this could be irreversible.</source>
-        <translation>Vaše anotace, zvýraznění nebo čmáranice mohou ztratit soulad se změněným nastavením. Potvrďte prosím, že chcete pokračovat, protože to může být nevratné.</translation>
+        <translation>您的註釋、突出顯示或塗鴉可能會與更改後的設定失去一致性。請確認您想要繼續，因為這可能是不可逆的。</translation>
     </message>
     <message>
         <source>Misalignment may occur</source>
-        <translation>Může dojít k nesprávnému vyrovnání</translation>
+        <translation>可能會出現錯位</translation>
     </message>
 </context>
 <context>
     <name>RenameEntity</name>
     <message>
         <source>Save</source>
-        <translation>Uložit</translation>
+        <translation>節省</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>SetupBasePage</name>
     <message>
         <source>Skip</source>
-        <translation>Přeskočit</translation>
+        <translation>跳過</translation>
     </message>
 </context>
 <context>
     <name>TagsMenu</name>
     <message>
         <source>Tags</source>
-        <translation>Štítky</translation>
+        <translation>標籤</translation>
     </message>
 </context>
 <context>
     <name>TagsSelector</name>
     <message>
         <source>Tags</source>
-        <translation>Štítky</translation>
+        <translation>標籤</translation>
     </message>
 </context>
 <context>
     <name>LayersMenu</name>
     <message>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>文字</translation>
     </message>
     <message>
         <source>Background</source>
-        <translation>Pozadí</translation>
+        <translation>背景</translation>
     </message>
     <message>
         <source>Layers and templates</source>
-        <translation>Vrstvy a šablony</translation>
+        <translation>圖層和模板</translation>
     </message>
     <message>
         <source>Layers</source>
-        <translation>Vrstvy</translation>
+        <translation>層數</translation>
     </message>
     <message>
         <source>Limit of 5 layers reached</source>
-        <translation>Bylo dosaženo limitu 5 vrstev</translation>
+        <translation>達到5層限制</translation>
     </message>
     <message>
         <source>New layer</source>
-        <translation>Nová vrstva</translation>
+        <translation>新圖層</translation>
     </message>
     <message>
         <source>Template</source>
-        <translation>Šablona</translation>
+        <translation>範本</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::toolbar::PenThicknessModel</name>
     <message>
         <source>Thin</source>
-        <translation>Tenká</translation>
+        <translation>薄的</translation>
     </message>
     <message>
         <source>Thick</source>
-        <translation>Tlustá</translation>
+        <translation>厚的</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation>Střední</translation>
+        <translation>中等的</translation>
     </message>
 </context>
 <context>
     <name>HwcDialog</name>
     <message>
         <source>Undo</source>
-        <translation>Vrátit zpět</translation>
+        <translation>撤銷</translation>
     </message>
     <message>
         <source>Converted text added as new page</source>
-        <translation>Převedený text přidán jako nová stránka</translation>
+        <translation>轉換後的文字會新增為新頁面</translation>
     </message>
 </context>
 <context>
     <name>HwcSelection</name>
     <message>
         <source>Undo</source>
-        <translation>Vrátit zpět</translation>
+        <translation>撤銷</translation>
     </message>
     <message>
         <source>Converted text added to clipboard</source>
-        <translation>Převedený text přidán do schránky</translation>
+        <translation>轉換後的文字已新增至剪貼簿</translation>
     </message>
 </context>
 <context>
     <name>UndoButton</name>
     <message>
         <source>Undo</source>
-        <translation>Vrátit zpět</translation>
+        <translation>撤銷</translation>
     </message>
 </context>
 <context>
     <name>EmailAddressInputDialog</name>
     <message>
         <source>You have reached the maxium amount of emails</source>
-        <translation>Dosáhli jste maximálního počtu e-mailů</translation>
+        <translation>您已達到電子郵件數量上限</translation>
     </message>
     <message>
         <source>You have already added this email</source>
-        <translation>Tento e-mail jste již přidali</translation>
+        <translation>您已經新增了此電子郵件</translation>
     </message>
     <message>
         <source>Use space bar to add email address</source>
-        <translation>Pro přidání e-mailové adresy použijte mezerník</translation>
+        <translation>使用空白鍵新增電子郵件地址</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::onboarding::ToolTipConfiguration</name>
     <message>
         <source>When you’re in a rush, long-press the plus icon to create a new quick sheet.</source>
-        <translation>Když spěcháte, dlouhým stisknutím ikony plus vytvořte nový rychlý list.</translation>
+        <translation>當您匆忙時，長按加號圖示即可建立新的快速工作表。</translation>
     </message>
     <message>
         <source>Tap the plus icon to create new notebooks or folders.</source>
-        <translation>Klepnutím na ikonu plus vytvoříte nové poznámkové bloky nebo složky.</translation>
+        <translation>點擊加號圖示以建立新筆記本或資料夾。</translation>
     </message>
     <message>
         <source>Use the on-screen keyboard to write notes in a clear typeface, with the column width you prefer.</source>
-        <translation>Pomocí klávesnice na obrazovce můžete psát poznámky jasným typem písma s požadovanou šířkou sloupce.</translation>
+        <translation>使用螢幕鍵盤以清晰的字體和您喜歡的列寬書寫筆記。</translation>
     </message>
     <message>
         <source>Use this button or tap the page once with three fingers to make something reappear.</source>
-        <translation>Použijte toto tlačítko nebo klepněte na stránku jednou třemi prsty, aby se něco znovu objevilo.</translation>
+        <translation>使用此按鈕或用三個手指點擊頁面一次可以使某些內容重新出現。</translation>
     </message>
     <message>
         <source>Tap the page with two fingers to take back your last change or use this button.</source>
-        <translation>Klepnutím na stránku dvěma prsty vezmete zpět poslední změnu nebo použijte toto tlačítko.</translation>
+        <translation>用兩根手指點擊頁面以取回上次更改或使用此按鈕。</translation>
     </message>
     <message>
         <source>Edit the name or rotate the view of the open document. Search in PDFs, EPUBs, or your typed text.</source>
-        <translation>Upravte název nebo otočte pohled na otevřený dokument. Hledejte v souborech PDF, EPUB nebo v zadaném textu.</translation>
+        <translation>編輯名稱或旋轉開啟文件的視圖。在 PDF、EPUB 或您鍵入的文字中搜尋。</translation>
     </message>
     <message>
         <source>Circle your content to rotate, move, cut, or copy it. Use your Marker to hold and drag on typed text. You can also convert notes, and tap to paste.</source>
-        <translation>Zakroužkujte obsah, abyste jej mohli otočit, přesunout, vyjmout nebo zkopírovat. Použijte značku k přidržení a přetažení napsaného textu. Poznámky můžete také převést a klepnutím je vložit.</translation>
+        <translation>圈出您的內容以進行旋轉、移動、剪切或複製。使用標記按住並拖曳鍵入的文字。您也可以轉換筆記，然後點擊進行貼上。</translation>
     </message>
     <message>
         <source>To do this with your reMarkable Methods workbook you need Connect. Visit my.remarkable.com to subscribe.</source>
-        <translation>Chcete-li to provést pomocí sešitu reMarkable Methods, potřebujete Connect. Chcete-li se přihlásit k odběru, navštivte stránku my.remarkable.com.</translation>
+        <translation>若要使用您的 reMarkable 方法工作簿執行此操作，您需要 Connect。請造訪 my.remarkable.com 進行訂閱。</translation>
     </message>
     <message>
         <source>&lt;b&gt;Swipe two fingers&lt;/b&gt; from the &lt;b&gt;top edge&lt;/b&gt;, to view recent and favorite items. Find all the gestures in Guides.</source>
-        <translation>&lt;b&gt;Přejetím dvěma prsty&lt;/b&gt; od &lt;b&gt;horního okraje&lt;/b&gt; zobrazíte nedávné a oblíbené položky. Všechna gesta najdete v průvodcích.</translation>
+        <translation>&lt;b&gt;從&lt;b&gt;頂部邊緣&lt;/b&gt;滑動兩根手指&lt;/b&gt;，即可查看最近和收藏的項目。找到指南中的所有手勢。</translation>
     </message>
     <message>
         <source>Find ways to present your work, compose emails, and make your handwriting digital.</source>
-        <translation>Najděte způsoby, jak prezentovat svou práci, psát e-maily a zdigitalizovat svůj rukopis.</translation>
+        <translation>想辦法展示您的作品、撰寫電子郵件以及將您的筆跡數位化。</translation>
     </message>
     <message>
         <source>Use your Marker to erase pen strokes. You can also select whole sections or remove everything on the current layer or page.</source>
-        <translation>K vymazání tahů perem použijte značku. Můžete také vybrat celé sekce nebo odstranit vše na aktuální vrstvě nebo stránce.</translation>
+        <translation>使用記號筆擦除筆畫。您也可以選擇整個部分或刪除目前圖層或頁面上的所有內容。</translation>
     </message>
     <message>
         <source>&lt;b&gt;Tap&lt;/b&gt; or &lt;b&gt;swipe down&lt;/b&gt; from the &lt;b&gt;top-right&lt;/b&gt; corner, to see battery level, Wi-Fi, present with Screen Share, or put it in flight mode, even when in a document.</source>
-        <translation>&lt;b&gt;Klepnutím&lt;/b&gt; nebo &lt;b&gt;přejetím prstem dolů&lt;/b&gt; z &lt;b&gt;pravého horního&lt;/b&gt; rohu zobrazíte úroveň nabití baterie, Wi-Fi, možnost sdílení obrazovky nebo ji přepnete do režimu Letadlo, i když jste v dokumentu.</translation>
+        <translation>&lt;b&gt;點擊&lt;/b&gt;或從&lt;b&gt;右上角&lt;/b&gt;向下滑動&lt;/b&gt;，即可查看電池電量、Wi-Fi、透過螢幕共用進行演示或將其置於飛行模式，即使在文件中也是如此。</translation>
     </message>
     <message>
         <source>Express yourself with the Marker and fine-tune pen strokes with thickness and color. These settings are stored in the notebook.</source>
-        <translation>Vyjádřete se pomocí značky a dolaďte tahy perem s tloušťkou a barvou. Tato nastavení jsou uložena v notebooku.</translation>
+        <translation>用記號筆表達自己，並微調筆觸的粗細和顏色。這些設定儲存在筆記本中。</translation>
     </message>
     <message>
         <source>Choose between title, subheading, body text, bullet points, and checkboxes.</source>
-        <translation>Vyberte si mezi nadpisem, podnadpisem, hlavním textem, odrážkami a zaškrtávacími políčky.</translation>
+        <translation>在標題、副標題、正文、項目符號和複選框之間進行選擇。</translation>
     </message>
     <message>
         <source>See search results that match your notes, both handwritten or typed, digital text and scribbles.</source>
-        <translation>Podívejte se na výsledky vyhledávání, které odpovídají vašim poznámkám, ať už ručně nebo napsaným, digitálnímu textu a klikyhákům.</translation>
+        <translation>查看與您的筆記相符的搜尋結果，包括手寫或打字、數位文字和塗鴉。</translation>
     </message>
     <message>
         <source>To select an item to tag, favorite, rename, duplicate, send, move, or delete, &lt;b&gt;press and hold&lt;/b&gt; it for &lt;b&gt;2&lt;/b&gt; seconds.</source>
-        <translation>Chcete-li vybrat položku, kterou chcete označit, přidat do oblíbených, přejmenovat, duplikovat, odeslat, přesunout nebo odstranit, &lt;b&gt;stiskněte a podržte&lt;/b&gt; na &lt;b&gt;2&lt;/b&gt; sekundy.</translation>
+        <translation>若要選擇要標記、收藏、重新命名、複製、傳送、移動或刪除的項目，請&lt;b&gt;按住&lt;/b&gt;該項目&lt;b&gt;2&lt;/b&gt;秒。</translation>
     </message>
     <message>
         <source>Create descriptive tags for your pages, files, and folders to find them faster.</source>
-        <translation>Vytvořte pro své stránky, soubory a složky popisné značky, abyste je našli rychleji.</translation>
+        <translation>為您的頁面、文件和資料夾建立描述性標籤，以便更快找到它們。</translation>
     </message>
     <message>
         <source>Work in up to five layers that don't affect the others. Choose from a stack of template layouts for to-do lists, sketching, and more.</source>
-        <translation>Pracujte až v pěti vrstvách, které neovlivňují ostatní. Vyberte si ze hromady rozvržení šablon pro seznamy úkolů, skicování a další.</translation>
+        <translation>最多可在五層中工作，且不影響其他層。從一堆模板佈局中進行選擇，用於待辦事項清單、草圖等。</translation>
     </message>
 </context>
 <context>
     <name>EmptyViewItem</name>
     <message>
         <source>Import inspiring templates</source>
-        <translation>Importujte inspirativní šablony</translation>
+        <translation>導入鼓舞人心的模板</translation>
     </message>
     <message>
         <source>Fill this with content</source>
-        <translation>Naplňte to obsahem</translation>
+        <translation>填寫內容</translation>
     </message>
     <message>
         <source>Make your mark</source>
-        <translation>Udělejte si značku</translation>
+        <translation>留下你的印記</translation>
     </message>
     <message>
         <source>Collect your best content</source>
-        <translation>Sbírejte svůj nejlepší obsah</translation>
+        <translation>收集您最好的內容</translation>
     </message>
     <message>
         <source>Label your work</source>
-        <translation>Označte svou práci štítkem</translation>
+        <translation>給你的工作貼上標籤</translation>
     </message>
     <message>
         <source>See lower back of the device and please visit support.remarkable.com for more information.</source>
-        <translation>Viz spodní zadní část zařízení a další informace naleznete na adrese support.remarkable.com.</translation>
+        <translation>請參閱設備的下背部，並請造訪 support.remarkable.com 以了解更多資訊。</translation>
     </message>
     <message>
         <source>Clear out the clutter</source>
-        <translation>Vykliďte nepořádek</translation>
+        <translation>清除雜亂</translation>
     </message>
     <message>
         <source>Fill this with notebooks and folders. When you're in a rush, &lt;b&gt;press&amp;#160;and&amp;#160;hold&lt;/b&gt; the plus icon to create a new quick sheet.</source>
-        <translation>Vyplňte to sešity a složkami. Když spěcháte, &lt;b&gt;stiskněte&amp;#160;a&amp;#160;podržte&lt;/b&gt; ikonu plus a vytvořte nový rychlý list.</translation>
+        <translation>用筆記本和資料夾填滿此空間。當您趕時間時，&lt;b&gt;按住&lt;/b&gt;加號圖示即可建立新的快速工作表。</translation>
     </message>
     <message>
         <source>You can create notebooks and they will appear here.</source>
-        <translation>Můžete vytvořit poznámkové bloky a zobrazí se zde.</translation>
+        <translation>您可以建立筆記本，它們將出現在此。</translation>
     </message>
     <message>
         <source>You can import documents as PDF files through the desktop or mobile app, and on my.remarkable.com.</source>
-        <translation>Dokumenty můžete importovat jako soubory PDF prostřednictvím desktopové nebo mobilní aplikace a na my.remarkable.com.</translation>
+        <translation>您可以透過桌面或行動應用程式以及 my.remarkable.com 將文件匯入為 PDF 文件。</translation>
     </message>
     <message>
         <source>You can import books in EPUB format through the desktop or mobile app, and on my.remarkable.com.</source>
-        <translation>Knihy ve formátu EPUB můžete importovat prostřednictvím desktopové nebo mobilní aplikace a na my.remarkable.com.</translation>
+        <translation>您可以透過桌面或行動應用程式以及 my.remarkable.com 匯入 EPUB 格式的書籍。</translation>
     </message>
     <message>
         <source>Search with Connect</source>
-        <translation>Hledejte pomocí Connect</translation>
+        <translation>使用連接搜尋</translation>
     </message>
     <message>
         <source>You can create documents and move any type of content or subfolder here.</source>
-        <translation>Zde můžete vytvářet dokumenty a přesouvat jakýkoli typ obsahu nebo podsložky.</translation>
+        <translation>您可以在此處建立文件並移動任何類型的內容或子資料夾。</translation>
     </message>
     <message>
         <source>You can sort your pages with combination of tags. Select one that matches what you're looking for.</source>
-        <translation>Stránky můžete třídit pomocí kombinace značek. Vyberte ten, který odpovídá tomu, co hledáte.</translation>
+        <translation>您可以使用標籤組合對頁面進行排序。選擇與您要尋找的內容相符的一項。</translation>
     </message>
     <message>
         <source>You can add tags to documents and pages to categorize your content. They will appear right here.</source>
-        <translation>K dokumentům a stránkám můžete přidávat značky a kategorizovat svůj obsah. Objeví se právě zde.</translation>
+        <translation>您可以為文件和頁面新增標籤以對內容進行分類。他們就會出現在這裡。</translation>
     </message>
     <message>
         <source>Create a reading list</source>
-        <translation>Vytvořte seznam četby</translation>
+        <translation>建立閱讀清單</translation>
     </message>
     <message>
         <source>Upload your library</source>
-        <translation>Nahrajte svou knihovnu</translation>
+        <translation>上傳您的庫</translation>
     </message>
     <message>
         <source>Unable to show compliance statements</source>
-        <translation>Nelze zobrazit prohlášení o shodě</translation>
+        <translation>無法出示合規聲明</translation>
     </message>
     <message>
         <source>Organize in folders</source>
-        <translation>Uspořádejte do složek</translation>
+        <translation>在資料夾中組織</translation>
     </message>
     <message>
         <source>In order to search for written content, activate your free trial, or subscribe at &lt;b&gt;remarkable.com/store/connect&lt;/b&gt;.</source>
-        <translation>Chcete-li hledat psaný obsah, aktivujte si bezplatnou zkušební verzi nebo se přihlaste k odběru na adrese &lt;b&gt;remarkable.com/store/connect&lt;/b&gt;.</translation>
+        <translation>若要搜尋書面內容，請啟用免費試用版，或在 &lt;b&gt;remarkable.com/store/connect&lt;/b&gt; 上訂閱。</translation>
     </message>
     <message>
         <source>&lt;b&gt;Press and hold&lt;/b&gt; any page, document, or folder, and add it to your favorites. They will appear right here.</source>
-        <translation>&lt;b&gt;Stiskněte a podržte&lt;/b&gt; jakoukoli stránku, dokument nebo složku a přidejte je mezi oblíbené. Objeví se právě zde.</translation>
+        <translation>&lt;b&gt;按住&lt;/b&gt;任何頁面、文件或資料夾，然後將其新增至您的收藏夾。他們就會出現在這裡。</translation>
     </message>
     <message>
         <source>Discover our go-to resource for the latest templates, tools, and tips from &lt;b&gt;methods.remarkable.com&lt;/b&gt;</source>
-        <translation>Objevte náš zdroj nejnovějších šablon, nástrojů a tipů z &lt;b&gt;methods.remarkable.com&lt;/b&gt;</translation>
+        <translation>從 &lt;b&gt;methods.remarkable.com&lt;/b&gt; 探索我們的最新模板、工具和提示的首選資源</translation>
     </message>
     <message>
         <source>You can set up integrations with your own cloud storage services on my.remarkable.com/integrations.</source>
-        <translation>Na my.remarkable.com/integrations můžete nastavit integrace s vašimi vlastními službami cloudového úložiště.</translation>
+        <translation>您可以在 my.remarkable.com/integrations 上設定與您自己的雲端儲存服務的整合。</translation>
     </message>
     <message>
         <source>Integrate with Google Drive, Dropbox, and OneDrive</source>
-        <translation>Integrace s Diskem Google, Dropboxem a OneDrive</translation>
+        <translation>與 Google Drive、Dropbox 和 OneDrive 集成</translation>
     </message>
     <message>
         <source>Items you delete from My files will be shown here. You can restore or permanently delete them.</source>
-        <translation>Zde se zobrazí položky, které odstraníte ze složky Moje soubory. Můžete je obnovit nebo trvale smazat.</translation>
+        <translation>您從“我的文件”中刪除的項目將顯示在此。您可以恢復或永久刪除它們。</translation>
     </message>
     <message>
         <source>Try a different combination</source>
-        <translation>Zkuste jinou kombinaci</translation>
+        <translation>嘗試不同的組合</translation>
     </message>
 </context>
 <context>
     <name>PasscodeUpdateView</name>
     <message>
         <source>Your passcode has been updated</source>
-        <translation>Váš přístupový kód byl aktualizován</translation>
+        <translation>您的密碼已更新</translation>
     </message>
     <message>
         <source>Your passcode is turned off</source>
-        <translation>Váš přístupový kód je vypnutý</translation>
+        <translation>您的密碼已關閉</translation>
     </message>
 </context>
 <context>
@@ -4059,593 +4059,593 @@
     </message>
     <message>
         <source>Tagged pages</source>
-        <translation>Označené stránky</translation>
+        <translation>標記頁面</translation>
     </message>
     <message>
         <source>Go to page</source>
-        <translation>Přejít na stránku</translation>
+        <translation>前往頁面</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Vyberte vše</translation>
+        <translation>選擇全部</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation>Zrušte výběr všech</translation>
+        <translation>取消選擇全部</translation>
     </message>
     <message>
         <source>All pages</source>
-        <translation>Všechny stránky</translation>
+        <translation>所有頁面</translation>
     </message>
 </context>
 <context>
     <name>PincodePolicy</name>
     <message>
         <source>Your reMarkable account is associated with an enterprise with enhanced security.</source>
-        <translation>Váš účet reMarkable je přidružen k podniku se zvýšeným zabezpečením.</translation>
+        <translation>您的 reMarkable 帳戶與具有增強安全性的企業關聯。</translation>
     </message>
     <message>
         <source>To make your paper tablet compliant with your workplace, update the passcode with minimum %1 digits.</source>
-        <translation>Aby váš papírový tablet vyhovoval vašemu pracovišti, aktualizujte přístupový kód tak, aby obsahoval minimálně %1 číslic.</translation>
+        <translation>為了讓您的紙本平板電腦符合您的工作場所，請使用至少 %1 位數字更新密碼。</translation>
     </message>
     <message>
         <source>To make your paper tablet compliant with your workplace, set a passcode with minimum %1 digits.</source>
-        <translation>Aby váš papírový tablet vyhovoval vašemu pracovišti, nastavte přístupový kód s minimálně %1 číslic.</translation>
+        <translation>為了讓您的紙本平板電腦符合您的工作場所要求，請設定至少 %1 位數字的密碼。</translation>
     </message>
     <message>
         <source>Set passcode</source>
-        <translation>Nastavte přístupový kód</translation>
+        <translation>設定密碼</translation>
     </message>
     <message>
         <source>Keeping work secure</source>
-        <translation>Zabezpečení práce</translation>
+        <translation>確保工作安全</translation>
     </message>
 </context>
 <context>
     <name>General</name>
     <message>
         <source>General settings</source>
-        <translation>Obecná nastavení</translation>
+        <translation>常規設定</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation>Restartovat</translation>
+        <translation>重新啟動</translation>
     </message>
     <message>
         <source>Turn off</source>
-        <translation>Vypnout</translation>
+        <translation>關</translation>
     </message>
     <message>
         <source>Flight mode</source>
-        <translation>Letový režim</translation>
+        <translation>飛航模式</translation>
     </message>
 </context>
 <context>
     <name>SettingsHelpAbout</name>
     <message>
         <source>About</source>
-        <translation>O zařízení</translation>
+        <translation>關於</translation>
     </message>
     <message>
         <source>Copyrights and licenses</source>
-        <translation>Autorská práva a licence</translation>
+        <translation>版權和許可</translation>
     </message>
     <message>
         <source>Compliance statements</source>
-        <translation>Prohlášení o shodě</translation>
+        <translation>合規聲明</translation>
     </message>
 </context>
 <context>
     <name>ActionBar</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>CtNConnectRestrictionDialogWindow</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>DocumentView</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>The link has been sent to your email</source>
-        <translation>Odkaz byl odeslán na váš e-mail</translation>
+        <translation>連結已發送至您的郵箱</translation>
     </message>
     <message>
         <source>Copied to clipboard. Tap any page with Marker to paste.</source>
-        <translation>Zkopírováno do schránky. Klepněte na kteroukoli stránku pomocí značky, kterou chcete vložit.</translation>
+        <translation>複製到剪貼簿。點擊任何帶有標記的頁面即可貼上。</translation>
     </message>
     <message>
         <source>Screen Share lost connection. Trying to reconnect...</source>
-        <translation>Sdílení obrazovky ztratilo připojení. Pokus o opětovné připojení...</translation>
+        <translation>螢幕共享遺失連線。正在嘗試重新連線...</translation>
     </message>
     <message>
         <source>Send by email</source>
-        <translation>Odeslat e-mailem</translation>
+        <translation>透過電子郵件發送</translation>
     </message>
     <message>
         <source>Open QR-code</source>
-        <translation>Otevřete QR kód</translation>
+        <translation>打開二維碼</translation>
     </message>
     <message numerus="yes">
         <source>%n match(es) found</source>
         <translation>
-            <numerusform>Nalezena shoda %n</numerusform>
-            <numerusform>%n nalezených shod</numerusform>
-        <numerusform /></translation>
+            <numerusform>找到 %n 個匹配項</numerusform>
+            <numerusform>找到 %n 個匹配項</numerusform>
+        </translation>
     </message>
     <message>
         <source>Handwriting conversion</source>
-        <translation>Převod rukopisu</translation>
+        <translation>手寫轉換</translation>
     </message>
     <message>
         <source>Screen Share is no longer active</source>
-        <translation>Sdílení obrazovky již není aktivní</translation>
+        <translation>螢幕分享不再有效</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Stránka %1 z %2</translation>
+        <translation>第 %1 頁（共 %2 頁）</translation>
     </message>
     <message>
         <source>Screen Share is active</source>
-        <translation>Sdílení obrazovky je aktivní</translation>
+        <translation>螢幕分享已激活</translation>
     </message>
     <message>
         <source>Sent page</source>
-        <translation>Odeslaná stránka</translation>
+        <translation>發送頁面</translation>
     </message>
     <message>
         <source>This feature is not available in retail demo mode.</source>
-        <translation>Tato funkce není dostupná v demo režimu maloobchodu.</translation>
+        <translation>此功能在零售演示模式下無法使用。</translation>
     </message>
     <message>
         <source>Text formats</source>
-        <translation>Textové formáty</translation>
+        <translation>文字格式</translation>
     </message>
     <message>
         <source>Sending...</source>
-        <translation>Odesílání...</translation>
+        <translation>正在發送...</translation>
     </message>
     <message>
         <source>Make your handwritten notes easy to use in emails, reports, or presentations by converting them into typed text. Handwriting conversion supports 33 languages, cursive and block letters, and sharing your freshly converted notes directly via email.</source>
-        <translation>Usnadněte používání ručně psaných poznámek v e-mailech, zprávách nebo prezentacích jejich převodem na psaný text. Převod rukopisu podporuje 33 jazyků, kurzíva a tiskací písmena a sdílení vašich čerstvě převedených poznámek přímo prostřednictvím e-mailu.</translation>
+        <translation>透過將手寫筆記轉換為鍵入的文本，使手寫筆記易於在電子郵件、報告或簡報中使用。手寫轉換支援 33 種語言、草書和正楷，並直接透過電子郵件分享您新轉換的筆記。</translation>
     </message>
     <message>
         <source>No results found</source>
-        <translation>Nebyly nalezeny žádné výsledky</translation>
+        <translation>沒有找到結果</translation>
     </message>
     <message>
         <source>Accept connection in the desktop app...</source>
-        <translation>Přijměte připojení v desktopové aplikaci...</translation>
+        <translation>在桌面應用程式中接受連線...</translation>
     </message>
     <message>
         <source>Unable to send emails without Connect subscription</source>
-        <translation>Bez předplatného Connect nelze odesílat e-maily</translation>
+        <translation>如果沒有 Connect 訂閱，則無法傳送電子郵件</translation>
     </message>
     <message>
         <source>This feature requires a Wi-Fi connection</source>
-        <translation>Tato funkce vyžaduje připojení Wi-Fi</translation>
+        <translation>此功能需要 Wi-Fi 連接</translation>
     </message>
     <message>
         <source>Tap with Marker to paste</source>
-        <translation>Klepnutím na značku vložíte</translation>
+        <translation>用記號筆點選進行貼上</translation>
     </message>
     <message>
         <source>Unable to send</source>
-        <translation>Nelze odeslat</translation>
+        <translation>無法發送</translation>
     </message>
     <message>
         <source>Back to page %1</source>
-        <translation>Zpět na stránku %1</translation>
+        <translation>返回頁 %1</translation>
     </message>
 </context>
 <context>
     <name>FormatMenuVirtualKeyboard</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>HeaderActions</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>HwcNotificationBar</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Unable to convert text. Pair your device to an account.</source>
-        <translation>Nelze převést text. Spárujte své zařízení s účtem.</translation>
+        <translation>無法轉換文字。將您的裝置與帳戶配對。</translation>
     </message>
     <message>
         <source>Unable to convert that amount of notes</source>
-        <translation>Takové množství poznámek nelze převést</translation>
+        <translation>無法兌換該數量的紙幣</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Converting to text (%1)</source>
-        <translation>Převod na text (%1)</translation>
+        <translation>轉換為文字(%1)</translation>
     </message>
     <message>
         <source>Unable to convert notes</source>
-        <translation>Poznámky nelze převést</translation>
+        <translation>無法轉換筆記</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Neznámá chyba</translation>
+        <translation>未知錯誤</translation>
     </message>
     <message>
         <source>Unable to convert text. Please check your Wi-Fi connection.</source>
-        <translation>Nelze převést text. Zkontrolujte prosím své připojení Wi-Fi.</translation>
+        <translation>無法轉換文字。請檢查您的 Wi-Fi 連線。</translation>
     </message>
 </context>
 <context>
     <name>InactiveWarning</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Cloud limit reached</source>
-        <translation>Bylo dosaženo limitu cloudu</translation>
+        <translation>已達到雲端限制</translation>
     </message>
     <message>
         <source>Without Connect, documents stop syncing after 50 days of inactivity. Reactivate cloud storage and sync documents across all devices by subscribing at my.remarkable.com.</source>
-        <translation>Bez připojení se dokumenty po 50 dnech nečinnosti přestanou synchronizovat. Znovu aktivujte cloudové úložiště a synchronizujte dokumenty na všech zařízeních přihlášením k odběru na my.remarkable.com.</translation>
+        <translation>如果沒有 Connect，文件將在 50 天不活動後停止同步。透過在 my.remarkable.com 訂閱，重新啟動雲端儲存並在所有裝置上同步文件。</translation>
     </message>
     <message>
         <source>Don't show this message again</source>
-        <translation>Tuto zprávu již nezobrazovat</translation>
+        <translation>不再顯示此訊息</translation>
     </message>
     <message>
         <source>Not syncing</source>
-        <translation>Nesynchronizuje se</translation>
+        <translation>未同步</translation>
     </message>
 </context>
 <context>
     <name>InfoDialog</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>This document contains data that is not supported.</source>
-        <translation>Tento dokument obsahuje data, která nejsou podporována.</translation>
+        <translation>本文檔包含不受支援的資料。</translation>
     </message>
     <message>
         <source>Unable to open</source>
-        <translation>Nelze otevřít</translation>
+        <translation>無法打開</translation>
     </message>
 </context>
 <context>
     <name>KeyboardPanel</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Your subscription has been updated</source>
-        <translation>Vaše předplatné bylo aktualizováno</translation>
+        <translation>您的訂閱已更新</translation>
     </message>
     <message>
         <source>Screen Share is no longer active</source>
-        <translation>Sdílení obrazovky již není aktivní</translation>
+        <translation>螢幕分享不再有效</translation>
     </message>
     <message>
         <source>Unable to sync</source>
-        <translation>Nelze synchronizovat</translation>
+        <translation>無法同步</translation>
     </message>
 </context>
 <context>
     <name>TabControl</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
 </context>
 <context>
     <name>TemplateSelector</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Access your rM Methods templates and import more by activating Connect. Manage your subscription and free trials at my.remarkable.com.</source>
-        <translation>Získejte přístup k šablonám rM Methods a importujte více aktivací Connect. Spravujte své předplatné a bezplatné zkušební verze na my.remarkable.com.</translation>
+        <translation>存取您的 rM 方法範本並透過啟動 Connect 匯入更多內容。在 my.remarkable.com 管理您的訂閱和免費試用。</translation>
     </message>
     <message>
         <source>Not supported by page width</source>
-        <translation>Není podporováno šířkou stránky</translation>
+        <translation>頁面寬度不支援</translation>
     </message>
     <message>
         <source>Choose template</source>
-        <translation>Vyberte šablonu</translation>
+        <translation>選擇模板</translation>
     </message>
     <message>
         <source>Connect templates</source>
-        <translation>Připojte šablony</translation>
+        <translation>連接模板</translation>
     </message>
 </context>
 <context>
     <name>no-connect-workbook-action</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Connect required</source>
-        <translation>Je vyžadováno připojení</translation>
+        <translation>需要連接</translation>
     </message>
     <message>
         <source>To make a duplicate, export, and send workbooks from reMarkable Methods, you need Connect. Manage your subscription at my.remarkable.com.</source>
-        <translation>Chcete-li vytvořit duplikát, exportovat a odeslat sešity z reMarkable Methods, potřebujete Connect. Spravujte své předplatné na my.remarkable.com.</translation>
+        <translation>若要從 reMarkable 方法複製、匯出和傳送工作簿，您需要 Connect。在 my.remarkable.com 管理您的訂閱。</translation>
     </message>
 </context>
 <context>
     <name>qr-dialog</name>
     <message>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <source>Share your work</source>
-        <translation>Sdílejte svou práci</translation>
+        <translation>分享你的工作</translation>
     </message>
     <message>
         <source>Scan the QR-code to access your notes and sketches online. You can edit the converted text, and show your work to others by sharing the link.</source>
-        <translation>Naskenujte QR kód a získejte přístup k poznámkám a náčrtům online. Převedený text můžete upravit a ukázat svou práci ostatním sdílením odkazu.</translation>
+        <translation>掃描二維碼即可在線上存取您的筆記和草圖。您可以編輯轉換後的文本，並透過分享連結向其他人展示您的作品。</translation>
     </message>
 </context>
 <context>
     <name>AdjustViewMenu</name>
     <message>
         <source>Fit to custom view</source>
-        <translation>Přizpůsobit vlastnímu zobrazení</translation>
+        <translation>適合自訂視圖</translation>
     </message>
     <message>
         <source>Fit to width</source>
-        <translation>Přizpůsobit na šířku</translation>
+        <translation>適合寬度</translation>
     </message>
     <message>
         <source>Adjust view</source>
-        <translation>Upravit pohled</translation>
+        <translation>調整視圖</translation>
     </message>
     <message>
         <source>Fit to height</source>
-        <translation>Přizpůsobit se výšce</translation>
+        <translation>適合身高</translation>
     </message>
 </context>
 <context>
     <name>Accessibility</name>
     <message>
         <source>Large</source>
-        <translation>Velká</translation>
+        <translation>大的</translation>
     </message>
     <message>
         <source>Accessibility settings</source>
-        <translation>Nastavení usnadnění</translation>
+        <translation>輔助使用設定</translation>
     </message>
     <message>
         <source>Choose the hand you prefer to write and draw with.</source>
-        <translation>Vyberte ruku, kterou dáváte přednost psaní a kreslení.</translation>
+        <translation>選擇您喜歡用來書寫和繪畫的手。</translation>
     </message>
     <message>
         <source>Choose the size you prefer for system font and layout.</source>
-        <translation>Vyberte velikost, kterou preferujete pro systémové písmo a rozvržení.</translation>
+        <translation>選擇您喜歡的系統字體和佈局的大小。</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation>Standardní</translation>
+        <translation>標準</translation>
     </message>
     <message>
         <source>Handedness</source>
-        <translation>Ruka</translation>
+        <translation>慣用手</translation>
     </message>
 </context>
 <context>
     <name>SearchIndexPanel</name>
     <message>
         <source>Reset</source>
-        <translation>Obnovit</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>Keeps an index of the notes and text you've searched for.</source>
-        <translation>Uchovává rejstřík poznámek a textu, který jste hledali.</translation>
+        <translation>保留您搜尋過的筆記和文字的索引。</translation>
     </message>
     <message>
         <source>The search index for handwriting has been reset.</source>
-        <translation>Index vyhledávání pro ručně psaný text byl resetován.</translation>
+        <translation>手寫搜尋索引已重設。</translation>
     </message>
     <message>
         <source>Handwriting search</source>
-        <translation>Hledání rukopisu</translation>
+        <translation>手寫搜尋</translation>
     </message>
 </context>
 <context>
     <name>ShareMenu</name>
     <message>
         <source>Share</source>
-        <translation>Sdílet</translation>
+        <translation>分享</translation>
     </message>
 </context>
 <context>
     <name>CreateMenu</name>
     <message>
         <source>Record ideas, write, and sketch</source>
-        <translation>Zaznamenávejte nápady, pište a kreslete</translation>
+        <translation>記錄想法、寫作和素描</translation>
     </message>
     <message>
         <source>Folder</source>
-        <translation>Složku</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <source>Organize your content</source>
-        <translation>Uspořádejte svůj obsah</translation>
+        <translation>整理您的內容</translation>
     </message>
     <message>
         <source>Jot down your thoughts</source>
-        <translation>Zapište své myšlenky</translation>
+        <translation>記下你的想法</translation>
     </message>
     <message>
         <source>Notebook</source>
-        <translation>Notebook</translation>
+        <translation>筆記本</translation>
     </message>
     <message>
         <source>Create new</source>
-        <translation>Vytvořit nový (novou)</translation>
+        <translation>創造新的</translation>
     </message>
     <message>
         <source>Quick sheet</source>
-        <translation>Rychlý list</translation>
+        <translation>快單</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::library::constants</name>
     <message>
         <source>Trash</source>
-        <translation>Koš</translation>
+        <translation>垃圾</translation>
     </message>
     <message>
         <source>Templates</source>
-        <translation>Šablony</translation>
+        <translation>範本</translation>
     </message>
     <message>
         <source>My files</source>
-        <translation>Moje soubory</translation>
+        <translation>我的文件</translation>
     </message>
 </context>
 <context>
     <name>Wifi</name>
     <message>
         <source>Wi-Fi</source>
-        <translation>Wi-Fi</translation>
+        <translation>無線上網</translation>
     </message>
     <message>
         <source>Wi-Fi settings</source>
-        <translation>Nastavení Wi-Fi</translation>
+        <translation>無線網路設定</translation>
     </message>
     <message>
         <source>Join other network</source>
-        <translation>Připojte se k jiné síti</translation>
+        <translation>加入其他網絡</translation>
     </message>
 </context>
 <context>
     <name>MainView</name>
     <message>
         <source>Unable to retrieve without a cloud connection</source>
-        <translation>Nelze načíst bez připojení ke cloudu</translation>
+        <translation>沒有雲端連線時無法檢索</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>This function requires a network connection</source>
-        <translation>Tato funkce vyžaduje síťové připojení</translation>
+        <translation>此功能需要網路連接</translation>
     </message>
     <message>
         <source>Open settings</source>
-        <translation>Otevřete nastavení</translation>
+        <translation>開啟設定</translation>
     </message>
     <message>
         <source>This function requires a paired account</source>
-        <translation>Tato funkce vyžaduje spárovaný účet</translation>
+        <translation>此功能需要配對帳戶</translation>
     </message>
 </context>
 <context>
     <name>TypingMenu</name>
     <message>
         <source>Edit text</source>
-        <translation>Upravit text</translation>
+        <translation>編輯文字</translation>
     </message>
     <message>
         <source>Typing</source>
-        <translation>psaní</translation>
+        <translation>打字</translation>
     </message>
     <message>
         <source>Add text</source>
-        <translation>Přidejte text</translation>
+        <translation>新增文字</translation>
     </message>
     <message>
         <source>Typed text</source>
-        <translation>Napsaný text</translation>
+        <translation>鍵入的文字</translation>
     </message>
 </context>
 <context>
     <name>PageErrorOverlay</name>
     <message>
         <source>Diagnostic information:</source>
-        <translation>Diagnostické informace:</translation>
+        <translation>診斷資訊：</translation>
     </message>
     <message>
         <source>Try restarting your application or contact support if the problem persists</source>
-        <translation>Zkuste restartovat aplikaci nebo pokud problém přetrvává, kontaktujte podporu</translation>
+        <translation>如果問題仍然存在，請嘗試重新啟動您的應用程式或聯絡支援人員</translation>
     </message>
     <message>
         <source>Stroke limit reached</source>
-        <translation>Byl dosažen limit zdvihu</translation>
+        <translation>已達行程極限</translation>
     </message>
     <message>
         <source>Document is being synced</source>
-        <translation>Dokument se synchronizuje</translation>
+        <translation>文檔正在同步</translation>
     </message>
     <message>
         <source>This document is not supported by your current software version.
 Please check for updates</source>
-        <translation>Tento dokument není podporován vaší aktuální verzí softwaru.
-Zkontrolujte prosím aktualizace</translation>
+        <translation>您目前的軟體版本不支援本文檔。
+請檢查更新</translation>
     </message>
     <message>
         <source>Unable to view page</source>
-        <translation>Stránku nelze zobrazit</translation>
+        <translation>無法查看頁面</translation>
     </message>
     <message>
         <source>Unable to save page</source>
-        <translation>Stránku nelze uložit</translation>
+        <translation>無法儲存頁面</translation>
     </message>
     <message>
         <source>Please close and try again later</source>
-        <translation>Zavřete prosím a zkuste to znovu později</translation>
+        <translation>請關閉並稍後重試</translation>
     </message>
     <message>
         <source>Please start a new page or erase something to make further changes</source>
-        <translation>Chcete-li provést další změny, založte novou stránku nebo něco vymažte</translation>
+        <translation>請開始新頁面或刪除某些內容以進行進一步更改</translation>
     </message>
     <message>
         <source>Unable to view page. Low on memory.</source>
-        <translation>Stránku nelze zobrazit. Málo paměti.</translation>
+        <translation>無法查看頁面。記憶體不足。</translation>
     </message>
     <message>
         <source>Update software to view</source>
-        <translation>Pro zobrazení aktualizujte software</translation>
+        <translation>更新軟體即可查看</translation>
     </message>
     <message>
         <source>Try restarting your reMarkable or contact support if the problem persists</source>
-        <translation>Zkuste restartovat reMarkable nebo kontaktujte podporu, pokud problém přetrvává</translation>
+        <translation>如果問題仍然存在，請嘗試重新啟動您的 reMarkable 或聯絡支援人員</translation>
     </message>
 </context>
 <context>
@@ -4653,612 +4653,612 @@ Zkontrolujte prosím aktualizace</translation>
     <message numerus="yes">
         <source>%n items</source>
         <translation>
-            <numerusform>%n položka</numerusform>
-            <numerusform>%n položek</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 項</numerusform>
+            <numerusform>%n 項</numerusform>
+        </translation>
     </message>
     <message>
         <source>Not compatible</source>
-        <translation>Není kompatibilní</translation>
+        <translation>不相容</translation>
     </message>
     <message>
         <source>0% read</source>
-        <translation>0 % přečteno</translation>
+        <translation>0% 閱讀</translation>
     </message>
     <message>
         <source>%1% read</source>
-        <translation>%1 % přečteno</translation>
+        <translation>%1% 已讀</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Stránka %1 z %2</translation>
+        <translation>第 %1 頁（共 %2 頁）</translation>
     </message>
 </context>
 <context>
     <name>ExportTask</name>
     <message>
         <source>Failed to export %1 as HTML</source>
-        <translation>Export %1 jako HTML se nezdařil</translation>
+        <translation>無法將 %1 匯出為 HTML</translation>
     </message>
     <message>
         <source>Unable to export %1 as Bundle</source>
-        <translation>Nelze exportovat %1 jako balíček</translation>
+        <translation>無法將 %1 作為捆綁包匯出</translation>
     </message>
     <message>
         <source>Finished exporting '%1' to '%2'</source>
-        <translation>Export '%1' do '%2' byl dokončen</translation>
+        <translation>已完成將“%1”匯出到“%2”</translation>
     </message>
     <message>
         <source>Unable to export document</source>
-        <translation>Dokument nelze exportovat</translation>
+        <translation>無法匯出文檔</translation>
     </message>
     <message>
         <source>Unable to create '%1'</source>
-        <translation>Nelze vytvořit '%1'</translation>
+        <translation>無法創建“%1”</translation>
     </message>
     <message>
         <source>Unable to export %1 as PDF</source>
-        <translation>Nelze exportovat %1 jako PDF</translation>
+        <translation>無法將 %1 匯出為 PDF</translation>
     </message>
     <message>
         <source>Unable to export %1 as PNG</source>
-        <translation>Nelze exportovat %1 jako PNG</translation>
+        <translation>無法將 %1 匯出為 PNG</translation>
     </message>
     <message>
         <source>Unable to export %1 as SVG</source>
-        <translation>Nelze exportovat %1 jako SVG</translation>
+        <translation>無法將 %1 匯出為 SVG</translation>
     </message>
     <message>
         <source>Unable to export '%1'</source>
-        <translation>Nelze exportovat '%1'</translation>
+        <translation>無法匯出“%1”</translation>
     </message>
 </context>
 <context>
     <name>SecurityPanelEncryption</name>
     <message>
         <source>Data protection</source>
-        <translation>Ochrana dat</translation>
+        <translation>資料保護</translation>
     </message>
     <message>
         <source>Security level</source>
-        <translation>Úroveň zabezpečení</translation>
+        <translation>安全等級</translation>
     </message>
     <message>
         <source>Change password</source>
-        <translation>Změňte heslo</translation>
+        <translation>更改密碼</translation>
     </message>
     <message>
         <source>Disk encryption</source>
-        <translation>Šifrování disku</translation>
+        <translation>磁碟加密</translation>
     </message>
     <message>
         <source>Choose whether your disk is encrypted or not.</source>
-        <translation>Vyberte, zda je váš disk šifrován nebo ne.</translation>
+        <translation>選擇您的磁碟是否有加密。</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation>Standardní</translation>
+        <translation>標準</translation>
     </message>
 </context>
 <context>
     <name>ResetDeviceDialog</name>
     <message>
         <source>Please connect to Wi-Fi and try again.</source>
-        <translation>Připojte se k síti Wi-Fi a zkuste to znovu.</translation>
+        <translation>請連接到 Wi-Fi，然後再試一次。</translation>
     </message>
     <message>
         <source>Reset stopped</source>
-        <translation>Reset zastaven</translation>
+        <translation>重置已停止</translation>
     </message>
     <message>
         <source>Confirm factory reset</source>
-        <translation>Potvrďte tovární nastavení</translation>
+        <translation>確認恢復出廠設定</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Force reset</source>
-        <translation>Vynutit reset</translation>
+        <translation>強制重置</translation>
     </message>
     <message>
         <source>Are you sure you want to reset without
 syncing your latest changes?</source>
-        <translation>Jste si jisti, že chcete provést reset bez?
-synchronizujete poslední změny?</translation>
+        <translation>您確定要重置嗎？
+同步您的最新更改？</translation>
     </message>
     <message>
         <source>Factory reset stopped</source>
-        <translation>Obnovení továrního nastavení zastaveno</translation>
+        <translation>恢復出廠設定已停止</translation>
     </message>
     <message>
         <source>Unable to sync. Please try again.</source>
-        <translation>Nelze synchronizovat. Zkuste to prosím znovu.</translation>
+        <translation>無法同步。請再試一次。</translation>
     </message>
     <message>
         <source>Reset without syncing</source>
-        <translation>Resetovat bez synchronizace</translation>
+        <translation>重置但不同步</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>Syncing</source>
-        <translation>Probíhá synchronizace</translation>
+        <translation>正在同步</translation>
     </message>
     <message>
         <source>Are you sure you want to reset your
 reMarkable to its factory settings?</source>
-        <translation>Jste si jisti, že chcete resetovat svůj
-Lze přeznačit na tovární nastavení?</translation>
+        <translation>您確定要重置您的
+對其出廠設定有何影響？</translation>
     </message>
     <message>
         <source>All of your data will be erased from the device.</source>
-        <translation>Všechna vaše data budou ze zařízení vymazána.</translation>
+        <translation>您的所有資料將從設備中刪除。</translation>
     </message>
     <message>
         <source>Any unsynced changes will be erased from the device.</source>
-        <translation>Veškeré nesynchronizované změny budou ze zařízení vymazány.</translation>
+        <translation>任何未同步的變更將從裝置中刪除。</translation>
     </message>
     <message>
         <source>Reset your device to factory settings. By doing this all files and settings on your reMarkable will be erased, and your device will be restored to its original state.</source>
-        <translation>Resetujte zařízení do továrního nastavení. Tímto způsobem budou všechny soubory a nastavení na vašem reMarkable vymazány a vaše zařízení bude obnoveno do původního stavu.</translation>
+        <translation>將您的裝置重設為原廠設定。透過執行此操作，您的 reMarkable 上的所有檔案和設定都將被刪除，並且您的裝置將恢復到原始狀態。</translation>
     </message>
     <message>
         <source>Resetting...</source>
-        <translation>Resetování...</translation>
+        <translation>正在重置...</translation>
     </message>
 </context>
 <context>
     <name>rmsync::NetworkAction</name>
     <message>
         <source>Redirect failure: %1: %2</source>
-        <translation>Chyba přesměrování: %1: %2</translation>
+        <translation>重定向失敗：%1：%2</translation>
     </message>
     <message>
         <source>Unable to validate downloaded content</source>
-        <translation>Nelze ověřit stažený obsah</translation>
+        <translation>無法驗證下載的內容</translation>
     </message>
     <message>
         <source>Network failure: %1</source>
-        <translation>Selhání sítě: %1</translation>
+        <translation>網路故障：%1</translation>
     </message>
     <message>
         <source>Server has more recent updates, re-syncing.</source>
-        <translation>Server má novější aktualizace, probíhá opětovná synchronizace.</translation>
+        <translation>伺服器有最新更新，正在重新同步。</translation>
     </message>
     <message>
         <source>Unable to open file: %1</source>
-        <translation>Nelze otevřít soubor: %1</translation>
+        <translation>無法開啟檔案：%1</translation>
     </message>
     <message>
         <source>Unable to sync document content</source>
-        <translation>Nelze synchronizovat obsah dokumentu</translation>
+        <translation>無法同步文檔內容</translation>
     </message>
     <message>
         <source>Unable to get URL: %1: %2</source>
-        <translation>Nelze získat adresu URL: %1: %2</translation>
+        <translation>無法取得 URL：%1：%2</translation>
     </message>
 </context>
 <context>
     <name>Cloud</name>
     <message>
         <source>There was an issue with your last sync</source>
-        <translation>Při poslední synchronizaci došlo k problému</translation>
+        <translation>您的上次同步有問題</translation>
     </message>
     <message>
         <source>Checks if your reMarkable is syncing.</source>
-        <translation>Zkontroluje, zda se váš reMarkable synchronizuje.</translation>
+        <translation>檢查您的 reMarkable 是否正在同步。</translation>
     </message>
     <message>
         <source>Sync without Connect</source>
-        <translation>Synchronizovat bez připojení</translation>
+        <translation>無需連接即可同步</translation>
     </message>
     <message>
         <source>Log in to manage your subscription at %1.</source>
-        <translation>Přihlaste se a spravujte své předplatné na %1.</translation>
+        <translation>登入以管理您在 %1 的訂閱。</translation>
     </message>
     <message>
         <source>Without Connect, only files used and synced online in the last 50 days will continue to be stored in the cloud and updated in our apps.</source>
-        <translation>Bez připojení budou v cloudu nadále ukládány a aktualizovány v našich aplikacích pouze soubory použité a synchronizované online za posledních 50 dní.</translation>
+        <translation>如果沒有 Connect，只有過去 50 天內使用和線上同步的檔案將繼續儲存在雲端並在我們的應用程式中更新。</translation>
     </message>
     <message>
         <source>Check sync</source>
-        <translation>Zkontrolujte synchronizaci</translation>
+        <translation>檢查同步</translation>
     </message>
     <message>
         <source>The reMarkable cloud is a service you can use to store your files and sync them to other devices. Unlimited cloud storage is included in the monthly price of a Connect subscription.</source>
-        <translation>Cloud reMarkable je služba, kterou můžete použít k ukládání souborů a jejich synchronizaci s jinými zařízeními. Neomezené cloudové úložiště je zahrnuto v měsíční ceně předplatného Connect.</translation>
+        <translation>reMarkable 雲端是可用於儲存檔案並同步至其他裝置的服務。 Connect 訂閱的每月價格包含無限的雲端儲存。</translation>
     </message>
     <message>
         <source>For more information, go to &lt;b&gt;https://support.remarkable.com/s/article/Pair-your-reMarkable-with-the-cloud&lt;/b&gt;</source>
-        <translation>Další informace najdete na &lt;b&gt;https://support.remarkable.com/s/article/Pair-your-reMarkable-with-the-cloud&lt;/b&gt;</translation>
+        <translation>如需了解更多信息，請訪問&lt;b&gt;https://support.remarkable.com/s/article/Pair-your-reMarkable-with-the-cloud&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Cloud settings</source>
-        <translation>Nastavení cloudu</translation>
+        <translation>雲端設定</translation>
     </message>
     <message>
         <source>Cloud connection</source>
-        <translation>Cloudové připojení</translation>
+        <translation>雲端連線</translation>
     </message>
 </context>
 <context>
     <name>WifiList</name>
     <message>
         <source>Connecting...</source>
-        <translation>Spojovací...</translation>
+        <translation>正在連接...</translation>
     </message>
     <message>
         <source>Searching for networks...</source>
-        <translation>Vyhledávání sítí...</translation>
+        <translation>正在搜尋網路...</translation>
     </message>
     <message>
         <source>Networks</source>
-        <translation>sítě</translation>
+        <translation>網路</translation>
     </message>
     <message>
         <source>Connecting to...</source>
-        <translation>Připojování k...</translation>
+        <translation>正在連接到...</translation>
     </message>
 </context>
 <context>
     <name>pairing-expired-popup</name>
     <message>
         <source>As a security measure, we need you to pair your account and paper tablet again. This is required to continue syncing content to the cloud and using basic features on your device and apps.</source>
-        <translation>Z bezpečnostních důvodů potřebujeme, abyste znovu spárovali svůj účet a papírový tablet. To je nutné, abyste mohli pokračovat v synchronizaci obsahu do cloudu a používat základní funkce na vašem zařízení a aplikacích.</translation>
+        <translation>作為安全措施，我們需要您重新配對您的帳戶和紙本平板電腦。這是繼續將內容同步到雲端並使用裝置和應用程式上的基本功能所必需的。</translation>
     </message>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>Verify your account</source>
-        <translation>Ověřte svůj účet</translation>
+        <translation>驗證您的帳戶</translation>
     </message>
 </context>
 <context>
     <name>RetailDemoDialog</name>
     <message>
         <source>Entering requires passcode to be disabled, and setting a dedicated retail passcode.</source>
-        <translation>Zadání vyžaduje deaktivaci přístupového kódu a nastavení vyhrazeného maloobchodního přístupového kódu.</translation>
+        <translation>輸入需要停用密碼，並設定專用的零售密碼。</translation>
     </message>
     <message>
         <source>By entering this mode, you will lose all content currently on your device and no longer have access to files backed up to the cloud.</source>
-        <translation>Vstupem do tohoto režimu ztratíte veškerý obsah, který je aktuálně na vašem zařízení, a nebudete mít nadále přístup k souborům zálohovaným do cloudu.</translation>
+        <translation>進入此模式後，您將丟失裝置上目前的所有內容，並且無法再存取備份到雲端的檔案。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>A factory reset is required to exit retail mode. This will restore your device to its original settings.</source>
-        <translation>Pro ukončení režimu prodeje je vyžadováno obnovení továrního nastavení. Tím se obnoví původní nastavení zařízení.</translation>
+        <translation>需要恢復出廠設定才能退出零售模式。這會將您的裝置恢復到原始設定。</translation>
     </message>
     <message>
         <source>Reset without syncing</source>
-        <translation>Resetovat bez synchronizace</translation>
+        <translation>重置但不同步</translation>
     </message>
     <message>
         <source>Syncing...</source>
-        <translation>Synchronizace...</translation>
+        <translation>正在同步...</translation>
     </message>
     <message>
         <source>You cannot enter with an Enterprise account.</source>
-        <translation>Nemůžete vstoupit s účtem Enterprise.</translation>
+        <translation>您無法使用企業帳戶進入。</translation>
     </message>
     <message>
         <source>Enter retail mode</source>
-        <translation>Vstupte do maloobchodního režimu</translation>
+        <translation>進入零售模式</translation>
     </message>
     <message>
         <source>Please be aware that retail mode is designed for demo purposes only and not recommended for any other use.</source>
-        <translation>Mějte prosím na paměti, že maloobchodní režim je navržen pouze pro demo účely a nedoporučuje se pro žádné jiné použití.</translation>
+        <translation>請注意，零售模式僅用於演示目的，不建議用於任何其他用途。</translation>
     </message>
     <message>
         <source>Remove passcode</source>
-        <translation>Odstraňte přístupový kód</translation>
+        <translation>刪除密碼</translation>
     </message>
     <message>
         <source>Any unsynced changes will be erased from the device.</source>
-        <translation>Veškeré nesynchronizované změny budou ze zařízení vymazány.</translation>
+        <translation>任何未同步的變更將從裝置中刪除。</translation>
     </message>
     <message>
         <source>Unable to sync</source>
-        <translation>Nelze synchronizovat</translation>
+        <translation>無法同步</translation>
     </message>
     <message>
         <source>Retail mode</source>
-        <translation>Maloobchodní režim</translation>
+        <translation>零售模式</translation>
     </message>
 </context>
 <context>
     <name>ConvertToTextButton</name>
     <message>
         <source>Convert to text</source>
-        <translation>Převést na text</translation>
+        <translation>轉換為文字</translation>
     </message>
 </context>
 <context>
     <name>OrientationButton</name>
     <message>
         <source>Set to portrait</source>
-        <translation>Nastavte na výšku</translation>
+        <translation>設定為縱向</translation>
     </message>
     <message>
         <source>Set to landscape</source>
-        <translation>Nastavte na šířku</translation>
+        <translation>設定為橫向</translation>
     </message>
 </context>
 <context>
     <name>SecurityPanelPasscode</name>
     <message>
         <source>Change passcode</source>
-        <translation>Změňte přístupový kód</translation>
+        <translation>更改密碼</translation>
     </message>
     <message>
         <source>Protect your notebooks and documents with a code.</source>
-        <translation>Chraňte své notebooky a dokumenty pomocí kódu.</translation>
+        <translation>使用程式碼保護您的筆記本和文件。</translation>
     </message>
     <message>
         <source>Passcode</source>
-        <translation>Heslo</translation>
+        <translation>密碼</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::syncinterface::Checker</name>
     <message>
         <source>Checking sync...</source>
-        <translation>Kontrola synchronizace...</translation>
+        <translation>正在檢查同步...</translation>
     </message>
     <message>
         <source>No syncing errors found. If you still experience problems, try restarting your device.</source>
-        <translation>Nebyly nalezeny žádné chyby synchronizace. Pokud problémy přetrvávají, zkuste zařízení restartovat.</translation>
+        <translation>未發現同步錯誤。如果您仍然遇到問題，請嘗試重新啟動您的裝置。</translation>
     </message>
     <message>
         <source>You're not connected to the cloud. Check if your app is paired to a reMarkable account.</source>
-        <translation>Nejste připojeni ke cloudu. Zkontrolujte, zda je vaše aplikace spárována s účtem reMarkable.</translation>
+        <translation>您未連接到雲端。檢查您的應用程式是否已與 reMarkable 帳號配對。</translation>
     </message>
     <message>
         <source>Your content is not ready. 
 Try restarting if the problem persists.</source>
-        <translation>Váš obsah není připraven. 
-Pokud problém přetrvává, zkuste restartovat.</translation>
+        <translation>您的內容尚未準備好。 
+如果問題仍然存在，請嘗試重新啟動。</translation>
     </message>
     <message>
         <source>You're not connected to Wi-Fi</source>
-        <translation>Nejste připojeni k síti Wi-Fi</translation>
+        <translation>您未連線至 Wi-Fi</translation>
     </message>
     <message>
         <source>Unable to establish a secure connection to our servers. Please try again, or connect to a different network</source>
-        <translation>Nelze navázat zabezpečené připojení k našim serverům. Zkuste to znovu nebo se připojte k jiné síti</translation>
+        <translation>無法與我們的伺服器建立安全連線。請重試，或連接到其他網絡</translation>
     </message>
     <message>
         <source>Checking internet connection...</source>
-        <translation>Kontrola připojení k internetu...</translation>
+        <translation>正在檢查網路連線...</translation>
     </message>
     <message>
         <source>Unable to sync. 
 Try restarting if the problem persists</source>
-        <translation>Nelze synchronizovat. 
-Pokud problém přetrvává, zkuste restartovat</translation>
+        <translation>無法同步。 
+如果問題仍然存在，請嘗試重新啟動</translation>
     </message>
     <message>
         <source>Syncing %1 of %2</source>
-        <translation>Synchronizace %1 z %2</translation>
+        <translation>正在同步 %1（共 %2）</translation>
     </message>
     <message>
         <source>Not syncing.
 Try restarting if the problem persists</source>
-        <translation>Nesynchronizuje se.
-Pokud problém přetrvává, zkuste restartovat</translation>
+        <translation>不同步。
+如果問題仍然存在，請嘗試重新啟動</translation>
     </message>
     <message>
         <source>Unable to connect to Wi-Fi. 
 Check your network settings and try again.</source>
-        <translation>Nelze se připojit k Wi-Fi. 
-Zkontrolujte nastavení sítě a zkuste to znovu.</translation>
+        <translation>無法連線到 Wi-Fi。 
+檢查您的網路設定並重試。</translation>
     </message>
     <message>
         <source>There might be an issue with the date/time information on your device. Please check System time and try again</source>
-        <translation>Může být problém s informacemi o datu/čase ve vašem zařízení. Zkontrolujte systémový čas a zkuste to znovu</translation>
+        <translation>您設備上的日期/時間資訊可能有問題。請檢查系統時間並重試</translation>
     </message>
     <message>
         <source>Waiting for sync</source>
-        <translation>Čekání na synchronizaci</translation>
+        <translation>等待同步</translation>
     </message>
     <message>
         <source>You're not connected to the cloud. Check if your paper tablet is paired to a reMarkable account.</source>
-        <translation>Nejste připojeni ke cloudu. Zkontrolujte, zda je váš papírový tablet spárován s účtem reMarkable.</translation>
+        <translation>您未連接到雲端。檢查您的紙平板電腦是否已與 reMarkable 帳戶配對。</translation>
     </message>
     <message>
         <source>You're connected to Wi-Fi, but not the internet.
 Check your Wi-Fi settings and try again.</source>
-        <translation>Jste připojeni k Wi-Fi, ale ne k internetu.
-Zkontrolujte nastavení Wi-Fi a zkuste to znovu.</translation>
+        <translation>您已連線至 Wi-Fi，但未連線至網際網路。
+檢查您的 Wi-Fi 設定並重試。</translation>
     </message>
     <message>
         <source>It looks like there are a few issues with the server:
 %1
 
 Try again in a little bit.</source>
-        <translation>Zdá se, že se serverem je několik problémů:
+        <translation>伺服器似乎存在一些問題：
 %1
 
-Zkuste to znovu za chvíli.</translation>
+稍後再試一次。</translation>
     </message>
 </context>
 <context>
     <name>SetupRecoveryKeyDialog</name>
     <message>
         <source>Recovery code</source>
-        <translation>Obnovovací kód</translation>
+        <translation>恢復碼</translation>
     </message>
     <message>
         <source>Store this alphabetic code somewhere safe (or take a picture) just in case you forget it and don't want to do a factory reset.</source>
-        <translation>Uložte si tento abecední kód někde v bezpečí (nebo vyfoťte) pro případ, že byste jej zapomněli a nechtěli byste obnovit tovární nastavení.</translation>
+        <translation>將此字母代碼儲存在安全的地方（或拍照），以防您忘記它並且不想恢復出廠設定。</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>Recovery for lost password</source>
-        <translation>Obnova ztraceného hesla</translation>
+        <translation>恢復遺失的密碼</translation>
     </message>
 </context>
 <context>
     <name>handwriting-conversion-language-page</name>
     <message>
         <source>Convert your notes into text in the language you use most often (in addition to English). Change it in Settings at any time.</source>
-        <translation>Převeďte své poznámky na text v jazyce, který používáte nejčastěji (kromě angličtiny). Změňte jej kdykoli v Nastavení.</translation>
+        <translation>將您的筆記轉換為您最常用的語言（除了英語之外）的文字。隨時在“設定”中更改它。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Handwriting language</source>
-        <translation>Jazyk rukopisu</translation>
+        <translation>手寫語言</translation>
     </message>
     <message>
         <source>Handwriting conversion language</source>
-        <translation>Jazyk převodu rukopisu</translation>
+        <translation>手寫轉換語言</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
     <name>SecondaryPenMenu</name>
     <message>
         <source>Secondary pen</source>
-        <translation>Sekundární pero</translation>
+        <translation>副筆</translation>
     </message>
 </context>
 <context>
     <name>SoftwareUpdateDialog</name>
     <message>
         <source>Check for updates</source>
-        <translation>Zkontrolujte aktualizace</translation>
+        <translation>檢查更新</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>This document is not supported by your current software version.</source>
-        <translation>Tento dokument není podporován vaší aktuální verzí softwaru.</translation>
+        <translation>您目前的軟體版本不支援本文檔。</translation>
     </message>
     <message>
         <source>Update software to view</source>
-        <translation>Pro zobrazení aktualizujte software</translation>
+        <translation>更新軟體即可查看</translation>
     </message>
 </context>
 <context>
     <name>UpdatePanel</name>
     <message>
         <source>Check for updates</source>
-        <translation>Zkontrolujte aktualizace</translation>
+        <translation>檢查更新</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Verze %1</translation>
+        <translation>版本%1</translation>
     </message>
     <message>
         <source>Release notes</source>
-        <translation>Poznámky k vydání</translation>
+        <translation>發行說明</translation>
     </message>
 </context>
 <context>
     <name>SetPasscode</name>
     <message>
         <source>Verify your new passcode</source>
-        <translation>Ověřte svůj nový přístupový kód</translation>
+        <translation>驗證您的新密碼</translation>
     </message>
     <message>
         <source>Incorrect passcode. Try again.</source>
-        <translation>Nesprávný přístupový kód. Zkuste to znovu.</translation>
+        <translation>密碼不正確。再試一次。</translation>
     </message>
     <message>
         <source>Enter your new passcode</source>
-        <translation>Zadejte svůj nový přístupový kód</translation>
+        <translation>輸入您的新密碼</translation>
     </message>
     <message>
         <source>Enter your passcode</source>
-        <translation>Zadejte svůj přístupový kód</translation>
+        <translation>輸入您的密碼</translation>
     </message>
 </context>
 <context>
     <name>WifiInfo</name>
     <message>
         <source>No Wi-Fi</source>
-        <translation>Bez Wi-Fi</translation>
+        <translation>沒有無線網路</translation>
     </message>
 </context>
 <context>
     <name>EncryptionConfirmation</name>
     <message>
         <source>This requires a factory reset of your paper tablet. All files and settings on your reMarkable will be erased.</source>
-        <translation>To vyžaduje obnovení továrního nastavení papírového tabletu. Všechny soubory a nastavení na vašem reMarkable budou vymazány.</translation>
+        <translation>這需要將您的紙質平板電腦恢復原廠設定。 reMarkable 上的所有檔案和設定都將被刪除。</translation>
     </message>
     <message>
         <source>Any recent changes will sync automatically before your reMarkable is reset.</source>
-        <translation>Jakékoli nedávné změny se automaticky synchronizují před resetováním reMarkable.</translation>
+        <translation>任何最近的變更都會在您的 reMarkable 重置之前自動同步。</translation>
     </message>
     <message>
         <source>Disk encryption</source>
-        <translation>Šifrování disku</translation>
+        <translation>磁碟加密</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Pokračovat</translation>
+        <translation>繼續</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Reset your device to factory settings. By doing this all files and settings on your reMarkable will be erased, and your device will be restored to its original state.</source>
-        <translation>Resetujte zařízení do továrního nastavení. Tímto způsobem budou všechny soubory a nastavení na vašem reMarkable vymazány a vaše zařízení bude obnoveno do původního stavu.</translation>
+        <translation>將您的裝置重設為原廠設定。透過執行此操作，您的 reMarkable 上的所有檔案和設定都將被刪除，並且您的裝置將恢復到原始狀態。</translation>
     </message>
 </context>
 <context>
     <name>cloud-feature-popup</name>
     <message>
         <source>To send content by email, use Screen Share, and convert notes to text, your paper tablet must be paired with a reMarkable account.</source>
-        <translation>Chcete-li odesílat obsah e-mailem, používat Screen Share a převádět poznámky na text, váš papírový tablet musí být spárován s účtem reMarkable.</translation>
+        <translation>要透過電子郵件發送內容、使用螢幕分享以及將筆記轉換為文本，您的紙質平板電腦必須與 reMarkable 帳戶配對。</translation>
     </message>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>Pair your account %1 to the paper tablet, again. This safety verification is required to sync content to the reMarkable cloud and use basic features.</source>
-        <translation>Znovu spárujte svůj účet %1 s papírovým tabletem. Toto bezpečnostní ověření je nutné k synchronizaci obsahu do cloudu reMarkable a používání základních funkcí.</translation>
+        <translation>再次將您的帳戶 %1 與紙本平板電腦配對。需要進行此安全驗證才能將內容同步到 reMarkable 雲端並使用基本功能。</translation>
     </message>
     <message>
         <source>Pairing required</source>
-        <translation>Je nutné spárování</translation>
+        <translation>需要配對</translation>
     </message>
     <message>
         <source>Your account, %1, was created, but not verified. Find a verification link in an email we sent you, to sync content to the reMarkable cloud and use basic features.
 
 Once resolved, the paper tablet may take up to 15 seconds to detect the change.</source>
-        <translation>Váš účet, %1, byl vytvořen, ale nebyl ověřen. Najděte ověřovací odkaz v e-mailu, který jsme vám poslali, abyste mohli synchronizovat obsah do cloudu reMarkable a používat základní funkce.
+        <translation>您的帳戶 %1 已創建，但尚未驗證。在我們發送給您的電子郵件中找到驗證鏈接，以將內容同步到 reMarkable 雲端並使用基本功能。
 
-Po vyřešení může papírové tabletě trvat až 15 sekund, než detekuje změnu.</translation>
+解決後，平板電腦可能需要長達 15 秒的時間才能偵測到變更。</translation>
     </message>
     <message>
         <source>%1
@@ -5266,38 +5266,38 @@ Po vyřešení může papírové tabletě trvat až 15 sekund, než detekuje zm�
 Once resolved, the paper tablet may take up to 15 seconds to detect the change.</source>
         <translation>%1
 
-Po vyřešení může papírové tabletě trvat až 15 sekund, než detekuje změnu.</translation>
+解決後，平板電腦可能需要長達 15 秒的時間才能偵測到變更。</translation>
     </message>
     <message>
         <source>Verify by pairing</source>
-        <translation>Ověřte spárováním</translation>
+        <translation>透過配對驗證</translation>
     </message>
     <message>
         <source>Verify your account</source>
-        <translation>Ověřte svůj účet</translation>
+        <translation>驗證您的帳戶</translation>
     </message>
     <message>
         <source>Verify your account by email</source>
-        <translation>Ověřte svůj účet e-mailem</translation>
+        <translation>透過電子郵件驗證您的帳戶</translation>
     </message>
 </context>
 <context>
     <name>SearchNotificationBar</name>
     <message>
         <source>Making handwriting searchable might take a while</source>
-        <translation>Vyhledání ručně psaného textu může chvíli trvat</translation>
+        <translation>讓手寫內容可搜尋可能需要一段時間</translation>
     </message>
     <message>
         <source>All handwritten notes are now searchable</source>
-        <translation>Všechny ručně psané poznámky lze nyní vyhledávat</translation>
+        <translation>所有手寫筆記現在都可以搜索</translation>
     </message>
     <message>
         <source>Disk is almost full. Free up disk space to make more handwritten notes searchable.</source>
-        <translation>Disk je téměř plný. Uvolněte místo na disku, aby bylo možné prohledávat více ručně psaných poznámek.</translation>
+        <translation>磁碟幾乎已滿。釋放磁碟空間，以便搜尋更多手寫筆記。</translation>
     </message>
     <message>
         <source>Unable to make handwritten notes searchable</source>
-        <translation>Ručně psané poznámky nelze prohledávat</translation>
+        <translation>無法搜尋手寫筆記</translation>
     </message>
 </context>
 <context>
@@ -5305,396 +5305,396 @@ Po vyřešení může papírové tabletě trvat až 15 sekund, než detekuje zm�
     <message numerus="yes">
         <source>in %n day(s)</source>
         <translation>
-            <numerusform>za %n den</numerusform>
-            <numerusform>za %n dní</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 天后</numerusform>
+            <numerusform>%n 天后</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s) ago</source>
         <translation>
-            <numerusform>před %n dnem</numerusform>
-            <numerusform>před %n dny</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 天前</numerusform>
+            <numerusform>%n 天前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>in %n month(s)</source>
         <translation>
-            <numerusform>za %n měsíc</numerusform>
-            <numerusform>za %n měsíců</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 個月內</numerusform>
+            <numerusform>%n 個月後</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>in %n minute(s)</source>
         <translation>
-            <numerusform>za %n minutu</numerusform>
-            <numerusform>za %n minut</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 分鐘後</numerusform>
+            <numerusform>%n 分鐘後</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n month(s) ago</source>
         <translation>
-            <numerusform>před %n měsícem</numerusform>
-            <numerusform>před %n měsíci</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 個月前</numerusform>
+            <numerusform>%n 個月前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
         <translation>
-            <numerusform>před %n minutou</numerusform>
-            <numerusform>před %n minutami</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 分鐘前</numerusform>
+            <numerusform>%n 分鐘前</numerusform>
+        </translation>
     </message>
     <message>
         <source>just now</source>
-        <translation>právě teď</translation>
+        <translation>現在</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s) ago</source>
         <translation>
-            <numerusform>před %n rokem</numerusform>
-            <numerusform>před %n lety</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n年前</numerusform>
+            <numerusform>%n年前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s) ago</source>
         <translation>
-            <numerusform>před %n hodinou</numerusform>
-            <numerusform>před %n hodinami</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 小時前</numerusform>
+            <numerusform>%n 小時前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>in %n hour(s)</source>
         <translation>
-            <numerusform>za %n hodinu</numerusform>
-            <numerusform>za %n hodin</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 小時後</numerusform>
+            <numerusform>%n 小時後</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>in %n year(s)</source>
         <translation>
-            <numerusform>za %n rok</numerusform>
-            <numerusform>za %n let</numerusform>
-        <numerusform /></translation>
+            <numerusform>%n 年</numerusform>
+            <numerusform>%n 年後</numerusform>
+        </translation>
     </message>
 </context>
 <context>
     <name>NotifyRecovery</name>
     <message>
         <source>Enter the recovery code that you got when setting a passcode. If you can't find it, a factory reset is required.</source>
-        <translation>Zadejte obnovovací kód, který jste získali při nastavování přístupového kódu. Pokud jej nemůžete najít, je vyžadováno obnovení továrního nastavení.</translation>
+        <translation>輸入您在設定密碼時獲得的恢復代碼。如果找不到，則需要恢復原廠設定。</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Recover your paper tablet</source>
-        <translation>Obnovte svůj papírový tablet</translation>
+        <translation>恢復您的紙本平板電腦</translation>
     </message>
     <message>
         <source>Enter recovery code</source>
-        <translation>Zadejte kód pro obnovení</translation>
+        <translation>輸入恢復代碼</translation>
     </message>
 </context>
 <context>
     <name>EncryptionDialog</name>
     <message>
         <source>You'll need both a password and a passcode for your device.</source>
-        <translation>Ke svému zařízení budete potřebovat heslo a přístupový kód.</translation>
+        <translation>您需要設備的密碼和密碼。</translation>
     </message>
     <message>
         <source>Disk encryption</source>
-        <translation>Šifrování disku</translation>
+        <translation>磁碟加密</translation>
     </message>
     <message>
         <source>A factory reset will delete all files stored on your paper tablet.</source>
-        <translation>Obnovení továrního nastavení odstraní všechny soubory uložené v papírovém tabletu.</translation>
+        <translation>恢復原廠設定將刪除平板電腦上儲存的所有檔案。</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation>Přijmout</translation>
+        <translation>接受</translation>
     </message>
     <message>
         <source>In addition to the passcode, that prevents others from breaking into your physical paper tablet, you can protect your content by encrypting the disk. It will require a factory reset of your device.</source>
-        <translation>Kromě přístupového kódu, který brání ostatním v proniknutí do vašeho fyzického papírového tabletu, můžete svůj obsah chránit šifrováním disku. Bude to vyžadovat obnovení továrního nastavení vašeho zařízení.</translation>
+        <translation>除了防止其他人侵入您的實體平板電腦的密碼之外，您還可以透過加密磁碟來保護您的內容。它需要將您的設備恢復原廠設定。</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>If you use your reMarkable 2 for work, being able to encrypt data might be a business requirement.</source>
-        <translation>Pokud používáte reMarkable 2 pro práci, schopnost šifrovat data může být obchodním požadavkem.</translation>
+        <translation>如果您使用 reMarkable 2 進行工作，能夠加密資料可能是一項業務需求。</translation>
     </message>
     <message>
         <source>Use the password to power on after being out of battery or factory reset, and a longer passcode means a more secure device.</source>
-        <translation>Použijte heslo k zapnutí po vybití baterie nebo obnovení továrního nastavení a delší přístupový kód znamená bezpečnější zařízení.</translation>
+        <translation>電量耗盡或恢復出廠設定後使用密碼開機，密碼越長代表設備更安全。</translation>
     </message>
     <message>
         <source>Make sure notebooks and documents are synced to the cloud.</source>
-        <translation>Ujistěte se, že jsou poznámkové bloky a dokumenty synchronizovány do cloudu.</translation>
+        <translation>確保筆記本和文件同步到雲端。</translation>
     </message>
 </context>
 <context>
     <name>UnlockScreen</name>
     <message>
         <source>Wrong passcode. Try again.</source>
-        <translation>Špatný přístupový kód. Zkuste to znovu.</translation>
+        <translation>密碼錯誤。再試一次。</translation>
     </message>
     <message>
         <source>Incorrect passcode. Try again or contact Support.</source>
-        <translation>Nesprávný přístupový kód. Zkuste to znovu nebo kontaktujte podporu.</translation>
+        <translation>密碼不正確。請重試或聯絡支援人員。</translation>
     </message>
     <message>
         <source>Enter passcode</source>
-        <translation>Zadejte přístupový kód</translation>
+        <translation>輸入密碼</translation>
     </message>
 </context>
 <context>
     <name>SecurityPanelPersonalInfo</name>
     <message>
         <source>Identify your paper tablet in standby by adding contact details.</source>
-        <translation>Identifikujte svůj papírový tablet v pohotovostním režimu přidáním kontaktních údajů.</translation>
+        <translation>透過新增聯絡方式來識別處於待機狀態的平板電腦。</translation>
     </message>
     <message>
         <source>Edit personal information</source>
-        <translation>Upravit osobní údaje</translation>
+        <translation>編輯個人資訊</translation>
     </message>
     <message>
         <source>Personal information</source>
-        <translation>Osobní údaje</translation>
+        <translation>個人資訊</translation>
     </message>
 </context>
 <context>
     <name>DisplayVisibleContent</name>
     <message>
         <source>Visible content</source>
-        <translation>Viditelný obsah</translation>
+        <translation>可見內容</translation>
     </message>
     <message>
         <source>Show your open document or overview when in standby.</source>
-        <translation>V pohotovostním režimu zobrazte svůj otevřený dokument nebo přehled.</translation>
+        <translation>待機時顯示您開啟的文件或概述。</translation>
     </message>
 </context>
 <context>
     <name>TimedOutDialog</name>
     <message>
         <source>Wait %1 minutes to try again, or reset passcode.</source>
-        <translation>Počkejte %1 minut a zkuste to znovu, nebo resetujte heslo.</translation>
+        <translation>等待 %1 分鐘重試，或重設密碼。</translation>
     </message>
     <message>
         <source>Reset passcode</source>
-        <translation>Resetovat přístupový kód</translation>
+        <translation>重設密碼</translation>
     </message>
     <message>
         <source>Wait 1 minute to try again, or reset passcode.</source>
-        <translation>Počkejte 1 minutu a zkuste to znovu, nebo resetujte heslo.</translation>
+        <translation>等待 1 分鐘重試，或重設密碼。</translation>
     </message>
     <message>
         <source>Too many attempts</source>
-        <translation>Příliš mnoho pokusů</translation>
+        <translation>嘗試次數過多</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Zkuste to znovu</translation>
+        <translation>再試一次</translation>
     </message>
 </context>
 <context>
     <name>no-connect-onboarding</name>
     <message>
         <source>To search for keywords in your handwritten notes inside documents you need Connect. Subscribe at remarkable.com/store/connect.</source>
-        <translation>Chcete-li hledat klíčová slova v ručně psaných poznámkách v dokumentech, potřebujete Connect. Přihlaste se k odběru na adrese pozoruhodné.com/store/connect.</translation>
+        <translation>要在文件內的手寫筆記中搜尋關鍵字，您需要 Connect。請在卓越.com/store/connect 上訂閱。</translation>
     </message>
     <message>
         <source>Not subscribed</source>
-        <translation>Nepřihlášeno</translation>
+        <translation>未訂閱</translation>
     </message>
 </context>
 <context>
     <name>ScreenShare</name>
     <message>
         <source>Canceled by app</source>
-        <translation>Zrušeno aplikací</translation>
+        <translation>已被應用程式取消</translation>
     </message>
 </context>
 <context>
     <name>ChallengePassword</name>
     <message>
         <source>Your password has been updated</source>
-        <translation>Vaše heslo bylo aktualizováno</translation>
+        <translation>您的密碼已更新</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation>Zadejte heslo</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <source>Wrong recovery code entered</source>
-        <translation>Zadali jste nesprávný kód pro obnovení</translation>
+        <translation>輸入了錯誤的恢復代碼</translation>
     </message>
 </context>
 <context>
     <name>PincodeDialog</name>
     <message>
         <source>Eight digits</source>
-        <translation>Osm číslic</translation>
+        <translation>八位數字</translation>
     </message>
     <message>
         <source>Six digits</source>
-        <translation>Šest číslic</translation>
+        <translation>六位數字</translation>
     </message>
     <message>
         <source>Four digits</source>
-        <translation>Čtyři číslice</translation>
+        <translation>四位數</translation>
     </message>
 </context>
 <context>
     <name>Document</name>
     <message>
         <source>Quick sheets</source>
-        <translation>Rychlé listy</translation>
+        <translation>快速床單</translation>
     </message>
     <message>
         <source>%1% read</source>
-        <translation>%1 % přečteno</translation>
+        <translation>%1% 已讀</translation>
     </message>
     <message>
         <source>Document is archived.</source>
-        <translation>Dokument je archivován.</translation>
+        <translation>文件已存檔。</translation>
     </message>
     <message>
         <source>There's a mismatch in format versions. Try updating your software.</source>
-        <translation>Existuje neshoda ve verzích formátu. Zkuste aktualizovat software.</translation>
+        <translation>格式版本不符。嘗試更新您的軟體。</translation>
     </message>
     <message>
         <source>Your PDF file seems to be missing. Try importing it again.</source>
-        <translation>Zdá se, že váš soubor PDF chybí. Zkuste jej importovat znovu.</translation>
+        <translation>您的 PDF 文件似乎丟失了。嘗試再次導入。</translation>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>Stránka %1 z %2</translation>
+        <translation>第 %1 頁（共 %2 頁）</translation>
     </message>
     <message>
         <source>Password protected %1</source>
-        <translation>Chráněno heslem %1</translation>
+        <translation>密碼受保護 %1</translation>
     </message>
     <message>
         <source>Transferring</source>
-        <translation>Přenášení</translation>
+        <translation>轉移</translation>
     </message>
     <message>
         <source>Unable to view document. File format is outdated.</source>
-        <translation>Dokument nelze zobrazit. Formát souboru je zastaralý.</translation>
+        <translation>無法查看文檔。文件格式已過時。</translation>
     </message>
     <message>
         <source>Something seems to be wrong. Please try to restart.</source>
-        <translation>Zdá se, že něco není v pořádku. Zkuste restartovat.</translation>
+        <translation>似乎有些不對勁。請嘗試重新啟動。</translation>
     </message>
     <message>
         <source>Downgrade of content detected</source>
-        <translation>Byl zjištěn přechod na nižší verzi obsahu</translation>
+        <translation>偵測到內容降級</translation>
     </message>
 </context>
 <context>
     <name>CreateCollection</name>
     <message>
         <source>Enter tag name</source>
-        <translation>Zadejte název značky</translation>
+        <translation>輸入標籤名稱</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Create</source>
-        <translation>Vytvořit</translation>
+        <translation>創造</translation>
     </message>
     <message>
         <source>New folder</source>
-        <translation>Nová složka</translation>
+        <translation>新建資料夾</translation>
     </message>
     <message>
         <source>Create</source>
         <comment>Notebook creator</comment>
-        <translation>Vytvořit</translation>
+        <translation>創造</translation>
     </message>
 </context>
 <context>
     <name>sleep-window-banner</name>
     <message>
         <source>Press power button to continue</source>
-        <translation>Pokračujte stisknutím tlačítka napájení</translation>
+        <translation>按電源按鈕繼續</translation>
     </message>
 </context>
 <context>
     <name>ScreenShareButton</name>
     <message>
         <source>Stop sharing your screen</source>
-        <translation>Přestaňte sdílet svou obrazovku</translation>
+        <translation>停止分享您的螢幕</translation>
     </message>
     <message>
         <source>Present with Screen Share</source>
-        <translation>Prezentovat pomocí sdílení obrazovky</translation>
+        <translation>透過螢幕分享進行演示</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::toolbar::ToolModel</name>
     <message>
         <source>Highlighter</source>
-        <translation>Zvýrazňovač</translation>
+        <translation>螢光筆</translation>
     </message>
     <message>
         <source>Fineliner</source>
-        <translation>Jemná linka</translation>
+        <translation>細線</translation>
     </message>
     <message>
         <source>Marker</source>
-        <translation>Marker</translation>
+        <translation>標記</translation>
     </message>
     <message>
         <source>Pencil</source>
-        <translation>Tužka</translation>
+        <translation>鉛筆</translation>
     </message>
     <message>
         <source>Shader</source>
-        <translation>Shader</translation>
+        <translation>著色器</translation>
     </message>
     <message>
         <source>Paintbrush</source>
-        <translation>Štětec</translation>
+        <translation>畫筆</translation>
     </message>
     <message>
         <source>Calligraphy pen</source>
-        <translation>Kaligrafické pero</translation>
+        <translation>書法筆</translation>
     </message>
     <message>
         <source>Ballpoint pen</source>
-        <translation>Kuličkové pero</translation>
+        <translation>原子筆</translation>
     </message>
     <message>
         <source>Mechanical pencil</source>
-        <translation>Mechanická tužka</translation>
+        <translation>自動鉛筆</translation>
     </message>
 </context>
 <context>
     <name>IntegrationsFoldoutItem</name>
     <message>
         <source>Export to %1</source>
-        <translation>Exportovat do %1</translation>
+        <translation>匯出到%1</translation>
     </message>
     <message>
         <source>Connect required</source>
-        <translation>Je vyžadováno připojení</translation>
+        <translation>需要連接</translation>
     </message>
     <message>
         <source>Export to Integration</source>
-        <translation>Export do Integrace</translation>
+        <translation>匯出到集成</translation>
     </message>
 </context>
 <context>
     <name>sleep-window-opaque</name>
     <message>
         <source>reMarkable is sleeping</source>
-        <translation>reMarkable spí</translation>
+        <translation>卓越正在睡覺</translation>
     </message>
 </context>
 <context>
@@ -5708,1081 +5708,1081 @@ Po vyřešení může papírové tabletě trvat až 15 sekund, než detekuje zm�
     <name>manual-migration-popup</name>
     <message>
         <source>Pair your device</source>
-        <translation>Spárujte své zařízení</translation>
+        <translation>配對您的裝置</translation>
     </message>
     <message>
         <source>We've increased the security for your reMarkable account. To sync your content, and use basic features, pair your paper tablet to the cloud. Make sure you log in with the same email.</source>
-        <translation>Zvýšili jsme zabezpečení vašeho účtu reMarkable. Chcete-li synchronizovat obsah a používat základní funkce, spárujte papírový tablet s cloudem. Ujistěte se, že se přihlašujete pomocí stejného e-mailu.</translation>
+        <translation>我們提高了您的 reMarkable 帳戶的安全性。要同步您的內容並使用基本功能，請將您的紙質平板電腦與雲端配對。確保您使用相同電子郵件登入。</translation>
     </message>
     <message>
         <source>Verify your account</source>
-        <translation>Ověřte svůj účet</translation>
+        <translation>驗證您的帳戶</translation>
     </message>
 </context>
 <context>
     <name>EPubContainer</name>
     <message>
         <source>Table of contents</source>
-        <translation>Obsah</translation>
+        <translation>目錄</translation>
     </message>
 </context>
 <context>
     <name>AccountErrorMessage</name>
     <message>
         <source>Manage your account</source>
-        <translation>Spravujte svůj účet</translation>
+        <translation>管理您的帳戶</translation>
     </message>
     <message>
         <source>Verify your account by email. Open the verification link we sent you.</source>
-        <translation>Ověřte svůj účet e-mailem. Otevřete ověřovací odkaz, který jsme vám zaslali.</translation>
+        <translation>透過電子郵件驗證您的帳戶。打開我們發送給您的驗證連結。</translation>
     </message>
     <message>
         <source>Pair your paper tablet to sync content to the cloud and use basic features.</source>
-        <translation>Spárujte svůj papírový tablet pro synchronizaci obsahu do cloudu a používání základních funkcí.</translation>
+        <translation>配對您的紙平板電腦以將內容同步到雲端並使用基本功能。</translation>
     </message>
 </context>
 <context>
     <name>Values</name>
     <message>
         <source>1 item</source>
-        <translation>1 položka</translation>
+        <translation>1 件</translation>
     </message>
     <message>
         <source>%1 items</source>
-        <translation>%1 položek</translation>
+        <translation>%1 項</translation>
     </message>
 </context>
 <context>
     <name>PaperTabletInfoMessage</name>
     <message>
         <source>Tap to restart device to complete update.</source>
-        <translation>Klepnutím restartujte zařízení pro dokončení aktualizace.</translation>
+        <translation>點選 重新啟動裝置以完成更新。</translation>
     </message>
 </context>
 <context>
     <name>AccidentalTouchSlider</name>
     <message>
         <source>Swipe to continue</source>
-        <translation>Pokračujte přejetím prstem</translation>
+        <translation>滑動繼續</translation>
     </message>
 </context>
 <context>
     <name>DiskCorruptedDialog</name>
     <message>
         <source>Attempting repair...</source>
-        <translation>Pokus o opravu...</translation>
+        <translation>正在嘗試修復...</translation>
     </message>
     <message>
         <source>Tap to attempt
 automatic repair and restart</source>
-        <translation>Klepnutím se pokusíte
-automatická oprava a restart</translation>
+        <translation>點擊嘗試
+自動修復並重啟</translation>
     </message>
     <message>
         <source>Disk corrupted</source>
-        <translation>Disk je poškozen</translation>
+        <translation>磁碟損壞</translation>
     </message>
 </context>
 <context>
     <name>xofm::modules::compliance::LicenseInfo</name>
     <message>
         <source>Handwriting conversion</source>
-        <translation>Převod rukopisu</translation>
+        <translation>手寫轉換</translation>
     </message>
     <message>
         <source>&lt;h3&gt;GPLv3 Compliance&lt;/h3&gt;
 &lt;p&gt;The General Public License version 3 and the Lesser General Public License version 3 also requires you as an end-user to be able to access your device to be able to modify the copyrighted software licensed under these licenses running on it.&lt;/p&gt;&lt;br/&gt;&lt;p/&gt;</source>
-        <translation>&lt;h3&gt;Soulad s GPLv3&lt;/h3&gt;
-&lt;p&gt;General Public License verze 3 a Lesser General Public License verze 3 také vyžadují, abyste jako koncový uživatel měli přístup k vašemu zařízení, abyste mohli upravovat software chráněný autorskými právy licencovaný na základě těchto licencí, který na něm běží.&lt;/p&gt;&lt;br/&gt;&lt;p/&gt;</translation>
+        <translation>&lt;h3&gt;GPLv3 合規性&lt;/h3&gt;
+&lt;p&gt;通用公共授權版本 3 和次要通用公共授權版本 3 還要求您作為最終使用者能夠存取您的設備，以便能夠修改根據這些授權在其上運行的受版權保護的軟體。 &lt;/p&gt;&lt;br/&gt;&lt;p/&gt;</translation>
     </message>
     <message>
         <source>Could not load handwriting conversion license</source>
-        <translation>Nelze načíst licenci pro převod rukopisu</translation>
+        <translation>無法載入手寫轉換許可證</translation>
     </message>
     <message>
         <source>Could not load EULA</source>
-        <translation>EULA se nepodařilo načíst</translation>
+        <translation>無法加載 EULA</translation>
     </message>
     <message>
         <source>No specific licensing text.</source>
-        <translation>Žádný konkrétní licenční text.</translation>
+        <translation>沒有具體的許可文本。</translation>
     </message>
     <message>
         <source>General information</source>
-        <translation>Obecné informace</translation>
+        <translation>一般資訊</translation>
     </message>
 </context>
 <context>
     <name>DocumentSync_1_5</name>
     <message>
         <source>Unable to retrieve without Wi-Fi connection</source>
-        <translation>Bez připojení Wi-Fi nelze načíst</translation>
+        <translation>沒有 Wi-Fi 連線時無法檢索</translation>
     </message>
     <message>
         <source>Unable to archive without Wi-Fi connection</source>
-        <translation>Bez připojení Wi-Fi nelze archivovat</translation>
+        <translation>沒有 Wi-Fi 連線時無法存檔</translation>
     </message>
     <message>
         <source>Unable to archive/retrieve without Wi-Fi connection</source>
-        <translation>Bez připojení Wi-Fi nelze archivovat/načíst</translation>
+        <translation>沒有 Wi-Fi 連線時無法存檔/檢索</translation>
     </message>
 </context>
 <context>
     <name>poweroff-window</name>
     <message>
         <source>Do you want to restart your reMarkable?</source>
-        <translation>Chcete restartovat reMarkable?</translation>
+        <translation>您想重新啟動您的 reMarkable 嗎？</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Restart</source>
-        <translation>Restartovat</translation>
+        <translation>重新啟動</translation>
     </message>
     <message>
         <source>Turn off</source>
-        <translation>Vypnout</translation>
+        <translation>關</translation>
     </message>
     <message>
         <source>Do you want to turn off your reMarkable?</source>
-        <translation>Chcete vypnout reMarkable?</translation>
+        <translation>您想關閉您的 reMarkable 嗎？</translation>
     </message>
 </context>
 <context>
     <name>MoveSelectFoldout</name>
     <message>
         <source>New notebook</source>
-        <translation>Nový sešit</translation>
+        <translation>新筆記本</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
 </context>
 <context>
     <name>PartitionSelectGesture</name>
     <message>
         <source>Select below</source>
-        <translation>Vyberte níže</translation>
+        <translation>選擇下面</translation>
     </message>
 </context>
 <context>
     <name>ToolbarPositionChooser</name>
     <message>
         <source>Toolbar position</source>
-        <translation>Umístění panelu nástrojů</translation>
+        <translation>工具列位置</translation>
     </message>
     <message>
         <source>To reposition the toolbar while in a document, drag the hide/show button to any edge of the screen.</source>
-        <translation>Chcete-li změnit polohu panelu nástrojů v dokumentu, přetáhněte tlačítko skrýt/zobrazit k libovolnému okraji obrazovky.</translation>
+        <translation>若要在文件中重新定位工具列，請將隱藏/顯示按鈕拖曳到螢幕的任何邊緣。</translation>
     </message>
     <message>
         <source>Choose your preferred toolbar position.</source>
-        <translation>Vyberte preferovanou pozici panelu nástrojů.</translation>
+        <translation>選擇您喜歡的工具列位置。</translation>
     </message>
 </context>
 <context>
     <name>UnlockWindow</name>
     <message>
         <source>Reset passcode</source>
-        <translation>Resetovat přístupový kód</translation>
+        <translation>重設密碼</translation>
     </message>
     <message>
         <source>Incorrect passcode. Try again.</source>
-        <translation>Nesprávný přístupový kód. Zkuste to znovu.</translation>
+        <translation>密碼不正確。再試一次。</translation>
     </message>
     <message>
         <source>A reset is required to unlock your device.</source>
-        <translation>K odemknutí zařízení je vyžadován reset.</translation>
+        <translation>需要重置才能解鎖您的裝置。</translation>
     </message>
     <message>
         <source>Enter passcode</source>
-        <translation>Zadejte přístupový kód</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <source>Final attempt before you need to reset</source>
-        <translation>Poslední pokus, než budete muset provést reset</translation>
+        <translation>需要重置之前的最後一次嘗試</translation>
     </message>
 </context>
 <context>
     <name>EnterPassword</name>
     <message>
         <source>Reset password</source>
-        <translation>Obnovit heslo</translation>
+        <translation>重設密碼</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation>Heslo</translation>
+        <translation>密碼</translation>
     </message>
     <message>
         <source>Checking password</source>
-        <translation>Kontrola hesla</translation>
+        <translation>檢查密碼</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation>Zadejte heslo</translation>
+        <translation>輸入密碼</translation>
     </message>
     <message>
         <source>Incorrect password. Please try again.</source>
-        <translation>Nesprávné heslo. Zkuste to prosím znovu.</translation>
+        <translation>密碼不正確。請再試一次。</translation>
     </message>
 </context>
 <context>
     <name>SyncProgressBar</name>
     <message>
         <source>Sync completed</source>
-        <translation>Synchronizace dokončena</translation>
+        <translation>同步完成</translation>
     </message>
     <message>
         <source>Syncing (%1 of %2)</source>
-        <translation>Synchronizace (%1 z %2)</translation>
+        <translation>正在同步（%1，共 %2）</translation>
     </message>
     <message>
         <source>Syncing</source>
-        <translation>Probíhá synchronizace</translation>
+        <translation>正在同步</translation>
     </message>
 </context>
 <context>
     <name>ActionBarBase</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>CreateNotebook</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Create</source>
-        <translation>Vytvořit</translation>
+        <translation>創造</translation>
     </message>
 </context>
 <context>
     <name>HeaderContainer</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>TemplatesActions</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Vymazat</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <source>If you delete this template it will be removed from the documents using it</source>
-        <translation>Pokud tuto šablonu smažete, bude odstraněna z dokumentů, které ji používají</translation>
+        <translation>如果您刪除此模板，它將從使用它的文件中刪除</translation>
     </message>
     <message>
         <source>Delete template %1?</source>
-        <translation>Smazat šablonu %1?</translation>
+        <translation>刪除模板%1？</translation>
     </message>
     <message>
         <source>Cancel</source>
         <comment>cancel delete</comment>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>confirm-delete-tags</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
     <name>confirm-delete-trash</name>
     <message>
         <source>Cancel</source>
-        <translation>Zrušit</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>If you delete the items, you won't be able to get them back.</source>
-        <translation>Pokud položky smažete, nebudete je moci získat zpět.</translation>
+        <translation>如果您刪除了這些項目，您將無法將其恢復。</translation>
     </message>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
     <message>
         <source>&lt;b&gt;Delete permanently?&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Smazat trvale?&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;永久刪除？ &lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ReauthDialog</name>
     <message>
         <source>Pair your reMarkable account%1%2 to your paper tablet, or unpair to connect with with a different account. Visit my.remarkable.com to manage your account and devices.</source>
-        <translation>Spárujte svůj účet reMarkable%1%2 s papírovým tabletem nebo zrušte spárování a připojte se k jinému účtu. Chcete-li spravovat svůj účet a zařízení, navštivte stránku my.remarkable.com.</translation>
+        <translation>將您的 reMarkable 帳號%1%2 與您的紙本平板電腦配對，或取消配對以與其他帳號連線。造訪 my.remarkable.com 管理您的帳戶和裝置。</translation>
     </message>
     <message>
         <source>Unpair</source>
-        <translation>Zrušit párování</translation>
+        <translation>取消配對</translation>
     </message>
     <message>
         <source>Pair device</source>
-        <translation>Spárujte zařízení</translation>
+        <translation>配對裝置</translation>
     </message>
     <message>
         <source>Pair to verify</source>
-        <translation>Spárujte pro ověření</translation>
+        <translation>配對驗證</translation>
     </message>
 </context>
 <context>
     <name>FilterDropdown</name>
     <message>
         <source>Landscape</source>
-        <translation>Na šířku</translation>
+        <translation>景觀</translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filtr</translation>
+        <translation>篩選</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation>Orientace</translation>
+        <translation>方向</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Na výšku</translation>
+        <translation>肖像</translation>
     </message>
 </context>
 <context>
     <name>EraserMenu</name>
     <message>
         <source>Eraser</source>
-        <translation>Guma</translation>
+        <translation>橡皮</translation>
     </message>
     <message>
         <source>Erase all</source>
-        <translation>Vymazat vše</translation>
+        <translation>全部刪除</translation>
     </message>
 </context>
 <context>
     <name>TagSelectionPopup</name>
     <message>
         <source>New tag</source>
-        <translation>Nová značka</translation>
+        <translation>新標籤</translation>
     </message>
     <message>
         <source>View all</source>
-        <translation>Zobrazit vše</translation>
+        <translation>看全部</translation>
     </message>
 </context>
 <context>
     <name>SetupPasswordInput</name>
     <message>
         <source>Set a password</source>
-        <translation>Nastavte heslo</translation>
+        <translation>設定密碼</translation>
     </message>
     <message>
         <source>Unable to change password</source>
-        <translation>Nelze změnit heslo</translation>
+        <translation>無法更改密碼</translation>
     </message>
     <message>
         <source>Verify your password</source>
-        <translation>Ověřte své heslo</translation>
+        <translation>驗證您的密碼</translation>
     </message>
     <message>
         <source>Set a new password</source>
-        <translation>Nastavte nové heslo</translation>
+        <translation>設定新密碼</translation>
     </message>
     <message>
         <source>Incorrect password. Please try again.</source>
-        <translation>Nesprávné heslo. Zkuste to prosím znovu.</translation>
+        <translation>密碼不正確。請再試一次。</translation>
     </message>
     <message>
         <source>Secure your data with minimum 8 characters, to power on your encrypted device. Include both upper and lower case letters.</source>
-        <translation>Zabezpečte svá data minimálně 8 znaky, abyste mohli zapnout šifrované zařízení. Uvádějte velká i malá písmena.</translation>
+        <translation>使用至少 8 個字元保護您的數據，以啟動加密設備。包括大寫和小寫字母。</translation>
     </message>
     <message>
         <source>Setting password...</source>
-        <translation>Nastavení hesla...</translation>
+        <translation>設定密碼...</translation>
     </message>
 </context>
 <context>
     <name>critical-error</name>
     <message>
         <source>Something went wrong</source>
-        <translation>Něco se pokazilo</translation>
+        <translation>出了點問題</translation>
     </message>
     <message>
         <source>Reboot</source>
-        <translation>Restartujte</translation>
+        <translation>重新啟動</translation>
     </message>
     <message>
         <source>Factory reset</source>
-        <translation>Obnovení továrního nastavení</translation>
+        <translation>恢復出廠設定</translation>
     </message>
     <message>
         <source>Please try again by rebooting your device. If this happens consistently you can reset your device by doing a factory reset.</source>
-        <translation>Zkuste to prosím znovu restartováním zařízení. Pokud k tomu dochází pravidelně, můžete zařízení resetovat obnovením továrního nastavení.</translation>
+        <translation>請重新啟動您的裝置再試一次。如果這種情況持續發生，您可以透過恢復原廠設定來重置裝置。</translation>
     </message>
 </context>
 <context>
     <name>create-collection-window</name>
     <message>
         <source>Folder</source>
-        <translation>Složka</translation>
+        <translation>資料夾</translation>
     </message>
 </context>
 <context>
     <name>outdated-software</name>
     <message>
         <source>Don't show this message again</source>
-        <translation>Tuto zprávu již nezobrazovat</translation>
+        <translation>不再顯示此訊息</translation>
     </message>
     <message>
         <source>Get the latest software</source>
-        <translation>Získejte nejnovější software</translation>
+        <translation>取得最新軟體</translation>
     </message>
     <message>
         <source>You have an outdated version of the software. Enable updates in &lt;b&gt;Software settings &amp;gt; Advanced&lt;/b&gt; to continue syncing.</source>
-        <translation>Máte zastaralou verzi softwaru. Povolte aktualizace v &lt;b&gt;Nastavení softwaru &amp;gt; Pokročilé&lt;/b&gt;, chcete-li pokračovat v synchronizaci.</translation>
+        <translation>您的軟體版本已過時。在&lt;b&gt;軟體設定&gt;中啟用更新進階&lt;/b&gt;以繼續同步。</translation>
     </message>
 </context>
 <context>
     <name>FormatTextSize</name>
     <message>
         <source>Font size</source>
-        <translation>Velikost písma</translation>
+        <translation>字體大小</translation>
     </message>
 </context>
 <context>
     <name>SetRetailPasscode</name>
     <message>
         <source>Incorrect passcode. Try again.</source>
-        <translation>Nesprávný přístupový kód. Zkuste to znovu.</translation>
+        <translation>密碼不正確。再試一次。</translation>
     </message>
     <message>
         <source>Set retail passcode</source>
-        <translation>Nastavte přístupový kód pro maloobchod</translation>
+        <translation>設定零售密碼</translation>
     </message>
     <message>
         <source>Verify retail passcode</source>
-        <translation>Ověřte přístupový kód maloobchodu</translation>
+        <translation>驗證零售密碼</translation>
     </message>
 </context>
 <context>
     <name>MoveFoldout</name>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
     <message>
         <source>New folder</source>
-        <translation>Nová složka</translation>
+        <translation>新建資料夾</translation>
     </message>
 </context>
 <context>
     <name>SearchButton</name>
     <message>
         <source>Search</source>
-        <translation>Hledat</translation>
+        <translation>搜尋</translation>
     </message>
 </context>
 <context>
     <name>DocumentSettingsButton</name>
     <message>
         <source>Notebook settings</source>
-        <translation>Nastavení notebooku</translation>
+        <translation>筆記本設定</translation>
     </message>
     <message>
         <source>Ebook settings</source>
-        <translation>Nastavení elektronické knihy</translation>
+        <translation>電子書設定</translation>
     </message>
     <message>
         <source>PDF settings</source>
-        <translation>Nastavení PDF</translation>
+        <translation>PDF 設定</translation>
     </message>
 </context>
 <context>
     <name>SettingsMenu</name>
     <message>
         <source>Notebook settings</source>
-        <translation>Nastavení notebooku</translation>
+        <translation>筆記本設定</translation>
     </message>
     <message>
         <source>Ebook settings</source>
-        <translation>Nastavení elektronické knihy</translation>
+        <translation>電子書設定</translation>
     </message>
     <message>
         <source>PDF settings</source>
-        <translation>Nastavení PDF</translation>
+        <translation>PDF 設定</translation>
     </message>
 </context>
 <context>
     <name>DuplicateFoldout</name>
     <message>
         <source>Original document</source>
-        <translation>Původní dokument</translation>
+        <translation>原始文件</translation>
     </message>
     <message>
         <source>With edits</source>
-        <translation>S úpravami</translation>
+        <translation>有編輯</translation>
     </message>
 </context>
 <context>
     <name>PairingSkipPage</name>
     <message>
         <source>Pair your device later</source>
-        <translation>Spárujte zařízení později</translation>
+        <translation>稍後配對您的設備</translation>
     </message>
     <message>
         <source>Pair now</source>
-        <translation>Spárujte nyní</translation>
+        <translation>立即配對</translation>
     </message>
 </context>
 <context>
     <name>PaperTabletCellItem</name>
     <message>
         <source>Software</source>
-        <translation>Software</translation>
+        <translation>軟體</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Verze %1</translation>
+        <translation>版本%1</translation>
     </message>
 </context>
 <context>
     <name>Security</name>
     <message>
         <source>Security settings</source>
-        <translation>Nastavení zabezpečení</translation>
+        <translation>安全設定</translation>
     </message>
 </context>
 <context>
     <name>RecentMenu</name>
     <message>
         <source>No recent documents</source>
-        <translation>Žádné nedávné dokumenty</translation>
+        <translation>沒有最近的文件</translation>
     </message>
     <message>
         <source>No favorited documents</source>
-        <translation>Žádné oblíbené dokumenty</translation>
+        <translation>沒有收藏的文檔</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Oblíbené</translation>
+        <translation>收藏夾</translation>
     </message>
 </context>
 <context>
     <name>completed</name>
     <message>
         <source>Continue</source>
-        <translation>Pokračovat</translation>
+        <translation>繼續</translation>
     </message>
     <message>
         <source>The security of paper tablet has been strengthened. You can update your passcode from Security settings any time.</source>
-        <translation>Zabezpečení papírového tabletu bylo posíleno. Přístupový kód můžete kdykoli aktualizovat v nastavení zabezpečení.</translation>
+        <translation>平板電腦的安全性加強。您可以隨時從安全設定更新密碼。</translation>
     </message>
     <message>
         <source>You're good to go</source>
-        <translation>Můžete jít</translation>
+        <translation>你可以走了</translation>
     </message>
 </context>
 <context>
     <name>TextSettingsButton</name>
     <message>
         <source>Text settings</source>
-        <translation>Nastavení textu</translation>
+        <translation>文字設定</translation>
     </message>
 </context>
 <context>
     <name>OAuthCodeDisplay</name>
     <message>
         <source>Your code timed out</source>
-        <translation>Časový limit vašeho kódu vypršel</translation>
+        <translation>您的程式碼逾時</translation>
     </message>
     <message>
         <source>The code is valid for %1 minutes</source>
-        <translation>Kód je platný %1 minut</translation>
+        <translation>該代碼的有效期限為 %1 分鐘</translation>
     </message>
 </context>
 <context>
     <name>PageSlider</name>
     <message>
         <source>Page %1</source>
-        <translation>Stránka %1</translation>
+        <translation>頁 %1</translation>
     </message>
     <message>
         <source>Chapter: %1</source>
-        <translation>Kapitola: %1</translation>
+        <translation>章節：%1</translation>
     </message>
 </context>
 <context>
     <name>MessagingIntegrationButton</name>
     <message>
         <source>Send to %1</source>
-        <translation>Odeslat na %1</translation>
+        <translation>發送至%1</translation>
     </message>
 </context>
 <context>
     <name>ExpandableSection</name>
     <message>
         <source>Show less</source>
-        <translation>Ukažte méně</translation>
+        <translation>顯示較少</translation>
     </message>
     <message>
         <source>Show all</source>
-        <translation>Zobrazit vše</translation>
+        <translation>顯示全部</translation>
     </message>
 </context>
 <context>
     <name>create-notebook-window</name>
     <message>
         <source>Notebook</source>
-        <translation>Notebook</translation>
+        <translation>筆記本</translation>
     </message>
 </context>
 <context>
     <name>MoveOutFoldout</name>
     <message>
         <source>Move out</source>
-        <translation>Vystěhujte se</translation>
+        <translation>搬出</translation>
     </message>
 </context>
 <context>
     <name>FormatMargins</name>
     <message>
         <source>Page margins</source>
-        <translation>Okraje stránky</translation>
+        <translation>頁邊距</translation>
     </message>
 </context>
 <context>
     <name>ArkGalleryPanel</name>
     <message>
         <source>Test design system components on your paper tablet</source>
-        <translation>Otestujte součásti systému návrhu na papírovém tabletu</translation>
+        <translation>在平板電腦上測試設計系統組件</translation>
     </message>
     <message>
         <source>Ark Gallery</source>
-        <translation>Galerie Archa</translation>
+        <translation>方舟畫廊</translation>
     </message>
 </context>
 <context>
     <name>DocumentExporter</name>
     <message>
         <source>%1/%2 - page %3.%4</source>
-        <translation>%1/%2 - stránka %3.%4</translation>
+        <translation>%1/%2 - 第 %3 頁。 %4</translation>
     </message>
 </context>
 <context>
     <name>AdditionalEditingToolsMenu</name>
     <message>
         <source>More tools</source>
-        <translation>Více nástrojů</translation>
+        <translation>更多工具</translation>
     </message>
 </context>
 <context>
     <name>library::Export</name>
     <message>
         <source>Successfully imported</source>
-        <translation>Úspěšně importováno</translation>
+        <translation>導入成功</translation>
     </message>
     <message>
         <source>Unable to import document</source>
-        <translation>Dokument nelze importovat</translation>
+        <translation>無法導入文檔</translation>
     </message>
 </context>
 <context>
     <name>ContentGridItem</name>
     <message>
         <source>Password protected PDF</source>
-        <translation>PDF chráněné heslem</translation>
+        <translation>受密碼保護的 PDF</translation>
     </message>
 </context>
 <context>
     <name>UpdateProgress</name>
     <message>
         <source>Please connect to Wi-Fi to update.</source>
-        <translation>Chcete-li aktualizovat, připojte se k síti Wi-Fi.</translation>
+        <translation>請連線至 Wi-Fi 進行更新。</translation>
     </message>
     <message>
         <source>Tap to restart and update to version %1 of your reMarkable.</source>
-        <translation>Klepnutím restartujte a aktualizujte na verzi %1 vašeho reMarkable.</translation>
+        <translation>點擊以重新啟動並更新到 reMarkable 的版本 %1。</translation>
     </message>
     <message>
         <source>Your device is up to date.</source>
-        <translation>Vaše zařízení je aktuální.</translation>
+        <translation>您的設備是最新的。</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::library::LibraryController</name>
     <message>
         <source>%1 copy</source>
-        <translation>%1 kopie</translation>
+        <translation>%1 份</translation>
     </message>
 </context>
 <context>
     <name>BetaCellItem</name>
     <message>
         <source>reMarkable beta program</source>
-        <translation>Remarkable beta program</translation>
+        <translation>卓越的測試計劃</translation>
     </message>
 </context>
 <context>
     <name>ExplorerView</name>
     <message>
         <source>Long-press for actions</source>
-        <translation>Dlouhým stisknutím spustíte akce</translation>
+        <translation>長按執行操作</translation>
     </message>
 </context>
 <context>
     <name>PasswordInputField</name>
     <message>
         <source>Password</source>
-        <translation>Heslo</translation>
+        <translation>密碼</translation>
     </message>
 </context>
 <context>
     <name>PrimaryPenMenu</name>
     <message>
         <source>Primary pen</source>
-        <translation>Primární pero</translation>
+        <translation>主筆</translation>
     </message>
 </context>
 <context>
     <name>Scene</name>
     <message>
         <source>Layer %1</source>
-        <translation>Vrstva %1</translation>
+        <translation>層%1</translation>
     </message>
 </context>
 <context>
     <name>Entry</name>
     <message>
         <source>Entry has unresolved conflict</source>
-        <translation>Záznam má nevyřešený konflikt</translation>
+        <translation>條目存在未解決的衝突</translation>
     </message>
 </context>
 <context>
     <name>Strings</name>
     <message>
         <source>This feature is not available in retail mode.</source>
-        <translation>Tato funkce není dostupná v maloobchodním režimu.</translation>
+        <translation>此功能在零售模式下不可用。</translation>
     </message>
 </context>
 <context>
     <name>exit-retail</name>
     <message>
         <source>Exit retail mode</source>
-        <translation>Ukončete maloobchodní režim</translation>
+        <translation>退出零售模式</translation>
     </message>
     <message>
         <source>To exit retail mode and restore the device to its original settings, a factory reset is required.</source>
-        <translation>Chcete-li ukončit maloobchodní režim a obnovit zařízení do původního nastavení, je vyžadován tovární reset.</translation>
+        <translation>要退出零售模式並將設備恢復到原始設置，需要恢復原廠設置。</translation>
     </message>
     <message>
         <source>Enter passcode to confirm</source>
-        <translation>Potvrďte zadáním přístupového kódu</translation>
+        <translation>輸入密碼進行確認</translation>
     </message>
 </context>
 <context>
     <name>AdjustmentToolsMenu</name>
     <message>
         <source>Adjust view</source>
-        <translation>Upravit pohled</translation>
+        <translation>調整視圖</translation>
     </message>
 </context>
 <context>
     <name>SelectionButton</name>
     <message>
         <source>Selection tool</source>
-        <translation>Nástroj pro výběr</translation>
+        <translation>選擇工具</translation>
     </message>
 </context>
 <context>
     <name>Header</name>
     <message>
         <source>Confirm</source>
-        <translation>Potvrdit</translation>
+        <translation>確認</translation>
     </message>
 </context>
 <context>
     <name>AddPageButton</name>
     <message>
         <source>Add page</source>
-        <translation>Přidat stránku</translation>
+        <translation>新增頁面</translation>
     </message>
     <message>
         <source>Add note page</source>
-        <translation>Přidat stránku poznámky</translation>
+        <translation>新增備註頁</translation>
     </message>
 </context>
 <context>
     <name>PageOverviewButton</name>
     <message>
         <source>Page overview</source>
-        <translation>Přehled stránky</translation>
+        <translation>頁面概覽</translation>
     </message>
 </context>
 <context>
     <name>StorageCellItem</name>
     <message>
         <source>Storage</source>
-        <translation>Disk</translation>
+        <translation>貯存</translation>
     </message>
     <message>
         <source>%1 GB of %2 GB</source>
-        <translation>%1 GB z %2 GB</translation>
+        <translation>%1 GB，共 %2 GB</translation>
     </message>
 </context>
 <context>
     <name>SidebarFoldoutItem</name>
     <message>
         <source>Undefined</source>
-        <translation>Nedefinováno</translation>
+        <translation>不明確的</translation>
     </message>
 </context>
 <context>
     <name>SummaryPageBase</name>
     <message>
         <source>Get started</source>
-        <translation>Začněte</translation>
+        <translation>開始使用</translation>
     </message>
     <message>
         <source>You're good to go</source>
-        <translation>Můžete jít</translation>
+        <translation>你可以走了</translation>
     </message>
 </context>
 <context>
     <name>setup-seabird</name>
     <message>
         <source>Get started</source>
-        <translation>Začněte</translation>
+        <translation>開始使用</translation>
     </message>
     <message>
         <source>Now you can bring focused typing and editing powers to your notes. Combine digital text with handwritten elements and capture new ideas using our mobile and desktop apps.</source>
-        <translation>Nyní můžete do svých poznámek přinést soustředěné psaní a úpravy. Kombinujte digitální text s ručně psanými prvky a zachyťte nové nápady pomocí našich mobilních a stolních aplikací.</translation>
+        <translation>現在，您可以為筆記提供集中的打字和編輯功能。使用我們的行動和桌面應用程式將數位文字與手寫元素結合並捕捉新想法。</translation>
     </message>
     <message>
         <source>Start typing without distractions</source>
-        <translation>Začněte psát bez rušení</translation>
+        <translation>不受干擾地開始打字</translation>
     </message>
 </context>
 <context>
     <name>splash-screen</name>
     <message>
         <source>Get started</source>
-        <translation>Začněte</translation>
+        <translation>開始使用</translation>
     </message>
 </context>
 <context>
     <name>download-library</name>
     <message>
         <source>Enter passcode to confirm</source>
-        <translation>Potvrďte zadáním přístupového kódu</translation>
+        <translation>輸入密碼進行確認</translation>
     </message>
 </context>
 <context>
     <name>RetailSshAboutText</name>
     <message>
         <source>&lt;p&gt;To do so, this device acts as an USB ethernet device, and you can connect using the SSH protocol. On a non-demo device the username, password and IP addresses can be found here.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Za tímto účelem toto zařízení funguje jako ethernetové zařízení USB a můžete se připojit pomocí protokolu SSH. Na non-demo zařízení najdete uživatelské jméno, heslo a IP adresy zde.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;為此，該設備可作為 USB 乙太網路設備，您可以使用 SSH 協定進行連線。在非演示設備上，可以在此處找到使用者名稱、密碼和 IP 位址。 &lt;/p&gt;</translation>
     </message>
 </context>
 <context>
     <name>syncthirdparty::Export</name>
     <message>
         <source>Unable to import document</source>
-        <translation>Dokument nelze importovat</translation>
+        <translation>無法導入文檔</translation>
     </message>
     <message>
         <source>Unable to export document</source>
-        <translation>Dokument nelze exportovat</translation>
+        <translation>無法匯出文檔</translation>
     </message>
     <message>
         <source>Successfully exported</source>
-        <translation>Úspěšně exportováno</translation>
+        <translation>匯出成功</translation>
     </message>
 </context>
 <context>
     <name>syncthirdparty::Impl</name>
     <message>
         <source>Your %1 integration has been successfully removed</source>
-        <translation>Vaše integrace %1 byla úspěšně odstraněna</translation>
+        <translation>您的 %1 整合已成功刪除</translation>
     </message>
 </context>
 <context>
     <name>ResetPasscode</name>
     <message>
         <source>Success!</source>
-        <translation>Úspěch!</translation>
+        <translation>成功！</translation>
     </message>
 </context>
 <context>
     <name>SettingsHelpClockWidget</name>
     <message>
         <source>System time</source>
-        <translation>Systémový čas</translation>
+        <translation>系統時間</translation>
     </message>
 </context>
 <context>
     <name>AdvancedPanel</name>
     <message>
         <source>Advanced</source>
-        <translation>Pokročilé</translation>
+        <translation>先進的</translation>
     </message>
 </context>
 <context>
     <name>EnableShapesButton</name>
     <message>
         <source>Enable shapes</source>
-        <translation>Povolit tvary</translation>
+        <translation>啟用形狀</translation>
     </message>
 </context>
 <context>
     <name>NotificationBar</name>
     <message>
         <source>Clear clipboard</source>
-        <translation>Vymazat schránku</translation>
+        <translation>清除剪貼簿</translation>
     </message>
 </context>
 <context>
     <name>DefaultSshAboutText</name>
     <message>
         <source>&lt;p&gt;The IP addresses available to connect to are listed below:&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Adresy IP, ke kterým se lze připojit, jsou uvedeny níže:&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;下面列出了可連接的 IP 位址：&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;To do so, this device acts as an USB ethernet device, and you can connect using the SSH protocol using the username 'root' and the password &lt;b&gt;'%1'&lt;/b&gt;.&lt;/p&gt; &lt;p&gt;SSH over WLAN is disabled by default, but can be enabled by connecting to the device over USB using the SSH protocol with the credentials mentioned above and running the command &lt;br&gt;&lt;br&gt;&lt;b&gt;rm-ssh-over-wlan on&lt;/b&gt;.&lt;/p&gt;&lt;br&gt;</source>
-        <translation>&lt;p&gt;Za tímto účelem se toto zařízení chová jako USB ethernetové zařízení a můžete se připojit pomocí protokolu SSH pomocí uživatelského jména 'root' a hesla &lt;b&gt;'%1'&lt;/b&gt;.&lt;/p&gt; &lt;p&gt;SSH přes WLAN je ve výchozím nastavení zakázáno, ale lze jej povolit připojením k zařízení přes USB pomocí protokolu SSH s výše uvedenými přihlašovacími údaji a spuštěním příkazu &lt;wlanssh- &lt;br-&gt;&lt;br&gt; dne&lt;/b&gt;.&lt;/p&gt;&lt;br&gt;</translation>
+        <translation>&lt;p&gt;為此，此設備可作為 USB 乙太網路設備，您可以使用使用者名稱「root」和密碼 &lt;b&gt;「%1」&lt;/b&gt; 使用 SSH 協定進行連線。 &lt;/p&gt; &lt;p&gt;預設情況下停用 WLAN 上的 SSH，但可以透過使用 SSH 協定和上述憑證透過 USB 連接到裝置並執行命令 &lt;br&gt;&lt;br&gt;&lt;b&gt;rm-ssh-over-wlan on&lt;/b&gt; 來啟用。 &lt;/p&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
     <name>EnableUpdates</name>
     <message>
         <source>Updates</source>
-        <translation>Aktualizace</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Install new software versions as they are released.</source>
-        <translation>Nainstalujte nové verze softwaru, jakmile budou vydány.</translation>
+        <translation>安裝新發布的軟體版本。</translation>
     </message>
 </context>
 <context>
     <name>ShareByUrlButton</name>
     <message>
         <source>Create a link</source>
-        <translation>Vytvořte odkaz</translation>
+        <translation>建立連結</translation>
     </message>
 </context>
 <context>
     <name>PageThumbnail</name>
     <message>
         <source>Update software to view</source>
-        <translation>Pro zobrazení aktualizujte software</translation>
+        <translation>更新軟體即可查看</translation>
     </message>
     <message>
         <source>Unable to view</source>
-        <translation>Nelze zobrazit</translation>
+        <translation>無法查看</translation>
     </message>
 </context>
 <context>
     <name>SearchFilterDropdown</name>
     <message>
         <source>Filters</source>
-        <translation>Filtry</translation>
+        <translation>過濾器</translation>
     </message>
 </context>
 <context>
     <name>EnterRecoveryCode</name>
     <message>
         <source>Enter recovery code</source>
-        <translation>Zadejte kód pro obnovení</translation>
+        <translation>輸入恢復代碼</translation>
     </message>
     <message>
         <source>Set new passcode</source>
-        <translation>Nastavte nový přístupový kód</translation>
+        <translation>設定新密碼</translation>
     </message>
 </context>
 <context>
     <name>PagesItem</name>
     <message>
         <source>%1 (Current)</source>
-        <translation>%1 (aktuální)</translation>
+        <translation>%1（當前）</translation>
     </message>
 </context>
 <context>
     <name>FormatAlignment</name>
     <message>
         <source>Justification</source>
-        <translation>Zarovnání</translation>
+        <translation>理由</translation>
     </message>
 </context>
 <context>
     <name>LanguageCellItem</name>
     <message>
         <source>Language and keyboard</source>
-        <translation>Jazyk a klávesnice</translation>
+        <translation>語言和鍵盤</translation>
     </message>
 </context>
 <context>
     <name>SeabirdLanguage</name>
     <message>
         <source>Type Folio language</source>
-        <translation>Zadejte jazyk folia</translation>
+        <translation>類型 Folio 語言</translation>
     </message>
 </context>
 <context>
     <name>FormatLineSpacing</name>
     <message>
         <source>Line spacing</source>
-        <translation>Řádkování</translation>
+        <translation>行距</translation>
     </message>
 </context>
 <context>
     <name>FilterMenu</name>
     <message>
         <source>Increase contrast</source>
-        <translation>Zvyšte kontrast</translation>
+        <translation>增加對比度</translation>
     </message>
 </context>
 <context>
     <name>RetailDemoIndicator</name>
     <message>
         <source>Retail demo</source>
-        <translation>Maloobchodní demo</translation>
+        <translation>零售演示</translation>
     </message>
 </context>
 <context>
     <name>RetailCellItem</name>
     <message>
         <source>Retail mode</source>
-        <translation>Maloobchodní režim</translation>
+        <translation>零售模式</translation>
     </message>
 </context>
 <context>
     <name>TagsFilter</name>
     <message>
         <source>View all</source>
-        <translation>Zobrazit vše</translation>
+        <translation>看全部</translation>
     </message>
 </context>
 <context>
     <name>xofm::libs::user::UserInfo</name>
     <message>
         <source>Not subscribed</source>
-        <translation>Nepřihlášeno</translation>
+        <translation>未訂閱</translation>
     </message>
 </context>
 </TS>

@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 map_Plural_Forms = {}
 
 # 1 form (Japanese, Korean, Chinese, Vietnamese, Turkish, Hungarian, Indonesian, Thai)
-for lang in ["ja", "ko", "zh", "vi", "tr", "hu", "id", "th"]:
+for lang in ["ja", "ko", "zh-CN", "zh-TW", "vi", "tr", "hu", "id", "th"]:
     map_Plural_Forms[lang] = 1
 
 # 2 forms (French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish)
@@ -112,7 +112,9 @@ def translate_TS(path_Input, output_path_File_TS, output_path_File_QM=None, outp
     total = len(messages)
     count = 0
 
-    plural_Forms = map_Plural_Forms[output_Language.lower()]
+    # Change for "zh-CN", "zh-TW" translations, because of the lower() method which causes problems with the language code
+    # plural_Forms = map_Plural_Forms[output_Language.lower()]
+    plural_Forms = map_Plural_Forms[output_Language]
 
     for context in root.findall("context"):
         context_Name = context.find("name").text if context.find("name") is not None else ""
@@ -208,14 +210,14 @@ if __name__ == "__main__":
         # --------------------------------------------------  USER CONFIGURATION  --------------------------------------------------
 
         name = "reMarkable"
-        file_Language = "de"
+        file_Language = "en"
 
         input_Language = "en"
         input_QM = f"input/{name}_{file_Language}.qm"
 
         intermediate_TS = f"input/{name}_{file_Language}.ts"
-        available_languages = ["cs", "da", "el", "es", "et", "fi", "fr", "hu", "is", "it", "nb", "nl", "pl", "pt", "ro", "sk", "sv"]
-        # --------------------------------------------------------------------------------------------------------------------------
+        available_languages = ["cs", "da", "el", "es", "et", "fi", "fr", "hu", "is", "it", "nb", "nl", "pl", "pt", "ro", "sk", "sv", "zh-CN", "zh-TW"]
+        # --------------------------------------------------------------------------------------------------------------------------------------------
 
 
         # ---------------------------------------------  OTHER CONFIGURATION  ---------------------------------------------
@@ -236,7 +238,7 @@ if __name__ == "__main__":
             f"    This script translates texts from English to your chosen languages using Google Translate.\n\n"
             f"    Make sure you have internet connection and required tools installed.\n"
             f"    {text_Styles['italic']}Available languages: ({', '.join(available_languages)}){text_Styles['reset']}\n"
-            f"    ==========================================================================================\n"
+            f"    =======================================================================================================\n"
         )
 
         # Ask user for output languages (same as before)
@@ -268,7 +270,9 @@ if __name__ == "__main__":
 
         # Prompt user to select valid output languages and define their plural form if needed
         while True:
-            user_input = input(text_Output_Language).strip().lower()
+            # Change for "zh-CN", "zh-TW" translations, because of the lower() method which causes problems with the language code
+            # user_input = input(text_Output_Language).strip().lower()
+            user_input = input(text_Output_Language).strip()
             selected_languages = [lang.strip() for lang in user_input.split(",") if lang.strip()]
 
             valid_languages = []

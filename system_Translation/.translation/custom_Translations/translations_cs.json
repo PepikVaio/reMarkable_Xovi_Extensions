@@ -4,10 +4,12 @@
 
     "_comment_Full": "Full key = Searches by kontext",
     "CreateMenu|Folder|": "Složku",
-    "Sidebar|Notebooks|": "Sešitů",
-    "Sidebar|Ebooks|": "E-knih",
-    "ToolbarPositionMenu|Left": "Levá",
-    "ToolbarPositionMenu|Right": "Pravá",
+    "Sidebar|Notebooks|": "Sešit",
+    "Sidebar|Ebooks|": "E-kniha",
+    "ToolbarPositionDropDown|Left|": "Vlevo",
+    "ToolbarPositionDropDown|Right|": "Vpravo",
+    "HandednessChooser|Left|": "Levá",
+    "HandednessChooser|Right|": "Pravá",
 
    "_comment_Simple": "Simple key = Searches for all occurrences",
     "Large": "Velká",
@@ -16,7 +18,7 @@
     "Jot down your thoughts": "Zapište své myšlenky",
     "Export": "Exportovat",
     "Duplicate": "Duplikovat",
-    "Move": "Presunout",
+    "Move": "Přesunout",
     "Send by email": "Odeslat e-mailem",
     "General": "Obecné",
     "Unpair": "Zrušit párování",
@@ -38,7 +40,7 @@
     "Back": "Zpět",
     "PDFs": "PDF",
     "Search": "Hledat",
-    "_Create new": "Vytvořit nový (novou)",
+    "Create new": "Vytvořit nový (novou)",
     "%1 was moved to Trash": "%1 bylo přesunuto do Koše",
     "New notebook": "Nový sešit",
     "Long-press for quick sheet": "Dlouhé stisknutí pro rychlý list",
@@ -48,7 +50,7 @@
     "Alphabetical (Z-A)": "Abecedy (Z-A)",
     "File size": "Velikosti souboru",
     "Page count": "Počtu stránek",
-    "Filter by": "Filtrovat dle",
+    "Filter by": "Filtrovat",
     "Tags": "Štítky",
     "Trash": "Koš",
     "Cloud": "Uložiště",
@@ -59,7 +61,13 @@
     "Date created": "Datum vytvoření",
     "Page %1 of %2": "Stránka %1 z %2",
     "Swedish": "švédština",
-    "Reopen": "Znovu otevřít"
+    "Reopen": "Znovu otevřít",
+    "Share": "Sdílet",
+    "Restart": "Restartovat",
+    "Bottom": "Dole",
+    "Top": "Nahoře",
+    "Landscape": "Na šířku",
+    "Portrait": "Na výšku"
   },
 
   "dictionary_Postprocess": {
