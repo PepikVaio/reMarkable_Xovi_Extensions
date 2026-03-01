@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 map_Plural_Forms = {}
 
 # 1 form (Japanese, Korean, Chinese, Vietnamese, Turkish, Hungarian, Indonesian, Thai)
-for lang in ["ja", "ko", "zh-CN", "zh-TW", "vi", "tr", "hu", "id", "th"]:
+for lang in ["ja", "ko", "zh_CN", "zh_TW", "vi", "tr", "hu", "id", "th"]:
     map_Plural_Forms[lang] = 1
 
 # 2 forms (French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish)
@@ -75,8 +75,18 @@ def load_Translations(json_path):
 
 # Function
 def translate_Google(text, input_Language=None, output_Language=None):
+    # Map Qt-compatible language codes to Google Translate API codes
+    language_map = {
+        'zh_CN': 'zh-CN',
+        'zh_TW': 'zh-TW'
+    }
+
+    # Convert language codes if needed
+    api_output_lang = language_map.get(output_Language, output_Language)
+    api_input_lang = language_map.get(input_Language, input_Language)
+
     try:
-        translated = GoogleTranslator(source=input_Language, target=output_Language).translate(text)
+        translated = GoogleTranslator(source=api_input_lang, target=api_output_lang).translate(text)
         return translated.strip()
     except Exception as e:
         print(f"Translation error '{text}': {e}")
@@ -216,7 +226,7 @@ if __name__ == "__main__":
         input_QM = f"input/{name}_{file_Language}.qm"
 
         intermediate_TS = f"input/{name}_{file_Language}.ts"
-        available_languages = ["cs", "da", "el", "es", "et", "fi", "fr", "hu", "is", "it", "nb", "nl", "pl", "pt", "ro", "sk", "sv", "zh-CN", "zh-TW"]
+        available_languages = ["cs", "da", "el", "es", "et", "fi", "fr", "hu", "is", "it", "nb", "nl", "pl", "pt", "ro", "sk", "sv", "zh_CN", "zh_TW"]
         # --------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -270,7 +280,7 @@ if __name__ == "__main__":
 
         # Prompt user to select valid output languages and define their plural form if needed
         while True:
-            # Change for "zh-CN", "zh-TW" translations, because of the lower() method which causes problems with the language code
+            # Change for "zh_CN", "zh_TW" translations, because of the lower() method which causes problems with the language code
             # user_input = input(text_Output_Language).strip().lower()
             user_input = input(text_Output_Language).strip()
             selected_languages = [lang.strip() for lang in user_input.split(",") if lang.strip()]

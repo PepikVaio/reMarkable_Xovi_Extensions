@@ -28,6 +28,14 @@ This extension helps you localize your reMarkable device into the language of yo
 * If you notice missing or incorrect text, feel free to suggest a fix or open an issue.
 * If you delete the file from the device, don’t forget to change the software keyboard and the system language, otherwise complications may occur.
 
+## Font Support for Non-Latin Languages
+
+**Important**: For languages using non-Latin scripts (Chinese, Japanese, Korean, Arabic, etc.), you must install the appropriate fonts on your reMarkable device.
+
+See [fonts/README.md](fonts/README.md) for detailed instructions on installing fonts for your language.
+
+Without the proper fonts installed, text will not display correctly even if the translation is installed.
+
 
 ## Acknowledgements
 Inspiration, code snippets, etc...
