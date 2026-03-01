@@ -2,8 +2,8 @@
     <qresource prefix="/i18n">
         <!-- 1 plural form (Japanese, Korean, Chinese, Vietnamese, Turkish, Hungarian, Indonesian, Thai) -->
         <file>translations/reMarkable_hu.qm</file>
-        <file>translations/reMarkable_zh-CN.qm</file>
-        <file>translations/reMarkable_zh-TW.qm</file>
+        <file>translations/reMarkable_zh_CN.qm</file>
+        <file>translations/reMarkable_zh_TW.qm</file>
 
         <!-- <file>translations/reMarkable_id.qm</file> -->
         <!-- <file>translations/reMarkable_ja.qm</file> -->
