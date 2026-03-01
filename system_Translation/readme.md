@@ -58,3 +58,5 @@ Inspiration, code snippets, etc...
 ![image_14](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/system_Translation/.pictures/system_Translation_14.png?raw=true)
 ![image_15](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/system_Translation/.pictures/system_Translation_15.png?raw=true)
 ![image_16](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/system_Translation/.pictures/system_Translation_16.png?raw=true)
+![image_17](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/system_Translation/.pictures/system_Translation_17.png?raw=true)
+![image_18](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/system_Translation/.pictures/system_Translation_18.png?raw=true)
