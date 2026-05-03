@@ -18,7 +18,7 @@ These extensions bring freedom to your reMarkable tablet.
 ### Requirements
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 
 ### Installation
