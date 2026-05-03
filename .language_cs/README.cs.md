@@ -18,7 +18,7 @@ Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.
 ### Požadavky
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
+
 
 ### Instalace
 Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
@@ -38,7 +38,7 @@ Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do slož
 * [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Rozšířit výběr nástrojů při psaní.
 
 * [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
-
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Přidejte nastavení do svého rozšíření.
 
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
