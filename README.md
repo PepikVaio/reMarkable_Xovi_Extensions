@@ -15,13 +15,10 @@ These extensions bring freedom to your reMarkable tablet.
 * tested - reMarkable 2
 
 
-## Getting Started
-* ...
-
-
 ### Requirements
 * reMarkable 1/2, reMarkable Paper Pro
 * [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
+* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
 
 ### Installation
@@ -42,7 +39,6 @@ Just copy the files *qmd, *rcc and *json (if available) to the folder ``` /home/
 * [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Expand tool selection when typing.
 
 * [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension ``` xovi_Settings_Main ```.
-* [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
 
 ## Help
