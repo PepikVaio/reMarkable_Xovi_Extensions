@@ -47,7 +47,7 @@ Vytvořte problémy, pokud najdete problém.
 
 > [!NOTE]
 > ### Authors
-> - **Name:** Wajsar Josef  
+> - **Jméno:** Wajsar Josef  
 > - **Email:** [Wajsar.Josef@hotmail.com](mailto:Wajsar.Josef@hotmail.com)
 > ### Poděkování
 > Inspirace, úryvky kódu atd...
