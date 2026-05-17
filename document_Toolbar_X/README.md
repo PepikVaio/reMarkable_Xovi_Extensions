@@ -2,11 +2,16 @@
 > Set up your toolbar the way you like and move the open/close buttons wherever you want.
 > <br>
 > In the latest update, reMarkable changed the behavior of two buttons (open toolbar and close document). They are now small when inactive and hard to tap. With this extension, you can set their size to your liking and much more.
-- Want the close button in the panel? You can have it.
-- Prefer it on top? That's possible too.
-- Want it always visible? You can do that.
-- Need an open toolbar button at the bottom? Easy.
-- Want a custom background colour? Go ahead.
+> - Want the close button in the panel?
+>   - You can have it.
+> - Prefer it on top?
+>   - That's possible too.
+> - Want it always visible?
+>   - You can do that.
+> - Need an open toolbar button at the bottom?
+>   - Easy.
+> - Want a custom background colour?
+>   -  Go ahead.
 
 <br>
 
