@@ -7,7 +7,6 @@
 - Want it always visible? You can do that.
 - Need an open toolbar button at the bottom? Easy.
 - Want a custom background colour? Go ahead.
-- Next will soon ...
 
 <br>
 
