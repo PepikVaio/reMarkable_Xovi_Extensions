@@ -13,9 +13,9 @@
 ## Help
 > [!TIP]
 > ### Timer values
-> - 1 second = `1000`
-> - 10 seconds = `10000`
-> - 100 seconds = `100000`
+> - `1000` - 1 second
+> - `10000` - 10 seconds
+> - `100000` - 100 seconds
 > - and so on...
 
 <br>
