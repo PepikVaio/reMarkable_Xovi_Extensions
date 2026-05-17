@@ -16,7 +16,7 @@
 <br>
 
 ## Installation
-Just copy the ```.qmd```, ```.rcc```, and ```.json``` files (if available) to ```/home/root/xovi/exthome/qt-resource-rebuilder```.
+Just copy the `.qmd`, `.rcc`, and `.json` files (if available) to `/home/root/xovi/exthome/qt-resource-rebuilder`.
 
 > [!IMPORTANT]
 > Before installation, make sure you meet all the requirements:
@@ -41,7 +41,7 @@ Just copy the ```.qmd```, ```.rcc```, and ```.json``` files (if available) to ``
 
 - [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Expand tool selection when typing.
 
-- [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension ``` xovi_Settings_Main ```.
+- [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Example of custom settings for the extension `xovi_Settings_Main`.
 - [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
 <br>
