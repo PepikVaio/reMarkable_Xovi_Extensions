@@ -16,12 +16,16 @@
 <br>
 
 ## Instalace
-Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+Soubory ```.qmd```, ```.rcc``` a ```.json``` (pokud jsou k dispozici) zkopírujte do ```/home/root/xovi/exthome/qt-resource-rebuilder```.
 
 > [!IMPORTANT]
 > Před instalací se ujistěte, že splňujete všechny požadavky:
 > - reMarkable 1/2, reMarkable Paper Pro
 > - [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
+
+> [!TIP]
+> Doporučuji nainstalovat tento typ rozšíření pro lepší konfiguraci ostatních rozšíření.:
+> - [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 
 ### Používání
