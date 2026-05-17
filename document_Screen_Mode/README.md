@@ -10,8 +10,6 @@ Don't be tied to reMarkable and grab the screen update at your discretion..
   - Option to set different screen modes.
   - Option to set color refresh pause.
 
-  - Next will soon ...
-
 
 ## Getting Started
 * 
