@@ -2,8 +2,7 @@
 > Sample example `SLOT` for extension `xovi_Settings_Main`.
 > <br>
 > These are sample files for the xovi extension.
-> <br>
-> Especially for the my extension `xovi_Settings_Main`.
+> - Especially for the my extension `xovi_Settings_Main`.
 
 <br>
 
