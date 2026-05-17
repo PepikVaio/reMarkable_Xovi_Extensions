@@ -16,7 +16,7 @@
 <br>
 
 ## Instalace
-Soubory ```.qmd```, ```.rcc``` a ```.json``` (pokud jsou k dispozici) zkopírujte do ```/home/root/xovi/exthome/qt-resource-rebuilder```.
+Soubory `.qmd`, `.rcc` a `.json` (pokud jsou k dispozici) zkopírujte do `/home/root/xovi/exthome/qt-resource-rebuilder`.
 
 > [!IMPORTANT]
 > Před instalací se ujistěte, že splňujete všechny požadavky:
@@ -41,7 +41,7 @@ Soubory ```.qmd```, ```.rcc``` a ```.json``` (pokud jsou k dispozici) zkopírujt
 
 * [toolbar_Expand_Typing](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/toolbar_Expand_Typing) - Rozšířit výběr nástrojů při psaní.
 
-* [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
+* [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Příklad vlastního nastavení k rozšíření `xovi_Settings_Main`.
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Přidejte nastavení do svého rozšíření.
 
 <br>
