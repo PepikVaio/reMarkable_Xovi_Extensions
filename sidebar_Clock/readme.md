@@ -7,7 +7,6 @@
 - Option to choose 12 or 24 hour format.
 - Option to show only the clock without the date.
 - Option to set the clock refresh time ( 1s, 10s, 1 m, 1h ).
-- Next will soon ...
 
 <br>
 
