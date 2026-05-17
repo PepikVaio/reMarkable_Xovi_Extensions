@@ -7,21 +7,21 @@
 
 
 # Xovi rozšíření!
-Přizpůsobte si svůj tablet reMarkable pomocí těchto rozšíření.
+> Přizpůsobte si svůj tablet reMarkable pomocí těchto rozšíření.
+> <br>
+> Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.  
+- testováno - reMarkable 2
+- testováno - reMarkable Paper Pro
 
+<br>
 
-## Popis
-Tato rozšíření přinášejí větší svobodu do vašeho tabletu reMarkable.  
-* testováno - reMarkable 2
-
-
-### Požadavky
-* reMarkable 1/2, reMarkable Paper Pro
-* [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
-
-
-### Instalace
+## Instalace
 Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do složky ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+
+> [!IMPORTANT]
+> Před instalací se ujistěte, že splňujete všechny požadavky:
+> - reMarkable 1/2, reMarkable Paper Pro
+> - [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
 
 
 ### Používání
@@ -40,16 +40,16 @@ Stačí zkopírovat soubory *qmd, *rcc a *json (pokud jsou k dispozici) do slož
 * [xovi_Settings_Example](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Example) - Příklad vlastního nastavení k rozšíření ``` xovi_Settings_Main ```.
 * [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Přidejte nastavení do svého rozšíření.
 
+<br>
+
 ## Pomoc
 Vytvořte problémy, pokud najdete problém.
 
-
-## Autoři
-Wajsar Josef
-* Wajsar.Josef@hotmail.com
-
-
-## Poděkování
-Inspirace, úryvky kódu atd...
-* [readme - vícejazyčné](https://github.com/jonatasemidio/multilanguage-readme-pattern)
-* [readme - ikony](https://shields.io/)
+> [!NOTE]
+> ### Authors
+> - **Name:** Wajsar Josef  
+> - **Email:** [Wajsar.Josef@hotmail.com](mailto:Wajsar.Josef@hotmail.com)
+> ### Poděkování
+> Inspirace, úryvky kódu atd...
+> - [readme - multi language](https://github.com/jonatasemidio/multilanguage-readme-pattern)
+> - [readme - icons](https://shields.io/)
