@@ -6,7 +6,6 @@
 - Do you need 3 minutes? You can :)
 	- Option to set the length of the bottom bar display (original, long, superlong) or completely custom in milliseconds format.
 	- Option to show or hide buttons to instantly hide the bottom bar.
-- Next will soon ...
 
 <br>
 
