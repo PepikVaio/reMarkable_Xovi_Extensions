@@ -2,11 +2,11 @@
 > Clock in the sidebar with the possibility of additional information.
 > <br>
 > Incredible clock in the reMarkable sidebar.
-- Option to enable or disable the clock in the panel.
-- Option to choose the time and date format ( short, middle, long, custom ).
-- Option to choose 12 or 24 hour format.
-- Option to show only the clock without the date.
-- Option to set the clock refresh time ( 1s, 10s, 1 m, 1h ).
+> - Option to enable or disable the clock in the panel.
+> - Option to choose the time and date format ( short, middle, long, custom ).
+> - Option to choose 12 or 24 hour format.
+> - Option to show only the clock without the date.
+> - Option to set the clock refresh time ( 1s, 10s, 1 m, 1h ).
 
 <br>
 
