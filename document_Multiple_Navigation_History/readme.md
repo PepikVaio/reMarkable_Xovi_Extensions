@@ -6,7 +6,7 @@
 - Do you need 3 minutes? You can :)
 	- Option to set the length of the bottom bar display (original, long, superlong) or completely custom in milliseconds format.
 	- Option to show or hide buttons to instantly hide the bottom bar.
-	- Next will soon ...
+- Next will soon ...
 
 <br>
 
@@ -21,7 +21,6 @@
 <br>
 
 ## Images
-
 ![image_01](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_01.png?raw=true)
 ![image_02](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_02.png?raw=true)
 ![image_03](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/blob/main/document_Multiple_Navigation_History/.pictures/document_Multiple_Navigation_History_03.png?raw=true)
