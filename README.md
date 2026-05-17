@@ -25,7 +25,7 @@ Just copy the ```.qmd```, ```.rcc```, and ```.json``` files (if available) to ``
 
 > [!TIP]
 > I recommended install this extension type for better configuration of other extensions:
-> - [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
+> - [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main)
 
 ### Usage
 
