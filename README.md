@@ -16,13 +16,16 @@
 <br>
 
 ## Installation
-Just copy the files *qmd, *rcc and *json (if available) to the folder ``` /home/root/xovi/exthome/qt-resource-rebuilder ```.
+Just copy the ```.qmd```, ```.rcc```, and ```.json``` files (if available) to ```/home/root/xovi/exthome/qt-resource-rebuilder```.
 
 > [!IMPORTANT]
 > Before installation, make sure you meet all the requirements:
 > - reMarkable 1/2, reMarkable Paper Pro
 > - [Xovi](https://github.com/asivery/rm-xovi-extensions/tree/master)
 
+> [!TIP]
+> I recommended install this extension type for better configuration of other extensions:
+> - [xovi_Settings_Main](https://github.com/PepikVaio/reMarkable_Xovi_Extensions/tree/main/xovi_Settings_Main) - Add settings to your extension.
 
 ### Usage
 
