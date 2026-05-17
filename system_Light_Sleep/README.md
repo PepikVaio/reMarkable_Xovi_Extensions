@@ -2,10 +2,10 @@
 >Enchant your reMarkable with a cozy goodnight message for light sleep mode.
 > <br>
 > Customize your message shown on your reMarkable during light sleep to make your device feel more personal and welcoming with a gentle reminder or friendly note.
-- Option to edit text size.
-- Option to edit text and its style and with Unicode characters!
-- Option to edit text position.
-- Option to edit text margin.
+> - Option to edit text size.
+> - Option to edit text and its style and with Unicode characters!
+> - Option to edit text position.
+> - Option to edit text margin.
 
 <br>
 
