@@ -58,5 +58,5 @@
 <br>
 
 ## Acknowledgements
-> ### Inspiration, code snippets, etc...
+> **Inspiration, code snippets, etc...**
 > - [@StarNumber - miniLightSleep.qmd](https://github.com/StarNumber12046/xovi-qmd-extensions/blob/main/miniLightSleep.qmd)
