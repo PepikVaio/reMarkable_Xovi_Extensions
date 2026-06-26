@@ -83,6 +83,7 @@ SLOT xovi_Settings_Item
     }
 END SLOT
 
+
 AFFECT [[1658694193319203921]]
     IMPORT Qt.labs.settings 1.0
 
