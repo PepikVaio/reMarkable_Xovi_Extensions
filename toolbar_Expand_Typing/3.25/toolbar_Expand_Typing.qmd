@@ -7,7 +7,7 @@ SLOT xovi_Settings_Item
             /* Run "~/xovi/debug" on terminal (reMarkable)*/
             /* true = Debug mode / false = Release mode*/
             /* Warning – Changes the path to the files "open_File()"*/
-            property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+            property ~&6503679477&~ is_Debug_Mode: ~&6504329801&~
             /* -----------------------------------------------------*/
 
             /* Initializing variables - Main*/
@@ -158,7 +158,6 @@ AFFECT [[11313888899523275277]]
 
         LOCATE AFTER [[5972374]]
         INSERT {
-
             /* Initializing variables - Local*/
             property ~&7083178290016&~ set_Pen_Active: ~&"233740920352621&~
             property ~&7083178290016&~ path_Icon_Auto_Primary: ""
@@ -325,7 +324,7 @@ AFFECT [[817915851397553642]]
 
 	END TRAVERSE
     
-	TRAVERSE [[454089850271038938]] > [[14125623155555875541]] > [[5863306775830997749]]
+	TRAVERSE [[454089850271038938]] > [[14125623155555875541]] > [[425121728314878811.432643201877711221]]
 
         REPLACE [[233748328658231]] WITH {
             ~&233748328658231&~: !values_Settings.is_Enabled_Expand_Typing;
@@ -335,7 +334,7 @@ AFFECT [[817915851397553642]]
 
 	TRAVERSE [[454089850271038938]] > [[14125623155555875541]]#[[233724020048228]]
 
-		LOCATE AFTER [[5863306775830997749]]
+		LOCATE AFTER [[425121728314878811.432643201877711221]]
 		INSERT {
 
             ~&425121728314878811&~.~&13206231600618488452&~ {
