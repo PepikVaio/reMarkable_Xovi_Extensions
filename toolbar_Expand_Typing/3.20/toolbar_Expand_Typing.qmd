@@ -1,3 +1,92 @@
+SLOT xovi_Settings_Item
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: root_Expand_Typing
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property bool is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("Expand typing")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Expand tool selection when typing.")
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
+
+            property ~&7083178290016&~ set_Status_01: (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Primary ? ~&6504222003&~(~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Primary) : ~&6504222003&~(~&"214625660372&~)) + " / " + (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Secondary ? ~&6504222003&~(~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Secondary) : ~&6504222003&~(~&"214625660372&~)) + " / " + (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Tool_Other ? ~&6504222003&~(~&"6504329801&~) : ~&6504222003&~(~&"214625660372&~))
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: root_Expand_Typing.set_Text_01, ~&7083177691309&~: root_Expand_Typing.set_Status_01, name_File: ~&7082020628281&~.settings_Expand_Typing.set_Name_Extension + "_Settings" }
+                /* ...*/
+            ]
+            /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: root_Expand_Typing.set_Label
+                ~&478136262235079021&~: root_Expand_Typing.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing
+                    ~&254547663413443306&~: ~&214625660372&~
+                    
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing = !~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing;
+                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, "New is_Enabled_Expand_Typing is: " + ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing);
+
+                        /* Reset values*/
+                        ~&5972376&~ (!~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing) {
+                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Primary = ~&6504329801&~;
+                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Secondary = ~&6504329801&~;
+                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Tool_Other = ~&6504329801&~;
+
+                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Mode_Primary;
+                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Mode_Secondary;
+                            ~&7082020628281&~.settings_Expand_Typing.set_Tool_Other = ~&7082020628281&~.settings_Expand_Typing.reset_Tool_Other.~&214641468857&~()
+
+                            ~&7082020628281&~.settings_Expand_Typing.set_Path_Icon_Manual_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Path_Icon_Manual_Primary;
+                            ~&7082020628281&~.settings_Expand_Typing.set_Path_Icon_Manual_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Path_Icon_Manual_Secondary;
+
+                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Tool_Manual_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Tool_Manual_Primary;
+                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Tool_Manual_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Tool_Manual_Secondary;
+
+                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&233748328658231&~: ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: root_Expand_Typing.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Expand_Typing, "root_Expand_Typing", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
 AFFECT [[1658694193319203921]]
     IMPORT Qt.labs.settings 1.0
 
@@ -57,9 +146,6 @@ AFFECT [[1658694193319203921]]
     END TRAVERSE
 
 END AFFECT
-
-
-
 
 
 AFFECT [[2857280009207495592]]
@@ -227,7 +313,7 @@ AFFECT [[5772838938085887397]]
 
 	END TRAVERSE
     
-	TRAVERSE [[454089850271038938]] > [[14125623155555875541]] > [[5863306775830997749]]
+	TRAVERSE [[454089850271038938]] > [[14125623155555875541]] > [[425121728314878811.432643201877711221]]
 
         REPLACE [[233748328658231]] WITH {
             ~&233748328658231&~: !~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing;
@@ -237,7 +323,7 @@ AFFECT [[5772838938085887397]]
 
 	TRAVERSE [[454089850271038938]] > [[14125623155555875541]]#[[233724020048228]]
 
-		LOCATE AFTER [[5863306775830997749]]
+		LOCATE AFTER [[425121728314878811.432643201877711221]]
 		INSERT {
 
             ~&425121728314878811&~.FoldoutSectionHeader {
@@ -362,96 +448,3 @@ AFFECT [[5772838938085887397]]
 	END TRAVERSE
 
 END AFFECT
-
-
-
-
-
-SLOT xovi_Settings_Item
-    INSERT {
-
-        ~&14125623155555875541&~ {
-            ~&5972374&~: root_Expand_Typing
-
-            /* Run "~/xovi/debug" on terminal (reMarkable)*/
-            /* true = Debug mode / false = Release mode*/
-            /* Warning – Changes the path to the files "open_File()"*/
-            property bool is_Debug_Mode: ~&214625660372&~
-            /* -----------------------------------------------------*/
-
-            /* Initializing variables - Main*/
-            property ~&7083178290016&~ set_Label: ~&6504222003&~("Expand typing")
-            property ~&7083178290016&~ set_Description: ~&6504222003&~("Expand tool selection when typing.")
-
-            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
-
-            property ~&7083178290016&~ set_Status_01: (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Primary ? ~&6504222003&~(~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Primary) : ~&6504222003&~(~&"214625660372&~)) + " / " + (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Secondary ? ~&6504222003&~(~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Secondary) : ~&6504222003&~(~&"214625660372&~)) + " / " + (~&7082020628281&~.settings_Expand_Typing.is_Enabled_Tool_Other ? ~&6504222003&~(~&"6504329801&~) : ~&6504222003&~(~&"214625660372&~))
-
-            property ~&197102514&~ dictionary_Data: [
-                { ~&6504315758&~: root_Expand_Typing.set_Text_01, ~&7083177691309&~: root_Expand_Typing.set_Status_01, name_File: ~&7082020628281&~.settings_Expand_Typing.set_Name_Extension + "_Settings" }
-                /* ...*/
-            ]
-            /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-            ~&425121728314878811&~.~&214599571833&~ {
-                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
-                ~&214632764553&~: root_Expand_Typing.set_Label
-                ~&478136262235079021&~: root_Expand_Typing.set_Description
-
-                ~&7082453764199&~: ~&12858967014938070090&~ {
-                    ~&233723734822480&~: ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing
-                    ~&254547663413443306&~: ~&214625660372&~
-                    
-                    ~&2132408976983288956&~.~&254542253295368380&~: {
-                        ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing = !~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing;
-                        ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, "New is_Enabled_Expand_Typing is: " + ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing);
-
-                        /* Reset values*/
-                        ~&5972376&~ (!~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing) {
-                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Primary = ~&6504329801&~;
-                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Pen_Secondary = ~&6504329801&~;
-                            ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Tool_Other = ~&6504329801&~;
-
-                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Mode_Primary;
-                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Mode_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Mode_Secondary;
-                            ~&7082020628281&~.settings_Expand_Typing.set_Tool_Other = ~&7082020628281&~.settings_Expand_Typing.reset_Tool_Other.~&214641468857&~()
-
-                            ~&7082020628281&~.settings_Expand_Typing.set_Path_Icon_Manual_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Path_Icon_Manual_Primary;
-                            ~&7082020628281&~.settings_Expand_Typing.set_Path_Icon_Manual_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Path_Icon_Manual_Secondary;
-
-                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Tool_Manual_Primary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Tool_Manual_Primary;
-                            ~&7082020628281&~.settings_Expand_Typing.set_Pen_Tool_Manual_Secondary = ~&7082020628281&~.settings_Expand_Typing.reset_Pen_Tool_Manual_Secondary;
-
-                            ~&7082020628281&~.settings_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, "Values are reset");
-                        }
-                    }
-                }
-            }
-
-            ~&425121728314878811&~.~&6502554441&~ {
-                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
-                ~&233748328658231&~: ~&7082020628281&~.settings_Expand_Typing.is_Enabled_Expand_Typing
-
-                ~&7712155293725601&~ {
-                    ~&214634455770&~: root_Expand_Typing.dictionary_Data
-
-                    ~&7712922269353028&~: ~&17505001443493339609&~ {
-                        required property ~&197102514&~ ~&254539508423767444&~
-                        
-                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
-                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
-
-                        ~&254542236275632405&~: {
-                            ~&7082020628281&~.settings_Xovi_Main.open_File(root_Expand_Typing, "root_Expand_Typing", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode, ~&7713561876955258&~);
-                        }
-                    }
-                }
-            }
-
-            ~&254480451320573660&~.~&495334332051582499&~: {
-                ~&7082020628281&~.settings_Expand_Typing.is_Debug_Mode = is_Debug_Mode;
-            }
-        }
-    }
-END SLOT
