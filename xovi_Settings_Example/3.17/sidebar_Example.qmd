@@ -129,7 +129,7 @@ AFFECT [[4911547370760691430]]
                     }
 
                     function settings_Visibility_Example(file_Path) {
-                        ~&214622607920&~ xhr =  new  XMLHttpRequest();
+                        ~&214622607920&~ xhr =    new    XMLHttpRequest();
                         xhr.~&6504147419&~("GET", file_Path, ~&214625660372&~);
                         xhr.~&6504279475&~();
                         ~&5972376&~ (xhr.~&7083177691309&~ === 200) {
