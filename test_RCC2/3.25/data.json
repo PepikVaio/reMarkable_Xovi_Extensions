@@ -1,0 +1,371 @@
+SLOT xovi_Settings_Item
+
+    INSERT {
+
+        ColumnLayout {
+            id: root_Screen_Mode
+
+            // Run "~/xovi/debug" on terminal (reMarkable)
+            // true = Debug mode / false = Release mode
+            // Warning – Changes the path to the files "open_File()"
+            property bool is_Debug_Mode: false
+            // -----------------------------------------------------
+
+            // Initializing variables - Main
+            property string set_Label: qsTr("Screen mode")
+            property string set_Description: qsTr("Set refresh screen mode.")
+
+            property string set_Text_01: qsTr("Settings")
+
+            property string set_Status_01: ((Values.settings_Screen_Mode.is_Enabled_Global_Settings ? qsTr("Global / ") : "") + (Values.settings_Screen_Mode.is_Enabled_Quick_Settings ? qsTr("Quick / ") : "") + qsTr(Values.settings_Screen_Mode.set_Active_Test))
+
+            property var dictionary_Data: [
+                { text: root_Screen_Mode.set_Text_01, status: root_Screen_Mode.set_Status_01, name_File: Values.settings_Screen_Mode.set_Name_Extension + "_Settings" }
+                // ...
+            ]
+            // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+            ArkControls.Panel {
+                label: root_Screen_Mode.set_Label
+                description: root_Screen_Mode.set_Description
+                Layout.fillWidth: true
+
+                action: ArkToggleWrapper {
+                    checked: Values.settings_Screen_Mode.is_Enabled_Screen_Mode
+                    showFocus: false
+                    
+                    extendedMouseArea.onPressed: {
+                        Values.settings_Screen_Mode.is_Enabled_Screen_Mode = !Values.settings_Screen_Mode.is_Enabled_Screen_Mode;
+                        Values.function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode, "New is_Enabled_Screen_Mode is: " + Values.settings_Screen_Mode.is_Enabled_Screen_Mode);
+
+                        // Reset values
+                        if (!Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Xovi_Main.is_Enabled_Restore_Default_Settings) {
+                            Values.settings_Screen_Mode.reset_Values();
+                            Values.function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ArkControls.Cell {
+                visible: Values.settings_Screen_Mode.is_Enabled_Screen_Mode
+                Layout.fillWidth: true
+
+                Repeater {
+                    model: root_Screen_Mode.dictionary_Data
+
+                    delegate: CellItemWrapper {
+                        required property var modelData
+
+                        text: modelData.text
+                        status: modelData.status
+
+                        onClicked: {
+                            Values.function_Xovi_Main.open_File(root_Screen_Mode, "root_Screen_Mode", modelData.name_File, Values.settings_Screen_Mode.is_Debug_Mode, settings);
+                        }
+                    }
+                }
+            }
+
+            Component.onCompleted: {
+                Values.settings_Screen_Mode.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+AFFECT /qml/common/Values.qml
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE Item
+
+        LOCATE AFTER ALL
+        INSERT {
+            // Initializing variables - Access the "settings_Screen_Mode"
+            property alias settings_Screen_Mode: settings_Screen_Mode
+            // ----------------------------------------------------------
+
+            Settings {
+                id: settings_Screen_Mode
+                category: "xovi_Settings_" + set_Name_Extension
+
+                // Initializing variables - Name extension
+                property string set_Name_Extension: "document_Screen_Mode"
+                // -------------------------------------------------------
+
+                // Initializing variables - Main
+                property bool is_Debug_Mode: false
+                property bool is_Enabled_Screen_Mode: false
+                property bool is_Opened_Document: false
+                // ----------------------------------------
+
+                // Settings
+                property bool is_Enabled_Global_Settings: false
+                property bool is_Enabled_Quick_Settings: true
+                property bool is_Enabled_Writing_Mode: false
+                property bool is_Enabled_Timer: false
+
+                property string set_Active_Mode: "Pen"
+                property string set_Active_Text: "Fastest"
+
+                property bool set_Active_Quick_Settings: true
+
+                property int set_Delay_Refresh: 1000
+                // --------------------------------------------
+
+                function get_Default_Values() {
+                    return {
+                        // Main
+                        is_Enabled_Screen_Mode: false,
+                        is_Opened_Document: false,
+
+                        // Reset values - Settings
+                        is_Enabled_Global_Settings: false,
+                        is_Enabled_Quick_Settings: true,
+                        is_Enabled_Writing_Mode: false,
+                        is_Enabled_Timer: false,
+
+                        set_Active_Mode: "Pen",
+                        set_Active_Text: "Fastest",
+
+                        set_Active_Quick_Settings: true,
+
+                        set_Delay_Refresh: 1000
+                        // ------------------------------
+                    }
+                }
+
+                function reset_Values(keys) {
+                    Values.function_Xovi_Main.reset_Values(Values.settings_Screen_Mode, Values.settings_Screen_Mode.get_Default_Values(), keys);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+
+TEMPLATE template_QuickSettingsToggle {
+
+    QuickSettingsToggle {
+        id: quickToggle
+        iconSource: "qrc:/ark/icons/arrows_counter_clockwise"
+        visible: Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.is_Enabled_Quick_Settings
+        selected: Values.settings_Screen_Mode.set_Active_Quick_Settings
+
+        property var model: [
+            { text: qsTr("Best"),    mode: "Content" },
+            // { text: qsTr("Default"), mode: "UI" },
+            { text: qsTr("Fast"),    mode: "Sleep" },
+            { text: qsTr("Fastest"), mode: "Pen" },
+            { text: qsTr("Fast"),    mode: "Mono" },
+            { text: qsTr("Fastest"), mode: "Animation" }
+        ]
+
+        onClicked: {
+            Values.settings_Screen_Mode.set_Active_Quick_Settings = !Values.settings_Screen_Mode.set_Active_Quick_Settings
+            Values.Function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode, "New set_Active_Quick_Settings is: " + Values.settings_Screen_Mode.set_Active_Quick_Settings);
+        }
+
+        onPressAndHold: {
+            if (!Values.settings_Screen_Mode.set_Active_Quick_Settings) {
+                Values.settings_Screen_Mode.set_Active_Quick_Settings = true;
+                Values.function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode, "New settings_Screen_Mode is: " + Values.settings_Screen_Mode.set_Active_Quick_Settings);
+            }
+
+            var i = (model.findIndex(e => e.mode === Values.settings_Screen_Mode.set_Active_Mode) + 1) % model.length
+            Values.settings_Screen_Mode.set_Active_Mode = model[i].mode
+            Values.settings_Screen_Mode.set_Active_Text = model[i].text
+            Values.function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode,"New set_Active_Mode is: " + Values.settings_Screen_Mode.set_Active_Mode)
+            Values.function_Xovi_Main.show_Console_Message(Values.settings_Screen_Mode.is_Debug_Mode, "New set_Active_Text is: " + Values.settings_Screen_Mode.set_Active_Text)
+        }
+    }
+}
+
+
+AFFECT /qml/device/view/main/MainView.qml
+    TRAVERSE Background#root
+
+        LOCATE BEFORE Epaper.ScreenModeItem#globalScreenMode
+        INSERT {
+            property var values_Settings: Values.settings_Screen_Mode
+            property var values_Function_Xovi_Main: Values.function_Xovi_Main
+
+            Connections {
+                target: documentView.item
+
+                function onDocumentOpened() {
+                    values_Settings.is_Opened_Document = true;
+                    values_Function_Xovi_Main.show_Console_Message(values_Settings.is_Debug_Mode, "New is_Opened_Document is: " + values_Settings.is_Opened_Document);
+                }
+
+                function onDocumentClosed() {
+                    values_Settings.is_Opened_Document = false;
+                    values_Function_Xovi_Main.show_Console_Message(values_Settings.is_Debug_Mode, "New is_Opened_Document is: " + values_Settings.is_Opened_Document);
+                }
+
+                // Just in case I need it in the future
+                function onCurrentPageChanged() {}
+                function onOpenDocumentDrawer() {}
+            }
+
+            // Just in case I need it in the future
+            Connections {
+                target: root.penInput
+
+                onPenCloseChanged: activate_Writing_Mode()
+                onPenDownChanged: activate_Writing_Mode()
+
+                function activate_Writing_Mode() {}
+            }
+        }
+
+    END TRAVERSE
+
+    TRAVERSE Background > Epaper.ScreenModeItem#globalScreenMode
+
+        REPLACE visible WITH {
+            visible: {
+                if (Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.set_Active_Quick_Settings && Values.settings_Screen_Mode.is_Opened_Document || Values.settings_Screen_Mode.is_Enabled_Global_Settings) {
+                    return true;
+                } else {
+                    // Original reMarkable
+                    if (!documentView.item) {
+                        return false;
+                    }
+                    const mode = documentView.item.globalScreenMode;
+                    return mode !== undefined;
+                }
+            }
+        }
+
+        REPLACE mode WITH {
+            mode: {
+                if (Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.set_Active_Quick_Settings && Values.settings_Screen_Mode.is_Opened_Document || Values.settings_Screen_Mode.is_Enabled_Global_Settings) {
+
+                    // Active - Zoom / Slide page / Selected tool "lasso"
+                    if (documentView.item && documentView.item.globalScreenMode) {
+                        return documentView.item.globalScreenMode;
+
+                    // Not active - Zoom / Slide page / Selected tool "lasso"
+                    } else {
+                        switch (Values.settings_Screen_Mode.set_Active_Mode) {
+                            case "Content":
+                                return Epaper.ScreenModeItem.Content;
+                            case "UI":
+                                return Epaper.ScreenModeItem.UI;
+                            case "Animation":
+                                return Epaper.ScreenModeItem.Animation;
+                            case "Mono":
+                                return Epaper.ScreenModeItem.Mono;
+                            case "Sleep":
+                                return Epaper.ScreenModeItem.Sleep;
+                            case "Pen":
+                                return Epaper.ScreenModeItem.Pen;
+                            default:
+                                return documentView.item.globalScreenMode;
+                        }
+                    }
+                } else {
+                    // Original reMarkable
+                    if (documentView.item && documentView.item.globalScreenMode) {
+                        return documentView.item.globalScreenMode;
+                    }
+                    return Epaper.ScreenModeItem.UI;
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
+
+AFFECT /qt/qml/xofm/modules/settings/qml/quicksettings/ToggleColumn.qml
+    IMPORT common 1.0
+
+    IMPORT QtQuick.Window 2.0
+    IMPORT xofm.libs.settings 1.0
+
+    TRAVERSE ColumnLayout
+
+        LOCATE AFTER Repeater
+        INSERT TEMPLATE template_QuickSettingsToggle {}
+
+    END TRAVERSE
+
+END AFFECT
+
+AFFECT /qt/qml/xofm/modules/settings/qml/quicksettings/ToggleGrid.qml
+    IMPORT common 1.0
+
+    IMPORT QtQuick.Window 2.0
+    IMPORT xofm.libs.settings 1.0
+
+    TRAVERSE GridLayout
+
+        LOCATE AFTER Repeater
+        INSERT TEMPLATE template_QuickSettingsToggle {}
+
+    END TRAVERSE
+
+END AFFECT
+
+AFFECT /qml/device/view/documentview/DeviceSceneView.qml
+
+    TRAVERSE FocusScope#root > Timer#viewportUpdateTimer
+
+        REPLACE interval WITH {
+            interval: Values.settings_Screen_Mode.set_Delay_Refresh
+        }
+
+END AFFECT
+
+AFFECT /qt/qml/xofm/modules/wifi/qml/WifiInfo.qml
+
+    TRAVERSE Item#root 
+
+        REPLACE implicitHeight WITH {
+            implicitHeight: Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.is_Enabled_Quick_Settings
+                ? ArkTokens.Style.variable.controlsHeight.large
+                // Original form reMarkable
+                : (visible ? ArkTokens.Style.variable.controlsHeight.small : 0)
+        }
+
+        LOCATE AFTER RowLayout#wifiRow
+        INSERT {
+            RowLayout {
+                spacing: ArkTokens.Style.variable.platform.spacing.small
+                width: parent.width
+                visible: Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.is_Enabled_Quick_Settings
+                anchors.top: wifiRow.bottom
+                anchors.topMargin: 6
+
+                ArkControls.Label {
+                    accessibility: false
+                    Layout.alignment: Qt.AlignVCenter | Qt.AlignLeft
+                    text: qsTr("Ref. mode: ") + Values.settings_Screen_Mode.set_Active_Text + ((Values.settings_Screen_Mode.set_Active_Mode === "Mono" || Values.settings_Screen_Mode.set_Active_Mode === "Animation") ? "*" : "")
+                    elide: Text.ElideMiddle
+                    Layout.fillWidth: true
+                }
+            }
+        }
+
+        REPLACE MouseArea WITH {
+            MouseArea {
+                // Enabled just for wifiRow
+                anchors.fill: Values.settings_Screen_Mode.is_Enabled_Screen_Mode && Values.settings_Screen_Mode.is_Enabled_Quick_Settings
+                ? wifiRow
+                // Original form reMarkable
+                : root
+
+                // Original from reMarkable
+                onClicked: {
+                    root.windowNavigator.open("settings/window/main", { index: SettingsPage.Wifi });
+                    root.windowNavigator.close("settings/window/quicksettings");
+                }
+            }
+        }
+
+END AFFECT
