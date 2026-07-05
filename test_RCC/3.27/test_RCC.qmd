@@ -20,6 +20,7 @@ AFFECT [[11313888899523275277]]
 
                 readonly property ~&7083178290016&~ name_Favorite: ~&"7713002743984265&~
 
+
                 readonly property ~&7083178290016&~ path_Stickers: "file:///home/root/stickers"
                 readonly property ~&7083178290016&~ path_Favorite: path_Stickers + ~&"180920&~ + name_Favorite
 
