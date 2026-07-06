@@ -103,7 +103,7 @@ AFFECT [[1658694193319203921]]
                 property ~&6503679477&~ is_Enabled_X_Circle: ~&6504329801&~
                 property ~&6503679477&~ is_Enabled_Divider: ~&214625660372&~
 
-                property ~&7083178290016&~ text_Timer: ~&"7713407746360446&~
+                property ~&7083178290016&~ text_Timer: "original"
 
                 property ~&197088788&~ set_Timer: 8000
                 /* -----------------------------------------*/
@@ -118,7 +118,7 @@ AFFECT [[1658694193319203921]]
                         is_Enabled_X_Circle: ~&6504329801&~,
                         is_Enabled_Divider: ~&214625660372&~,
 
-                        text_Timer: ~&"7713407746360446&~,
+                        text_Timer: "original",
 
                         set_Timer: 8000
                         /* -------------------------------------------*/
