@@ -97,7 +97,7 @@ AFFECT [[1658694193319203921]]
                         show_Console_Message(is_Debug_Mode, (is_Debug_Mode && file_Used === "RCC") ? "Notice: Debug mode active and RCC file used" : "Opened: " + file_Used, (is_Debug_Mode && file_Used === "RCC") ? ~&"6504419009&~ : ~&"6503929653&~);
                     } ~&6503784146&~ {
                         ~&233724020023100&~.~&214625091795&~("Error loading component.");
-                        show_Console_Message(is_Debug_Mode, "Error loading external window: " + new_Component.~&480270294673959466&~(), ~&"214625091795&~);
+                        show_Console_Message(is_Debug_Mode, "Error loading external window: " + new_Component.errorString(), ~&"214625091795&~);
                     }
                 }
 
