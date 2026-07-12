@@ -1,0 +1,13 @@
+name: Restore text and translate Markdown documentation
+
+on:
+  push:
+    paths:
+      - "**.md"
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    uses: PepikVaio/reMarkable_Github_Actions/.github/workflows/diacritics.yml@main
