@@ -1,0 +1,222 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts
+
+import com.remarkable
+import common
+
+import device.ui.text
+import device.ui.controls
+
+import ark.tokens as ArkTokens
+import ark.controls as ArkControls
+
+import xofm.libs.qtgui
+
+
+
+import net.asivery.CommandExecutor 1.0
+
+Background {
+    id: page
+    width: parent.width
+    height: parent.height
+
+    property var reMarkdown_Github_Tools
+    property string sync_Status: "clean"
+
+    ArkControls.NavigationBar {
+        id: navigationBar
+        width: parent.width
+        type: ArkTokens.NavigationBar.secondary
+
+        ArkControls.NavigationBar.Button {
+            id: back
+            text: qsTr("Back")
+            textPosition: ArkControls.Button.TextPosition.Right
+            iconSource: "qrc:/ark/icons/chevron_left"
+
+            onClicked: {
+                Values.function_Xovi_Main.go_Back(settings_reMarkdown_Github_Tools.is_Debug_Mode, page);
+                Values.function_Xovi_Main.show_Console_Message(settings_reMarkdown_Github_Tools.is_Debug_Mode, "Going to back ...");
+            }
+        }
+    }
+
+    ScrollArea {
+        id: scroll_Area
+        clip: true
+        contentWidth: width
+        contentHeight: navigationBar.height + header.height + column_Layout.height + (is_Visibled_Keyboard ? Values.function_Xovi_Main.get_Keyboard_Height() + (Values.designGridHorizontalSpacing * 2) : 0)
+
+        property bool is_Visibled_Keyboard: Qt.inputMethod.visible
+
+        anchors {
+            top: navigationBar.bottom
+            left: parent.left
+            right: parent.right
+            bottom: parent.bottom
+            bottomMargin: Values.designGridHorizontalSpacing
+        }
+
+        MouseArea {
+            z: 0
+            anchors.fill: parent
+            onClicked: Values.function_Xovi_Main.close_Input(Values.settings_reMarkdown_Github_Tools.is_Debug_Mode);
+        }
+
+        ArkControls.Title {
+            id: header
+            text: reMarkdown_Github_Tools.set_Text_01
+            type: ArkControls.Title.Large
+
+            anchors {
+                top: parent.top
+                left: parent.left
+                leftMargin: ArkControls.Values.margin.horizontal.x2large
+            }
+        }
+
+        ColumnLayout {
+            id: column_Layout
+            spacing: ArkControls.Values.spacing.xlarge
+
+            anchors {
+                top: header.bottom
+                topMargin: ArkControls.Values.spacing.xlarge
+                left: parent.left
+                leftMargin: ArkControls.Values.margin.horizontal.x2large
+                right: parent.right
+                rightMargin: ArkControls.Values.margin.horizontal.x2large
+            }
+
+            CommandExecutor {
+                id: rmSyncExecutor
+            }
+
+
+
+            ArkControls.Button {
+                id: commit_Button
+                visible: page.sync_Status === "commit"
+                text: qsTr("Commit")
+
+                onClicked: {
+                    run_Sync("--commit")
+                }
+            }
+
+            ArkControls.Button {
+                id: syncButton
+                enabled: page.sync_Status !== "clean"
+
+                text: {
+                    switch(page.sync_Status) {
+                    case "pull":
+                        return qsTr("Pull")
+                    case "push":
+                        return qsTr("Push")
+                    default:
+                        return qsTr("Fetch")
+                    }
+                }
+
+                onClicked: {
+                    switch(page.sync_Status) {
+                    case "pull":
+                        run_Sync("--pull")
+                        break
+                    case "push":
+                        run_Sync("--push")
+                        break
+                    default:
+                        run_Sync("--fetch")
+                        break
+                    }
+                }
+            }
+        }
+    }
+
+
+
+function run_Sync(argument) {
+
+    let args = []
+
+    if (argument) {
+        if (argument === "local" || argument === "github") {
+            args = ["--prefer", argument]
+        } else {
+            args = [argument]
+        }
+    }
+
+
+    const result = rmSyncExecutor.executeCommand(
+        "/home/root/reMarkdown/.tools/github_Sync.sh",
+        args
+    )
+
+
+    const output = JSON.parse(result)
+
+    console.log(output.stdout)
+
+    if (output.stdout.includes("__FETCH_STATUS__=changed")) {
+        const count =
+            output.stdout.match(/Changed files:\s*(\d+)/)[1]
+        console.log("GitHub changes:", count)
+    }
+
+    if (output.stdout.includes("__SYNC_STATUS__=conflict")) {
+        console.log("Conflict detected")
+        const files =
+            output.stdout
+            .match(/__SYNC_FILES__([\s\S]*)/)[1]
+            .trim()
+            .split("\n")
+            .map(file => file.trim())
+            .filter(file => file.length > 0)
+        console.log("Conflict files:")
+        console.log(files)
+    }
+
+
+    get_Sync_Status()
+}
+
+
+function get_Sync_Status() {
+
+    const result = rmSyncExecutor.executeCommand(
+        "/home/root/reMarkdown/.tools/github_Sync.sh",
+        ["--status"]
+    )
+
+    const output = JSON.parse(result)
+    const statusMatch = output.stdout.match(/__STATUS__=(\w+)/)
+
+    console.log(output.stdout)
+
+    if (statusMatch) {
+        page.sync_Status = statusMatch[1]
+        console.log("Sync:", page.sync_Status)
+    }
+}
+
+
+
+
+
+Component.onCompleted: {
+    get_Sync_Status()
+
+    if (page.sync_Status === "fetch") {
+        run_Sync("--fetch")
+    }
+}
+
+
+
+}
