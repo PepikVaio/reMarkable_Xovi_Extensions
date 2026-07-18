@@ -1,0 +1,124 @@
+SLOT xovi_Settings_Item
+
+    INSERT {
+
+        ~&14125623155555875541&~ {
+            ~&5972374&~: reMarkdown_Github_Tools
+
+            /* Run "~/xovi/debug" on terminal (reMarkable)*/
+            /* true = Debug mode / false = Release mode*/
+            /* Warning – Changes the path to the files "open_File()"*/
+            property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+            /* -----------------------------------------------------*/
+
+            /* Initializing variables - Main*/
+            property ~&7083178290016&~ set_Label: ~&6504222003&~("reMarkdown - Github Tools")
+            property ~&7083178290016&~ set_Description: ~&6504222003&~("Sync Markdown files with Github and more...")
+
+            property ~&7083178290016&~ set_Text_01: ~&6504222003&~(~&"7712198086779994&~)
+
+            /* property string set_Status_01: qsTr("Status 01")*/
+
+            property ~&197102514&~ dictionary_Data: [
+                { ~&6504315758&~: reMarkdown_Github_Tools.set_Text_01, ~&7083177691309&~: reMarkdown_Github_Tools.set_Status_01, name_File: ~&7082020628281&~.settings_reMarkdown_Github_Tools.set_Name_Extension + "_Settings" }
+            ]
+            /* --------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+            /* Initializing variables - Path (if you want)*/
+            property ~&7083178290016&~ set_Json_Path: ~&7082020628281&~.function_Xovi_Main.get_Json_Path(~&7082020628281&~.settings_reMarkdown_Github_Tools.set_Name_Extension)
+            /* ---------------------------------------------------------------------------------------------------------------*/
+
+
+            ~&425121728314878811&~.~&214599571833&~ {
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+                ~&214632764553&~: reMarkdown_Github_Tools.set_Label
+                ~&478136262235079021&~: reMarkdown_Github_Tools.set_Description
+
+                ~&7082453764199&~: ~&12858967014938070090&~ {
+                    ~&233723734822480&~: ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools
+                    ~&254547663413443306&~: ~&214625660372&~
+
+                    ~&2132408976983288956&~.~&254542253295368380&~: {
+                        ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools = !~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools;
+                        ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Debug_Mode, "New is_Enabled_reMarkdown_Github_Tools is: " + ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools);
+
+                        /* Reset values*/
+                        ~&5972376&~ (!~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools && ~&7082020628281&~.settings_Xovi_Main.is_Enabled_Restore_Default_Settings) {
+                            ~&7082020628281&~.settings_reMarkdown_Github_Tools.reset_Values();
+                            ~&7082020628281&~.function_Xovi_Main.show_Console_Message(~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Debug_Mode, "Values are reset");
+                        }
+                    }
+                }
+            }
+
+            ~&425121728314878811&~.~&6502554441&~ {
+                ~&233748328658231&~: ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Enabled_reMarkdown_Github_Tools
+                ~&7081629735527&~.~&254529418434902000&~: ~&6504329801&~
+
+                ~&7712155293725601&~ {
+                    ~&214634455770&~: reMarkdown_Github_Tools.dictionary_Data
+
+                    ~&7712922269353028&~: ~&17505001443493339609&~ {
+                        required property ~&197102514&~ ~&254539508423767444&~
+                        
+                        ~&6504315758&~: ~&254539508423767444&~.~&6504315758&~
+                        ~&7083177691309&~: ~&254539508423767444&~.~&7083177691309&~
+
+                        ~&254542236275632405&~: {
+                            ~&7082020628281&~.function_Xovi_Main.open_File(reMarkdown_Github_Tools, "reMarkdown_Github_Tools", ~&254539508423767444&~.name_File, ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Debug_Mode, ~&7713561876955258&~);
+                        }
+                    }
+                }
+            }
+
+            ~&254480451320573660&~.~&495334332051582499&~: {
+                ~&7082020628281&~.settings_reMarkdown_Github_Tools.is_Debug_Mode = is_Debug_Mode;
+            }
+        }
+    }
+END SLOT
+
+
+AFFECT [[1658694193319203921]]
+    IMPORT Qt.labs.settings 1.0
+
+    TRAVERSE [[6502786168]]
+
+        LOCATE AFTER ALL
+        INSERT {
+            /* Initializing variables - Access the "settings_reMarkdown_Github_Tools"*/
+            property ~&214620122227&~ settings_reMarkdown_Github_Tools: settings_reMarkdown_Github_Tools
+            /* ------------------------------------------------------------------------------*/
+
+            ~&7712198086779994&~ {
+                ~&5972374&~: settings_reMarkdown_Github_Tools
+                ~&7712874798136519&~: "xovi_Settings_" + set_Name_Extension
+
+                /* Initializing variables - Name extension*/
+                property ~&7083178290016&~ set_Name_Extension: "reMarkdown_Github_Tools"
+                /* ----------------------------------------------------------*/
+
+                /* Initializing variables - Main*/
+                property ~&6503679477&~ is_Debug_Mode: ~&214625660372&~
+
+                property ~&6503679477&~ is_Enabled_reMarkdown_Github_Tools: ~&214625660372&~
+                /* ----------------------------------------------------*/
+
+                function get_Default_Values() {
+                    ~&7083121450889&~ {
+                        /* Reset values*/
+                        /* set_...: "...",*/
+                        /* ---------------*/
+                    }
+                }
+
+                function reset_Values(~&6503992357&~) {
+                    ~&7082020628281&~.function_Xovi_Main.reset_Values(~&7082020628281&~.settings_reMarkdown_Github_Tools, ~&7082020628281&~.settings_reMarkdown_Github_Tools.get_Default_Values(), ~&6503992357&~);
+                }
+            }
+        }
+
+    END TRAVERSE
+
+END AFFECT
